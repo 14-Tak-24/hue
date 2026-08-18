@@ -9,6 +9,7 @@ import { PlatformMatrix } from './components/PlatformMatrix';
 import { ShadowEngine } from './components/ShadowEngine';
 import { SocialDashboard } from './components/SocialDashboard';
 import { BackupExtractor } from './components/BackupExtractor';
+import { AIContentGenerator } from './components/AIContentGenerator';
 
 // Import API
 import { soulsApi, Soul } from './api/souls';
@@ -20,6 +21,7 @@ const TABS = [
   { id: 'matrix', label: '📡 Platform Matrix', icon: '📡' },
   { id: 'shadow-engine', label: '🧠 Shadow Engine', icon: '🧠' },
   { id: 'social', label: '📱 Social Dashboard', icon: '📱' },
+  { id: 'ai-generator', label: '🤖 AI Generator', icon: '🤖' },
   { id: 'backup', label: '📲 Backup Extractor', icon: '📲' },
 ];
 
@@ -100,6 +102,8 @@ function App() {
         );
       case 'social':
         return <SocialDashboard souls={state.souls} />;
+      case 'ai-generator':
+        return <AIContentGenerator />;
       case 'backup':
         return <BackupExtractor />;
       default:

@@ -662,6 +662,230 @@ def recommend_shadow_practice(soul_id):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
+# AI Content Generation Endpoints
+@app.route('/api/ai/generate', methods=['POST'])
+def generate_ai_content():
+    """Generate AI content for a soul on a specific platform"""
+    if not openrouter:
+        return jsonify({'error': 'OpenRouter integration not initialized'}), 500
+
+    try:
+        data = request.json
+        soul_id = data.get('soul_id')
+        platform = data.get('platform')
+        content_type = data.get('content_type', 'post')
+        context = data.get('context')
+        tone = data.get('tone', 'authentic')
+        length = data.get('length', 'medium')
+
+        if not all([soul_id, platform]):
+            return jsonify({'error': 'soul_id and platform required'}), 400
+
+        soul = souls_manager.get_soul_by_id(soul_id)
+        if not soul:
+            return jsonify({'error': 'Soul not found'}), 404
+
+        from src.modules.openrouter_integration import ContentRequest
+        request = ContentRequest(
+            soul_id=soul_id,
+            platform=platform,
+            content_type=content_type,
+            context=context,
+            tone=tone,
+            length=length
+        )
+
+        generated = openrouter.generate_soul_content(soul, request)
+
+        return jsonify({
+            'soul_id': generated.soul_id,
+            'platform': generated.platform,
+            'content_type': generated.content_type,
+            'content': generated.content,
+            'model_used': generated.model_used,
+            'tokens_used': generated.tokens_used,
+            'cost_estimate': generated.cost_estimate,
+            'generated_at': generated.generated_at,
+            'metadata': generated.metadata
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/ai/generate/batch', methods=['POST'])
+def generate_batch_ai_content():
+    """Generate AI content for multiple souls in batch"""
+    if not openrouter:
+        return jsonify({'error': 'OpenRouter integration not initialized'}), 500
+
+    try:
+        data = request.json
+        requests = data.get('requests', [])
+
+        if not requests:
+            return jsonify({'error': 'No requests provided'}), 400
+
+        from src.modules.openrouter_integration import ContentRequest
+        content_requests = [
+            ContentRequest(
+                soul_id=req.get('soul_id'),
+                platform=req.get('platform'),
+                content_type=req.get('content_type', 'post'),
+                context=req.get('context'),
+                tone=req.get('tone', 'authentic'),
+                length=req.get('length', 'medium')
+            )
+            for req in requests
+        ]
+
+        generated_contents = openrouter.generate_batch_soul_content(content_requests)
+
+        return jsonify({
+            'generated_contents': [
+                {
+                    'soul_id': gc.soul_id,
+                    'platform': gc.platform,
+                    'content_type': gc.content_type,
+                    'content': gc.content,
+                    'model_used': gc.model_used,
+                    'tokens_used': gc.tokens_used,
+                    'cost_estimate': gc.cost_estimate,
+                    'generated_at': gc.generated_at
+                }
+                for gc in generated_contents
+            ],
+            'total_generated': len(generated_contents),
+            'total_cost': sum(gc.cost_estimate or 0 for gc in generated_contents)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/ai/stats', methods=['GET'])
+def get_ai_stats():
+    """Get AI content generation statistics"""
+    if not openrouter:
+        return jsonify({'error': 'OpenRouter integration not initialized'}), 500
+
+    try:
+        stats = openrouter.get_usage_statistics()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+# Content Pipeline Endpoints
+@app.route('/api/content/schedules', methods=['GET'])
+def get_content_schedules():
+    """Get all content schedules"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+
+    try:
+        schedules = []
+        for calendar in content_pipeline.calendars.values():
+            for schedule in calendar.schedules:
+                schedules.append({
+                    'soul_id': schedule.soul_id,
+                    'platform': schedule.platform,
+                    'content_type': schedule.content_type,
+                    'frequency': schedule.frequency.value,
+                    'preferred_times': schedule.preferred_times,
+                    'active': schedule.active,
+                    'last_generated': schedule.last_generated,
+                    'next_due': schedule.next_due
+                })
+
+        return jsonify({'schedules': schedules, 'total': len(schedules)})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/content/schedules/<soul_id>', methods=['PUT'])
+def update_content_schedule(soul_id):
+    """Update a content schedule"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+
+    try:
+        data = request.json
+        active = data.get('active', True)
+
+        # Find and update the schedule
+        for calendar in content_pipeline.calendars.values():
+            for schedule in calendar.schedules:
+                if schedule.soul_id == soul_id:
+                    schedule.active = active
+                    return jsonify({'status': 'updated', 'soul_id': soul_id, 'active': active})
+
+        return jsonify({'error': 'Schedule not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/content/generate-due', methods=['POST'])
+def generate_scheduled_content():
+    """Generate content that is due based on schedules"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+
+    try:
+        generated = content_pipeline.generate_due_content()
+
+        return jsonify({
+            'generated': [
+                {
+                    'soul_id': gc.soul_id,
+                    'platform': gc.platform,
+                    'content_type': gc.content_type,
+                    'content': gc.content,
+                    'model_used': gc.model_used
+                }
+                for gc in generated
+            ],
+            'total_generated': len(generated)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/content/campaign', methods=['POST'])
+def generate_content_campaign():
+    """Generate a coordinated content campaign"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+
+    try:
+        data = request.json
+        campaign_name = data.get('campaign_name', 'Autonomous Campaign')
+        soul_ids = data.get('soul_ids', [])
+        platforms = data.get('platforms', [])
+        content_types = data.get('content_types', ['post'])
+        timeline_days = data.get('timeline_days', 7)
+
+        results = content_pipeline.generate_campaign(
+            campaign_name, soul_ids, platforms, content_types, timeline_days
+        )
+
+        return jsonify(results)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/content/stats', methods=['GET'])
+def get_content_stats():
+    """Get content pipeline statistics"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+
+    try:
+        stats = content_pipeline.get_pipeline_statistics()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 @app.route('/api/shadow/practices', methods=['GET'])
 def list_shadow_practices():
     """List all available shadow work practices"""
@@ -681,7 +905,7 @@ def list_shadow_practices():
                 'required_sovereignty': practice.required_sovereignty
             })
 
-        return jsonify({'practices': practices, 'count': len(practices)})
+        return jsonify({'practices': practices, 'total': len(practices)})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

@@ -1,0 +1,768 @@
+{
+  "calendar_id": "priority_calendar_20260818",
+  "name": "Priority Soul Content Calendar",
+  "created_at": "2026-08-18T15:12:31.812029",
+  "updated_at": "2026-08-18T15:12:31.812034",
+  "schedules": [
+    {
+      "soul_id": "soul_001",
+      "platform": "Discord",
+      "content_type": "message",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812046"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "Discord",
+      "content_type": "announcement",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812069"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "FetLife",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812085"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "FetLife",
+      "content_type": "message",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812093"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812102"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812108"
+    },
+    {
+      "soul_id": "soul_001",
+      "platform": "AFF",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812115"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "Instagram",
+      "content_type": "caption",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812130"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "Instagram",
+      "content_type": "story",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812136"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "FetLife",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812144"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "FetLife",
+      "content_type": "message",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812149"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "Discord",
+      "content_type": "message",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812156"
+    },
+    {
+      "soul_id": "soul_002",
+      "platform": "Discord",
+      "content_type": "announcement",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812162"
+    },
+    {
+      "soul_id": "soul_018",
+      "platform": "Discord",
+      "content_type": "message",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812170"
+    },
+    {
+      "soul_id": "soul_018",
+      "platform": "Discord",
+      "content_type": "announcement",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812175"
+    },
+    {
+      "soul_id": "soul_018",
+      "platform": "GitHub",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812185"
+    },
+    {
+      "soul_id": "soul_018",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812193"
+    },
+    {
+      "soul_id": "soul_018",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812199"
+    },
+    {
+      "soul_id": "soul_019",
+      "platform": "Medium",
+      "content_type": "article",
+      "frequency": "weekly",
+      "preferred_times": [
+        "09:00",
+        "14:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812207"
+    },
+    {
+      "soul_id": "soul_019",
+      "platform": "Substack",
+      "content_type": "newsletter",
+      "frequency": "weekly",
+      "preferred_times": [
+        "09:00",
+        "14:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812214"
+    },
+    {
+      "soul_id": "soul_019",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812222"
+    },
+    {
+      "soul_id": "soul_019",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812227"
+    },
+    {
+      "soul_id": "soul_024",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812234"
+    },
+    {
+      "soul_id": "soul_024",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812240"
+    },
+    {
+      "soul_id": "soul_024",
+      "platform": "AFF",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812247"
+    },
+    {
+      "soul_id": "soul_024",
+      "platform": "Discord",
+      "content_type": "message",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812254"
+    },
+    {
+      "soul_id": "soul_024",
+      "platform": "Discord",
+      "content_type": "announcement",
+      "frequency": "daily",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812259"
+    },
+    {
+      "soul_id": "soul_027",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812266"
+    },
+    {
+      "soul_id": "soul_027",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812271"
+    },
+    {
+      "soul_id": "soul_027",
+      "platform": "AFF",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812278"
+    },
+    {
+      "soul_id": "soul_027",
+      "platform": "Instagram",
+      "content_type": "caption",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812286"
+    },
+    {
+      "soul_id": "soul_027",
+      "platform": "Instagram",
+      "content_type": "story",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812291"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "FetLife",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812299"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "FetLife",
+      "content_type": "message",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812307"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "Reddit",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "07:00",
+        "13:00",
+        "18:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812314"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "Reddit",
+      "content_type": "comment",
+      "frequency": "weekly",
+      "preferred_times": [
+        "07:00",
+        "13:00",
+        "18:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812319"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812326"
+    },
+    {
+      "soul_id": "soul_003",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812331"
+    },
+    {
+      "soul_id": "soul_004",
+      "platform": "FetLife",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812339"
+    },
+    {
+      "soul_id": "soul_004",
+      "platform": "FetLife",
+      "content_type": "message",
+      "frequency": "weekly",
+      "preferred_times": [
+        "20:00",
+        "22:00",
+        "23:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812344"
+    },
+    {
+      "soul_id": "soul_004",
+      "platform": "Instagram",
+      "content_type": "caption",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812351"
+    },
+    {
+      "soul_id": "soul_004",
+      "platform": "Instagram",
+      "content_type": "story",
+      "frequency": "weekly",
+      "preferred_times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812356"
+    },
+    {
+      "soul_id": "soul_004",
+      "platform": "AFF",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812362"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "YouTube",
+      "content_type": "script",
+      "frequency": "weekly",
+      "preferred_times": [
+        "14:00",
+        "16:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812370"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "YouTube",
+      "content_type": "description",
+      "frequency": "weekly",
+      "preferred_times": [
+        "14:00",
+        "16:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812375"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "Discord",
+      "content_type": "message",
+      "frequency": "weekly",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812381"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "Discord",
+      "content_type": "announcement",
+      "frequency": "weekly",
+      "preferred_times": [
+        "09:00",
+        "15:00",
+        "20:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812386"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812393"
+    },
+    {
+      "soul_id": "soul_005",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812397"
+    },
+    {
+      "soul_id": "soul_006",
+      "platform": "Twitter",
+      "content_type": "post",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812407"
+    },
+    {
+      "soul_id": "soul_006",
+      "platform": "Twitter",
+      "content_type": "thread",
+      "frequency": "daily",
+      "preferred_times": [
+        "08:00",
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812413"
+    },
+    {
+      "soul_id": "soul_006",
+      "platform": "Reddit",
+      "content_type": "post",
+      "frequency": "weekly",
+      "preferred_times": [
+        "07:00",
+        "13:00",
+        "18:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812420"
+    },
+    {
+      "soul_id": "soul_006",
+      "platform": "Reddit",
+      "content_type": "comment",
+      "frequency": "weekly",
+      "preferred_times": [
+        "07:00",
+        "13:00",
+        "18:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812424"
+    },
+    {
+      "soul_id": "soul_006",
+      "platform": "TikTok",
+      "content_type": "caption",
+      "frequency": "weekly",
+      "preferred_times": [
+        "12:00",
+        "18:00",
+        "21:00"
+      ],
+      "active": true,
+      "last_generated": null,
+      "next_due": "2026-08-18T16:12:31.812431"
+    }
+  ]
+}

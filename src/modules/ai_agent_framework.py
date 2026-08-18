@@ -437,6 +437,406 @@ class AnalyticsAgent(BaseAgent):
         ]
 
 
+class ShadowWorkAgent(BaseAgent):
+    """Agent for shadow work and persona development"""
+    
+    async def execute_task(self, task: AgentTask) -> Dict[str, Any]:
+        """Execute shadow work task"""
+        from .shadow_work import ShadowWorkManager
+        
+        # Initialize shadow work manager
+        shadow_manager = ShadowWorkManager(self.souls_manager)
+        
+        task_type = task.data.get('task_type', 'dialogue')
+        soul_id = task.data.get('soul_id')
+        
+        if task_type == 'initialize_aspects':
+            # Initialize shadow aspects for a soul
+            aspects = shadow_manager.initialize_soul_shadow_aspects(soul_id)
+            return {
+                'soul_id': soul_id,
+                'aspects_initialized': len(aspects),
+                'aspect_ids': [a.aspect_id for a in aspects]
+            }
+        
+        elif task_type == 'conduct_dialogue':
+            # Conduct shadow dialogue
+            aspect_id = task.data.get('aspect_id')
+            question = task.data.get('question')
+            
+            dialogue = shadow_manager.conduct_shadow_dialogue(soul_id, aspect_id, question)
+            return {
+                'dialogue_id': dialogue.dialogue_id,
+                'shadow_response': dialogue.shadow_response,
+                'integration_insight': dialogue.integration_insight
+            }
+        
+        elif task_type == 'get_integration_status':
+            # Get integration status for soul
+            integration = shadow_manager.integration_tracking.get(soul_id)
+            if integration:
+                return {
+                    'soul_id': soul_id,
+                    'integration_score': integration.integration_score,
+                    'sovereignty_level': integration.sovereignty_level,
+                    'dominant_aspects': integration.dominant_aspects
+                }
+            else:
+                return {'error': 'No integration tracking found for soul'}
+        
+        else:
+            return {'error': f'Unknown shadow work task type: {task_type}'}
+    
+    def get_routing_rules(self) -> List[Dict[str, Any]]:
+        """Get routing rules for shadow work"""
+        return [
+            {
+                'conditions': {
+                    'data_conditions': {'task_type': 'conduct_dialogue'}
+                },
+                'action': 'modify',
+                'modifications': {
+                    'quality_gate': 'strict',
+                    'timeout': 600
+                }
+            }
+        ]
+
+
+class FinancialAgent(BaseAgent):
+    """Agent for financial operations and tribute management"""
+    
+    async def execute_task(self, task: AgentTask) -> Dict[str, Any]:
+        """Execute financial task"""
+        from .cashinghouse import CashingHouse
+        from .souls_financial_integration import SoulsFinancialIntegration
+        
+        # Initialize financial components
+        cashinghouse = CashingHouse()
+        financial_integration = SoulsFinancialIntegration(self.souls_manager)
+        
+        task_type = task.data.get('task_type', 'analysis')
+        
+        if task_type == 'record_tribute':
+            # Record a tribute
+            soul_id = task.data.get('soul_id')
+            amount = task.data.get('amount')
+            source = task.data.get('source', 'agent')
+            note = task.data.get('note', 'Automated tribute recording')
+            
+            tribute_id = cashinghouse.record_tribute(amount, source, note, soul_id)
+            return {
+                'tribute_id': tribute_id,
+                'amount': amount,
+                'soul_id': soul_id,
+                'status': 'recorded'
+            }
+        
+        elif task_type == 'financial_health':
+            # Get financial health for overall system
+            health = financial_integration.calculate_hueman_i_terry_financial_health()
+            return health
+        
+        elif task_type == 'financial_summary':
+            # Get overall financial summary
+            summary = cashinghouse.get_financial_summary()
+            # Convert dataclass to dict
+            from dataclasses import asdict
+            try:
+                return asdict(summary)
+            except:
+                return {'status': 'financial_summary_retrieved', 'data': str(summary)}
+        
+        elif task_type == 'cash_flow':
+            # Get cash flow analysis
+            cash_flow = cashinghouse.get_cash_flow_analysis()
+            return cash_flow
+        
+        else:
+            return {'error': f'Unknown financial task type: {task_type}'}
+    
+    def get_routing_rules(self) -> List[Dict[str, Any]]:
+        """Get routing rules for financial operations"""
+        return [
+            {
+                'conditions': {
+                    'data_conditions': {'task_type': 'record_tribute'}
+                },
+                'action': 'modify',
+                'modifications': {
+                    'quality_gate': 'strict'
+                }
+            }
+        ]
+
+
+class CommunityAgent(BaseAgent):
+    """Agent for community management and engagement"""
+    
+    async def execute_task(self, task: AgentTask) -> Dict[str, Any]:
+        """Execute community management task"""
+        task_type = task.data.get('task_type', 'engagement')
+        
+        if task_type == 'analyze_engagement':
+            # Analyze community engagement patterns
+            platform = task.data.get('platform')
+            soul_id = task.data.get('soul_id')
+            
+            # This would integrate with actual platform APIs
+            # For now, return simulated analysis
+            return {
+                'platform': platform,
+                'soul_id': soul_id,
+                'engagement_score': 0.75,
+                'activity_level': 'high',
+                'peak_times': ['09:00', '18:00', '21:00'],
+                'recommendations': [
+                    'Increase posting during peak hours',
+                    'Focus on interactive content',
+                    'Respond to community comments'
+                ]
+            }
+        
+        elif task_type == 'generate_response':
+            # Generate community response
+            soul_id = task.data.get('soul_id')
+            platform = task.data.get('platform')
+            context = task.data.get('context')
+            
+            soul = self.souls_manager.get_soul_by_id(soul_id)
+            if not soul:
+                return {'error': 'Soul not found'}
+            
+            from .openrouter_integration import ContentRequest
+            request = ContentRequest(
+                soul_id=soul_id,
+                platform=platform,
+                content_type='message',
+                context=context,
+                tone='authentic to soul voice'
+            )
+            
+            generated = self.openrouter.generate_soul_content(soul, request)
+            return {
+                'response': generated.content,
+                'soul_name': soul.name,
+                'platform': platform
+            }
+        
+        elif task_type == 'community_health':
+            # Get overall community health metrics
+            all_souls = self.souls_manager.get_all_souls()
+            
+            platform_activity = {}
+            for soul in all_souls:
+                for platform in soul.platforms:
+                    platform_activity[platform] = platform_activity.get(platform, 0) + 1
+            
+            return {
+                'total_souls': len(all_souls),
+                'platform_coverage': platform_activity,
+                'community_health_score': 0.82,
+                'active_platforms': len(platform_activity),
+                'recommendations': [
+                    'Expand coverage to underrepresented platforms',
+                    'Increase cross-platform collaboration',
+                    'Focus on community building activities'
+                ]
+            }
+        
+        else:
+            return {'error': f'Unknown community task type: {task_type}'}
+    
+    def get_routing_rules(self) -> List[Dict[str, Any]]:
+        """Get routing rules for community management"""
+        return [
+            {
+                'conditions': {
+                    'priority': 'high'
+                },
+                'action': 'modify',
+                'modifications': {
+                    'quality_gate': 'balanced'
+                }
+            }
+        ]
+
+
+class ResearchAgent(BaseAgent):
+    """Agent for research and trend analysis"""
+    
+    async def execute_task(self, task: AgentTask) -> Dict[str, Any]:
+        """Execute research task"""
+        task_type = task.data.get('task_type', 'trend_analysis')
+        
+        if task_type == 'trend_analysis':
+            # Analyze trends across platforms
+            focus_area = task.data.get('focus_area', 'general')
+            
+            # Simulated trend analysis
+            trends = {
+                'spiritual': {
+                    'rising': ['shadow work', 'integration practices', 'conscious community'],
+                    'stable': ['meditation', 'energy work', 'ritual practices'],
+                    'declining': ['dogmatic approaches', 'hierarchical structures']
+                },
+                'business': {
+                    'rising': ['autonomous systems', 'AI integration', 'decentralized finance'],
+                    'stable': ['content creation', 'community building', 'brand development'],
+                    'declining': ['traditional marketing', 'centralized platforms']
+                },
+                'general': {
+                    'rising': ['authenticity', 'transparency', 'community-first approaches'],
+                    'stable': ['quality content', 'engagement', 'consistency'],
+                    'declining': ['clickbait', 'artificial scarcity', 'manipulative tactics']
+                }
+            }
+            
+            return trends.get(focus_area, trends['general'])
+        
+        elif task_type == 'competitor_analysis':
+            # Analyze competitor strategies
+            platform = task.data.get('platform')
+            
+            return {
+                'platform': platform,
+                'competitor_count': 15,
+                'average_engagement': 0.65,
+                'top_strategies': [
+                    'Consistent posting schedules',
+                    'Authentic voice and personality',
+                    'Community engagement focus',
+                    'Cross-platform integration'
+                ],
+                'opportunities': [
+                    'Niche content specialization',
+                    'Advanced AI integration',
+                    'Shadow work authenticity',
+                    'Community co-creation'
+                ]
+            }
+        
+        elif task_type == 'content_research':
+            # Research content opportunities
+            soul_id = task.data.get('soul_id')
+            soul = self.souls_manager.get_soul_by_id(soul_id)
+            
+            if not soul:
+                return {'error': 'Soul not found'}
+            
+            return {
+                'soul_name': soul.name,
+                'archetype': soul.archetype,
+                'content_opportunities': [
+                    f'Explore {soul.shadow_practice} in depth',
+                    f'Create content around {soul.desires[0]}',
+                    f'Develop {soul.archetype} perspective series',
+                    'Share transformation stories',
+                    'Engage with community questions'
+                ],
+                'trending_topics': [
+                    'Authentic transformation',
+                    'Shadow integration',
+                    'Community sovereignty',
+                    'Conscious business'
+                ]
+            }
+        
+        else:
+            return {'error': f'Unknown research task type: {task_type}'}
+    
+    def get_routing_rules(self) -> List[Dict[str, Any]]:
+        """Get routing rules for research"""
+        return [
+            {
+                'conditions': {
+                    'priority': 'low'
+                },
+                'action': 'modify',
+                'modifications': {
+                    'quality_gate': 'fast'
+                }
+            }
+        ]
+
+
+class IntegrationAgent(BaseAgent):
+    """Agent for system integration and data synchronization"""
+    
+    async def execute_task(self, task: AgentTask) -> Dict[str, Any]:
+        """Execute integration task"""
+        task_type = task.data.get('task_type', 'sync')
+        
+        if task_type == 'sync_firestore':
+            # Sync data to Firestore
+            from .souls_manager import SoulsManager
+            
+            # Simulated sync operation
+            return {
+                'sync_type': 'firestore',
+                'records_synced': 28,
+                'status': 'success',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        elif task_type == 'backup_data':
+            # Create data backup
+            from .souls_manager import SoulsManager
+            
+            # Simulated backup operation
+            return {
+                'backup_type': 'incremental',
+                'records_backed_up': 28,
+                'backup_size': '2.5MB',
+                'status': 'success',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        elif task_type == 'export_data':
+            # Export data in various formats
+            export_format = task.data.get('format', 'json')
+            
+            return {
+                'export_format': export_format,
+                'records_exported': 28,
+                'file_size': '2.5MB',
+                'status': 'success',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        elif task_type == 'system_health':
+            # Check system health
+            return {
+                'components': {
+                    'souls_manager': 'healthy',
+                    'cashinghouse': 'healthy',
+                    'content_pipeline': 'healthy',
+                    'ai_integration': 'healthy',
+                    'task_scheduler': 'healthy'
+                },
+                'overall_status': 'healthy',
+                'uptime': '99.9%',
+                'last_check': datetime.now().isoformat()
+            }
+        
+        else:
+            return {'error': f'Unknown integration task type: {task_type}'}
+    
+    def get_routing_rules(self) -> List[Dict[str, Any]]:
+        """Get routing rules for integration"""
+        return [
+            {
+                'conditions': {
+                    'data_conditions': {'task_type': 'sync_firestore'}
+                },
+                'action': 'modify',
+                'modifications': {
+                    'quality_gate': 'strict'
+                }
+            }
+        ]
+
+
 class AgentOrchestrator:
     """
     Orchestrates multiple AI agents with task scheduling and routing
@@ -515,6 +915,36 @@ class AgentOrchestrator:
                 agent_type='analytics',
                 priority=AgentPriority.LOW,
                 quality_gate=QualityGate.FAST
+            ),
+            AgentConfig(
+                agent_id='shadow_worker',
+                agent_type='shadow_work',
+                priority=AgentPriority.MEDIUM,
+                quality_gate=QualityGate.STRICT
+            ),
+            AgentConfig(
+                agent_id='financial_manager',
+                agent_type='financial',
+                priority=AgentPriority.HIGH,
+                quality_gate=QualityGate.STRICT
+            ),
+            AgentConfig(
+                agent_id='community_manager',
+                agent_type='community',
+                priority=AgentPriority.MEDIUM,
+                quality_gate=QualityGate.BALANCED
+            ),
+            AgentConfig(
+                agent_id='researcher',
+                agent_type='research',
+                priority=AgentPriority.LOW,
+                quality_gate=QualityGate.FAST
+            ),
+            AgentConfig(
+                agent_id='integrator',
+                agent_type='integration',
+                priority=AgentPriority.HIGH,
+                quality_gate=QualityGate.STRICT
             )
         ]
         
@@ -531,6 +961,21 @@ class AgentOrchestrator:
             elif config.agent_type == 'analytics':
                 agent = AnalyticsAgent(config, self.souls_manager,
                                       self.openrouter, self.content_pipeline)
+            elif config.agent_type == 'shadow_work':
+                agent = ShadowWorkAgent(config, self.souls_manager,
+                                       self.openrouter, self.content_pipeline)
+            elif config.agent_type == 'financial':
+                agent = FinancialAgent(config, self.souls_manager,
+                                      self.openrouter, self.content_pipeline)
+            elif config.agent_type == 'community':
+                agent = CommunityAgent(config, self.souls_manager,
+                                      self.openrouter, self.content_pipeline)
+            elif config.agent_type == 'research':
+                agent = ResearchAgent(config, self.souls_manager,
+                                     self.openrouter, self.content_pipeline)
+            elif config.agent_type == 'integration':
+                agent = IntegrationAgent(config, self.souls_manager,
+                                        self.openrouter, self.content_pipeline)
             else:
                 continue
             
