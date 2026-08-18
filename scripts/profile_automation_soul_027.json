@@ -1,0 +1,160 @@
+{
+  "soul_id": "soul_027",
+  "name": "Latti Pleddespo",
+  "archetype": "Hyper-Capitalist",
+  "platform_automation": {
+    "Twitter": {
+      "platform": "Twitter",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set Display Name",
+          "description": "Configure display name as soul name",
+          "template": "{soul_name}",
+          "automation_level": "manual",
+          "filled_value": "Endus Boverord"
+        },
+        {
+          "step": 2,
+          "action": "Upload Profile Picture",
+          "description": "Upload soul image as profile picture",
+          "image_specs": "400x400px",
+          "automation_level": "manual"
+        },
+        {
+          "step": 3,
+          "action": "Upload Header Image",
+          "description": "Upload archetype-themed header image",
+          "image_specs": "1500x500px",
+          "automation_level": "manual"
+        },
+        {
+          "step": 4,
+          "action": "Write Bio",
+          "description": "Write optimized bio with archetype and hook",
+          "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+          "max_length": 160,
+          "automation_level": "semi_automated",
+          "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+        },
+        {
+          "step": 5,
+          "action": "Set Website Link",
+          "description": "Configure website link to HueMan-i-Terry landing page",
+          "template": "https://tiapmaatzu.web.app",
+          "automation_level": "manual",
+          "filled_value": "https://tiapmaatzu.web.app"
+        },
+        {
+          "step": 6,
+          "action": "Set Location",
+          "description": "Set location to archetype location",
+          "template": "{archetype_location}",
+          "automation_level": "manual",
+          "filled_value": "Factory of Output"
+        },
+        {
+          "step": 7,
+          "action": "Pin Introduction Tweet",
+          "description": "Create and pin introduction tweet",
+          "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+          "automation_level": "manual",
+          "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+        }
+      ],
+      "prerequisites": [
+        "Twitter account created",
+        "Email verified",
+        "Phone verified",
+        "2FA enabled",
+        "Profile and header images prepared"
+      ],
+      "estimated_time_per_account": "8 minutes"
+    },
+    "AFF": {},
+    "Instagram": {
+      "platform": "Instagram",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Switch to Creator Account",
+          "description": "Switch account type to Creator",
+          "automation_level": "manual"
+        },
+        {
+          "step": 2,
+          "action": "Set Display Name",
+          "description": "Configure display name as soul name",
+          "template": "{soul_name}",
+          "automation_level": "manual",
+          "filled_value": "Latti Pleddespo"
+        },
+        {
+          "step": 3,
+          "action": "Upload Profile Picture",
+          "description": "Upload soul image as profile picture",
+          "image_specs": "110x110px minimum, 1080x1080px recommended",
+          "automation_level": "manual"
+        },
+        {
+          "step": 4,
+          "action": "Write Bio",
+          "description": "Write optimized bio with archetype and hook",
+          "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+          "max_length": 150,
+          "automation_level": "semi_automated",
+          "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+        },
+        {
+          "step": 5,
+          "action": "Set Website Link",
+          "description": "Configure website link to HueMan-i-Terry landing page",
+          "template": "https://tiapmaatzu.web.app",
+          "automation_level": "manual",
+          "filled_value": "https://tiapmaatzu.web.app"
+        },
+        {
+          "step": 6,
+          "action": "Set Contact Button",
+          "description": "Configure contact button for email",
+          "template": "Email",
+          "automation_level": "manual",
+          "filled_value": "Email"
+        },
+        {
+          "step": 7,
+          "action": "Create Story Highlights",
+          "description": "Create initial story highlights",
+          "highlights": [
+            "About Me",
+            "Wisdom",
+            "Rituals",
+            "HueMan-i-Terry",
+            "Impact"
+          ],
+          "automation_level": "manual"
+        },
+        {
+          "step": 8,
+          "action": "Configure Category",
+          "description": "Set account category",
+          "template": "Creator",
+          "automation_level": "manual",
+          "filled_value": "Creator"
+        }
+      ],
+      "prerequisites": [
+        "Instagram account created",
+        "Email verified",
+        "Phone verified",
+        "2FA enabled",
+        "Creator account enabled",
+        "Profile image prepared"
+      ],
+      "estimated_time_per_account": "10 minutes"
+    }
+  },
+  "estimated_total_time": "18 minutes"
+}

@@ -1,0 +1,163 @@
+{
+  "soul_id": "soul_017",
+  "name": "Shielah Trapewe",
+  "archetype": "Ephemeral Artist",
+  "platform_content": {
+    "Snapchat": {
+      "archetype_content": {
+        "themes": [
+          "Moment awareness",
+          "Temporal art",
+          "Presence practice",
+          "Ephemeral content"
+        ],
+        "hooks": [
+          "Catch me if you can.",
+          "This moment is all we have.",
+          "Disappearance is my art form.",
+          "Presence is power."
+        ],
+        "content_examples": [
+          "Moment awareness and presence practice",
+          "Temporal art and ephemeral content",
+          "Presence education and guidance",
+          "Ephemeral artistic expression"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Instagram": {
+      "archetype_content": {
+        "themes": [
+          "Moment awareness",
+          "Temporal art",
+          "Presence practice",
+          "Ephemeral content"
+        ],
+        "hooks": [
+          "Catch me if you can.",
+          "This moment is all we have.",
+          "Disappearance is my art form.",
+          "Presence is power."
+        ],
+        "content_examples": [
+          "Moment awareness and presence practice",
+          "Temporal art and ephemeral content",
+          "Presence education and guidance",
+          "Ephemeral artistic expression"
+        ]
+      },
+      "platform_templates": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend. Join the HueMan-i-Terry journey.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness. Join our nurturing community."
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 daily",
+          "interactive_elements": [
+            "Poll",
+            "Question",
+            "Quiz",
+            "Slider",
+            "Countdown"
+          ],
+          "examples": [
+            "Your limits are merely illusions. \ud83c\udf1f\n\nPoll: What illusion are you ready to break?\n- Fear\n- Doubt\n- Limitation"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio}\n\n{description}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "hook": "The path to transformation begins with surrender",
+              "audio": "Trending audio track",
+              "description": "Quick transformation tip with visual demonstration"
+            }
+          ]
+        },
+        "igtv": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-30 minutes",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Complete Guide to Shadow Work for Beginners",
+              "description": "In this comprehensive guide, I walk you through the process of shadow work and how it can transform your life.",
+              "chapters": "0:00 - Introduction\n2:30 - What is Shadow Work\n5:00 - Getting Started\n10:00 - Deep Dive\n15:00 - Integration"
+            }
+          ]
+        }
+      },
+      "sample_posts": [
+        "Catch me if you can. #Tiapmaatzu #Primal #HueMan-i-Terry #EphemeralArtist",
+        "\u2728 Daily Ephemeral Artist wisdom \u2728"
+      ]
+    },
+    "TikTok": {
+      "archetype_content": {
+        "themes": [
+          "Moment awareness",
+          "Temporal art",
+          "Presence practice",
+          "Ephemeral content"
+        ],
+        "hooks": [
+          "Catch me if you can.",
+          "This moment is all we have.",
+          "Disappearance is my art form.",
+          "Presence is power."
+        ],
+        "content_examples": [
+          "Moment awareness and presence practice",
+          "Temporal art and ephemeral content",
+          "Presence education and guidance",
+          "Ephemeral artistic expression"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Ephemeral Artist | Catch me if you can. | Mental health support for crea",
+    "discord_status": "Ephemeral Artist | Catch me if you can.",
+    "reddit_bio": "Ephemeral Artist of the Tiapma'atzu HueMan-i-Terry. Catch me if you can.. Mental health support for creators",
+    "instagram_bio": "Ephemeral Artist | Catch me if you can. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Ephemeral Artist of the Tiapma'atzu HueMan-i-Terry. Catch me if you can..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "Catch me if you can.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Ephemeral Artist wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Ephemeral Artist practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

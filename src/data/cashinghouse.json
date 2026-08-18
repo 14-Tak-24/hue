@@ -1,0 +1,2707 @@
+{
+  "transactions": [
+    {
+      "transaction_id": "tx_1786911265.028165",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 402.46,
+      "description": "Tribute from Unzoba Vyner (soul_018) - development via reddit",
+      "timestamp": "2026-08-16 13:14:25.028185",
+      "source_id": "soul_018",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.029028",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 44.1,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - research via tiktok",
+      "timestamp": "2026-08-16 13:14:25.029037",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.029715",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.81,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - infrastructure via AFF",
+      "timestamp": "2026-08-16 13:14:25.029723",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.030426",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.07,
+      "description": "Tribute from Kaiel Thornea (soul_009) - legal via AFF",
+      "timestamp": "2026-08-16 13:14:25.030438",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.0312",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 233.8,
+      "description": "Tribute from Cracoria Masters (soul_024) - research via reddit",
+      "timestamp": "2026-08-16 13:14:25.031210",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.031872",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.93,
+      "description": "Tribute from Mac Nazarene (soul_001) - legal via twitter",
+      "timestamp": "2026-08-16 13:14:25.031880",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.032713",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 29.87,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - development via reddit",
+      "timestamp": "2026-08-16 13:14:25.032721",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.033571",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.76,
+      "description": "Tribute from Weila Vite (soul_026) - development via discord",
+      "timestamp": "2026-08-16 13:14:25.033577",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.034403",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 107.35,
+      "description": "Tribute from Kaiel Thornea (soul_009) - infrastructure via reddit",
+      "timestamp": "2026-08-16 13:14:25.034409",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.035273",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 11.0,
+      "description": "Tribute from Vulture Queen (soul_020) - research via tiktok",
+      "timestamp": "2026-08-16 13:14:25.035290",
+      "source_id": "soul_020",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.036145",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 36.63,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - content via reddit",
+      "timestamp": "2026-08-16 13:14:25.036151",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.03705",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 193.03,
+      "description": "Tribute from Lexie Rose (soul_010) - legal via youtube",
+      "timestamp": "2026-08-16 13:14:25.037057",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.037978",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 448.99,
+      "description": "Tribute from Zupa Nova (soul_005) - marketing via youtube",
+      "timestamp": "2026-08-16 13:14:25.037985",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.038948",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 18.14,
+      "description": "Tribute from Ovaihge Wittminers (soul_019) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.038955",
+      "source_id": "soul_019",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.040031",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 22.36,
+      "description": "Tribute from Jessa Relay (soul_011) - infrastructure via instagram",
+      "timestamp": "2026-08-16 13:14:25.040043",
+      "source_id": "soul_011",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.04112",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 49.39,
+      "description": "Tribute from Latti Pleddespo (soul_027) - community via instagram",
+      "timestamp": "2026-08-16 13:14:25.041126",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.042206",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 41.05,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - research via discord",
+      "timestamp": "2026-08-16 13:14:25.042213",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.043315",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 26.0,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - legal via AFF",
+      "timestamp": "2026-08-16 13:14:25.043322",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.044631",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 17.12,
+      "description": "Tribute from Ann Stray (soul_021) - research via AFF",
+      "timestamp": "2026-08-16 13:14:25.044639",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.045831",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 25.89,
+      "description": "Tribute from Endus Boverord (soul_028) - marketing via AFF",
+      "timestamp": "2026-08-16 13:14:25.045839",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.047078",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.08,
+      "description": "Tribute from Gaio Dreamweaver (soul_014) - development via reddit",
+      "timestamp": "2026-08-16 13:14:25.047085",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.048657",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 32.75,
+      "description": "Tribute from Lexie Rose (soul_010) - infrastructure via tiktok",
+      "timestamp": "2026-08-16 13:14:25.048664",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.049895",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 335.46,
+      "description": "Tribute from Vulture Queen (soul_020) - marketing via AFF",
+      "timestamp": "2026-08-16 13:14:25.049903",
+      "source_id": "soul_020",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.051164",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 42.41,
+      "description": "Tribute from Loona Minta (soul_015) - legal via discord",
+      "timestamp": "2026-08-16 13:14:25.051171",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.052435",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 21.48,
+      "description": "Tribute from Slurchin Drip (soul_012) - operations via tiktok",
+      "timestamp": "2026-08-16 13:14:25.052443",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.053713",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 36.71,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - development via youtube",
+      "timestamp": "2026-08-16 13:14:25.053721",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.055273",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 19.03,
+      "description": "Tribute from Endus Boverord (soul_028) - content via tiktok",
+      "timestamp": "2026-08-16 13:14:25.055284",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.057186",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 92.32,
+      "description": "Tribute from Mac Nazarene (soul_001) - research via discord",
+      "timestamp": "2026-08-16 13:14:25.057197",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.058667",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 86.37,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - community via tiktok",
+      "timestamp": "2026-08-16 13:14:25.058674",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.060106",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.24,
+      "description": "Tribute from Weila Vite (soul_026) - infrastructure via youtube",
+      "timestamp": "2026-08-16 13:14:25.060113",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.061566",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 41.79,
+      "description": "Tribute from Vulture Queen (soul_020) - content via discord",
+      "timestamp": "2026-08-16 13:14:25.061573",
+      "source_id": "soul_020",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.063269",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 239.78,
+      "description": "Tribute from Kaiel Thornea (soul_009) - community via AFF",
+      "timestamp": "2026-08-16 13:14:25.063277",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.065134",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 11.41,
+      "description": "Tribute from Kaiel Thornea (soul_009) - research via twitter",
+      "timestamp": "2026-08-16 13:14:25.065153",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.06684",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 33.01,
+      "description": "Tribute from Vulture Queen (soul_020) - research via youtube",
+      "timestamp": "2026-08-16 13:14:25.066849",
+      "source_id": "soul_020",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.068546",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 265.34,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - marketing via instagram",
+      "timestamp": "2026-08-16 13:14:25.068553",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.070142",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.7,
+      "description": "Tribute from Gaio Dreamweaver (soul_014) - research via reddit",
+      "timestamp": "2026-08-16 13:14:25.070149",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.071788",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 31.21,
+      "description": "Tribute from Shielah Trapewe (soul_017) - infrastructure via tiktok",
+      "timestamp": "2026-08-16 13:14:25.071795",
+      "source_id": "soul_017",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.073559",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 156.88,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - infrastructure via twitter",
+      "timestamp": "2026-08-16 13:14:25.073567",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.075385",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.09,
+      "description": "Tribute from Slurchin Drip (soul_012) - development via instagram",
+      "timestamp": "2026-08-16 13:14:25.075393",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.077218",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 18.51,
+      "description": "Tribute from Sirena Aeon (soul_025) - community via twitter",
+      "timestamp": "2026-08-16 13:14:25.077225",
+      "source_id": "soul_025",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.079065",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.55,
+      "description": "Tribute from Unzoba Vyner (soul_018) - content via tiktok",
+      "timestamp": "2026-08-16 13:14:25.079076",
+      "source_id": "soul_018",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.081226",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 204.56,
+      "description": "Tribute from Loona Minta (soul_015) - marketing via reddit",
+      "timestamp": "2026-08-16 13:14:25.081235",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.083336",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.09,
+      "description": "Tribute from Doli Asete (soul_023) - content via AFF",
+      "timestamp": "2026-08-16 13:14:25.083344",
+      "source_id": "soul_023",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.085309",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 185.95,
+      "description": "Tribute from Cracoria Masters (soul_024) - infrastructure via tiktok",
+      "timestamp": "2026-08-16 13:14:25.085327",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.087609",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 25.97,
+      "description": "Tribute from Latti Pleddespo (soul_027) - marketing via youtube",
+      "timestamp": "2026-08-16 13:14:25.087621",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.090016",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 446.77,
+      "description": "Tribute from Kaiel Thornea (soul_009) - development via twitter",
+      "timestamp": "2026-08-16 13:14:25.090028",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.092222",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 45.58,
+      "description": "Tribute from Jessa Relay (soul_011) - infrastructure via reddit",
+      "timestamp": "2026-08-16 13:14:25.092230",
+      "source_id": "soul_011",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.094265",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 15.77,
+      "description": "Tribute from Ritaphuq Zaniman (soul_008) - legal via twitter",
+      "timestamp": "2026-08-16 13:14:25.094272",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.09634",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 13.79,
+      "description": "Tribute from Sirena Aeon (soul_025) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.096348",
+      "source_id": "soul_025",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.098828",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 12.44,
+      "description": "Tribute from Loona Minta (soul_015) - marketing via instagram",
+      "timestamp": "2026-08-16 13:14:25.098836",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.101014",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 49.8,
+      "description": "Tribute from Kaiel Thornea (soul_009) - research via AFF",
+      "timestamp": "2026-08-16 13:14:25.101022",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.103458",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 19.24,
+      "description": "Tribute from Ritaphuq Zaniman (soul_008) - community via instagram",
+      "timestamp": "2026-08-16 13:14:25.103466",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.105997",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 26.17,
+      "description": "Tribute from Mary Magnumbytes (soul_002) - development via tiktok",
+      "timestamp": "2026-08-16 13:14:25.106006",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.108346",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 13.42,
+      "description": "Tribute from Ann Stray (soul_021) - marketing via instagram",
+      "timestamp": "2026-08-16 13:14:25.108354",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.110914",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 478.91,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - operations via reddit",
+      "timestamp": "2026-08-16 13:14:25.110923",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.113795",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 44.25,
+      "description": "Tribute from Shielah Trapewe (soul_017) - community via instagram",
+      "timestamp": "2026-08-16 13:14:25.113805",
+      "source_id": "soul_017",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.116851",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 20.54,
+      "description": "Tribute from Sirena Aeon (soul_025) - community via instagram",
+      "timestamp": "2026-08-16 13:14:25.116862",
+      "source_id": "soul_025",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.119594",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 25.27,
+      "description": "Tribute from Zupa Nova (soul_005) - development via discord",
+      "timestamp": "2026-08-16 13:14:25.119606",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.122307",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 37.5,
+      "description": "Tribute from Babelonia Nocturne (soul_007) - operations via discord",
+      "timestamp": "2026-08-16 13:14:25.122315",
+      "source_id": "soul_007",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.124981",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 217.48,
+      "description": "Tribute from Dixon Uhbuts (soul_003) - development via reddit",
+      "timestamp": "2026-08-16 13:14:25.124989",
+      "source_id": "soul_003",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.127747",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 18.65,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - marketing via instagram",
+      "timestamp": "2026-08-16 13:14:25.127755",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.130906",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 147.47,
+      "description": "Tribute from Bain Kha'ak (soul_016) - operations via reddit",
+      "timestamp": "2026-08-16 13:14:25.130917",
+      "source_id": "soul_016",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.134294",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 152.19,
+      "description": "Tribute from Zupa Nova (soul_005) - development via twitter",
+      "timestamp": "2026-08-16 13:14:25.134303",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.137148",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.74,
+      "description": "Tribute from Zupa Nova (soul_005) - community via twitter",
+      "timestamp": "2026-08-16 13:14:25.137156",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.140162",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 163.54,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - operations via discord",
+      "timestamp": "2026-08-16 13:14:25.140170",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.143428",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 45.04,
+      "description": "Tribute from Endus Boverord (soul_028) - infrastructure via discord",
+      "timestamp": "2026-08-16 13:14:25.143436",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.146391",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 36.5,
+      "description": "Tribute from Mac Nazarene (soul_001) - legal via youtube",
+      "timestamp": "2026-08-16 13:14:25.146400",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.149888",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 262.25,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - content via youtube",
+      "timestamp": "2026-08-16 13:14:25.149898",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.152885",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 14.71,
+      "description": "Tribute from Latti Pleddespo (soul_027) - content via AFF",
+      "timestamp": "2026-08-16 13:14:25.152893",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.155682",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 83.56,
+      "description": "Tribute from Bain Kha'ak (soul_016) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.155689",
+      "source_id": "soul_016",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.15877",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.65,
+      "description": "Tribute from Dixon Uhbuts (soul_003) - operations via twitter",
+      "timestamp": "2026-08-16 13:14:25.158779",
+      "source_id": "soul_003",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.162233",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 36.9,
+      "description": "Tribute from Latti Pleddespo (soul_027) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.162241",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.165447",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 42.48,
+      "description": "Tribute from Cracoria Masters (soul_024) - research via discord",
+      "timestamp": "2026-08-16 13:14:25.165455",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.16839",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.95,
+      "description": "Tribute from Mac Nazarene (soul_001) - development via instagram",
+      "timestamp": "2026-08-16 13:14:25.168408",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.171514",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 106.38,
+      "description": "Tribute from Cracoria Masters (soul_024) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.171529",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.174797",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 29.31,
+      "description": "Tribute from Mary Magnumbytes (soul_002) - infrastructure via AFF",
+      "timestamp": "2026-08-16 13:14:25.174805",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.17834",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 297.32,
+      "description": "Tribute from Unzoba Vyner (soul_018) - community via youtube",
+      "timestamp": "2026-08-16 13:14:25.178351",
+      "source_id": "soul_018",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.181813",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 47.09,
+      "description": "Tribute from Loona Minta (soul_015) - operations via instagram",
+      "timestamp": "2026-08-16 13:14:25.181821",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.185276",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 42.03,
+      "description": "Tribute from Latti Pleddespo (soul_027) - community via twitter",
+      "timestamp": "2026-08-16 13:14:25.185283",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.188515",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 361.54,
+      "description": "Tribute from Ovaihge Wittminers (soul_019) - content via AFF",
+      "timestamp": "2026-08-16 13:14:25.188522",
+      "source_id": "soul_019",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.191782",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 35.88,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.191790",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.195172",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 10.46,
+      "description": "Tribute from Kaiel Thornea (soul_009) - marketing via reddit",
+      "timestamp": "2026-08-16 13:14:25.195179",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.198627",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 43.31,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - infrastructure via youtube",
+      "timestamp": "2026-08-16 13:14:25.198635",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.202015",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 10.33,
+      "description": "Tribute from Brytoni Himheru (soul_013) - development via youtube",
+      "timestamp": "2026-08-16 13:14:25.202025",
+      "source_id": "soul_013",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Brytoni Himheru",
+        "archetype": "Cyber Guardian",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.205422",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 12.84,
+      "description": "Tribute from Endus Boverord (soul_028) - community via youtube",
+      "timestamp": "2026-08-16 13:14:25.205430",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.209898",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 15.25,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - infrastructure via discord",
+      "timestamp": "2026-08-16 13:14:25.209909",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.213488",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 437.19,
+      "description": "Tribute from Babelonia Nocturne (soul_007) - marketing via youtube",
+      "timestamp": "2026-08-16 13:14:25.213496",
+      "source_id": "soul_007",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.217481",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 144.56,
+      "description": "Tribute from Doli Asete (soul_023) - marketing via youtube",
+      "timestamp": "2026-08-16 13:14:25.217490",
+      "source_id": "soul_023",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.221012",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 23.38,
+      "description": "Tribute from Ann Stray (soul_021) - operations via instagram",
+      "timestamp": "2026-08-16 13:14:25.221019",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.22477",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.39,
+      "description": "Tribute from Mac Nazarene (soul_001) - legal via discord",
+      "timestamp": "2026-08-16 13:14:25.224779",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.228333",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 39.62,
+      "description": "Tribute from Shielah Trapewe (soul_017) - research via twitter",
+      "timestamp": "2026-08-16 13:14:25.228341",
+      "source_id": "soul_017",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.23269",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 38.0,
+      "description": "Tribute from Lexie Rose (soul_010) - development via twitter",
+      "timestamp": "2026-08-16 13:14:25.232700",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.236906",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 248.27,
+      "description": "Tribute from Mac Nazarene (soul_001) - research via AFF",
+      "timestamp": "2026-08-16 13:14:25.236920",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.240897",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 31.56,
+      "description": "Tribute from Cracoria Masters (soul_024) - marketing via instagram",
+      "timestamp": "2026-08-16 13:14:25.240906",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.2446",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.09,
+      "description": "Tribute from Weila Vite (soul_026) - infrastructure via twitter",
+      "timestamp": "2026-08-16 13:14:25.244608",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.24862",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.11,
+      "description": "Tribute from Kaiel Thornea (soul_009) - marketing via AFF",
+      "timestamp": "2026-08-16 13:14:25.248628",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.252452",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 235.49,
+      "description": "Tribute from Jessa Relay (soul_011) - legal via youtube",
+      "timestamp": "2026-08-16 13:14:25.252465",
+      "source_id": "soul_011",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.257054",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 171.42,
+      "description": "Tribute from Loona Minta (soul_015) - infrastructure via tiktok",
+      "timestamp": "2026-08-16 13:14:25.257065",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.261225",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 40.13,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - content via AFF",
+      "timestamp": "2026-08-16 13:14:25.261235",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.26849",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 22.79,
+      "description": "Tribute from Gaio Dreamweaver (soul_014) - legal via tiktok",
+      "timestamp": "2026-08-16 13:14:25.268501",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.272732",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 28.46,
+      "description": "Tribute from Ann Stray (soul_021) - marketing via youtube",
+      "timestamp": "2026-08-16 13:14:25.272740",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.27691",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.2,
+      "description": "Tribute from Zupa Nova (soul_005) - legal via instagram",
+      "timestamp": "2026-08-16 13:14:25.276918",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.281161",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 23.82,
+      "description": "Tribute from Lexie Rose (soul_010) - infrastructure via youtube",
+      "timestamp": "2026-08-16 13:14:25.281170",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.285354",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 32.47,
+      "description": "Tribute from Loona Minta (soul_015) - legal via tiktok",
+      "timestamp": "2026-08-16 13:14:25.285363",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.289427",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 22.32,
+      "description": "Tribute from Kaiel Thornea (soul_009) - community via twitter",
+      "timestamp": "2026-08-16 13:14:25.289435",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.293803",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 101.89,
+      "description": "Tribute from Ovaihge Wittminers (soul_019) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.293814",
+      "source_id": "soul_019",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.298583",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.34,
+      "description": "Tribute from Ann Stray (soul_021) - research via discord",
+      "timestamp": "2026-08-16 13:14:25.298606",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.30296",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 381.57,
+      "description": "Tribute from Bain Kha'ak (soul_016) - content via discord",
+      "timestamp": "2026-08-16 13:14:25.302978",
+      "source_id": "soul_016",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.307557",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 41.71,
+      "description": "Tribute from Latti Pleddespo (soul_027) - development via instagram",
+      "timestamp": "2026-08-16 13:14:25.307565",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.311738",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 45.87,
+      "description": "Tribute from Kaiel Thornea (soul_009) - infrastructure via tiktok",
+      "timestamp": "2026-08-16 13:14:25.311755",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.316969",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 148.98,
+      "description": "Tribute from Zupa Nova (soul_005) - legal via discord",
+      "timestamp": "2026-08-16 13:14:25.316978",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.321309",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 215.64,
+      "description": "Tribute from Weila Vite (soul_026) - development via reddit",
+      "timestamp": "2026-08-16 13:14:25.321323",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.326415",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 28.83,
+      "description": "Tribute from Slurchin Drip (soul_012) - legal via instagram",
+      "timestamp": "2026-08-16 13:14:25.326426",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.331387",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 43.25,
+      "description": "Tribute from Loona Minta (soul_015) - research via tiktok",
+      "timestamp": "2026-08-16 13:14:25.331397",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.336347",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 22.52,
+      "description": "Tribute from Slurchin Drip (soul_012) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.336358",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.340888",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 26.43,
+      "description": "Tribute from Ritaphuq Zaniman (soul_008) - operations via AFF",
+      "timestamp": "2026-08-16 13:14:25.340896",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.345434",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 28.4,
+      "description": "Tribute from Cracoria Masters (soul_024) - operations via tiktok",
+      "timestamp": "2026-08-16 13:14:25.345445",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.350216",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 401.05,
+      "description": "Tribute from Gaio Dreamweaver (soul_014) - operations via instagram",
+      "timestamp": "2026-08-16 13:14:25.350228",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.35493",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 41.33,
+      "description": "Tribute from Doli Asete (soul_023) - content via discord",
+      "timestamp": "2026-08-16 13:14:25.354940",
+      "source_id": "soul_023",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.360145",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 425.04,
+      "description": "Tribute from Ritaphuq Zaniman (soul_008) - content via tiktok",
+      "timestamp": "2026-08-16 13:14:25.360165",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.365049",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 17.41,
+      "description": "Tribute from Vulture Queen (soul_020) - infrastructure via AFF",
+      "timestamp": "2026-08-16 13:14:25.365058",
+      "source_id": "soul_020",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.370223",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 232.45,
+      "description": "Tribute from Sirena Aeon (soul_025) - content via reddit",
+      "timestamp": "2026-08-16 13:14:25.370241",
+      "source_id": "soul_025",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.374975",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 160.54,
+      "description": "Tribute from Gaio Dreamweaver (soul_014) - research via tiktok",
+      "timestamp": "2026-08-16 13:14:25.374990",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.380037",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 262.99,
+      "description": "Tribute from Bain Kha'ak (soul_016) - community via youtube",
+      "timestamp": "2026-08-16 13:14:25.380048",
+      "source_id": "soul_016",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.384931",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 34.25,
+      "description": "Tribute from Loona Minta (soul_015) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.384940",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.390575",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 22.97,
+      "description": "Tribute from Latti Pleddespo (soul_027) - infrastructure via youtube",
+      "timestamp": "2026-08-16 13:14:25.390585",
+      "source_id": "soul_027",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.396471",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 48.13,
+      "description": "Tribute from Lexie Rose (soul_010) - marketing via reddit",
+      "timestamp": "2026-08-16 13:14:25.396481",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.401855",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 16.14,
+      "description": "Tribute from Weila Vite (soul_026) - operations via discord",
+      "timestamp": "2026-08-16 13:14:25.401863",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.406971",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 13.55,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.406980",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.413018",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 47.19,
+      "description": "Tribute from Ulga Nefrocer (soul_022) - legal via tiktok",
+      "timestamp": "2026-08-16 13:14:25.413030",
+      "source_id": "soul_022",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.419009",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 47.32,
+      "description": "Tribute from Cracoria Masters (soul_024) - marketing via AFF",
+      "timestamp": "2026-08-16 13:14:25.419020",
+      "source_id": "soul_024",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.424422",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 32.72,
+      "description": "Tribute from Unzoba Vyner (soul_018) - infrastructure via twitter",
+      "timestamp": "2026-08-16 13:14:25.424433",
+      "source_id": "soul_018",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.429439",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 170.6,
+      "description": "Tribute from Weila Vite (soul_026) - operations via youtube",
+      "timestamp": "2026-08-16 13:14:25.429447",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.43504",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 36.21,
+      "description": "Tribute from Weila Vite (soul_026) - legal via reddit",
+      "timestamp": "2026-08-16 13:14:25.435049",
+      "source_id": "soul_026",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.440673",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 136.64,
+      "description": "Tribute from Endus Boverord (soul_028) - research via reddit",
+      "timestamp": "2026-08-16 13:14:25.440681",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.446391",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 17.82,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - content via reddit",
+      "timestamp": "2026-08-16 13:14:25.446405",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.453385",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 27.63,
+      "description": "Tribute from Ann Stray (soul_021) - legal via twitter",
+      "timestamp": "2026-08-16 13:14:25.453396",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.459015",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 10.61,
+      "description": "Tribute from Ann Stray (soul_021) - operations via twitter",
+      "timestamp": "2026-08-16 13:14:25.459024",
+      "source_id": "soul_021",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.464452",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 72.0,
+      "description": "Tribute from Mary Magnumbytes (soul_002) - content via twitter",
+      "timestamp": "2026-08-16 13:14:25.464460",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.469684",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 46.41,
+      "description": "Tribute from Bain Kha'ak (soul_016) - marketing via reddit",
+      "timestamp": "2026-08-16 13:14:25.469693",
+      "source_id": "soul_016",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.475211",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 228.93,
+      "description": "Tribute from Endus Boverord (soul_028) - operations via AFF",
+      "timestamp": "2026-08-16 13:14:25.475220",
+      "source_id": "soul_028",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.481345",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 41.28,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - infrastructure via instagram",
+      "timestamp": "2026-08-16 13:14:25.481355",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.48752",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 19.56,
+      "description": "Tribute from Dixon Uhbuts (soul_003) - research via AFF",
+      "timestamp": "2026-08-16 13:14:25.487530",
+      "source_id": "soul_003",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.4933",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 97.19,
+      "description": "Tribute from Babelonia Nocturne (soul_007) - legal via youtube",
+      "timestamp": "2026-08-16 13:14:25.493307",
+      "source_id": "soul_007",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.499596",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 40.52,
+      "description": "Tribute from Mary Magnumbytes (soul_002) - content via youtube",
+      "timestamp": "2026-08-16 13:14:25.499607",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.505435",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 38.63,
+      "description": "Tribute from Unzoba Vyner (soul_018) - community via discord",
+      "timestamp": "2026-08-16 13:14:25.505447",
+      "source_id": "soul_018",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.511621",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 24.15,
+      "description": "Tribute from Liangivalla Pouchaquehe (soul_006) - legal via AFF",
+      "timestamp": "2026-08-16 13:14:25.511632",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.517513",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 35.49,
+      "description": "Tribute from Ovaihge Wittminers (soul_019) - development via AFF",
+      "timestamp": "2026-08-16 13:14:25.517521",
+      "source_id": "soul_019",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.523217",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 37.22,
+      "description": "Tribute from Airiol Uhbuts (soul_004) - marketing via reddit",
+      "timestamp": "2026-08-16 13:14:25.523225",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1786911265.528903",
+      "transaction_type": "tribute",
+      "category": "tribute_contribution",
+      "amount": 130.87,
+      "description": "Tribute from Shielah Trapewe (soul_017) - content via tiktok",
+      "timestamp": "2026-08-16 13:14:25.528921",
+      "source_id": "soul_017",
+      "destination_id": null,
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      },
+      "status": "completed",
+      "reconciled": false
+    }
+  ],
+  "budget_limits": {},
+  "financial_goals": {},
+  "last_updated": "2026-08-16T13:14:25.530593"
+}

@@ -1,0 +1,11 @@
+{
+  "contact_import_template": {
+    "name": "Contact Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "category": "Category (potential_members, current_members, collaborators, influencers)",
+    "notes": "Notes about contact",
+    "platform": "Platform where connected (Twitter, Discord, etc.)",
+    "archetype_interest": "If interested, which archetype resonates?"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "soul_id": "soul_002",
+  "name": "Mary Magnumbytes",
+  "archetype": "Divine Mother",
+  "account_setup": {
+    "recommended_handle": "@marymagnumbytes_tiapmaatzu",
+    "alternative_handles": [
+      "@marymagnumbytes_HueMan-i-Terry",
+      "@divine mother_marymagnumbytes",
+      "@tiapmaatzu_marymagnumbytes"
+    ],
+    "email": "mary.magnum@HueMan-i-Terryleaders.com",
+    "account_type": "Creator account",
+    "display_name": "Mary Magnumbytes",
+    "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@marymagnumbytes_tiapmaatzu",
+    "display_name": "Mary Magnumbytes",
+    "bio": "Divine Mother | Let me hold your darkness. | Supports HueMan-i-Terry families and em | Link in bio for HueMan-i-Terry",
+    "profile_picture": "https://HueMan-i-Terry.arweave/mary.png",
+    "website": "https://tiapmaatzu.web.app",
+    "story_highlights": [
+      "\ud83c\udfdb\ufe0f About Me",
+      "\u2728 Wisdom",
+      "\ud83d\udd25 Rituals",
+      "\ud83c\udf1f HueMan-i-Terry",
+      "\ud83c\udfaf Impact",
+      "\ud83d\udc97 Nurturing",
+      "\ud83c\udf38 Healing",
+      "\ud83d\udc68\u200d\ud83d\udc69 Family"
+    ],
+    "contact_button": "Email",
+    "account_category": "Creator"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "divine mother",
+      "Nurturing others",
+      "Supports"
+    ],
+    "content_types": {
+      "posts": "Let me hold your darkness. with visuals",
+      "stories": "Daily Divine Mother insights and behind-the-scenes",
+      "reels": "Viral Divine Mother content with trending audio",
+      "igtv": "Long-form Divine Mother teachings and rituals"
+    },
+    "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+    "best_times": [
+      "11 AM",
+      "7 PM",
+      "9 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#DivineMother",
+      "#Nurturingothers",
+      "#Creativeexpression",
+      "#Emotionaldepth"
+    ],
+    "visual_theme": "Divine Mother aesthetic with tribal branding"
+  },
+  "visual_strategy": {
+    "color_scheme": {
+      "primary": "#FF69B4",
+      "secondary": "#FFB6C1",
+      "accent": "#FFFFFF"
+    },
+    "visual_themes": [
+      "Nurturing",
+      "Soft",
+      "Floral",
+      "Warm",
+      "Motherly"
+    ],
+    "content_style": "Nurturing and warm aesthetic",
+    "consistency": "Maintain consistent visual identity across all content"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+    "engagement_style": "Personal, warm, archetype-appropriate",
+    "story_responses": "Respond to story mentions and DMs within 12 hours",
+    "live_streams": "Host weekly Instagram Live sessions",
+    "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+  },
+  "posting_schedule": {
+    "daily_posts": 1,
+    "daily_stories": 3,
+    "weekly_reels": 2,
+    "monthly_igtv": 1,
+    "weekly_lives": 1,
+    "optimal_times": [
+      "11 AM",
+      "7 PM",
+      "9 PM"
+    ],
+    "content_mix": {
+      "posts": "40%",
+      "stories": "40%",
+      "reels": "15%",
+      "igtv": "5%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 1000,
+    "month_3": 2000,
+    "month_6": 5000,
+    "month_12": 10000
+  },
+  "tools_setup": {
+    "essential": [
+      "Instagram Creator Studio",
+      "Instagram Insights"
+    ],
+    "recommended": [
+      "Buffer",
+      "Later",
+      "Iconosquare"
+    ],
+    "advanced": [
+      "Hootsuite",
+      "Sprout Social",
+      "Canva"
+    ]
+  }
+}

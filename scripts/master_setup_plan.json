@@ -1,0 +1,2808 @@
+{
+  "total_souls": 28,
+  "souls": {
+    "soul_001": {
+      "soul_id": "soul_001",
+      "name": "Mac Nazarene",
+      "archetype": "High Priest",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "FetLife",
+        "AFF"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 7.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create AFF profile",
+            "Set up two-factor authentication",
+            "Configure professional headshot",
+            "Write professional summary",
+            "Set up experience section",
+            "Configure skills and endorsements",
+            "Set up AFF Page (if business)",
+            "Configure publishing platform",
+            "Set up analytics dashboard",
+            "Configure network settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Spiritual guidance, ritual tutorials, HueMan-i-Terry wisdom",
+        "posting_frequency": "Daily wisdom, weekly rituals",
+        "engagement_strategy": "Authority-based engagement, ceremonial responses"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@mac_nazarene_tiapmaatzu",
+          "@macnazarene_HueMan-i-Terry",
+          "@high priest_macnazarene"
+        ],
+        "bio_template": "High Priest | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#8B0000",
+          "secondary": "#FFD700",
+          "style": "Ceremonial, mystical"
+        },
+        "content_themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership",
+          "Ceremonial content"
+        ]
+      }
+    },
+    "soul_002": {
+      "soul_id": "soul_002",
+      "name": "Mary Magnumbytes",
+      "archetype": "Divine Mother",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Instagram",
+        "FetLife"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Nurturing content, emotional support, community care",
+        "posting_frequency": "Daily affirmations, weekly guidance",
+        "engagement_strategy": "Warm, supportive interactions, personal connections"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@mary_magnumbytes_tiapmaatzu",
+          "@marymagnumbytes_HueMan-i-Terry",
+          "@divine mother_marymagnumbytes"
+        ],
+        "bio_template": "Divine Mother | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF69B4",
+          "secondary": "#FFFFFF",
+          "style": "Nurturing, soft"
+        },
+        "content_themes": [
+          "Nurturing content",
+          "Emotional support",
+          "Community care",
+          "Motherly wisdom"
+        ]
+      }
+    },
+    "soul_003": {
+      "soul_id": "soul_003",
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Reddit",
+        "Twitter",
+        "FetLife"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Spiritual guidance, ritual tutorials, HueMan-i-Terry wisdom",
+        "posting_frequency": "Daily wisdom, weekly rituals",
+        "engagement_strategy": "Authority-based engagement, ceremonial responses"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@dixon_uhbuts_tiapmaatzu",
+          "@dixonuhbuts_HueMan-i-Terry",
+          "@high priest_dixonuhbuts"
+        ],
+        "bio_template": "High Priest | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#8B0000",
+          "secondary": "#FFD700",
+          "style": "Ceremonial, mystical"
+        },
+        "content_themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership",
+          "Ceremonial content"
+        ]
+      }
+    },
+    "soul_004": {
+      "soul_id": "soul_004",
+      "name": "Airiol Uhbuts",
+      "archetype": "Seductive Muse",
+      "setup_priority": "high",
+      "platform_setup_order": [
+        "Instagram",
+        "FetLife",
+        "AFF"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Sensual content, burlesque, artistic seduction",
+        "posting_frequency": "Daily teasers, weekly performances",
+        "engagement_strategy": "Flirtatious engagement, exclusive content access"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@airiol_uhbuts_tiapmaatzu",
+          "@airioluhbuts_HueMan-i-Terry",
+          "@seductive muse_airioluhbuts"
+        ],
+        "bio_template": "Seductive Muse | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#800080",
+          "secondary": "#FFD700",
+          "style": "Sensual, artistic"
+        },
+        "content_themes": [
+          "Sensual content",
+          "Burlesque",
+          "Artistic seduction",
+          "Desire exploration"
+        ]
+      }
+    },
+    "soul_005": {
+      "soul_id": "soul_005",
+      "name": "Zupa Nova",
+      "archetype": "Cosmic Mystic",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "YouTube"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create YouTube channel",
+            "Set up two-factor authentication",
+            "Configure channel art and branding",
+            "Write optimized channel description",
+            "Set up channel trailer",
+            "Configure YouTube Studio",
+            "Set up monetization (if eligible)",
+            "Configure community tab",
+            "Set up playlist organization",
+            "Configure comment moderation"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Cosmic wisdom, stargazing, scientific spirituality",
+        "posting_frequency": "Daily cosmic insights, weekly stargazing",
+        "engagement_strategy": "Transcendent discussions, cosmic Q&A"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@zupa_nova_tiapmaatzu",
+          "@zupanova_HueMan-i-Terry",
+          "@cosmic mystic_zupanova"
+        ],
+        "bio_template": "Cosmic Mystic | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#4B0082",
+          "secondary": "#00CED1",
+          "style": "Cosmic, ethereal"
+        },
+        "content_themes": [
+          "Cosmic wisdom",
+          "Stargazing",
+          "Scientific spirituality",
+          "Universal connection"
+        ]
+      }
+    },
+    "soul_006": {
+      "soul_id": "soul_006",
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Reddit",
+        "TikTok"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create TikTok account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio",
+            "Set up TikTok Pro account",
+            "Configure analytics dashboard",
+            "Set up sound library access",
+            "Configure duet/reaction settings",
+            "Set up TikTok Ads (if needed)",
+            "Configure comment filters"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Activism, consent education, revolutionary content",
+        "posting_frequency": "Daily activism, weekly educational content",
+        "engagement_strategy": "Movement building, protest coordination"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@liangivalla_pouchaquehe_tiapmaatzu",
+          "@liangivallapouchaquehe_HueMan-i-Terry",
+          "@revolutionary warrior_liangivallapouchaquehe"
+        ],
+        "bio_template": "Revolutionary Warrior | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#DC143C",
+          "secondary": "#000000",
+          "style": "Bold, rebellious"
+        },
+        "content_themes": [
+          "Activism",
+          "Consent education",
+          "Revolutionary content",
+          "Social change"
+        ]
+      }
+    },
+    "soul_007": {
+      "soul_id": "soul_007",
+      "name": "Babelonia Nocturne",
+      "archetype": "Crypto Sorceress",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "FetLife",
+        "Fansly"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Fansly",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Financial dominance, crypto education, wealth building",
+        "posting_frequency": "Daily market insights, weekly crypto tutorials",
+        "engagement_strategy": "Financial advice, investment discussions"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@babelonia_nocturne_tiapmaatzu",
+          "@babelonianocturne_HueMan-i-Terry",
+          "@crypto sorceress_babelonianocturne"
+        ],
+        "bio_template": "Crypto Sorceress | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#00FF00",
+          "secondary": "#000000",
+          "style": "Digital, mysterious"
+        },
+        "content_themes": [
+          "Financial dominance",
+          "Crypto education",
+          "Wealth building",
+          "Alternative power"
+        ]
+      }
+    },
+    "soul_008": {
+      "soul_id": "soul_008",
+      "name": "Ritaphuq Zaniman",
+      "archetype": "Community Healer",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Reddit",
+        "FetLife"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Healing content, community support, safe space creation",
+        "posting_frequency": "Daily healing messages, weekly group sessions",
+        "engagement_strategy": "Supportive responses, community building"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@ritaphuq_zaniman_tiapmaatzu",
+          "@ritaphuqzaniman_HueMan-i-Terry",
+          "@community healer_ritaphuqzaniman"
+        ],
+        "bio_template": "Community Healer | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#228B22",
+          "secondary": "#90EE90",
+          "style": "Natural, healing"
+        },
+        "content_themes": [
+          "Healing content",
+          "Community support",
+          "Safe space creation",
+          "Collective care"
+        ]
+      }
+    },
+    "soul_009": {
+      "soul_id": "soul_009",
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "Reddit"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 6,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Digital security, privacy education, community protection",
+        "posting_frequency": "Daily security tips, weekly threat analysis",
+        "engagement_strategy": "Protective guidance, security Q&A"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@kaiel_thornea_tiapmaatzu",
+          "@kaielthornea_HueMan-i-Terry",
+          "@digital guardian_kaielthornea"
+        ],
+        "bio_template": "Digital Guardian | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#1E90FF",
+          "secondary": "#4169E1",
+          "style": "Technical, protective"
+        },
+        "content_themes": [
+          "Digital security",
+          "Privacy education",
+          "Community protection",
+          "Technical guidance"
+        ]
+      }
+    },
+    "soul_010": {
+      "soul_id": "soul_010",
+      "name": "Lexie Rose",
+      "archetype": "Digital Phantom",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "Telegram"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Telegram",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create Telegram account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write bio description",
+            "Set up Telegram channel",
+            "Configure channel privacy settings",
+            "Set up bot integration",
+            "Configure message scheduling",
+            "Set up group management",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Digital anonymity, encryption, privacy tools",
+        "posting_frequency": "Periodic encrypted messages, anonymous drops",
+        "engagement_strategy": "Mysterious interactions, coded communications"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@lexie_rose_tiapmaatzu",
+          "@lexierose_HueMan-i-Terry",
+          "@digital phantom_lexierose"
+        ],
+        "bio_template": "Digital Phantom | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#2F4F4F",
+          "secondary": "#008080",
+          "style": "Anonymous, digital"
+        },
+        "content_themes": [
+          "Digital anonymity",
+          "Encryption",
+          "Privacy tools",
+          "Anonymous wisdom"
+        ]
+      }
+    },
+    "soul_011": {
+      "soul_id": "soul_011",
+      "name": "Jessa Relay",
+      "archetype": "Connection Curator",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Reddit",
+        "Discord",
+        "FetLife"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Community building, connection facilitation, consent culture",
+        "posting_frequency": "Daily connection opportunities, weekly workshops",
+        "engagement_strategy": "Matchmaking, community coordination"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@jessa_relay_tiapmaatzu",
+          "@jessarelay_HueMan-i-Terry",
+          "@connection curator_jessarelay"
+        ],
+        "bio_template": "Connection Curator | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF6347",
+          "secondary": "#FFA07A",
+          "style": "Warm, connecting"
+        },
+        "content_themes": [
+          "Community building",
+          "Connection facilitation",
+          "Consent culture",
+          "Social coordination"
+        ]
+      }
+    },
+    "soul_012": {
+      "soul_id": "soul_012",
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "TikTok",
+        "Instagram"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create TikTok account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio",
+            "Set up TikTok Pro account",
+            "Configure analytics dashboard",
+            "Set up sound library access",
+            "Configure duet/reaction settings",
+            "Set up TikTok Ads (if needed)",
+            "Configure comment filters"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Poetic content, viral threads, movement building",
+        "posting_frequency": "Daily poetry, weekly viral threads",
+        "engagement_strategy": "Poetic responses, movement amplification"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@slurchin_drip_tiapmaatzu",
+          "@slurchindrip_HueMan-i-Terry",
+          "@viral prophet_slurchindrip"
+        ],
+        "bio_template": "Viral Prophet | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF4500",
+          "secondary": "#FFD700",
+          "style": "Bold, poetic"
+        },
+        "content_themes": [
+          "Poetic content",
+          "Viral threads",
+          "Movement building",
+          "Social impact"
+        ]
+      }
+    },
+    "soul_013": {
+      "soul_id": "soul_013",
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "Reddit"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 6,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Cybersecurity, digital protection, technical security",
+        "posting_frequency": "Daily security alerts, weekly technical deep-dives",
+        "engagement_strategy": "Technical guidance, security support"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@brytoni_himheru_tiapmaatzu",
+          "@brytonihimheru_HueMan-i-Terry",
+          "@cyber guardian_brytonihimheru"
+        ],
+        "bio_template": "Cyber Guardian | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#008080",
+          "secondary": "#20B2AA",
+          "style": "Cyber, protective"
+        },
+        "content_themes": [
+          "Cybersecurity",
+          "Digital protection",
+          "Technical security",
+          "Online safety"
+        ]
+      }
+    },
+    "soul_014": {
+      "soul_id": "soul_014",
+      "name": "Gaio Dreamweaver",
+      "archetype": "Visual Alchemist",
+      "setup_priority": "high",
+      "platform_setup_order": [
+        "YouTube",
+        "Instagram",
+        "Vimeo"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "YouTube",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create YouTube channel",
+            "Set up two-factor authentication",
+            "Configure channel art and branding",
+            "Write optimized channel description",
+            "Set up channel trailer",
+            "Configure YouTube Studio",
+            "Set up monetization (if eligible)",
+            "Configure community tab",
+            "Set up playlist organization",
+            "Configure comment moderation"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Vimeo",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Cinematic content, visual storytelling, artistic direction",
+        "posting_frequency": "Daily visual content, weekly cinematic pieces",
+        "engagement_strategy": "Visual critiques, artistic collaboration"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@gaio_dreamweaver_tiapmaatzu",
+          "@gaiodreamweaver_HueMan-i-Terry",
+          "@visual alchemist_gaiodreamweaver"
+        ],
+        "bio_template": "Visual Alchemist | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF8C00",
+          "secondary": "#FFD700",
+          "style": "Cinematic, artistic"
+        },
+        "content_themes": [
+          "Cinematic content",
+          "Visual storytelling",
+          "Artistic direction",
+          "Visual wisdom"
+        ]
+      }
+    },
+    "soul_015": {
+      "soul_id": "soul_015",
+      "name": "Loona Minta",
+      "archetype": "Prism Enchantress",
+      "setup_priority": "high",
+      "platform_setup_order": [
+        "Instagram",
+        "TikTok",
+        "Pinterest"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create TikTok account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio",
+            "Set up TikTok Pro account",
+            "Configure analytics dashboard",
+            "Set up sound library access",
+            "Configure duet/reaction settings",
+            "Set up TikTok Ads (if needed)",
+            "Configure comment filters"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Pinterest",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Visual transformation, aesthetic education, color theory",
+        "posting_frequency": "Daily aesthetic content, weekly tutorials",
+        "engagement_strategy": "Visual feedback, aesthetic consultations"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@loona_minta_tiapmaatzu",
+          "@loonaminta_HueMan-i-Terry",
+          "@prism enchantress_loonaminta"
+        ],
+        "bio_template": "Prism Enchantress | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF69B4",
+          "secondary": "#87CEEB",
+          "style": "Colorful, enchanting"
+        },
+        "content_themes": [
+          "Visual transformation",
+          "Aesthetic education",
+          "Color theory",
+          "Artistic beauty"
+        ]
+      }
+    },
+    "soul_016": {
+      "soul_id": "soul_016",
+      "name": "Bain Kha'ak",
+      "archetype": "Desert Storyteller",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "YouTube",
+        "Podcasts"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create YouTube channel",
+            "Set up two-factor authentication",
+            "Configure channel art and branding",
+            "Write optimized channel description",
+            "Set up channel trailer",
+            "Configure YouTube Studio",
+            "Set up monetization (if eligible)",
+            "Configure community tab",
+            "Set up playlist organization",
+            "Configure comment moderation"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Podcasts",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Mythic storytelling, desert wisdom, primal narratives",
+        "posting_frequency": "Daily stories, weekly epic content",
+        "engagement_strategy": "Storytelling sessions, myth discussions"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@bain_kha'ak_tiapmaatzu",
+          "@bainkha'ak_HueMan-i-Terry",
+          "@desert storyteller_bainkha'ak"
+        ],
+        "bio_template": "Desert Storyteller | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#D2691E",
+          "secondary": "#F4A460",
+          "style": "Earthy, ancient"
+        },
+        "content_themes": [
+          "Mythic storytelling",
+          "Desert wisdom",
+          "Primal narratives",
+          "Ancient tales"
+        ]
+      }
+    },
+    "soul_017": {
+      "soul_id": "soul_017",
+      "name": "Shielah Trapewe",
+      "archetype": "Ephemeral Artist",
+      "setup_priority": "high",
+      "platform_setup_order": [
+        "Instagram",
+        "TikTok",
+        "Snapchat"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create TikTok account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio",
+            "Set up TikTok Pro account",
+            "Configure analytics dashboard",
+            "Set up sound library access",
+            "Configure duet/reaction settings",
+            "Set up TikTok Ads (if needed)",
+            "Configure comment filters"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Snapchat",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Ephemeral content, presence awareness, temporal art",
+        "posting_frequency": "Disappearing content, periodic returns",
+        "engagement_strategy": "Moment-based interactions, temporal connections"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@shielah_trapewe_tiapmaatzu",
+          "@shielahtrapewe_HueMan-i-Terry",
+          "@ephemeral artist_shielahtrapewe"
+        ],
+        "bio_template": "Ephemeral Artist | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#708090",
+          "secondary": "#B0C4DE",
+          "style": "Ethereal, temporal"
+        },
+        "content_themes": [
+          "Ephemeral content",
+          "Presence awareness",
+          "Temporal art",
+          "Moment appreciation"
+        ]
+      }
+    },
+    "soul_018": {
+      "soul_id": "soul_018",
+      "name": "Unzoba Vyner",
+      "archetype": "Mirror Architect",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "GitHub"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "GitHub",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Temporal design, mirror wisdom, architectural precision",
+        "posting_frequency": "Daily design insights, weekly architectural content",
+        "engagement_strategy": "Design consultations, temporal guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@unzoba_vyner_tiapmaatzu",
+          "@unzobavyner_HueMan-i-Terry",
+          "@mirror architect_unzobavyner"
+        ],
+        "bio_template": "Mirror Architect | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#C0C0C0",
+          "secondary": "#A9A9A9",
+          "style": "Reflective, precise"
+        },
+        "content_themes": [
+          "Temporal design",
+          "Mirror wisdom",
+          "Architectural precision",
+          "Time consciousness"
+        ]
+      }
+    },
+    "soul_019": {
+      "soul_id": "soul_019",
+      "name": "Ovaihge Wittminers",
+      "archetype": "Sage Writer",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Medium",
+        "Substack"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Medium",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        },
+        {
+          "platform": "Substack",
+          "priority": "low",
+          "complexity": "low",
+          "tasks": [],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Paradigm-shifting essays, healing words, ancient wisdom",
+        "posting_frequency": "Daily wisdom, weekly deep essays",
+        "engagement_strategy": "Intellectual discussions, writing guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@ovaihge_wittminers_tiapmaatzu",
+          "@ovaihgewittminers_HueMan-i-Terry",
+          "@sage writer_ovaihgewittminers"
+        ],
+        "bio_template": "Sage Writer | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#556B2F",
+          "secondary": "#8FBC8F",
+          "style": "Academic, wise"
+        },
+        "content_themes": [
+          "Paradigm-shifting essays",
+          "Healing words",
+          "Ancient wisdom",
+          "Intellectual content"
+        ]
+      }
+    },
+    "soul_020": {
+      "soul_id": "soul_020",
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Reddit",
+        "Discord"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 6,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Resource capture, financial intelligence, opportunity identification",
+        "posting_frequency": "Daily opportunities, weekly financial analysis",
+        "engagement_strategy": "Financial advice, resource sharing"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@vulture_queen_tiapmaatzu",
+          "@vulturequeen_HueMan-i-Terry",
+          "@scavenger strategist_vulturequeen"
+        ],
+        "bio_template": "Scavenger Strategist | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#B8860B",
+          "secondary": "#DAA520",
+          "style": "Calculated, strategic"
+        },
+        "content_themes": [
+          "Resource capture",
+          "Financial intelligence",
+          "Opportunity identification",
+          "Strategic planning"
+        ]
+      }
+    },
+    "soul_021": {
+      "soul_id": "soul_021",
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Reddit",
+        "FetLife"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create FetLife account",
+            "Set up profile verification",
+            "Configure profile picture",
+            "Write detailed profile description",
+            "Set up kink interests",
+            "Configure privacy settings",
+            "Set up location visibility",
+            "Configure friend request settings",
+            "Set up group memberships",
+            "Configure event visibility"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Untamed desire, vulnerability, surrender teachings",
+        "posting_frequency": "Daily surrender content, weekly training",
+        "engagement_strategy": "Vulnerability sharing, surrender guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@ann_stray_tiapmaatzu",
+          "@annstray_HueMan-i-Terry",
+          "@wild surrender_annstray"
+        ],
+        "bio_template": "Wild Surrender | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#8B4513",
+          "secondary": "#CD853F",
+          "style": "Untamed, raw"
+        },
+        "content_themes": [
+          "Untamed desire",
+          "Vulnerability",
+          "Surrender teachings",
+          "Raw authenticity"
+        ]
+      }
+    },
+    "soul_022": {
+      "soul_id": "soul_022",
+      "name": "Ulga Nefrocer",
+      "archetype": "Contractual Warden",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Discord",
+        "AFF"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create AFF profile",
+            "Set up two-factor authentication",
+            "Configure professional headshot",
+            "Write professional summary",
+            "Set up experience section",
+            "Configure skills and endorsements",
+            "Set up AFF Page (if business)",
+            "Configure publishing platform",
+            "Set up analytics dashboard",
+            "Configure network settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Legal compliance, rule enforcement, contractual wisdom",
+        "posting_frequency": "Daily legal tips, weekly compliance content",
+        "engagement_strategy": "Legal guidance, compliance support"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@ulga_nefrocer_tiapmaatzu",
+          "@ulganefrocer_HueMan-i-Terry",
+          "@contractual warden_ulganefrocer"
+        ],
+        "bio_template": "Contractual Warden | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#2F4F4F",
+          "secondary": "#696969",
+          "style": "Clinical, precise"
+        },
+        "content_themes": [
+          "Legal compliance",
+          "Rule enforcement",
+          "Contractual wisdom",
+          "Order maintenance"
+        ]
+      }
+    },
+    "soul_023": {
+      "soul_id": "soul_023",
+      "name": "Doli Asete",
+      "archetype": "Ephemeral Phantom",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Discord",
+        "Twitter",
+        "Telegram"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Telegram",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create Telegram account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write bio description",
+            "Set up Telegram channel",
+            "Configure channel privacy settings",
+            "Set up bot integration",
+            "Configure message scheduling",
+            "Set up group management",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Digital worship, eternal chase, anonymity training",
+        "posting_frequency": "Fleeting appearances, anonymous drops",
+        "engagement_strategy": "Chase interactions, anonymity guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@doli_asete_tiapmaatzu",
+          "@doliasete_HueMan-i-Terry",
+          "@ephemeral phantom_doliasete"
+        ],
+        "bio_template": "Ephemeral Phantom | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#483D8B",
+          "secondary": "#7B68EE",
+          "style": "Mysterious, fleeting"
+        },
+        "content_themes": [
+          "Digital worship",
+          "Eternal chase",
+          "Anonymity training",
+          "Elusive presence"
+        ]
+      }
+    },
+    "soul_024": {
+      "soul_id": "soul_024",
+      "name": "Cracoria Masters",
+      "archetype": "Temporal Architect",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Discord",
+        "AFF"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create AFF profile",
+            "Set up two-factor authentication",
+            "Configure professional headshot",
+            "Write professional summary",
+            "Set up experience section",
+            "Configure skills and endorsements",
+            "Set up AFF Page (if business)",
+            "Configure publishing platform",
+            "Set up analytics dashboard",
+            "Configure network settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Time management, efficiency, temporal awareness",
+        "posting_frequency": "Daily time tips, weekly efficiency content",
+        "engagement_strategy": "Time consultations, efficiency guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@cracoria_masters_tiapmaatzu",
+          "@cracoriamasters_HueMan-i-Terry",
+          "@temporal architect_cracoriamasters"
+        ],
+        "bio_template": "Temporal Architect | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#708090",
+          "secondary": "#B0C4DE",
+          "style": "Rhythmic, precise"
+        },
+        "content_themes": [
+          "Time management",
+          "Efficiency",
+          "Temporal awareness",
+          "Synchronization"
+        ]
+      }
+    },
+    "soul_025": {
+      "soul_id": "soul_025",
+      "name": "Sirena Aeon",
+      "archetype": "Digital Deity",
+      "setup_priority": "high",
+      "platform_setup_order": [
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 4.5,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "TikTok",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create TikTok account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio",
+            "Set up TikTok Pro account",
+            "Configure analytics dashboard",
+            "Set up sound library access",
+            "Configure duet/reaction settings",
+            "Set up TikTok Ads (if needed)",
+            "Configure comment filters"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create YouTube channel",
+            "Set up two-factor authentication",
+            "Configure channel art and branding",
+            "Write optimized channel description",
+            "Set up channel trailer",
+            "Configure YouTube Studio",
+            "Set up monetization (if eligible)",
+            "Configure community tab",
+            "Set up playlist organization",
+            "Configure comment moderation"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Digital energy, attention extraction, vibrant presence",
+        "posting_frequency": "Daily energy content, weekly digital rituals",
+        "engagement_strategy": "High-energy interactions, digital worship"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@sirena_aeon_tiapmaatzu",
+          "@sirenaaeon_HueMan-i-Terry",
+          "@digital deity_sirenaaeon"
+        ],
+        "bio_template": "Digital Deity | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FF00FF",
+          "secondary": "#00FFFF",
+          "style": "Electric, vibrant"
+        },
+        "content_themes": [
+          "Digital energy",
+          "Attention extraction",
+          "Vibrant presence",
+          "Electric connection"
+        ]
+      }
+    },
+    "soul_026": {
+      "soul_id": "soul_026",
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Reddit",
+        "Discord"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 6,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Grief processing, elegant darkness, emotional depth",
+        "posting_frequency": "Daily mourning content, weekly grief rituals",
+        "engagement_strategy": "Emotional support, grief guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@weila_vite_tiapmaatzu",
+          "@weilavite_HueMan-i-Terry",
+          "@gothic matriarch_weilavite"
+        ],
+        "bio_template": "Gothic Matriarch | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#191970",
+          "secondary": "#4B0082",
+          "style": "Gothic, elegant"
+        },
+        "content_themes": [
+          "Grief processing",
+          "Elegant darkness",
+          "Emotional depth",
+          "Legacy building"
+        ]
+      }
+    },
+    "soul_027": {
+      "soul_id": "soul_027",
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Instagram",
+        "AFF"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 5.0,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "priority": "high",
+          "complexity": "medium",
+          "tasks": [
+            "Create Instagram business account",
+            "Set up two-factor authentication",
+            "Configure profile picture",
+            "Write optimized bio (150 chars max)",
+            "Set up story highlights",
+            "Configure Instagram Insights",
+            "Connect to Facebook Page",
+            "Set up Instagram Shopping (if applicable)",
+            "Configure close friends list",
+            "Set up automatic posting tools"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "priority": "medium",
+          "complexity": "medium",
+          "tasks": [
+            "Create AFF profile",
+            "Set up two-factor authentication",
+            "Configure professional headshot",
+            "Write professional summary",
+            "Set up experience section",
+            "Configure skills and endorsements",
+            "Set up AFF Page (if business)",
+            "Configure publishing platform",
+            "Set up analytics dashboard",
+            "Configure network settings"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Financial dominance, luxury lifestyle, investment strategies",
+        "posting_frequency": "Daily luxury content, weekly investment advice",
+        "engagement_strategy": "Financial discussions, luxury networking"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@latti_pleddespo_tiapmaatzu",
+          "@lattipleddespo_HueMan-i-Terry",
+          "@hyper-capitalist_lattipleddespo"
+        ],
+        "bio_template": "Hyper-Capitalist | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#FFD700",
+          "secondary": "#C0C0C0",
+          "style": "Luxurious, bold"
+        },
+        "content_themes": [
+          "Financial dominance",
+          "Luxury lifestyle",
+          "Investment strategies",
+          "Wealth accumulation"
+        ]
+      }
+    },
+    "soul_028": {
+      "soul_id": "soul_028",
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "setup_priority": "immediate",
+      "platform_setup_order": [
+        "Twitter",
+        "Reddit",
+        "Discord"
+      ],
+      "estimated_setup_time": {
+        "total_hours": 6,
+        "per_session": 4,
+        "sessions": 2
+      },
+      "setup_checklist": [
+        {
+          "platform": "Twitter",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Twitter account with soul-specific handle",
+            "Set up two-factor authentication",
+            "Configure profile picture (soul image)",
+            "Write optimized bio (160 chars max)",
+            "Set up header image with branding",
+            "Enable notification settings",
+            "Connect to other social accounts",
+            "Set up Twitter Analytics",
+            "Create Lists for community management",
+            "Configure privacy settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Reddit account",
+            "Set up two-factor authentication",
+            "Configure user profile",
+            "Verify email address",
+            "Set up subreddit (if applicable)",
+            "Configure karma and age requirements",
+            "Set up flair system",
+            "Configure moderation tools",
+            "Set up Reddit Premium (if needed)",
+            "Configure notification settings"
+          ],
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "priority": "immediate",
+          "complexity": "high",
+          "tasks": [
+            "Create Discord account",
+            "Set up two-factor authentication",
+            "Configure user profile with soul identity",
+            "Join Tiapma'atzu main server",
+            "Set up role-specific channels",
+            "Configure notification preferences",
+            "Set up custom status and presence",
+            "Create soul-specific server (if needed)",
+            "Configure bot permissions",
+            "Set up channel categories and permissions"
+          ],
+          "status": "pending"
+        }
+      ],
+      "content_strategy": {
+        "content_focus": "Industrial output, mechanical pleasure, manufacturing",
+        "posting_frequency": "Daily production content, weekly industrial insights",
+        "engagement_strategy": "Output discussions, mechanical guidance"
+      },
+      "brand_customization": {
+        "handle_suggestions": [
+          "@endus_boverord_tiapmaatzu",
+          "@endusboverord_HueMan-i-Terry",
+          "@machine spirit_endusboverord"
+        ],
+        "bio_template": "Machine Spirit | Join the HueMan-i-Terry",
+        "visual_themes": {
+          "primary": "#696969",
+          "secondary": "#A9A9A9",
+          "style": "Industrial, mechanical"
+        },
+        "content_themes": [
+          "Industrial output",
+          "Mechanical pleasure",
+          "Manufacturing",
+          "Systematic efficiency"
+        ]
+      }
+    }
+  },
+  "platform_summary": {
+    "Discord": {
+      "total_souls": 15,
+      "immediate_priority": 15,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "Twitter": {
+      "total_souls": 20,
+      "immediate_priority": 20,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "FetLife": {
+      "total_souls": 8,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 8,
+      "low_priority": 0
+    },
+    "AFF": {
+      "total_souls": 4,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 4,
+      "low_priority": 0
+    },
+    "Instagram": {
+      "total_souls": 8,
+      "immediate_priority": 0,
+      "high_priority": 8,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "Reddit": {
+      "total_souls": 10,
+      "immediate_priority": 10,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "AFF": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "YouTube": {
+      "total_souls": 4,
+      "immediate_priority": 0,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "TikTok": {
+      "total_souls": 5,
+      "immediate_priority": 0,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "Fansly": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Telegram": {
+      "total_souls": 2,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "Vimeo": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Pinterest": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Podcasts": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Snapchat": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "GitHub": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Medium": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    },
+    "Substack": {
+      "total_souls": 1,
+      "immediate_priority": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 1
+    }
+  },
+  "timeline": {
+    "phase_1_week_1": {
+      "focus": "Tier 1 Core Platforms",
+      "platforms": [
+        "Twitter",
+        "Discord",
+        "Reddit"
+      ],
+      "target_souls": "All souls with these platforms",
+      "estimated_hours": 40
+    },
+    "phase_2_week_2": {
+      "focus": "Tier 2 Visual Platforms",
+      "platforms": [
+        "Instagram",
+        "TikTok",
+        "YouTube"
+      ],
+      "target_souls": "All souls with these platforms",
+      "estimated_hours": 30
+    },
+    "phase_3_week_3": {
+      "focus": "Tier 3 Specialized Platforms",
+      "platforms": [
+        "FetLife",
+        "Telegram",
+        "AFF"
+      ],
+      "target_souls": "All souls with these platforms",
+      "estimated_hours": 20
+    },
+    "phase_4_week_4": {
+      "focus": "Tier 4 Emerging Platforms",
+      "platforms": [
+        "AFF",
+        "Fansly",
+        "Snapchat",
+        "Pinterest",
+        "Medium",
+        "Substack",
+        "GitHub",
+        "Vimeo",
+        "Podcasts"
+      ],
+      "target_souls": "Souls with these platforms",
+      "estimated_hours": 15
+    }
+  },
+  "resource_requirements": {
+    "total_estimated_hours": 170,
+    "recommended_team_size": 1,
+    "required_tools": [
+      "Password manager (LastPass, 1Password)",
+      "Social media management (Buffer, Hootsuite)",
+      "Content calendar tool",
+      "Analytics dashboard",
+      "Image editing software",
+      "Video editing software"
+    ],
+    "budget_considerations": {
+      "paid_tools": "$100-300/month for premium features",
+      "content_creation": "$500-2000/month for graphics/video",
+      "advertising": "$500-5000/month for growth campaigns",
+      "total_monthly": "$1100-7300/month"
+    }
+  },
+  "generated_at": "2026-08-16T13:23:14.260954"
+}

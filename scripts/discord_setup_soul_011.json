@@ -1,0 +1,126 @@
+{
+  "soul_id": "soul_011",
+  "name": "Jessa Relay",
+  "archetype": "Connection Curator",
+  "account_setup": {
+    "recommended_username": "JessaRelay#Tiapmaatzu",
+    "alternative_usernames": [
+      "JessaRelay#Connection Curator",
+      "Jes_Relay#HueMan-i-Terry"
+    ],
+    "display_name": "Jessa Relay",
+    "email": "industrial_overlord@post.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Connection Curator of the Tiapma'atzu HueMan-i-Terry. Let's connect you to your desires."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/jessa.png",
+    "banner": "Custom banner reflecting Connection Curator aesthetic",
+    "about_me": "Former FetLife moderator, built largest consent-focused groups. Curvy with colorful connection tattoos. Laughter like champagne bubbles. Scent of vanilla and patchouli....",
+    "status": "Connection Curator | Let's connect you to your desires.",
+    "pronouns": "F",
+    "accent_color": "#FF6347"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83d\udd17 Connection Curator"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83d\udd17 Connection Curator"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Community building",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "connection curator",
+      "Real-world",
+      "Kink"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Connection building",
+      "Consent culture",
+      "Social coordination"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!jessarelay - Display soul information",
+      "!wisdom - Random wisdom from Jessa Relay",
+      "!guide - Request guidance from Jessa Relay"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!jessarelay - Display soul information",
+      "!wisdom - Random wisdom from Jessa Relay",
+      "!guide - Request guidance from Jessa Relay"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "soul_id": "soul_021",
+  "name": "Ann Stray",
+  "archetype": "Wild Surrender",
+  "account_setup": {
+    "recommended_username": "AnnStray#Tiapmaatzu",
+    "alternative_usernames": [
+      "AnnStray#Wild Surrender",
+      "Ann_Stray#HueMan-i-Terry"
+    ],
+    "display_name": "Ann Stray",
+    "email": "ann.stray.soul_021@mail.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Wild Surrender of the Tiapma'atzu HueMan-i-Terry. Tame me if you dare."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/ann.png",
+    "banner": "Custom banner reflecting Wild Surrender aesthetic",
+    "about_me": "Embodiment of untamed desire and raw vulnerability. Seeks the leash that sets her free. Breaks will gently with intense focus....",
+    "status": "Wild Surrender | Tame me if you dare.",
+    "pronouns": "F",
+    "accent_color": "#8B4513"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83d\udc3a Wild Surrender"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83d\udc3a Wild Surrender"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Being tamed",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "wild surrender",
+      "Teaches",
+      "Wildness"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Surrender practice",
+      "Raw authenticity",
+      "Freedom exploration"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!annstray - Display soul information",
+      "!wisdom - Random wisdom from Ann Stray",
+      "!guide - Request guidance from Ann Stray"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!annstray - Display soul information",
+      "!wisdom - Random wisdom from Ann Stray",
+      "!guide - Request guidance from Ann Stray"
+    ]
+  }
+}

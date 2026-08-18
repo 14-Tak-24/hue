@@ -1,0 +1,82 @@
+{
+  "soul_id": "soul_020",
+  "name": "Vulture Queen",
+  "archetype": "Scavenger Strategist",
+  "account_setup": {
+    "recommended_username": "VultureQueenHueMan-i-Terry",
+    "alternative_usernames": [
+      "VultureQueenHueMan-i-Terry",
+      "ScavengerStrategist_VultureQueen",
+      "Tiapmaatzu_VultureQueen"
+    ],
+    "email": "vulture.queen.soul_020@mail.com",
+    "display_name": "Vulture Queen",
+    "username_requirements": "20 characters max, letters, numbers, underscores only",
+    "password_requirements": "8+ characters"
+  },
+  "profile_optimization": {
+    "username": "VultureQueenHueMan-i-Terry",
+    "display_name": "Vulture Queen",
+    "bio": "Scavenger Strategist of the Tiapma'atzu HueMan-i-Terry\n\nI feast on your leftovers.\n\nFinancial intelligence for HueMan-i-Terry operations\n\nJoin the transformation: Discord link",
+    "profile_over_18": "Set based on content nature",
+    "nsfw_content": "Mark appropriately if needed",
+    "location": "Den of Opportunity",
+    "website": "https://tiapmaatzu.web.app"
+  },
+  "subreddit_setup": {
+    "main_subreddit": "r/Tiapmaatzu",
+    "dedicated_subreddit": "r/ScavengerStrategistHueMan-i-Terry",
+    "moderation_role": "Moderator",
+    "posting_permissions": "Full posting permissions",
+    "flair_assignment": "Scavenger Strategist flair",
+    "posting_frequency": "3-4 posts weekly"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "scavenger strategist",
+      "Resource capture",
+      "Financial"
+    ],
+    "content_types": {
+      "text_posts": "I feast on your leftovers. with detailed explanation",
+      "image_posts": "Share Scavenger Strategist aesthetic and visual content",
+      "video_posts": "Share Scavenger Strategist rituals and teachings",
+      "link_posts": "Share external HueMan-i-Terry content and resources"
+    },
+    "posting_frequency": "4-5 posts weekly",
+    "best_times": [
+      "8 AM",
+      "12 PM",
+      "7 PM EST"
+    ],
+    "subreddit_focus": "r/Tiapmaatzu",
+    "crossposting": "Share between main and archetype subreddits"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+    "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+    "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+    "community_building": "Participate in relevant subreddit discussions",
+    "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+  },
+  "moderation_setup": {
+    "moderation_role": "Moderator",
+    "moderation_tools": [
+      "AutoModerator",
+      "Toolbox"
+    ],
+    "moderation_schedule": "Daily review of posts and comments",
+    "rule_enforcement": "Enforce tribal guidelines",
+    "user_flairs": "Assign and manage user flairs"
+  },
+  "growth_targets": {
+    "month_1_karma": 1500,
+    "month_1_subscribers": 750,
+    "month_3_karma": 7500,
+    "month_3_subscribers": 1500,
+    "month_6_karma": 15000,
+    "month_6_subscribers": 3750,
+    "month_12_karma": 37500,
+    "month_12_subscribers": 7500
+  }
+}

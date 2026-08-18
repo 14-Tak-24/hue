@@ -1,0 +1,140 @@
+{
+  "soul_id": "soul_007",
+  "name": "Babelonia Nocturne",
+  "archetype": "Crypto Sorceress",
+  "account_setup": {
+    "recommended_username": "BabeloniaNocturne#Tiapmaatzu",
+    "alternative_usernames": [
+      "BabeloniaNocturne#Crypto Sorceress",
+      "Bab_Nocturne#HueMan-i-Terry"
+    ],
+    "display_name": "Babelonia Nocturne",
+    "email": "vul.queen@mail.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Crypto Sorceress of the Tiapma'atzu HueMan-i-Terry. Your secrets are my currency."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/babelonia.png",
+    "banner": "Custom banner reflecting Crypto Sorceress aesthetic",
+    "about_me": "First Bitcoin at 17 on gaming rig. Built portfolio funding alternative modeling. Pale gothic aesthetic deliberate \u2014 embraces what society fears. Lives in Eastern European castle Airbnb circu...",
+    "status": "Crypto Sorceress | Your secrets are my currency.",
+    "pronouns": "F",
+    "accent_color": "#00FF00"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\ud83d\udcb0 Crypto Sorceress"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\ud83d\udcb0 Crypto Sorceress"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Financial dominance",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "crypto sorceress",
+      "Seeds",
+      "Midnight"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Financial wisdom",
+      "Crypto education",
+      "Wealth building"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!babelonianocturne - Display soul information",
+      "!wisdom - Random wisdom from Babelonia Nocturne",
+      "!guide - Request guidance from Babelonia Nocturne"
+    ],
+    "archetype_commands": [
+      "!crypto - Cryptocurrency advice",
+      "!invest - Investment guidance",
+      "!wealth - Financial wisdom"
+    ],
+    "all_commands": [
+      "!babelonianocturne - Display soul information",
+      "!wisdom - Random wisdom from Babelonia Nocturne",
+      "!guide - Request guidance from Babelonia Nocturne",
+      "!crypto - Cryptocurrency advice",
+      "!invest - Investment guidance",
+      "!wealth - Financial wisdom"
+    ]
+  }
+}

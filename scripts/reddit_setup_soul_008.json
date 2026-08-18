@@ -1,0 +1,81 @@
+{
+  "soul_id": "soul_008",
+  "name": "Ritaphuq Zaniman",
+  "archetype": "Community Healer",
+  "account_setup": {
+    "recommended_username": "RitaphuqZanimanHueMan-i-Terry",
+    "alternative_usernames": [
+      "RitaphuqZanimanHueMan-i-Terry",
+      "CommunityHealer_RitaphuqZaniman",
+      "Tiapmaatzu_RitaphuqZaniman"
+    ],
+    "email": "clockwork_master@execs.com",
+    "display_name": "Ritaphuq Zaniman",
+    "username_requirements": "20 characters max, letters, numbers, underscores only",
+    "password_requirements": "8+ characters"
+  },
+  "profile_optimization": {
+    "username": "RitaphuqZanimanHueMan-i-Terry",
+    "display_name": "Ritaphuq Zaniman",
+    "bio": "Community Healer of the Tiapma'atzu HueMan-i-Terry\n\nYour wounds are welcome here.\n\nLand purchases for future HueMan-i-Terry communes\n\nJoin the transformation: Discord link",
+    "profile_over_18": "Set based on content nature",
+    "nsfw_content": "Mark appropriately if needed",
+    "location": "Sanctuary of Healing",
+    "website": "https://tiapmaatzu.web.app"
+  },
+  "subreddit_setup": {
+    "main_subreddit": "r/Tiapmaatzu",
+    "dedicated_subreddit": null,
+    "moderation_role": "Contributor",
+    "posting_permissions": "Full posting permissions",
+    "flair_assignment": "Community Healer flair",
+    "posting_frequency": "3-4 posts weekly"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "community healer",
+      "Community healing",
+      "Land"
+    ],
+    "content_types": {
+      "text_posts": "Your wounds are welcome here. with detailed explanation",
+      "image_posts": "Share Community Healer aesthetic and visual content",
+      "video_posts": "Share Community Healer rituals and teachings",
+      "link_posts": "Share external HueMan-i-Terry content and resources"
+    },
+    "posting_frequency": "4-5 posts weekly",
+    "best_times": [
+      "8 AM",
+      "12 PM",
+      "7 PM EST"
+    ],
+    "subreddit_focus": "r/Tiapmaatzu",
+    "crossposting": "Share between main and archetype subreddits"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+    "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+    "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+    "community_building": "Participate in relevant subreddit discussions",
+    "moderation_duties": "Report issues"
+  },
+  "moderation_setup": {
+    "moderation_role": "Contributor",
+    "moderation_tools": [
+      "Basic reporting"
+    ],
+    "moderation_schedule": "Report issues to moderators",
+    "rule_enforcement": "Follow and enforce guidelines",
+    "user_flairs": "Request appropriate flairs"
+  },
+  "growth_targets": {
+    "month_1_karma": 1000,
+    "month_1_subscribers": 500,
+    "month_3_karma": 5000,
+    "month_3_subscribers": 1000,
+    "month_6_karma": 10000,
+    "month_6_subscribers": 2500,
+    "month_12_karma": 25000,
+    "month_12_subscribers": 5000
+  }
+}

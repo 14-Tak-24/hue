@@ -1,0 +1,151 @@
+{
+  "soul_id": "soul_003",
+  "name": "Dixon Uhbuts",
+  "archetype": "High Priest",
+  "account_setup": {
+    "recommended_username": "DixonUhbuts#Tiapmaatzu",
+    "alternative_usernames": [
+      "DixonUhbuts#High Priest",
+      "Dix_Uhbuts#HueMan-i-Terry"
+    ],
+    "display_name": "Dixon Uhbuts",
+    "email": "delta@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "High Priest of the Tiapma'atzu HueMan-i-Terry. The law of the HueMan-i-Terry is absolute."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/dixon.png",
+    "banner": "Custom banner reflecting High Priest aesthetic",
+    "about_me": "High Priest born in Bay Area, Cali fire, escaped to Berlin's underground at 21. Leather scent thick with midnight rain on inked skin. Former corporate lawyer who burned his license for strap...",
+    "status": "High Priest | The law of the HueMan-i-Terry is absolute.",
+    "pronouns": "M",
+    "accent_color": "#FFD700"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\ud83d\udd2e High Priest",
+      "High Council"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\ud83d\udd2e High Priest",
+      "High Council"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Administrator",
+      "Manage Server",
+      "Manage Roles"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ]
+  },
+  "bot_permissions": {
+    "full_control": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot",
+      "Ticket Tool",
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Tiapmaatzu-Guardian",
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Ritual mastery",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "high priest",
+      "Funds",
+      "Live"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Ritual guidance",
+      "Spiritual wisdom",
+      "HueMan-i-Terry leadership"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!dixonuhbuts - Display soul information",
+      "!wisdom - Random wisdom from Dixon Uhbuts",
+      "!guide - Request guidance from Dixon Uhbuts"
+    ],
+    "archetype_commands": [
+      "!ritual - Request ritual guidance",
+      "!ceremony - Get ceremony information",
+      "!blessing - Request blessing"
+    ],
+    "all_commands": [
+      "!dixonuhbuts - Display soul information",
+      "!wisdom - Random wisdom from Dixon Uhbuts",
+      "!guide - Request guidance from Dixon Uhbuts",
+      "!ritual - Request ritual guidance",
+      "!ceremony - Get ceremony information",
+      "!blessing - Request blessing"
+    ]
+  }
+}

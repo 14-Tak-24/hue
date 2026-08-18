@@ -1,0 +1,113 @@
+{
+  "soul_id": "soul_016",
+  "name": "Bain Kha'ak",
+  "archetype": "Desert Storyteller",
+  "account_setup": {
+    "recommended_handle": "@bainkha'ak_tiapmaatzu",
+    "alternative_handles": [
+      "@bainkha'ak_HueMan-i-Terry",
+      "@desert storyteller_bainkha'ak",
+      "@tiapmaatzu_bainkha'ak"
+    ],
+    "email": "velvet_widow@execs.com",
+    "display_name": "Bain Kha'ak",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@bainkha'ak_tiapmaatzu",
+    "display_name": "Bain Kha'ak",
+    "bio": "Desert Storyteller | Gather round for ancient wisdom. | Film festival submissions for  | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/bain.png",
+    "header_image": "Create archetype-themed header for Desert Storyteller",
+    "location": "Oasis of Tales",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#D2691E"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "desert storyteller",
+      "Mythic storytelling",
+      "Film"
+    ],
+    "content_types": {
+      "wisdom_tweets": "Gather round for ancient wisdom.",
+      "threads": "Deep dive into Desert Storyteller practices",
+      "engagement": "Respond to HueMan-i-Terry members with Desert Storyteller perspective",
+      "visual": "Share Desert Storyteller aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#DesertStoryteller"
+    ],
+    "voice": "Ancient, storytelling, wise - Desert Storyteller of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 750,
+    "month_3": 1500,
+    "month_6": 3750,
+    "month_12": 7500
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer",
+      "Social Blade"
+    ],
+    "advanced": [
+      "IFTTT",
+      "Zapier"
+    ]
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

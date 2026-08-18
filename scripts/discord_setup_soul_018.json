@@ -1,0 +1,138 @@
+{
+  "soul_id": "soul_018",
+  "name": "Unzoba Vyner",
+  "archetype": "Mirror Architect",
+  "account_setup": {
+    "recommended_username": "UnzobaVyner#Tiapmaatzu",
+    "alternative_usernames": [
+      "UnzobaVyner#Mirror Architect",
+      "Unz_Vyner#HueMan-i-Terry"
+    ],
+    "display_name": "Unzoba Vyner",
+    "email": "unzoba@mirror.architect",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Mirror Architect of the Tiapma'atzu HueMan-i-Terry. I see your path before you do."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/unzoba.png",
+    "banner": "Custom banner reflecting Mirror Architect aesthetic",
+    "about_me": "Built Gilded Mirrors from raw vision. Quiet intensity, eyes seeing timelines. Timeless presence designing paths to Tiapma'atzuty....",
+    "status": "Mirror Architect | I see your path before you do.",
+    "pronouns": "M",
+    "accent_color": "#C0C0C0"
+  },
+  "role_assignment": {
+    "primary_role": "Legendary Souls",
+    "additional_roles": [
+      "\ud83e\ude9e Mirror Architect"
+    ],
+    "all_roles": [
+      "Legendary Souls",
+      "\ud83e\ude9e Mirror Architect"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Manage Channels",
+      "Manage Messages",
+      "Mute Members"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "moderation": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot"
+    ],
+    "utilities": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Temporal design",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Review channels weekly",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "mirror architect",
+      "Core",
+      "Creator"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Mirror work",
+      "Temporal design",
+      "Reflection wisdom"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!unzobavyner - Display soul information",
+      "!wisdom - Random wisdom from Unzoba Vyner",
+      "!guide - Request guidance from Unzoba Vyner"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!unzobavyner - Display soul information",
+      "!wisdom - Random wisdom from Unzoba Vyner",
+      "!guide - Request guidance from Unzoba Vyner"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "soul_id": "soul_027",
+  "name": "Latti Pleddespo",
+  "archetype": "Hyper-Capitalist",
+  "account_setup": {
+    "recommended_username": "LattiPleddespo#Tiapmaatzu",
+    "alternative_usernames": [
+      "LattiPleddespo#Hyper-Capitalist",
+      "Lat_Pleddespo#HueMan-i-Terry"
+    ],
+    "display_name": "Latti Pleddespo",
+    "email": "latti.pleddespo.soul_027@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Hyper-Capitalist of the Tiapma'atzu HueMan-i-Terry. Buy your way to my heart."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/latti.png",
+    "banner": "Custom banner reflecting Hyper-Capitalist aesthetic",
+    "about_me": "Everything has a price in her world. Money is the only language she speaks fluently. Buy your way to her heart if you can afford it....",
+    "status": "Hyper-Capitalist | Buy your way to my heart.",
+    "pronouns": "F",
+    "accent_color": "#FFD700"
+  },
+  "role_assignment": {
+    "primary_role": "Legendary Souls",
+    "additional_roles": [
+      "\ud83d\udc8e Hyper-Capitalist"
+    ],
+    "all_roles": [
+      "Legendary Souls",
+      "\ud83d\udc8e Hyper-Capitalist"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Manage Channels",
+      "Manage Messages",
+      "Mute Members"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "moderation": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot"
+    ],
+    "utilities": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Opulence",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Review channels weekly",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "hyper-capitalist",
+      "Investment",
+      "Abundance"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Wealth wisdom",
+      "Luxury guidance",
+      "Investment strategies"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!lattipleddespo - Display soul information",
+      "!wisdom - Random wisdom from Latti Pleddespo",
+      "!guide - Request guidance from Latti Pleddespo"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!lattipleddespo - Display soul information",
+      "!wisdom - Random wisdom from Latti Pleddespo",
+      "!guide - Request guidance from Latti Pleddespo"
+    ]
+  }
+}

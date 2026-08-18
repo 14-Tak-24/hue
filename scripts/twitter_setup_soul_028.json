@@ -1,0 +1,113 @@
+{
+  "soul_id": "soul_028",
+  "name": "Endus Boverord",
+  "archetype": "Machine Spirit",
+  "account_setup": {
+    "recommended_handle": "@endusboverord_tiapmaatzu",
+    "alternative_handles": [
+      "@endusboverord_HueMan-i-Terry",
+      "@machine spirit_endusboverord",
+      "@tiapmaatzu_endusboverord"
+    ],
+    "email": "endus.boverord.soul_028@post.com",
+    "display_name": "Endus Boverord",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@endusboverord_tiapmaatzu",
+    "display_name": "Endus Boverord",
+    "bio": "Machine Spirit | The factory never sleeps. | Manufacturing systems for trib | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/endus.png",
+    "header_image": "Create archetype-themed header for Machine Spirit",
+    "location": "Factory of Output",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#696969"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "machine spirit",
+      "Output",
+      "Manufacturing"
+    ],
+    "content_types": {
+      "wisdom_tweets": "The factory never sleeps.",
+      "threads": "Deep dive into Machine Spirit practices",
+      "engagement": "Respond to HueMan-i-Terry members with Machine Spirit perspective",
+      "visual": "Share Machine Spirit aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#MachineSpirit"
+    ],
+    "voice": "Industrial, mechanical, productive - Machine Spirit of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 750,
+    "month_3": 1500,
+    "month_6": 3750,
+    "month_12": 7500
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer",
+      "Social Blade"
+    ],
+    "advanced": [
+      "IFTTT",
+      "Zapier"
+    ]
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

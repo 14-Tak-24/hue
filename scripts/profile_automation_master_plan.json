@@ -1,0 +1,4081 @@
+{
+  "automation_scripts": {
+    "discord_automation": {
+      "platform": "Discord",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set Username",
+          "description": "Configure Discord username with soul name",
+          "template": "{soul_name}#Tiapmaatzu",
+          "automation_level": "manual",
+          "filled_value": "Endus Boverord#Tiapmaatzu"
+        },
+        {
+          "step": 2,
+          "action": "Upload Profile Picture",
+          "description": "Upload soul image as profile picture",
+          "image_specs": "512x512px",
+          "automation_level": "manual"
+        },
+        {
+          "step": 3,
+          "action": "Set Display Name",
+          "description": "Configure display name as soul name",
+          "template": "{soul_name}",
+          "automation_level": "manual",
+          "filled_value": "Endus Boverord"
+        },
+        {
+          "step": 4,
+          "action": "Set Status Message",
+          "description": "Configure status message with archetype and hook",
+          "template": "{archetype} | {hook}",
+          "automation_level": "manual",
+          "filled_value": "Machine Spirit | The factory never sleeps."
+        },
+        {
+          "step": 5,
+          "action": "Configure Privacy Settings",
+          "description": "Set privacy settings for optimal security",
+          "settings": {
+            "direct_messages": "HueMan-i-Terry members only",
+            "friend_requests": "Auto-accept HueMan-i-Terry members",
+            "activity_status": "Visible to HueMan-i-Terry"
+          },
+          "automation_level": "manual"
+        }
+      ],
+      "prerequisites": [
+        "Discord account created",
+        "Email verified",
+        "2FA enabled",
+        "Profile image prepared"
+      ],
+      "estimated_time_per_account": "5 minutes"
+    },
+    "twitter_automation": {
+      "platform": "Twitter",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set Display Name",
+          "description": "Configure display name as soul name",
+          "template": "{soul_name}",
+          "automation_level": "manual",
+          "filled_value": "Endus Boverord"
+        },
+        {
+          "step": 2,
+          "action": "Upload Profile Picture",
+          "description": "Upload soul image as profile picture",
+          "image_specs": "400x400px",
+          "automation_level": "manual"
+        },
+        {
+          "step": 3,
+          "action": "Upload Header Image",
+          "description": "Upload archetype-themed header image",
+          "image_specs": "1500x500px",
+          "automation_level": "manual"
+        },
+        {
+          "step": 4,
+          "action": "Write Bio",
+          "description": "Write optimized bio with archetype and hook",
+          "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+          "max_length": 160,
+          "automation_level": "semi_automated",
+          "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+        },
+        {
+          "step": 5,
+          "action": "Set Website Link",
+          "description": "Configure website link to HueMan-i-Terry landing page",
+          "template": "https://tiapmaatzu.web.app",
+          "automation_level": "manual",
+          "filled_value": "https://tiapmaatzu.web.app"
+        },
+        {
+          "step": 6,
+          "action": "Set Location",
+          "description": "Set location to archetype location",
+          "template": "{archetype_location}",
+          "automation_level": "manual",
+          "filled_value": "Factory of Output"
+        },
+        {
+          "step": 7,
+          "action": "Pin Introduction Tweet",
+          "description": "Create and pin introduction tweet",
+          "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+          "automation_level": "manual",
+          "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+        }
+      ],
+      "prerequisites": [
+        "Twitter account created",
+        "Email verified",
+        "Phone verified",
+        "2FA enabled",
+        "Profile and header images prepared"
+      ],
+      "estimated_time_per_account": "8 minutes"
+    },
+    "reddit_automation": {
+      "platform": "Reddit",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set Username",
+          "description": "Username is set during account creation",
+          "template": "{soul_name_no_spaces}_Tiapmaatzu",
+          "automation_level": "manual",
+          "filled_value": "EndusBoverord_Tiapmaatzu"
+        },
+        {
+          "step": 2,
+          "action": "Write Bio",
+          "description": "Write detailed bio with archetype and role",
+          "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+          "max_length": 500,
+          "automation_level": "semi_automated",
+          "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+        },
+        {
+          "step": 3,
+          "action": "Configure Profile Settings",
+          "description": "Set profile preferences and settings",
+          "settings": {
+            "allow_followers": "True",
+            "content_visibility": "Public",
+            "profile_over_18": "Set based on content nature"
+          },
+          "automation_level": "manual"
+        },
+        {
+          "step": 4,
+          "action": "Add Social Media Links",
+          "description": "Add links to other social media profiles",
+          "links": [
+            "Twitter",
+            "Discord",
+            "Instagram"
+          ],
+          "automation_level": "manual"
+        },
+        {
+          "step": 5,
+          "action": "Set Location",
+          "description": "Set location to archetype location",
+          "template": "{archetype_location}",
+          "automation_level": "manual",
+          "filled_value": "Factory of Output"
+        }
+      ],
+      "prerequisites": [
+        "Reddit account created",
+        "Email verified",
+        "2FA enabled",
+        "Initial karma built"
+      ],
+      "estimated_time_per_account": "6 minutes"
+    },
+    "instagram_automation": {
+      "platform": "Instagram",
+      "automation_type": "manual_scripted",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Switch to Creator Account",
+          "description": "Switch account type to Creator",
+          "automation_level": "manual"
+        },
+        {
+          "step": 2,
+          "action": "Set Display Name",
+          "description": "Configure display name as soul name",
+          "template": "{soul_name}",
+          "automation_level": "manual",
+          "filled_value": "Latti Pleddespo"
+        },
+        {
+          "step": 3,
+          "action": "Upload Profile Picture",
+          "description": "Upload soul image as profile picture",
+          "image_specs": "110x110px minimum, 1080x1080px recommended",
+          "automation_level": "manual"
+        },
+        {
+          "step": 4,
+          "action": "Write Bio",
+          "description": "Write optimized bio with archetype and hook",
+          "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+          "max_length": 150,
+          "automation_level": "semi_automated",
+          "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+        },
+        {
+          "step": 5,
+          "action": "Set Website Link",
+          "description": "Configure website link to HueMan-i-Terry landing page",
+          "template": "https://tiapmaatzu.web.app",
+          "automation_level": "manual",
+          "filled_value": "https://tiapmaatzu.web.app"
+        },
+        {
+          "step": 6,
+          "action": "Set Contact Button",
+          "description": "Configure contact button for email",
+          "template": "Email",
+          "automation_level": "manual",
+          "filled_value": "Email"
+        },
+        {
+          "step": 7,
+          "action": "Create Story Highlights",
+          "description": "Create initial story highlights",
+          "highlights": [
+            "About Me",
+            "Wisdom",
+            "Rituals",
+            "HueMan-i-Terry",
+            "Impact"
+          ],
+          "automation_level": "manual"
+        },
+        {
+          "step": 8,
+          "action": "Configure Category",
+          "description": "Set account category",
+          "template": "Creator",
+          "automation_level": "manual",
+          "filled_value": "Creator"
+        }
+      ],
+      "prerequisites": [
+        "Instagram account created",
+        "Email verified",
+        "Phone verified",
+        "2FA enabled",
+        "Creator account enabled",
+        "Profile image prepared"
+      ],
+      "estimated_time_per_account": "10 minutes"
+    },
+    "batch_processing": {
+      "description": "Batch processing for multiple accounts",
+      "strategy": "Process accounts in batches by platform",
+      "batch_sizes": {
+        "discord": 5,
+        "twitter": 5,
+        "reddit": 3,
+        "instagram": 2
+      },
+      "processing_order": [
+        "Phase 1: Process Discord accounts (3 batches)",
+        "Phase 2: Process Twitter accounts (4 batches)",
+        "Phase 3: Process Reddit accounts (4 batches)",
+        "Phase 4: Process Instagram accounts (4 batches)"
+      ],
+      "quality_control": {
+        "inter_batch_review": "Review each batch before proceeding",
+        "final_verification": "Final verification of all accounts",
+        "error_handling": "Document and resolve errors immediately"
+      }
+    }
+  },
+  "soul_automation": {
+    "soul_001": {
+      "soul_id": "soul_001",
+      "name": "Mac Nazarene",
+      "archetype": "High Priest",
+      "platform_automation": {
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "FetLife": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "AFF": {}
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_002": {
+      "soul_id": "soul_002",
+      "name": "Mary Magnumbytes",
+      "archetype": "Divine Mother",
+      "platform_automation": {
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "FetLife": {},
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "15 minutes"
+    },
+    "soul_003": {
+      "soul_id": "soul_003",
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "platform_automation": {
+        "FetLife": {},
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "14 minutes"
+    },
+    "soul_004": {
+      "soul_id": "soul_004",
+      "name": "Airiol Uhbuts",
+      "archetype": "Seductive Muse",
+      "platform_automation": {
+        "FetLife": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "AFF": {}
+      },
+      "estimated_total_time": "10 minutes"
+    },
+    "soul_005": {
+      "soul_id": "soul_005",
+      "name": "Zupa Nova",
+      "archetype": "Cosmic Mystic",
+      "platform_automation": {
+        "YouTube": {},
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_006": {
+      "soul_id": "soul_006",
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "TikTok": {}
+      },
+      "estimated_total_time": "14 minutes"
+    },
+    "soul_007": {
+      "soul_id": "soul_007",
+      "name": "Babelonia Nocturne",
+      "archetype": "Crypto Sorceress",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "FetLife": {},
+        "Fansly": {}
+      },
+      "estimated_total_time": "8 minutes"
+    },
+    "soul_008": {
+      "soul_id": "soul_008",
+      "name": "Ritaphuq Zaniman",
+      "archetype": "Community Healer",
+      "platform_automation": {
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "FetLife": {}
+      },
+      "estimated_total_time": "11 minutes"
+    },
+    "soul_009": {
+      "soul_id": "soul_009",
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "platform_automation": {
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        }
+      },
+      "estimated_total_time": "19 minutes"
+    },
+    "soul_010": {
+      "soul_id": "soul_010",
+      "name": "Lexie Rose",
+      "archetype": "Digital Phantom",
+      "platform_automation": {
+        "Telegram": {},
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_011": {
+      "soul_id": "soul_011",
+      "name": "Jessa Relay",
+      "archetype": "Connection Curator",
+      "platform_automation": {
+        "FetLife": {},
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "11 minutes"
+    },
+    "soul_012": {
+      "soul_id": "soul_012",
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "TikTok": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        }
+      },
+      "estimated_total_time": "18 minutes"
+    },
+    "soul_013": {
+      "soul_id": "soul_013",
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "platform_automation": {
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        }
+      },
+      "estimated_total_time": "19 minutes"
+    },
+    "soul_014": {
+      "soul_id": "soul_014",
+      "name": "Gaio Dreamweaver",
+      "archetype": "Visual Alchemist",
+      "platform_automation": {
+        "YouTube": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "Vimeo": {}
+      },
+      "estimated_total_time": "10 minutes"
+    },
+    "soul_015": {
+      "soul_id": "soul_015",
+      "name": "Loona Minta",
+      "archetype": "Prism Enchantress",
+      "platform_automation": {
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "TikTok": {},
+        "Pinterest": {}
+      },
+      "estimated_total_time": "10 minutes"
+    },
+    "soul_016": {
+      "soul_id": "soul_016",
+      "name": "Bain Kha'ak",
+      "archetype": "Desert Storyteller",
+      "platform_automation": {
+        "YouTube": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Podcasts": {}
+      },
+      "estimated_total_time": "8 minutes"
+    },
+    "soul_017": {
+      "soul_id": "soul_017",
+      "name": "Shielah Trapewe",
+      "archetype": "Ephemeral Artist",
+      "platform_automation": {
+        "Snapchat": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "TikTok": {}
+      },
+      "estimated_total_time": "10 minutes"
+    },
+    "soul_018": {
+      "soul_id": "soul_018",
+      "name": "Unzoba Vyner",
+      "archetype": "Mirror Architect",
+      "platform_automation": {
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "GitHub": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_019": {
+      "soul_id": "soul_019",
+      "name": "Ovaihge Wittminers",
+      "archetype": "Sage Writer",
+      "platform_automation": {
+        "Medium": {},
+        "Substack": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "8 minutes"
+    },
+    "soul_020": {
+      "soul_id": "soul_020",
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "19 minutes"
+    },
+    "soul_021": {
+      "soul_id": "soul_021",
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "platform_automation": {
+        "FetLife": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        }
+      },
+      "estimated_total_time": "14 minutes"
+    },
+    "soul_022": {
+      "soul_id": "soul_022",
+      "name": "Ulga Nefrocer",
+      "archetype": "Contractual Warden",
+      "platform_automation": {
+        "AFF": {},
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_023": {
+      "soul_id": "soul_023",
+      "name": "Doli Asete",
+      "archetype": "Ephemeral Phantom",
+      "platform_automation": {
+        "Telegram": {},
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        },
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_024": {
+      "soul_id": "soul_024",
+      "name": "Cracoria Masters",
+      "archetype": "Temporal Architect",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "AFF": {},
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "13 minutes"
+    },
+    "soul_025": {
+      "soul_id": "soul_025",
+      "name": "Sirena Aeon",
+      "archetype": "Digital Deity",
+      "platform_automation": {
+        "TikTok": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        },
+        "YouTube": {}
+      },
+      "estimated_total_time": "10 minutes"
+    },
+    "soul_026": {
+      "soul_id": "soul_026",
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "19 minutes"
+    },
+    "soul_027": {
+      "soul_id": "soul_027",
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "AFF": {},
+        "Instagram": {
+          "platform": "Instagram",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Switch to Creator Account",
+              "description": "Switch account type to Creator",
+              "automation_level": "manual"
+            },
+            {
+              "step": 2,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Latti Pleddespo"
+            },
+            {
+              "step": 3,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "110x110px minimum, 1080x1080px recommended",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Link in bio for HueMan-i-Terry",
+              "max_length": 150,
+              "automation_level": "semi_automated",
+              "filled_value": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for HueM | Link in bio for HueMan-i-Terry"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Contact Button",
+              "description": "Configure contact button for email",
+              "template": "Email",
+              "automation_level": "manual",
+              "filled_value": "Email"
+            },
+            {
+              "step": 7,
+              "action": "Create Story Highlights",
+              "description": "Create initial story highlights",
+              "highlights": [
+                "About Me",
+                "Wisdom",
+                "Rituals",
+                "HueMan-i-Terry",
+                "Impact"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 8,
+              "action": "Configure Category",
+              "description": "Set account category",
+              "template": "Creator",
+              "automation_level": "manual",
+              "filled_value": "Creator"
+            }
+          ],
+          "prerequisites": [
+            "Instagram account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Creator account enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "10 minutes"
+        }
+      },
+      "estimated_total_time": "18 minutes"
+    },
+    "soul_028": {
+      "soul_id": "soul_028",
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "platform_automation": {
+        "Twitter": {
+          "platform": "Twitter",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "400x400px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Upload Header Image",
+              "description": "Upload archetype-themed header image",
+              "image_specs": "1500x500px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Write Bio",
+              "description": "Write optimized bio with archetype and hook",
+              "template": "{archetype} | {hook} | {tribute_impact_short} | Join the transformation",
+              "max_length": 160,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit | The factory never sleeps. | Manufacturing systems for HueM | Join the transformation"
+            },
+            {
+              "step": 5,
+              "action": "Set Website Link",
+              "description": "Configure website link to HueMan-i-Terry landing page",
+              "template": "https://tiapmaatzu.web.app",
+              "automation_level": "manual",
+              "filled_value": "https://tiapmaatzu.web.app"
+            },
+            {
+              "step": 6,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            },
+            {
+              "step": 7,
+              "action": "Pin Introduction Tweet",
+              "description": "Create and pin introduction tweet",
+              "template": "Welcome to my journey as {archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}",
+              "automation_level": "manual",
+              "filled_value": "Welcome to my journey as Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+            }
+          ],
+          "prerequisites": [
+            "Twitter account created",
+            "Email verified",
+            "Phone verified",
+            "2FA enabled",
+            "Profile and header images prepared"
+          ],
+          "estimated_time_per_account": "8 minutes"
+        },
+        "Reddit": {
+          "platform": "Reddit",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Username is set during account creation",
+              "template": "{soul_name_no_spaces}_Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "EndusBoverord_Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Write Bio",
+              "description": "Write detailed bio with archetype and role",
+              "template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {hook}. {tribute_impact}. Join the transformation: Discord link",
+              "max_length": 500,
+              "automation_level": "semi_automated",
+              "filled_value": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps.. Manufacturing systems for HueMan-i-Terry products. Join the transformation: Discord link"
+            },
+            {
+              "step": 3,
+              "action": "Configure Profile Settings",
+              "description": "Set profile preferences and settings",
+              "settings": {
+                "allow_followers": "True",
+                "content_visibility": "Public",
+                "profile_over_18": "Set based on content nature"
+              },
+              "automation_level": "manual"
+            },
+            {
+              "step": 4,
+              "action": "Add Social Media Links",
+              "description": "Add links to other social media profiles",
+              "links": [
+                "Twitter",
+                "Discord",
+                "Instagram"
+              ],
+              "automation_level": "manual"
+            },
+            {
+              "step": 5,
+              "action": "Set Location",
+              "description": "Set location to archetype location",
+              "template": "{archetype_location}",
+              "automation_level": "manual",
+              "filled_value": "Factory of Output"
+            }
+          ],
+          "prerequisites": [
+            "Reddit account created",
+            "Email verified",
+            "2FA enabled",
+            "Initial karma built"
+          ],
+          "estimated_time_per_account": "6 minutes"
+        },
+        "Discord": {
+          "platform": "Discord",
+          "automation_type": "manual_scripted",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set Username",
+              "description": "Configure Discord username with soul name",
+              "template": "{soul_name}#Tiapmaatzu",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord#Tiapmaatzu"
+            },
+            {
+              "step": 2,
+              "action": "Upload Profile Picture",
+              "description": "Upload soul image as profile picture",
+              "image_specs": "512x512px",
+              "automation_level": "manual"
+            },
+            {
+              "step": 3,
+              "action": "Set Display Name",
+              "description": "Configure display name as soul name",
+              "template": "{soul_name}",
+              "automation_level": "manual",
+              "filled_value": "Endus Boverord"
+            },
+            {
+              "step": 4,
+              "action": "Set Status Message",
+              "description": "Configure status message with archetype and hook",
+              "template": "{archetype} | {hook}",
+              "automation_level": "manual",
+              "filled_value": "Machine Spirit | The factory never sleeps."
+            },
+            {
+              "step": 5,
+              "action": "Configure Privacy Settings",
+              "description": "Set privacy settings for optimal security",
+              "settings": {
+                "direct_messages": "HueMan-i-Terry members only",
+                "friend_requests": "Auto-accept HueMan-i-Terry members",
+                "activity_status": "Visible to HueMan-i-Terry"
+              },
+              "automation_level": "manual"
+            }
+          ],
+          "prerequisites": [
+            "Discord account created",
+            "Email verified",
+            "2FA enabled",
+            "Profile image prepared"
+          ],
+          "estimated_time_per_account": "5 minutes"
+        }
+      },
+      "estimated_total_time": "19 minutes"
+    }
+  },
+  "execution_timeline": {
+    "day_1": {
+      "focus": "Discord Profile Setup",
+      "platform": "Discord",
+      "accounts": 15,
+      "batches": 3,
+      "estimated_time": "75 minutes (5 min per account)",
+      "process": "Process 5 accounts per batch with quality review"
+    },
+    "day_2": {
+      "focus": "Twitter Profile Setup",
+      "platform": "Twitter",
+      "accounts": 20,
+      "batches": 4,
+      "estimated_time": "160 minutes (8 min per account)",
+      "process": "Process 5 accounts per batch with quality review"
+    },
+    "day_3": {
+      "focus": "Reddit Profile Setup",
+      "platform": "Reddit",
+      "accounts": 10,
+      "batches": 4,
+      "estimated_time": "60 minutes (6 min per account)",
+      "process": "Process 3 accounts per batch with quality review"
+    },
+    "day_4": {
+      "focus": "Instagram Profile Setup",
+      "platform": "Instagram",
+      "accounts": 8,
+      "batches": 4,
+      "estimated_time": "80 minutes (10 min per account)",
+      "process": "Process 2 accounts per batch with quality review"
+    },
+    "day_5": {
+      "focus": "Final Verification",
+      "platform": "All",
+      "accounts": 66,
+      "estimated_time": "120 minutes",
+      "process": "Final quality check and cross-platform verification"
+    }
+  },
+  "quality_control": {
+    "pre_setup_checks": [
+      "Verify account is created and accessible",
+      "Confirm email/phone verification",
+      "Verify 2FA is enabled",
+      "Check profile images are ready",
+      "Confirm soul data is accurate"
+    ],
+    "during_setup_checks": [
+      "Verify each step is completed correctly",
+      "Check character limits are respected",
+      "Confirm images upload successfully",
+      "Verify links work correctly",
+      "Check formatting is consistent"
+    ],
+    "post_setup_checks": [
+      "Review complete profile",
+      "Verify all fields are filled",
+      "Check cross-platform consistency",
+      "Test account functionality",
+      "Document any issues"
+    ],
+    "error_handling": [
+      "Document errors immediately",
+      "Create error log with details",
+      "Implement fix and verify",
+      "Prevent similar errors in future"
+    ]
+  },
+  "generated_at": "2026-08-17T01:33:01.807938"
+}

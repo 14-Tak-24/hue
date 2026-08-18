@@ -1,0 +1,133 @@
+{
+  "soul_id": "soul_023",
+  "name": "Doli Asete",
+  "archetype": "Ephemeral Phantom",
+  "account_setup": {
+    "recommended_username": "DoliAsete#Tiapmaatzu",
+    "alternative_usernames": [
+      "DoliAsete#Ephemeral Phantom",
+      "Dol_Asete#HueMan-i-Terry"
+    ],
+    "display_name": "Doli Asete",
+    "email": "doli@phantom.digital",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Ephemeral Phantom of the Tiapma'atzu HueMan-i-Terry. Catch me if you can."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/doli.png",
+    "banner": "Custom banner reflecting Ephemeral Phantom aesthetic",
+    "about_me": "Ghost in the machine, digital worshipper, eternal chase. A glimpse is all you get\u2014for a price. Anonymity is his sanctuary....",
+    "status": "Ephemeral Phantom | Catch me if you can.",
+    "pronouns": "M",
+    "accent_color": "#483D8B"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\ud83c\udf2b\ufe0f Ephemeral Phantom"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\ud83c\udf2b\ufe0f Ephemeral Phantom"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Eternal chase",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "ephemeral phantom",
+      "Digital",
+      "Anonymity"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Chase wisdom",
+      "Anonymity training",
+      "Digital worship"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!doliasete - Display soul information",
+      "!wisdom - Random wisdom from Doli Asete",
+      "!guide - Request guidance from Doli Asete"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!doliasete - Display soul information",
+      "!wisdom - Random wisdom from Doli Asete",
+      "!guide - Request guidance from Doli Asete"
+    ]
+  }
+}

@@ -1,0 +1,2292 @@
+{
+  "tributes": [
+    {
+      "soul_id": "soul_018",
+      "amount": 402.46,
+      "impact_area": "development",
+      "platform": "reddit",
+      "description": "Content creation tribute",
+      "timestamp": "2026-05-18T03:53:25.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 44.1,
+      "impact_area": "research",
+      "platform": "tiktok",
+      "description": "Platform activity reward",
+      "timestamp": "2026-05-18T12:13:43.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 48.81,
+      "impact_area": "infrastructure",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-05-19T10:43:21.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 34.07,
+      "impact_area": "legal",
+      "platform": "AFF",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-05-20T06:54:47.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 233.8,
+      "impact_area": "research",
+      "platform": "reddit",
+      "description": "Engagement tribute from Cracoria Masters",
+      "timestamp": "2026-05-20T15:26:43.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 34.93,
+      "impact_area": "legal",
+      "platform": "twitter",
+      "description": "Platform activity reward",
+      "timestamp": "2026-05-21T18:55:49.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 29.87,
+      "impact_area": "development",
+      "platform": "reddit",
+      "description": "Engagement tribute from Ulga Nefrocer",
+      "timestamp": "2026-05-22T05:21:25.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 48.76,
+      "impact_area": "development",
+      "platform": "discord",
+      "description": "Community building contribution",
+      "timestamp": "2026-05-22T07:20:48.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 107.35,
+      "impact_area": "infrastructure",
+      "platform": "reddit",
+      "description": "reddit engagement reward",
+      "timestamp": "2026-05-22T12:44:51.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_020",
+      "amount": 11.0,
+      "impact_area": "research",
+      "platform": "tiktok",
+      "description": "Platform activity reward",
+      "timestamp": "2026-05-23T05:51:00.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 36.63,
+      "impact_area": "content",
+      "platform": "reddit",
+      "description": "Soul soul_004 contribution to content",
+      "timestamp": "2026-05-24T17:35:46.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_010",
+      "amount": 193.03,
+      "impact_area": "legal",
+      "platform": "youtube",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-05-25T20:11:09.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 448.99,
+      "impact_area": "marketing",
+      "platform": "youtube",
+      "description": "Community building contribution",
+      "timestamp": "2026-05-26T13:50:48.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_019",
+      "amount": 18.14,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Community engagement tribute - twitter",
+      "timestamp": "2026-05-28T03:18:39.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_011",
+      "amount": 22.36,
+      "impact_area": "infrastructure",
+      "platform": "instagram",
+      "description": "Influence contribution",
+      "timestamp": "2026-05-29T07:35:21.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 49.39,
+      "impact_area": "community",
+      "platform": "instagram",
+      "description": "Content contribution from Latti Pleddespo",
+      "timestamp": "2026-05-30T06:14:50.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 41.05,
+      "impact_area": "research",
+      "platform": "discord",
+      "description": "Content contribution from Airiol Uhbuts",
+      "timestamp": "2026-05-30T13:41:55.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 26.0,
+      "impact_area": "legal",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-05-30T14:02:53.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 17.12,
+      "impact_area": "research",
+      "platform": "AFF",
+      "description": "Content contribution from Ann Stray",
+      "timestamp": "2026-05-30T19:23:16.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 25.89,
+      "impact_area": "marketing",
+      "platform": "AFF",
+      "description": "Community building contribution",
+      "timestamp": "2026-05-30T23:53:00.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_014",
+      "amount": 48.08,
+      "impact_area": "development",
+      "platform": "reddit",
+      "description": "Content contribution from Gaio Dreamweaver",
+      "timestamp": "2026-06-01T09:58:15.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_010",
+      "amount": 32.75,
+      "impact_area": "infrastructure",
+      "platform": "tiktok",
+      "description": "Platform revenue share - infrastructure",
+      "timestamp": "2026-06-01T15:15:03.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_020",
+      "amount": 335.46,
+      "impact_area": "marketing",
+      "platform": "AFF",
+      "description": "Content contribution from Vulture Queen",
+      "timestamp": "2026-06-01T21:04:31.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 42.41,
+      "impact_area": "legal",
+      "platform": "discord",
+      "description": "Engagement tribute from Loona Minta",
+      "timestamp": "2026-06-01T22:08:52.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_012",
+      "amount": 21.48,
+      "impact_area": "operations",
+      "platform": "tiktok",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-02T20:24:14.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 36.71,
+      "impact_area": "development",
+      "platform": "youtube",
+      "description": "Soul soul_022 contribution to development",
+      "timestamp": "2026-06-03T02:37:16.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 19.03,
+      "impact_area": "content",
+      "platform": "tiktok",
+      "description": "Community engagement tribute - tiktok",
+      "timestamp": "2026-06-03T19:04:35.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 92.32,
+      "impact_area": "research",
+      "platform": "discord",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-04T02:36:07.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 86.37,
+      "impact_area": "community",
+      "platform": "tiktok",
+      "description": "Content creation tribute",
+      "timestamp": "2026-06-04T06:44:39.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 34.24,
+      "impact_area": "infrastructure",
+      "platform": "youtube",
+      "description": "youtube engagement reward",
+      "timestamp": "2026-06-04T21:28:41.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_020",
+      "amount": 41.79,
+      "impact_area": "content",
+      "platform": "discord",
+      "description": "Content creation tribute",
+      "timestamp": "2026-06-07T08:10:01.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 239.78,
+      "impact_area": "community",
+      "platform": "AFF",
+      "description": "AFF engagement reward",
+      "timestamp": "2026-06-07T13:36:09.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 11.41,
+      "impact_area": "research",
+      "platform": "twitter",
+      "description": "Community engagement tribute - twitter",
+      "timestamp": "2026-06-07T22:31:20.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_020",
+      "amount": 33.01,
+      "impact_area": "research",
+      "platform": "youtube",
+      "description": "Soul soul_020 contribution to research",
+      "timestamp": "2026-06-08T09:00:01.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 265.34,
+      "impact_area": "marketing",
+      "platform": "instagram",
+      "description": "Soul soul_006 contribution to marketing",
+      "timestamp": "2026-06-09T09:03:42.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_014",
+      "amount": 34.7,
+      "impact_area": "research",
+      "platform": "reddit",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-09T10:21:38.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_017",
+      "amount": 31.21,
+      "impact_area": "infrastructure",
+      "platform": "tiktok",
+      "description": "Content contribution from Shielah Trapewe",
+      "timestamp": "2026-06-10T05:59:11.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 156.88,
+      "impact_area": "infrastructure",
+      "platform": "twitter",
+      "description": "Content contribution from Ulga Nefrocer",
+      "timestamp": "2026-06-10T07:12:14.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_012",
+      "amount": 24.09,
+      "impact_area": "development",
+      "platform": "instagram",
+      "description": "Platform activity reward",
+      "timestamp": "2026-06-10T21:50:20.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_025",
+      "amount": 18.51,
+      "impact_area": "community",
+      "platform": "twitter",
+      "description": "Community engagement tribute - twitter",
+      "timestamp": "2026-06-11T21:39:42.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_018",
+      "amount": 34.55,
+      "impact_area": "content",
+      "platform": "tiktok",
+      "description": "Platform revenue share - content",
+      "timestamp": "2026-06-12T17:09:09.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 204.56,
+      "impact_area": "marketing",
+      "platform": "reddit",
+      "description": "Soul soul_015 contribution to marketing",
+      "timestamp": "2026-06-13T01:41:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_023",
+      "amount": 48.09,
+      "impact_area": "content",
+      "platform": "AFF",
+      "description": "Community building contribution",
+      "timestamp": "2026-06-13T06:16:23.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 185.95,
+      "impact_area": "infrastructure",
+      "platform": "tiktok",
+      "description": "Engagement tribute from Cracoria Masters",
+      "timestamp": "2026-06-15T04:50:21.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 25.97,
+      "impact_area": "marketing",
+      "platform": "youtube",
+      "description": "Soul soul_027 contribution to marketing",
+      "timestamp": "2026-06-15T21:02:10.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 446.77,
+      "impact_area": "development",
+      "platform": "twitter",
+      "description": "twitter engagement reward",
+      "timestamp": "2026-06-16T12:22:48.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_011",
+      "amount": 45.58,
+      "impact_area": "infrastructure",
+      "platform": "reddit",
+      "description": "Platform activity reward",
+      "timestamp": "2026-06-16T18:04:43.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_008",
+      "amount": 15.77,
+      "impact_area": "legal",
+      "platform": "twitter",
+      "description": "twitter engagement reward",
+      "timestamp": "2026-06-16T19:21:17.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_025",
+      "amount": 13.79,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "Soul soul_025 contribution to community",
+      "timestamp": "2026-06-17T04:40:52.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 12.44,
+      "impact_area": "marketing",
+      "platform": "instagram",
+      "description": "Content creation tribute",
+      "timestamp": "2026-06-17T06:29:46.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 49.8,
+      "impact_area": "research",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-17T14:55:01.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_008",
+      "amount": 19.24,
+      "impact_area": "community",
+      "platform": "instagram",
+      "description": "Content creation tribute",
+      "timestamp": "2026-06-17T15:48:45.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_002",
+      "amount": 26.17,
+      "impact_area": "development",
+      "platform": "tiktok",
+      "description": "Soul soul_002 contribution to development",
+      "timestamp": "2026-06-18T04:53:58.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 13.42,
+      "impact_area": "marketing",
+      "platform": "instagram",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-18T06:57:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 478.91,
+      "impact_area": "operations",
+      "platform": "reddit",
+      "description": "Community building contribution",
+      "timestamp": "2026-06-18T14:00:24.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_017",
+      "amount": 44.25,
+      "impact_area": "community",
+      "platform": "instagram",
+      "description": "Community engagement tribute - instagram",
+      "timestamp": "2026-06-18T23:16:40.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_025",
+      "amount": 20.54,
+      "impact_area": "community",
+      "platform": "instagram",
+      "description": "Community engagement tribute - instagram",
+      "timestamp": "2026-06-19T08:03:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 25.27,
+      "impact_area": "development",
+      "platform": "discord",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-19T09:06:02.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_007",
+      "amount": 37.5,
+      "impact_area": "operations",
+      "platform": "discord",
+      "description": "Community engagement tribute - discord",
+      "timestamp": "2026-06-20T15:53:33.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_003",
+      "amount": 217.48,
+      "impact_area": "development",
+      "platform": "reddit",
+      "description": "Community engagement tribute - reddit",
+      "timestamp": "2026-06-20T21:10:15.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 18.65,
+      "impact_area": "marketing",
+      "platform": "instagram",
+      "description": "Community building contribution",
+      "timestamp": "2026-06-21T06:22:31.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_016",
+      "amount": 147.47,
+      "impact_area": "operations",
+      "platform": "reddit",
+      "description": "Engagement tribute from Bain Kha'ak",
+      "timestamp": "2026-06-21T09:28:26.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 152.19,
+      "impact_area": "development",
+      "platform": "twitter",
+      "description": "Platform revenue share - development",
+      "timestamp": "2026-06-22T10:48:12.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 48.74,
+      "impact_area": "community",
+      "platform": "twitter",
+      "description": "Community building contribution",
+      "timestamp": "2026-06-23T16:52:04.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 163.54,
+      "impact_area": "operations",
+      "platform": "discord",
+      "description": "Content creation tribute",
+      "timestamp": "2026-06-24T09:22:26.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 45.04,
+      "impact_area": "infrastructure",
+      "platform": "discord",
+      "description": "Soul soul_028 contribution to infrastructure",
+      "timestamp": "2026-06-24T12:32:02.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 36.5,
+      "impact_area": "legal",
+      "platform": "youtube",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-06-24T20:34:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 262.25,
+      "impact_area": "content",
+      "platform": "youtube",
+      "description": "Content contribution from Airiol Uhbuts",
+      "timestamp": "2026-06-25T03:28:46.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 14.71,
+      "impact_area": "content",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-25T04:14:47.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_016",
+      "amount": 83.56,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Platform activity reward",
+      "timestamp": "2026-06-25T14:15:03.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_003",
+      "amount": 48.65,
+      "impact_area": "operations",
+      "platform": "twitter",
+      "description": "Platform revenue share - operations",
+      "timestamp": "2026-06-28T11:56:27.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 36.9,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "Content contribution from Latti Pleddespo",
+      "timestamp": "2026-06-30T07:28:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 42.48,
+      "impact_area": "research",
+      "platform": "discord",
+      "description": "Platform revenue share - research",
+      "timestamp": "2026-06-30T12:06:38.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 48.95,
+      "impact_area": "development",
+      "platform": "instagram",
+      "description": "Community building contribution",
+      "timestamp": "2026-06-30T15:31:07.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 106.38,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Influence contribution",
+      "timestamp": "2026-06-30T22:52:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_002",
+      "amount": 29.31,
+      "impact_area": "infrastructure",
+      "platform": "AFF",
+      "description": "Content contribution from Mary Magnumbytes",
+      "timestamp": "2026-07-01T04:52:28.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_018",
+      "amount": 297.32,
+      "impact_area": "community",
+      "platform": "youtube",
+      "description": "Community engagement tribute - youtube",
+      "timestamp": "2026-07-01T05:31:01.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 47.09,
+      "impact_area": "operations",
+      "platform": "instagram",
+      "description": "Platform activity reward",
+      "timestamp": "2026-07-01T14:59:50.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 42.03,
+      "impact_area": "community",
+      "platform": "twitter",
+      "description": "Content contribution from Latti Pleddespo",
+      "timestamp": "2026-07-01T22:32:07.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_019",
+      "amount": 361.54,
+      "impact_area": "content",
+      "platform": "AFF",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-02T04:51:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 35.88,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "Community engagement tribute - discord",
+      "timestamp": "2026-07-02T14:10:14.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 10.46,
+      "impact_area": "marketing",
+      "platform": "reddit",
+      "description": "Content contribution from Kaiel Thornea",
+      "timestamp": "2026-07-03T18:19:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 43.31,
+      "impact_area": "infrastructure",
+      "platform": "youtube",
+      "description": "youtube engagement reward",
+      "timestamp": "2026-07-05T12:47:18.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_013",
+      "amount": 10.33,
+      "impact_area": "development",
+      "platform": "youtube",
+      "description": "Platform revenue share - development",
+      "timestamp": "2026-07-06T00:19:33.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Brytoni Himheru",
+        "archetype": "Cyber Guardian",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 12.84,
+      "impact_area": "community",
+      "platform": "youtube",
+      "description": "Community engagement tribute - youtube",
+      "timestamp": "2026-07-06T18:01:25.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 15.25,
+      "impact_area": "infrastructure",
+      "platform": "discord",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-08T08:26:09.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_007",
+      "amount": 437.19,
+      "impact_area": "marketing",
+      "platform": "youtube",
+      "description": "Influence contribution",
+      "timestamp": "2026-07-08T18:50:35.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_023",
+      "amount": 144.56,
+      "impact_area": "marketing",
+      "platform": "youtube",
+      "description": "Community engagement tribute - youtube",
+      "timestamp": "2026-07-08T21:16:51.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 23.38,
+      "impact_area": "operations",
+      "platform": "instagram",
+      "description": "Content creation tribute",
+      "timestamp": "2026-07-10T05:46:19.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 24.39,
+      "impact_area": "legal",
+      "platform": "discord",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-07-10T09:47:06.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_017",
+      "amount": 39.62,
+      "impact_area": "research",
+      "platform": "twitter",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-11T03:27:05.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_010",
+      "amount": 38.0,
+      "impact_area": "development",
+      "platform": "twitter",
+      "description": "Content creation tribute",
+      "timestamp": "2026-07-11T11:11:24.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_001",
+      "amount": 248.27,
+      "impact_area": "research",
+      "platform": "AFF",
+      "description": "Soul soul_001 contribution to research",
+      "timestamp": "2026-07-12T06:17:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 31.56,
+      "impact_area": "marketing",
+      "platform": "instagram",
+      "description": "instagram engagement reward",
+      "timestamp": "2026-07-12T10:01:12.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 24.09,
+      "impact_area": "infrastructure",
+      "platform": "twitter",
+      "description": "Engagement tribute from Weila Vite",
+      "timestamp": "2026-07-12T23:12:14.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 24.11,
+      "impact_area": "marketing",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-07-14T18:50:27.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_011",
+      "amount": 235.49,
+      "impact_area": "legal",
+      "platform": "youtube",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-07-15T02:42:59.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 171.42,
+      "impact_area": "infrastructure",
+      "platform": "tiktok",
+      "description": "Platform activity reward",
+      "timestamp": "2026-07-15T04:43:03.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 40.13,
+      "impact_area": "content",
+      "platform": "AFF",
+      "description": "Influence contribution",
+      "timestamp": "2026-07-15T04:56:51.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_014",
+      "amount": 22.79,
+      "impact_area": "legal",
+      "platform": "tiktok",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-07-15T14:44:06.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 28.46,
+      "impact_area": "marketing",
+      "platform": "youtube",
+      "description": "youtube engagement reward",
+      "timestamp": "2026-07-16T06:37:32.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 24.2,
+      "impact_area": "legal",
+      "platform": "instagram",
+      "description": "Soul soul_005 contribution to legal",
+      "timestamp": "2026-07-16T11:59:30.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_010",
+      "amount": 23.82,
+      "impact_area": "infrastructure",
+      "platform": "youtube",
+      "description": "Influence contribution",
+      "timestamp": "2026-07-17T12:55:52.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 32.47,
+      "impact_area": "legal",
+      "platform": "tiktok",
+      "description": "Engagement tribute from Loona Minta",
+      "timestamp": "2026-07-18T15:01:53.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 22.32,
+      "impact_area": "community",
+      "platform": "twitter",
+      "description": "Soul soul_009 contribution to community",
+      "timestamp": "2026-07-21T06:34:29.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_019",
+      "amount": 101.89,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "Platform revenue share - community",
+      "timestamp": "2026-07-21T13:47:56.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 34.34,
+      "impact_area": "research",
+      "platform": "discord",
+      "description": "Community engagement tribute - discord",
+      "timestamp": "2026-07-21T13:52:13.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_016",
+      "amount": 381.57,
+      "impact_area": "content",
+      "platform": "discord",
+      "description": "discord engagement reward",
+      "timestamp": "2026-07-23T09:20:05.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 41.71,
+      "impact_area": "development",
+      "platform": "instagram",
+      "description": "instagram engagement reward",
+      "timestamp": "2026-07-23T15:08:42.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_009",
+      "amount": 45.87,
+      "impact_area": "infrastructure",
+      "platform": "tiktok",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-23T19:26:46.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_005",
+      "amount": 148.98,
+      "impact_area": "legal",
+      "platform": "discord",
+      "description": "discord engagement reward",
+      "timestamp": "2026-07-23T21:13:18.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 215.64,
+      "impact_area": "development",
+      "platform": "reddit",
+      "description": "Community engagement tribute - reddit",
+      "timestamp": "2026-07-24T19:23:44.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_012",
+      "amount": 28.83,
+      "impact_area": "legal",
+      "platform": "instagram",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-07-24T20:12:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 43.25,
+      "impact_area": "research",
+      "platform": "tiktok",
+      "description": "Content creation tribute",
+      "timestamp": "2026-07-26T05:31:18.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_012",
+      "amount": 22.52,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "discord engagement reward",
+      "timestamp": "2026-07-26T08:51:51.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_008",
+      "amount": 26.43,
+      "impact_area": "operations",
+      "platform": "AFF",
+      "description": "Platform activity reward",
+      "timestamp": "2026-07-26T14:42:29.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 28.4,
+      "impact_area": "operations",
+      "platform": "tiktok",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-27T05:22:31.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_014",
+      "amount": 401.05,
+      "impact_area": "operations",
+      "platform": "instagram",
+      "description": "Community engagement tribute - instagram",
+      "timestamp": "2026-07-27T09:37:02.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_023",
+      "amount": 41.33,
+      "impact_area": "content",
+      "platform": "discord",
+      "description": "Platform revenue share - content",
+      "timestamp": "2026-07-28T14:04:46.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_008",
+      "amount": 425.04,
+      "impact_area": "content",
+      "platform": "tiktok",
+      "description": "Community building contribution",
+      "timestamp": "2026-07-29T12:26:10.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_020",
+      "amount": 17.41,
+      "impact_area": "infrastructure",
+      "platform": "AFF",
+      "description": "Community engagement tribute - AFF",
+      "timestamp": "2026-07-30T11:39:38.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_025",
+      "amount": 232.45,
+      "impact_area": "content",
+      "platform": "reddit",
+      "description": "Community engagement tribute - reddit",
+      "timestamp": "2026-07-30T13:45:43.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_014",
+      "amount": 160.54,
+      "impact_area": "research",
+      "platform": "tiktok",
+      "description": "tiktok engagement reward",
+      "timestamp": "2026-07-30T20:50:57.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_016",
+      "amount": 262.99,
+      "impact_area": "community",
+      "platform": "youtube",
+      "description": "youtube engagement reward",
+      "timestamp": "2026-07-31T11:46:36.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_015",
+      "amount": 34.25,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Soul soul_015 contribution to content",
+      "timestamp": "2026-07-31T12:37:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_027",
+      "amount": 22.97,
+      "impact_area": "infrastructure",
+      "platform": "youtube",
+      "description": "Platform activity reward",
+      "timestamp": "2026-08-02T22:58:16.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_010",
+      "amount": 48.13,
+      "impact_area": "marketing",
+      "platform": "reddit",
+      "description": "Platform revenue share - marketing",
+      "timestamp": "2026-08-03T03:27:49.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 16.14,
+      "impact_area": "operations",
+      "platform": "discord",
+      "description": "Engagement tribute from Weila Vite",
+      "timestamp": "2026-08-04T01:04:23.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 13.55,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Content creation tribute",
+      "timestamp": "2026-08-05T02:35:10.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_022",
+      "amount": 47.19,
+      "impact_area": "legal",
+      "platform": "tiktok",
+      "description": "Platform revenue share - legal",
+      "timestamp": "2026-08-05T07:39:21.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_024",
+      "amount": 47.32,
+      "impact_area": "marketing",
+      "platform": "AFF",
+      "description": "Content contribution from Cracoria Masters",
+      "timestamp": "2026-08-05T08:06:54.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_018",
+      "amount": 32.72,
+      "impact_area": "infrastructure",
+      "platform": "twitter",
+      "description": "Platform revenue share - infrastructure",
+      "timestamp": "2026-08-06T06:49:36.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 170.6,
+      "impact_area": "operations",
+      "platform": "youtube",
+      "description": "Soul soul_026 contribution to operations",
+      "timestamp": "2026-08-06T22:52:58.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_026",
+      "amount": 36.21,
+      "impact_area": "legal",
+      "platform": "reddit",
+      "description": "Community engagement tribute - reddit",
+      "timestamp": "2026-08-08T06:59:07.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 136.64,
+      "impact_area": "research",
+      "platform": "reddit",
+      "description": "Content creation tribute",
+      "timestamp": "2026-08-09T10:55:00.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 17.82,
+      "impact_area": "content",
+      "platform": "reddit",
+      "description": "Influence contribution",
+      "timestamp": "2026-08-10T09:38:12.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 27.63,
+      "impact_area": "legal",
+      "platform": "twitter",
+      "description": "Influence contribution",
+      "timestamp": "2026-08-11T02:12:44.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_021",
+      "amount": 10.61,
+      "impact_area": "operations",
+      "platform": "twitter",
+      "description": "Content contribution from Ann Stray",
+      "timestamp": "2026-08-12T04:08:11.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "rarity": "Common"
+      }
+    },
+    {
+      "soul_id": "soul_002",
+      "amount": 72.0,
+      "impact_area": "content",
+      "platform": "twitter",
+      "description": "Content contribution from Mary Magnumbytes",
+      "timestamp": "2026-08-12T04:31:21.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_016",
+      "amount": 46.41,
+      "impact_area": "marketing",
+      "platform": "reddit",
+      "description": "Platform revenue share - marketing",
+      "timestamp": "2026-08-13T03:40:15.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_028",
+      "amount": 228.93,
+      "impact_area": "operations",
+      "platform": "AFF",
+      "description": "Community engagement tribute - AFF",
+      "timestamp": "2026-08-13T15:57:28.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 41.28,
+      "impact_area": "infrastructure",
+      "platform": "instagram",
+      "description": "Content creation tribute",
+      "timestamp": "2026-08-14T17:19:42.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_003",
+      "amount": 19.56,
+      "impact_area": "research",
+      "platform": "AFF",
+      "description": "AFF engagement reward",
+      "timestamp": "2026-08-15T01:32:44.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_007",
+      "amount": 97.19,
+      "impact_area": "legal",
+      "platform": "youtube",
+      "description": "youtube engagement reward",
+      "timestamp": "2026-08-15T10:07:26.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_002",
+      "amount": 40.52,
+      "impact_area": "content",
+      "platform": "youtube",
+      "description": "Platform revenue share - content",
+      "timestamp": "2026-08-16T02:03:13.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_018",
+      "amount": 38.63,
+      "impact_area": "community",
+      "platform": "discord",
+      "description": "Soul soul_018 contribution to community",
+      "timestamp": "2026-08-16T05:59:36.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_006",
+      "amount": 24.15,
+      "impact_area": "legal",
+      "platform": "AFF",
+      "description": "Content contribution from Liangivalla Pouchaquehe",
+      "timestamp": "2026-08-16T06:51:30.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_019",
+      "amount": 35.49,
+      "impact_area": "development",
+      "platform": "AFF",
+      "description": "Content contribution from Ovaihge Wittminers",
+      "timestamp": "2026-08-16T07:30:20.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "rarity": "Legendary"
+      }
+    },
+    {
+      "soul_id": "soul_004",
+      "amount": 37.22,
+      "impact_area": "marketing",
+      "platform": "reddit",
+      "description": "Soul soul_004 contribution to marketing",
+      "timestamp": "2026-08-16T09:28:13.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "rarity": "Rare"
+      }
+    },
+    {
+      "soul_id": "soul_017",
+      "amount": 130.87,
+      "impact_area": "content",
+      "platform": "tiktok",
+      "description": "Soul soul_017 contribution to content",
+      "timestamp": "2026-08-16T17:21:02.883790",
+      "metadata": {
+        "source": "generated",
+        "soul_name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "rarity": "Rare"
+      }
+    }
+  ],
+  "generated_at": "2026-08-16T13:14:24.885580",
+  "analysis": {
+    "total_tributes": 150,
+    "total_amount": 13377.28,
+    "average_amount": 89.18,
+    "by_impact_area": {
+      "development": {
+        "count": 17,
+        "total": 1847.97
+      },
+      "research": {
+        "count": 18,
+        "total": 1293.0100000000002
+      },
+      "infrastructure": {
+        "count": 21,
+        "total": 1177.6200000000001
+      },
+      "legal": {
+        "count": 19,
+        "total": 1132.23
+      },
+      "content": {
+        "count": 22,
+        "total": 2456.2000000000003
+      },
+      "marketing": {
+        "count": 19,
+        "total": 2206.14
+      },
+      "community": {
+        "count": 19,
+        "total": 1413.93
+      },
+      "operations": {
+        "count": 15,
+        "total": 1850.18
+      }
+    },
+    "by_platform": {
+      "reddit": {
+        "count": 21,
+        "total": 2767.87
+      },
+      "tiktok": {
+        "count": 20,
+        "total": 1600.4499999999998
+      },
+      "AFF": {
+        "count": 22,
+        "total": 1942.38
+      },
+      "twitter": {
+        "count": 23,
+        "total": 1498.7499999999995
+      },
+      "discord": {
+        "count": 23,
+        "total": 1491.77
+      },
+      "youtube": {
+        "count": 22,
+        "total": 2898.29
+      },
+      "instagram": {
+        "count": 19,
+        "total": 1177.77
+      }
+    },
+    "by_soul": {
+      "soul_018": {
+        "count": 5,
+        "total": 805.68
+      },
+      "soul_006": {
+        "count": 7,
+        "total": 447.2199999999999
+      },
+      "soul_022": {
+        "count": 9,
+        "total": 879.75
+      },
+      "soul_009": {
+        "count": 10,
+        "total": 991.94
+      },
+      "soul_024": {
+        "count": 7,
+        "total": 675.89
+      },
+      "soul_001": {
+        "count": 6,
+        "total": 485.36
+      },
+      "soul_026": {
+        "count": 7,
+        "total": 545.6800000000001
+      },
+      "soul_020": {
+        "count": 5,
+        "total": 438.67
+      },
+      "soul_004": {
+        "count": 8,
+        "total": 683.9200000000001
+      },
+      "soul_010": {
+        "count": 5,
+        "total": 335.72999999999996
+      },
+      "soul_005": {
+        "count": 6,
+        "total": 848.3700000000001
+      },
+      "soul_019": {
+        "count": 4,
+        "total": 517.06
+      },
+      "soul_011": {
+        "count": 3,
+        "total": 303.43
+      },
+      "soul_027": {
+        "count": 7,
+        "total": 233.68
+      },
+      "soul_021": {
+        "count": 7,
+        "total": 154.95999999999998
+      },
+      "soul_028": {
+        "count": 6,
+        "total": 468.37
+      },
+      "soul_014": {
+        "count": 5,
+        "total": 667.16
+      },
+      "soul_015": {
+        "count": 8,
+        "total": 587.89
+      },
+      "soul_012": {
+        "count": 4,
+        "total": 96.92
+      },
+      "soul_017": {
+        "count": 4,
+        "total": 245.95000000000002
+      },
+      "soul_025": {
+        "count": 4,
+        "total": 285.28999999999996
+      },
+      "soul_023": {
+        "count": 3,
+        "total": 233.98000000000002
+      },
+      "soul_008": {
+        "count": 4,
+        "total": 486.48
+      },
+      "soul_002": {
+        "count": 4,
+        "total": 168.0
+      },
+      "soul_007": {
+        "count": 3,
+        "total": 571.88
+      },
+      "soul_003": {
+        "count": 3,
+        "total": 285.69
+      },
+      "soul_016": {
+        "count": 5,
+        "total": 922.0
+      },
+      "soul_013": {
+        "count": 1,
+        "total": 10.33
+      }
+    },
+    "date_range": {
+      "start": "2026-05-18T03:53:25.883790",
+      "end": "2026-08-16T17:21:02.883790"
+    }
+  }
+}

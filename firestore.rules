@@ -1,0 +1,120 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && 
+        (request.auth.token.email == 'mac.nazarene@HueMan-i-Terryleaders.com' ||
+         request.auth.token.email == 'mary.magnum@HueMan-i-Terryleaders.com');
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    function isDocumentOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.userId;
+    }
+    
+    function isValidTimestamp(value) {
+      return value is timestamp;
+    }
+    
+    function isValidEmail(value) {
+      return value is string && value.matches('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$');
+    }
+    
+    // Souls collection - public read, admin write with validation
+    match /souls/{soulId} {
+      allow read: if true;
+      allow create: if isAdmin() && 
+        request.resource.data.size() < 5000 &&
+        isValidEmail(request.resource.data.email) &&
+        request.resource.data.id is string &&
+        request.resource.data.name is string &&
+        request.resource.data.rarity in ['Common', 'Rare', 'Legendary'];
+      allow update: if isAdmin() && 
+        request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['last_updated', 'created_at']) &&
+        isValidTimestamp(request.resource.data.last_updated) &&
+        isValidTimestamp(request.resource.data.created_at);
+      allow delete: if isAdmin();
+    }
+    
+    // Financial data - admin only access
+    match /financial/{docId} {
+      allow read, write: if isAdmin();
+    }
+    
+    // User data - owner access only with validation
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && 
+        request.auth.uid == userId &&
+        request.resource.data.size() < 1000; // Prevent large documents
+      allow update: if isOwner(userId) &&
+        request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['displayName', 'photoURL', 'preferences', 'last_active']);
+      allow delete: if isOwner(userId) || isAdmin();
+    }
+    
+    // Content generation logs - authenticated access with size limits
+    match /content_logs/{logId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() &&
+        request.resource.data.size() < 5000; // 5KB limit
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Platform analytics - read-only for authenticated users
+    match /analytics/{docId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Write through server only
+    }
+    
+    // Tributes and payments - restricted access with validation
+    match /tributes/{tributeId} {
+      allow read: if isAuthenticated() && 
+        (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() &&
+        request.resource.data.userId == request.auth.uid &&
+        request.resource.data.userId is string &&
+        request.resource.data.amount is number &&
+        request.resource.data.amount > 0 &&
+        request.resource.data.amount < 10000 &&
+        request.resource.data.impactArea is string &&
+        request.resource.data.description is string &&
+        request.resource.data.size() < 2000;
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Shadow practice sessions - private access with validation
+    match /shadow_sessions/{sessionId} {
+      allow read: if isDocumentOwner();
+      allow create: if isAuthenticated() &&
+        request.resource.data.userId == request.auth.uid &&
+        request.resource.data.userId is string &&
+        request.resource.data.size() < 10000;
+      allow update: if isDocumentOwner();
+      allow delete: if isDocumentOwner();
+    }
+    
+    // Platform configuration - admin only
+    match /config/{configId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+    
+    // Prevent any unauthorized access to undefined collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

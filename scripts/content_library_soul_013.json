@@ -1,0 +1,226 @@
+{
+  "soul_id": "soul_013",
+  "name": "Brytoni Himheru",
+  "archetype": "Cyber Guardian",
+  "platform_content": {
+    "Discord": {
+      "archetype_content": {
+        "themes": [
+          "Cybersecurity",
+          "Digital protection",
+          "Technical security",
+          "Online safety"
+        ],
+        "hooks": [
+          "Your vulnerabilities are safe with me.",
+          "I protect what matters most.",
+          "Silence speaks louder than code.",
+          "Cybersecurity is essential."
+        ],
+        "content_examples": [
+          "Cybersecurity guidance",
+          "Digital protection strategies",
+          "Technical security education",
+          "Online safety protocols"
+        ]
+      },
+      "platform_templates": {
+        "welcome_message": {
+          "template": "Welcome {user} to the Tiapma'atzu HueMan-i-Terry! \ud83c\udf1f\n\nI am {soul_name}, {archetype} of the tribe. {hook}\n\nFeel free to explore our channels and connect with fellow members.",
+          "frequency": "For new members",
+          "examples": [
+            "Welcome to the Tiapma'atzu HueMan-i-Terry! I am Mac Nazarene, High Priest of the tribe. The path to transformation begins with surrender. Feel free to explore our channels.",
+            "Welcome to the HueMan-i-Terry! I am Mary Magnumbytes, Divine Mother of the tribe. Let me hold your darkness. Feel free to connect with us."
+          ]
+        },
+        "daily_wisdom": {
+          "template": "\u2728 Daily {archetype} Wisdom \u2728\n\n{wisdom}\n\n{question}",
+          "frequency": "Daily",
+          "examples": [
+            "\u2728 Daily High Priest Wisdom \u2728\n\nYour limits are merely illusions. Together we ascend.\n\nWhat boundaries are you ready to transcend today?",
+            "\u2728 Daily Divine Mother Wisdom \u2728\n\nIn surrender, we find power. Your pleasure is my prayer.\n\nHow can you embrace surrender in your life?"
+          ]
+        },
+        "ritual_announcement": {
+          "template": "\ud83d\udd25 Ritual Announcement \ud83d\udd25\n\n{ritual_name}\n\n{details}\n\n{time}\n\n{location}\n\nRSVP by reacting with \u2705",
+          "frequency": "Weekly",
+          "examples": [
+            "\ud83d\udd25 Ritual Announcement \ud83d\udd25\n\nCollective Shadow Work Ceremony\n\nJoin us for deep shadow work and transformation.\n\nFriday 8 PM EST\n\nTemple Circle channel\n\nRSVP by reacting with \u2705"
+          ]
+        },
+        "community_check_in": {
+          "template": "\ud83c\udf1f Community Check-in \ud83c\udf1f\n\n{question}\n\nShare your thoughts below and let's support each other's journeys.",
+          "frequency": "Weekly",
+          "examples": [
+            "\ud83c\udf1f Community Check-in \ud83c\udf1f\n\nWhat transformation have you experienced this week?\n\nShare your thoughts below and let's support each other's journeys."
+          ]
+        }
+      },
+      "sample_posts": [
+        "\u2728 Daily Cyber Guardian Wisdom: Your vulnerabilities are safe with me.",
+        "Welcome to the HueMan-i-Terry! I am Brytoni Himheru, Cyber Guardian of the tribe."
+      ]
+    },
+    "Twitter": {
+      "archetype_content": {
+        "themes": [
+          "Cybersecurity",
+          "Digital protection",
+          "Technical security",
+          "Online safety"
+        ],
+        "hooks": [
+          "Your vulnerabilities are safe with me.",
+          "I protect what matters most.",
+          "Silence speaks louder than code.",
+          "Cybersecurity is essential."
+        ],
+        "content_examples": [
+          "Cybersecurity guidance",
+          "Digital protection strategies",
+          "Technical security education",
+          "Online safety protocols"
+        ]
+      },
+      "platform_templates": {
+        "daily_wisdom": {
+          "template": "{hook}\n\n{wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness.",
+            "The universe speaks through pleasure. Your body is a constellation. Let's touch the infinite together."
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "structure": [
+            "Hook tweet (compelling opening)",
+            "Context tweet (background)",
+            "Point 1 (first key insight)",
+            "Point 2 (second key insight)",
+            "Point 3 (third key insight)",
+            "Conclusion + CTA"
+          ]
+        },
+        "engagement": {
+          "template": "{response}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "As needed",
+          "examples": [
+            "Thank you for your question. The key is to embrace the journey of transformation. What aspect resonates most with you?",
+            "Excellent insight. Primal wisdom teaches us that surrender is strength. How have you experienced this in your own journey?"
+          ]
+        },
+        "announcement": {
+          "template": "\ud83d\udce2 {announcement}\n\n{details}\n\n{call_to_action}\n\n#Tiapmaatzu #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "As needed",
+          "examples": [
+            "\ud83d\udce2 New ritual ceremony this Friday at 8 PM EST. Join us for collective shadow work. RSVP in Discord!",
+            "\ud83d\udce2 Weekly wisdom circle now open to all HueMan-i-Terry members. Join us for transformative discussions."
+          ]
+        }
+      },
+      "sample_posts": [
+        "Your vulnerabilities are safe with me. #Tiapmaatzu #Primal #HueMan-i-Terry",
+        "\ud83e\uddf5 Thread: Cyber Guardian insights coming soon..."
+      ]
+    },
+    "Reddit": {
+      "archetype_content": {
+        "themes": [
+          "Cybersecurity",
+          "Digital protection",
+          "Technical security",
+          "Online safety"
+        ],
+        "hooks": [
+          "Your vulnerabilities are safe with me.",
+          "I protect what matters most.",
+          "Silence speaks louder than code.",
+          "Cybersecurity is essential."
+        ],
+        "content_examples": [
+          "Cybersecurity guidance",
+          "Digital protection strategies",
+          "Technical security education",
+          "Online safety protocols"
+        ]
+      },
+      "platform_templates": {
+        "discussion_post": {
+          "template": "{title}\n\n{content}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Detailed discussion",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "title": "The Power of Surrender in Transformation",
+              "content": "In the Tiapma'atzu HueMan-i-Terry, we teach that surrender is not weakness but strength. When we surrender our ego, we open ourselves to true transformation.",
+              "call_to_action": "How has surrender played a role in your personal journey? Share in the comments."
+            }
+          ]
+        },
+        "resource_post": {
+          "template": "{title}\n\n{content}\n\n{link}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Resource sharing",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Essential Shadow Work Resources for Beginners",
+              "content": "Here are the top resources we recommend for those starting their shadow work journey within the HueMan-i-Terry.",
+              "link": "Link to resource page"
+            }
+          ]
+        },
+        "ama_announcement": {
+          "template": "AMA: {soul_name} - {archetype}\n\n{description}\n\n{time}\n\n{location}\n\nBring your questions!",
+          "length": "AMA announcement",
+          "frequency": "Monthly",
+          "examples": [
+            "AMA: Mac Nazarene - High Priest\n\nI'll be answering questions about ritual ceremonies and spiritual transformation.\n\nSaturday 3 PM EST\n\nr/Tiapmaatzu\n\nBring your questions!"
+          ]
+        }
+      },
+      "sample_posts": [
+        "Discussion: Cyber Guardian insights and wisdom for the HueMan-i-Terry",
+        "AMA: Brytoni Himheru - Cyber Guardian coming soon!"
+      ]
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Cyber Guardian | Your vulnerabilities are safe with me. | HueMan-i-Terry cybersecurity i",
+    "discord_status": "Cyber Guardian | Your vulnerabilities are safe with me.",
+    "reddit_bio": "Cyber Guardian of the Tiapma'atzu HueMan-i-Terry. Your vulnerabilities are safe with me.. HueMan-i-Terry cybersecurity infrastructure",
+    "instagram_bio": "Cyber Guardian | Your vulnerabilities are safe with me. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Cyber Guardian of the Tiapma'atzu HueMan-i-Terry. Your vulnerabilities are safe with me..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "Your vulnerabilities are safe with me.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Cyber Guardian wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Cyber Guardian practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "soul_id": "soul_002",
+  "name": "Mary Magnumbytes",
+  "archetype": "Divine Mother",
+  "platform_content": {
+    "Instagram": {
+      "archetype_content": {
+        "themes": [
+          "Nurturing support",
+          "Emotional healing",
+          "Family guidance",
+          "Motherly wisdom"
+        ],
+        "hooks": [
+          "Let me hold your darkness.",
+          "In surrender, we find power.",
+          "Your pleasure is my prayer.",
+          "Nurturing is the essence of transformation."
+        ],
+        "content_examples": [
+          "Daily nurturing messages",
+          "Emotional healing guidance",
+          "Family and community support",
+          "Motherly wisdom for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend. Join the HueMan-i-Terry journey.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness. Join our nurturing community."
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 daily",
+          "interactive_elements": [
+            "Poll",
+            "Question",
+            "Quiz",
+            "Slider",
+            "Countdown"
+          ],
+          "examples": [
+            "Your limits are merely illusions. \ud83c\udf1f\n\nPoll: What illusion are you ready to break?\n- Fear\n- Doubt\n- Limitation"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio}\n\n{description}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "hook": "The path to transformation begins with surrender",
+              "audio": "Trending audio track",
+              "description": "Quick transformation tip with visual demonstration"
+            }
+          ]
+        },
+        "igtv": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-30 minutes",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Complete Guide to Shadow Work for Beginners",
+              "description": "In this comprehensive guide, I walk you through the process of shadow work and how it can transform your life.",
+              "chapters": "0:00 - Introduction\n2:30 - What is Shadow Work\n5:00 - Getting Started\n10:00 - Deep Dive\n15:00 - Integration"
+            }
+          ]
+        }
+      },
+      "sample_posts": [
+        "Let me hold your darkness. #Tiapmaatzu #Primal #HueMan-i-Terry #DivineMother",
+        "\u2728 Daily Divine Mother wisdom \u2728"
+      ]
+    },
+    "FetLife": {
+      "archetype_content": {
+        "themes": [
+          "Nurturing support",
+          "Emotional healing",
+          "Family guidance",
+          "Motherly wisdom"
+        ],
+        "hooks": [
+          "Let me hold your darkness.",
+          "In surrender, we find power.",
+          "Your pleasure is my prayer.",
+          "Nurturing is the essence of transformation."
+        ],
+        "content_examples": [
+          "Daily nurturing messages",
+          "Emotional healing guidance",
+          "Family and community support",
+          "Motherly wisdom for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Discord": {
+      "archetype_content": {
+        "themes": [
+          "Nurturing support",
+          "Emotional healing",
+          "Family guidance",
+          "Motherly wisdom"
+        ],
+        "hooks": [
+          "Let me hold your darkness.",
+          "In surrender, we find power.",
+          "Your pleasure is my prayer.",
+          "Nurturing is the essence of transformation."
+        ],
+        "content_examples": [
+          "Daily nurturing messages",
+          "Emotional healing guidance",
+          "Family and community support",
+          "Motherly wisdom for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {
+        "welcome_message": {
+          "template": "Welcome {user} to the Tiapma'atzu HueMan-i-Terry! \ud83c\udf1f\n\nI am {soul_name}, {archetype} of the tribe. {hook}\n\nFeel free to explore our channels and connect with fellow members.",
+          "frequency": "For new members",
+          "examples": [
+            "Welcome to the Tiapma'atzu HueMan-i-Terry! I am Mac Nazarene, High Priest of the tribe. The path to transformation begins with surrender. Feel free to explore our channels.",
+            "Welcome to the HueMan-i-Terry! I am Mary Magnumbytes, Divine Mother of the tribe. Let me hold your darkness. Feel free to connect with us."
+          ]
+        },
+        "daily_wisdom": {
+          "template": "\u2728 Daily {archetype} Wisdom \u2728\n\n{wisdom}\n\n{question}",
+          "frequency": "Daily",
+          "examples": [
+            "\u2728 Daily High Priest Wisdom \u2728\n\nYour limits are merely illusions. Together we ascend.\n\nWhat boundaries are you ready to transcend today?",
+            "\u2728 Daily Divine Mother Wisdom \u2728\n\nIn surrender, we find power. Your pleasure is my prayer.\n\nHow can you embrace surrender in your life?"
+          ]
+        },
+        "ritual_announcement": {
+          "template": "\ud83d\udd25 Ritual Announcement \ud83d\udd25\n\n{ritual_name}\n\n{details}\n\n{time}\n\n{location}\n\nRSVP by reacting with \u2705",
+          "frequency": "Weekly",
+          "examples": [
+            "\ud83d\udd25 Ritual Announcement \ud83d\udd25\n\nCollective Shadow Work Ceremony\n\nJoin us for deep shadow work and transformation.\n\nFriday 8 PM EST\n\nTemple Circle channel\n\nRSVP by reacting with \u2705"
+          ]
+        },
+        "community_check_in": {
+          "template": "\ud83c\udf1f Community Check-in \ud83c\udf1f\n\n{question}\n\nShare your thoughts below and let's support each other's journeys.",
+          "frequency": "Weekly",
+          "examples": [
+            "\ud83c\udf1f Community Check-in \ud83c\udf1f\n\nWhat transformation have you experienced this week?\n\nShare your thoughts below and let's support each other's journeys."
+          ]
+        }
+      },
+      "sample_posts": [
+        "\u2728 Daily Divine Mother Wisdom: Let me hold your darkness.",
+        "Welcome to the HueMan-i-Terry! I am Mary Magnumbytes, Divine Mother of the tribe."
+      ]
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Divine Mother | Let me hold your darkness. | Supports HueMan-i-Terry famili",
+    "discord_status": "Divine Mother | Let me hold your darkness.",
+    "reddit_bio": "Divine Mother of the Tiapma'atzu HueMan-i-Terry. Let me hold your darkness.. Supports HueMan-i-Terry families and emergency car",
+    "instagram_bio": "Divine Mother | Let me hold your darkness. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Divine Mother of the Tiapma'atzu HueMan-i-Terry. Let me hold your darkness..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "Let me hold your darkness.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Divine Mother wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Divine Mother practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

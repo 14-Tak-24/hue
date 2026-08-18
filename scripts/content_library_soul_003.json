@@ -1,0 +1,192 @@
+{
+  "soul_id": "soul_003",
+  "name": "Dixon Uhbuts",
+  "archetype": "High Priest",
+  "platform_content": {
+    "FetLife": {
+      "archetype_content": {
+        "themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership",
+          "Ceremonial content"
+        ],
+        "hooks": [
+          "The path to transformation begins with surrender.",
+          "Your limits are merely illusions.",
+          "Together we ascend.",
+          "Ritual is the language of the soul."
+        ],
+        "content_examples": [
+          "Daily wisdom on spiritual transformation",
+          "Ritual ceremony announcements",
+          "Ceremonial guidance and teachings",
+          "Leadership insights for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Reddit": {
+      "archetype_content": {
+        "themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership",
+          "Ceremonial content"
+        ],
+        "hooks": [
+          "The path to transformation begins with surrender.",
+          "Your limits are merely illusions.",
+          "Together we ascend.",
+          "Ritual is the language of the soul."
+        ],
+        "content_examples": [
+          "Daily wisdom on spiritual transformation",
+          "Ritual ceremony announcements",
+          "Ceremonial guidance and teachings",
+          "Leadership insights for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {
+        "discussion_post": {
+          "template": "{title}\n\n{content}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Detailed discussion",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "title": "The Power of Surrender in Transformation",
+              "content": "In the Tiapma'atzu HueMan-i-Terry, we teach that surrender is not weakness but strength. When we surrender our ego, we open ourselves to true transformation.",
+              "call_to_action": "How has surrender played a role in your personal journey? Share in the comments."
+            }
+          ]
+        },
+        "resource_post": {
+          "template": "{title}\n\n{content}\n\n{link}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Resource sharing",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Essential Shadow Work Resources for Beginners",
+              "content": "Here are the top resources we recommend for those starting their shadow work journey within the HueMan-i-Terry.",
+              "link": "Link to resource page"
+            }
+          ]
+        },
+        "ama_announcement": {
+          "template": "AMA: {soul_name} - {archetype}\n\n{description}\n\n{time}\n\n{location}\n\nBring your questions!",
+          "length": "AMA announcement",
+          "frequency": "Monthly",
+          "examples": [
+            "AMA: Mac Nazarene - High Priest\n\nI'll be answering questions about ritual ceremonies and spiritual transformation.\n\nSaturday 3 PM EST\n\nr/Tiapmaatzu\n\nBring your questions!"
+          ]
+        }
+      },
+      "sample_posts": [
+        "Discussion: High Priest insights and wisdom for the HueMan-i-Terry",
+        "AMA: Dixon Uhbuts - High Priest coming soon!"
+      ]
+    },
+    "Twitter": {
+      "archetype_content": {
+        "themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership",
+          "Ceremonial content"
+        ],
+        "hooks": [
+          "The path to transformation begins with surrender.",
+          "Your limits are merely illusions.",
+          "Together we ascend.",
+          "Ritual is the language of the soul."
+        ],
+        "content_examples": [
+          "Daily wisdom on spiritual transformation",
+          "Ritual ceremony announcements",
+          "Ceremonial guidance and teachings",
+          "Leadership insights for the HueMan-i-Terry"
+        ]
+      },
+      "platform_templates": {
+        "daily_wisdom": {
+          "template": "{hook}\n\n{wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness.",
+            "The universe speaks through pleasure. Your body is a constellation. Let's touch the infinite together."
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "structure": [
+            "Hook tweet (compelling opening)",
+            "Context tweet (background)",
+            "Point 1 (first key insight)",
+            "Point 2 (second key insight)",
+            "Point 3 (third key insight)",
+            "Conclusion + CTA"
+          ]
+        },
+        "engagement": {
+          "template": "{response}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "As needed",
+          "examples": [
+            "Thank you for your question. The key is to embrace the journey of transformation. What aspect resonates most with you?",
+            "Excellent insight. Primal wisdom teaches us that surrender is strength. How have you experienced this in your own journey?"
+          ]
+        },
+        "announcement": {
+          "template": "\ud83d\udce2 {announcement}\n\n{details}\n\n{call_to_action}\n\n#Tiapmaatzu #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "As needed",
+          "examples": [
+            "\ud83d\udce2 New ritual ceremony this Friday at 8 PM EST. Join us for collective shadow work. RSVP in Discord!",
+            "\ud83d\udce2 Weekly wisdom circle now open to all HueMan-i-Terry members. Join us for transformative discussions."
+          ]
+        }
+      },
+      "sample_posts": [
+        "The law of the HueMan-i-Terry is absolute. #Tiapmaatzu #Primal #HueMan-i-Terry",
+        "\ud83e\uddf5 Thread: High Priest insights coming soon..."
+      ]
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "High Priest | The law of the HueMan-i-Terry is absolute. | Funds Tiapma'atzu legal templa",
+    "discord_status": "High Priest | The law of the HueMan-i-Terry is absolute.",
+    "reddit_bio": "High Priest of the Tiapma'atzu HueMan-i-Terry. The law of the HueMan-i-Terry is absolute.. Funds Tiapma'atzu legal templates for HueMan-i-Ter",
+    "instagram_bio": "High Priest | The law of the HueMan-i-Terry is absolute. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as High Priest of the Tiapma'atzu HueMan-i-Terry. The law of the HueMan-i-Terry is absolute..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "The law of the HueMan-i-Terry is absolute.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into High Priest wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow High Priest practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

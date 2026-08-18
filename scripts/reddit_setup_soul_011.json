@@ -1,0 +1,81 @@
+{
+  "soul_id": "soul_011",
+  "name": "Jessa Relay",
+  "archetype": "Connection Curator",
+  "account_setup": {
+    "recommended_username": "JessaRelayHueMan-i-Terry",
+    "alternative_usernames": [
+      "JessaRelayHueMan-i-Terry",
+      "ConnectionCurator_JessaRelay",
+      "Tiapmaatzu_JessaRelay"
+    ],
+    "email": "industrial_overlord@post.com",
+    "display_name": "Jessa Relay",
+    "username_requirements": "20 characters max, letters, numbers, underscores only",
+    "password_requirements": "8+ characters"
+  },
+  "profile_optimization": {
+    "username": "JessaRelayHueMan-i-Terry",
+    "display_name": "Jessa Relay",
+    "bio": "Connection Curator of the Tiapma'atzu HueMan-i-Terry\n\nLet's connect you to your desires.\n\nReal-world gathering event spaces\n\nJoin the transformation: Discord link",
+    "profile_over_18": "Set based on content nature",
+    "nsfw_content": "Mark appropriately if needed",
+    "location": "Web of Connection",
+    "website": "https://tiapmaatzu.web.app"
+  },
+  "subreddit_setup": {
+    "main_subreddit": "r/Tiapmaatzu",
+    "dedicated_subreddit": null,
+    "moderation_role": "Contributor",
+    "posting_permissions": "Full posting permissions",
+    "flair_assignment": "Connection Curator flair",
+    "posting_frequency": "3-4 posts weekly"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "connection curator",
+      "Community building",
+      "Real-world"
+    ],
+    "content_types": {
+      "text_posts": "Let's connect you to your desires. with detailed explanation",
+      "image_posts": "Share Connection Curator aesthetic and visual content",
+      "video_posts": "Share Connection Curator rituals and teachings",
+      "link_posts": "Share external HueMan-i-Terry content and resources"
+    },
+    "posting_frequency": "4-5 posts weekly",
+    "best_times": [
+      "8 AM",
+      "12 PM",
+      "7 PM EST"
+    ],
+    "subreddit_focus": "r/Tiapmaatzu",
+    "crossposting": "Share between main and archetype subreddits"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+    "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+    "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+    "community_building": "Participate in relevant subreddit discussions",
+    "moderation_duties": "Report issues"
+  },
+  "moderation_setup": {
+    "moderation_role": "Contributor",
+    "moderation_tools": [
+      "Basic reporting"
+    ],
+    "moderation_schedule": "Report issues to moderators",
+    "rule_enforcement": "Follow and enforce guidelines",
+    "user_flairs": "Request appropriate flairs"
+  },
+  "growth_targets": {
+    "month_1_karma": 1000,
+    "month_1_subscribers": 500,
+    "month_3_karma": 5000,
+    "month_3_subscribers": 1000,
+    "month_6_karma": 10000,
+    "month_6_subscribers": 2500,
+    "month_12_karma": 25000,
+    "month_12_subscribers": 5000
+  }
+}

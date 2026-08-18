@@ -1,0 +1,163 @@
+{
+  "soul_id": "soul_004",
+  "name": "Airiol Uhbuts",
+  "archetype": "Seductive Muse",
+  "platform_content": {
+    "FetLife": {
+      "archetype_content": {
+        "themes": [
+          "Sensual guidance",
+          "Burlesque arts",
+          "Desire exploration",
+          "Artistic seduction"
+        ],
+        "hooks": [
+          "Let me show you what you've been missing.",
+          "Your desire is my art form.",
+          "Surrender to the bayou magic.",
+          "Seduction is a sacred art."
+        ],
+        "content_examples": [
+          "Sensual guidance and exploration",
+          "Burlesque and artistic content",
+          "Desire exploration and education",
+          "Artistic seduction techniques"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Instagram": {
+      "archetype_content": {
+        "themes": [
+          "Sensual guidance",
+          "Burlesque arts",
+          "Desire exploration",
+          "Artistic seduction"
+        ],
+        "hooks": [
+          "Let me show you what you've been missing.",
+          "Your desire is my art form.",
+          "Surrender to the bayou magic.",
+          "Seduction is a sacred art."
+        ],
+        "content_examples": [
+          "Sensual guidance and exploration",
+          "Burlesque and artistic content",
+          "Desire exploration and education",
+          "Artistic seduction techniques"
+        ]
+      },
+      "platform_templates": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend. Join the HueMan-i-Terry journey.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness. Join our nurturing community."
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 daily",
+          "interactive_elements": [
+            "Poll",
+            "Question",
+            "Quiz",
+            "Slider",
+            "Countdown"
+          ],
+          "examples": [
+            "Your limits are merely illusions. \ud83c\udf1f\n\nPoll: What illusion are you ready to break?\n- Fear\n- Doubt\n- Limitation"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio}\n\n{description}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "hook": "The path to transformation begins with surrender",
+              "audio": "Trending audio track",
+              "description": "Quick transformation tip with visual demonstration"
+            }
+          ]
+        },
+        "igtv": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-30 minutes",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Complete Guide to Shadow Work for Beginners",
+              "description": "In this comprehensive guide, I walk you through the process of shadow work and how it can transform your life.",
+              "chapters": "0:00 - Introduction\n2:30 - What is Shadow Work\n5:00 - Getting Started\n10:00 - Deep Dive\n15:00 - Integration"
+            }
+          ]
+        }
+      },
+      "sample_posts": [
+        "Let me show you what you've been missing. #Tiapmaatzu #Primal #HueMan-i-Terry #SeductiveMuse",
+        "\u2728 Daily Seductive Muse wisdom \u2728"
+      ]
+    },
+    "AFF": {
+      "archetype_content": {
+        "themes": [
+          "Sensual guidance",
+          "Burlesque arts",
+          "Desire exploration",
+          "Artistic seduction"
+        ],
+        "hooks": [
+          "Let me show you what you've been missing.",
+          "Your desire is my art form.",
+          "Surrender to the bayou magic.",
+          "Seduction is a sacred art."
+        ],
+        "content_examples": [
+          "Sensual guidance and exploration",
+          "Burlesque and artistic content",
+          "Desire exploration and education",
+          "Artistic seduction techniques"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Seductive Muse | Let me show you what you've been missing. | Supports women's emergency esc",
+    "discord_status": "Seductive Muse | Let me show you what you've been missing.",
+    "reddit_bio": "Seductive Muse of the Tiapma'atzu HueMan-i-Terry. Let me show you what you've been missing.. Supports women's emergency escape funds",
+    "instagram_bio": "Seductive Muse | Let me show you what you've been missing. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Seductive Muse of the Tiapma'atzu HueMan-i-Terry. Let me show you what you've been missing..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "Let me show you what you've been missing.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Seductive Muse wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Seductive Muse practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

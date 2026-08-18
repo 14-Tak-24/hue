@@ -1,0 +1,32 @@
+{
+  "soul_id": "soul_015",
+  "name": "Loona Minta",
+  "platform_checklist": {
+    "Instagram": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Switch to Creator account",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set contact button",
+        "Create highlights"
+      ],
+      "platform_specific": [
+        "Configure Creator Studio",
+        "Set up category",
+        "Configure notifications"
+      ]
+    },
+    "TikTok": {},
+    "Pinterest": {}
+  },
+  "overall_status": "pending"
+}

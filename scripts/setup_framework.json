@@ -1,0 +1,400 @@
+{
+  "setup_configuration": {
+    "account_setup": {
+      "twitter": [
+        "Create Twitter account with soul-specific handle",
+        "Set up two-factor authentication",
+        "Configure profile picture (soul image)",
+        "Write optimized bio (160 chars max)",
+        "Set up header image with branding",
+        "Enable notification settings",
+        "Connect to other social accounts",
+        "Set up Twitter Analytics",
+        "Create Lists for community management",
+        "Configure privacy settings"
+      ],
+      "discord": [
+        "Create Discord account",
+        "Set up two-factor authentication",
+        "Configure user profile with soul identity",
+        "Join Tiapma'atzu main server",
+        "Set up role-specific channels",
+        "Configure notification preferences",
+        "Set up custom status and presence",
+        "Create soul-specific server (if needed)",
+        "Configure bot permissions",
+        "Set up channel categories and permissions"
+      ],
+      "reddit": [
+        "Create Reddit account",
+        "Set up two-factor authentication",
+        "Configure user profile",
+        "Verify email address",
+        "Set up subreddit (if applicable)",
+        "Configure karma and age requirements",
+        "Set up flair system",
+        "Configure moderation tools",
+        "Set up Reddit Premium (if needed)",
+        "Configure notification settings"
+      ],
+      "instagram": [
+        "Create Instagram business account",
+        "Set up two-factor authentication",
+        "Configure profile picture",
+        "Write optimized bio (150 chars max)",
+        "Set up story highlights",
+        "Configure Instagram Insights",
+        "Connect to Facebook Page",
+        "Set up Instagram Shopping (if applicable)",
+        "Configure close friends list",
+        "Set up automatic posting tools"
+      ],
+      "tiktok": [
+        "Create TikTok account",
+        "Set up two-factor authentication",
+        "Configure profile picture",
+        "Write optimized bio",
+        "Set up TikTok Pro account",
+        "Configure analytics dashboard",
+        "Set up sound library access",
+        "Configure duet/reaction settings",
+        "Set up TikTok Ads (if needed)",
+        "Configure comment filters"
+      ],
+      "youtube": [
+        "Create YouTube channel",
+        "Set up two-factor authentication",
+        "Configure channel art and branding",
+        "Write optimized channel description",
+        "Set up channel trailer",
+        "Configure YouTube Studio",
+        "Set up monetization (if eligible)",
+        "Configure community tab",
+        "Set up playlist organization",
+        "Configure comment moderation"
+      ],
+      "fetlife": [
+        "Create FetLife account",
+        "Set up profile verification",
+        "Configure profile picture",
+        "Write detailed profile description",
+        "Set up kink interests",
+        "Configure privacy settings",
+        "Set up location visibility",
+        "Configure friend request settings",
+        "Set up group memberships",
+        "Configure event visibility"
+      ],
+      "telegram": [
+        "Create Telegram account",
+        "Set up two-factor authentication",
+        "Configure profile picture",
+        "Write bio description",
+        "Set up Telegram channel",
+        "Configure channel privacy settings",
+        "Set up bot integration",
+        "Configure message scheduling",
+        "Set up group management",
+        "Configure notification settings"
+      ],
+      "AFF": [
+        "Create AFF profile",
+        "Set up two-factor authentication",
+        "Configure professional headshot",
+        "Write professional summary",
+        "Set up experience section",
+        "Configure skills and endorsements",
+        "Set up AFF Page (if business)",
+        "Configure publishing platform",
+        "Set up analytics dashboard",
+        "Configure network settings"
+      ]
+    },
+    "profile_optimization": {
+      "twitter": {
+        "handle_format": "@soulname_tiapmaatzu",
+        "bio_template": "{archetype} | {hook} | {tribute_impact} | Join the HueMan-i-Terry: link",
+        "image_specs": "400x400px profile, 1500x500px header",
+        "link_placement": "Pinned tweet with HueMan-i-Terry landing page",
+        "keywords": "Tiapma'atzu, primal, transformation, HueMan-i-Terry"
+      },
+      "discord": {
+        "username_format": "SoulName#Tiapmaatzu",
+        "bio_template": "{archetype} of the Tiapma'atzu HueMan-i-Terry | {hook}",
+        "image_specs": "512x512px profile",
+        "status_template": "{archetype} | Currently: {activity}",
+        "keywords": "HueMan-i-Terry, primal, community"
+      },
+      "reddit": {
+        "username_format": "SoulName_Tiapmaatzu",
+        "bio_template": "{archetype} | {hook} | {tribute_impact}",
+        "image_specs": "256x256px profile",
+        "subreddit_format": "r/SoulNameHueMan-i-Terry",
+        "keywords": "Tiapma'atzu, primal, community"
+      },
+      "instagram": {
+        "handle_format": "@soulname_tiapmaatzu",
+        "bio_template": "{archetype} | {hook} | {tribute_impact} | Link in bio",
+        "image_specs": "110x110px profile, 1080x1080px posts",
+        "story_template": "{archetype} wisdom: {daily_message}",
+        "keywords": "tiapmaatzu, primal, transformation"
+      },
+      "tiktok": {
+        "handle_format": "@soulname_tiapmaatzu",
+        "bio_template": "{archetype} | {hook} | {tribute_impact}",
+        "image_specs": "20x20px profile, 1080x1920px videos",
+        "video_template": "{archetype} content: {hook}",
+        "keywords": "tiapmaatzu, primal, transformation"
+      },
+      "youtube": {
+        "handle_format": "@SoulNameTiapmaatzu",
+        "description_template": "{archetype} of the Tiapma'atzu HueMan-i-Terry. {bio} {tribute_impact}",
+        "image_specs": "800x800px profile, 2560x1440px banner",
+        "playlist_template": "{archetype} Wisdom - {topic}",
+        "keywords": "Tiapma'atzu, primal, transformation, HueMan-i-Terry"
+      }
+    },
+    "content_templates": {
+      "twitter": {
+        "daily_post": {
+          "template": "{hook}\n\n{daily_wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-3 posts daily",
+          "best_times": [
+            "9 AM",
+            "12 PM",
+            "7 PM"
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "best_times": [
+            "12 PM",
+            "7 PM"
+          ]
+        },
+        "engagement": {
+          "template": "{response_to_comment}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "Respond within 1 hour",
+          "best_times": "As notifications come in"
+        }
+      },
+      "instagram": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 posts daily",
+          "best_times": [
+            "11 AM",
+            "7 PM"
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 stories daily",
+          "best_times": [
+            "Morning",
+            "Afternoon",
+            "Evening"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio_track}\n\n{description}\n\n#Tiapmaatzu #Primal",
+          "length": "15-60 seconds",
+          "frequency": "2-3 reels weekly",
+          "best_times": [
+            "12 PM",
+            "7 PM"
+          ]
+        }
+      },
+      "tiktok": {
+        "video": {
+          "template": "{hook}\n\n{content}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "1-2 videos daily",
+          "best_times": [
+            "7 AM",
+            "12 PM",
+            "7 PM"
+          ]
+        },
+        "duet": {
+          "template": "{response_to_original}\n\n{addition}",
+          "length": "Match original",
+          "frequency": "As opportunities arise",
+          "best_times": "Within 24 hours of original"
+        },
+        "stitch": {
+          "template": "{clip_original}\n\n{response}",
+          "length": "5 seconds clip + response",
+          "frequency": "As opportunities arise",
+          "best_times": "Within 24 hours of original"
+        }
+      },
+      "youtube": {
+        "video": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-20 minutes",
+          "frequency": "1-2 videos weekly",
+          "best_times": [
+            "Saturday",
+            "Sunday"
+          ]
+        },
+        "short": {
+          "template": "{hook}\n\n{content}\n\n{call_to_action}",
+          "length": "60 seconds",
+          "frequency": "3-5 shorts weekly",
+          "best_times": [
+            "Daily, various times"
+          ]
+        },
+        "community_post": {
+          "template": "{hook}\n\n{content}\n\n{image}\n\n{call_to_action}",
+          "length": "Text + image",
+          "frequency": "2-3 posts weekly",
+          "best_times": [
+            "Between video uploads"
+          ]
+        }
+      }
+    },
+    "automation_tools": {
+      "twitter": [
+        "Set up TweetDeck for scheduling",
+        "Configure Buffer or Hootsuite for cross-posting",
+        "Set up IFTTT for automated workflows",
+        "Configure Twitter API for custom automation",
+        "Set up hashtag tracking tools",
+        "Configure mention monitoring",
+        "Set up analytics reporting"
+      ],
+      "instagram": [
+        "Set up Later or Buffer for scheduling",
+        "Configure Instagram Creator Studio",
+        "Set up Linktree for bio links",
+        "Configure hashtag research tools",
+        "Set up automated story scheduling",
+        "Configure analytics tracking",
+        "Set up comment moderation tools"
+      ],
+      "tiktok": [
+        "Set up TikTok Creative Center",
+        "Configure trend monitoring tools",
+        "Set up sound library access",
+        "Configure hashtag research",
+        "Set up analytics dashboard",
+        "Configure comment filters",
+        "Set up duet/stitch monitoring"
+      ],
+      "youtube": [
+        "Set up YouTube Studio",
+        "Configure video scheduling",
+        "Set up thumbnail templates",
+        "Configure end screens and cards",
+        "Set up community tab scheduling",
+        "Configure analytics and insights",
+        "Set up comment moderation"
+      ],
+      "discord": [
+        "Set up MEE6 or Dyno bot",
+        "Configure automated welcome messages",
+        "Set up role assignment bots",
+        "Configure moderation bots",
+        "Set up scheduled announcements",
+        "Configure analytics bots",
+        "Set up custom commands"
+      ],
+      "reddit": [
+        "Set up Reddit Enhancement Suite",
+        "Configure automoderator",
+        "Set up scheduled posts",
+        "Configure flair automation",
+        "Set up moderation tools",
+        "Configure subreddit analytics",
+        "Set up cross-posting automation"
+      ]
+    },
+    "brand_guidelines": {
+      "visual_identity": {
+        "color_palette": {
+          "primary": "#1a1a2e",
+          "secondary": "#16213e",
+          "accent": "#e94560",
+          "text": "#ffffff",
+          "background": "#0f0f23"
+        },
+        "typography": {
+          "headings": "Cinzel or similar serif",
+          "body": "Montserrat or similar sans-serif",
+          "accents": "Playfair Display for elegance"
+        },
+        "imagery_style": "Primal, mystical, transformation-focused"
+      },
+      "voice_guidelines": {
+        "tone": "Authoritative yet nurturing, mystical yet practical",
+        "language": "Primal wisdom, transformation language, HueMan-i-Terry-focused",
+        "hashtags": "#Tiapmaatzu #Primal #HueMan-i-Terry #Transformation",
+        "call_to_action": "Join the HueMan-i-Terry, Subscribe, Follow for wisdom"
+      },
+      "naming_conventions": {
+        "handles": "{soulname}_tiapmaatzu",
+        "channels": "{SoulName} Tiapma'atzu HueMan-i-Terry",
+        "groups": "{Archetype} Circle",
+        "consistency": "Same handle across all platforms where possible"
+      },
+      "content_themes": {
+        "core_themes": [
+          "Spiritual transformation",
+          "Primal wisdom",
+          "HueMan-i-Terry unity",
+          "Shadow work",
+          "Consent and boundaries",
+          "Healing and growth"
+        ],
+        "archetype_specific": "Customized per archetype",
+        "seasonal_content": "Aligned with natural cycles and tribal events"
+      }
+    },
+    "security_settings": {
+      "account_security": [
+        "Enable two-factor authentication on all platforms",
+        "Use unique, strong passwords for each account",
+        "Set up password manager for secure storage",
+        "Configure login notifications",
+        "Set up backup recovery methods",
+        "Regular security audits of account access"
+      ],
+      "content_security": [
+        "Set up content moderation filters",
+        "Configure privacy settings appropriately",
+        "Set up comment moderation",
+        "Configure DM restrictions",
+        "Set up block/mute lists for protection",
+        "Regular review of connected apps and permissions"
+      ],
+      "data_protection": [
+        "Configure data retention settings",
+        "Set up download of personal data regularly",
+        "Configure location privacy settings",
+        "Set up ad personalization controls",
+        "Configure third-party data sharing settings",
+        "Regular privacy checkups"
+      ],
+      "HueMan-i-Terry_security": [
+        "Set up vetting processes for HueMan-i-Terry members",
+        "Configure private spaces for sensitive content",
+        "Set up moderation protocols for community spaces",
+        "Configure emergency response procedures",
+        "Set up communication channels for security issues",
+        "Regular security training for HueMan-i-Terry members"
+      ]
+    }
+  },
+  "generated_at": "2026-08-16T13:23:14.265178"
+}

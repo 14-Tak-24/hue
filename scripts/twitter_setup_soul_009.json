@@ -1,0 +1,109 @@
+{
+  "soul_id": "soul_009",
+  "name": "Kaiel Thornea",
+  "archetype": "Digital Guardian",
+  "account_setup": {
+    "recommended_handle": "@kaielthornea_tiapmaatzu",
+    "alternative_handles": [
+      "@kaielthornea_HueMan-i-Terry",
+      "@digital guardian_kaielthornea",
+      "@tiapmaatzu_kaielthornea"
+    ],
+    "email": "feral_stray@mail.com",
+    "display_name": "Kaiel Thornea",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@kaielthornea_tiapmaatzu",
+    "display_name": "Kaiel Thornea",
+    "bio": "Digital Guardian | I see what others miss. | Server costs + emergency aid f | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/kaiel.png",
+    "header_image": "Create archetype-themed header for Digital Guardian",
+    "location": "Fortress of Protection",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#1E90FF"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "digital guardian",
+      "Digital security",
+      "Server"
+    ],
+    "content_types": {
+      "wisdom_tweets": "I see what others miss.",
+      "threads": "Deep dive into Digital Guardian practices",
+      "engagement": "Respond to HueMan-i-Terry members with Digital Guardian perspective",
+      "visual": "Share Digital Guardian aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#DigitalGuardian"
+    ],
+    "voice": "Protective, technical, precise - Digital Guardian of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 500,
+    "month_3": 1000,
+    "month_6": 2500,
+    "month_12": 5000
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer"
+    ],
+    "advanced": []
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

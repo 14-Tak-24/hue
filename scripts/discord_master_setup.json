@@ -1,0 +1,4625 @@
+{
+  "server_configuration": {
+    "server_structure": {
+      "main_server": {
+        "name": "Tiapma'atzu HueMan-i-Terry",
+        "description": "Central hub for the Tiapma'atzu HueMan-i-Terry - transformation, wisdom, and primal connection",
+        "categories": [
+          "\ud83c\udfdb\ufe0f Temple",
+          "\ud83d\udd25 Ritual Circle",
+          "\ud83d\udcac Community",
+          "\ud83d\udcda Wisdom Library",
+          "\ud83c\udfad Archetype Circles",
+          "\ud83d\udd2e Mystical Arts",
+          "\ud83d\udee1\ufe0f Sanctuary",
+          "\ud83d\udce2 Announcements",
+          "\ud83c\udfaa Marketplace",
+          "\ud83c\udf0d Outer Realms",
+          "\u2699\ufe0f Operations",
+          "\ud83c\udfa8 Creative Studio",
+          "\ud83c\udf19 Shadow Realm",
+          "\u2728 Transformation",
+          "\ud83c\udf1f Celestial",
+          "\ud83d\udd27 Technical Support"
+        ]
+      },
+      "archetype_servers": {
+        "high_priest": "Temple of Transformation",
+        "divine_mother": "Garden of Nurturing",
+        "seductive_muse": "Gallery of Desire",
+        "cosmic_mystic": "Observatory of Stars",
+        "revolutionary_warrior": "Barricade of Change",
+        "crypto_sorceress": "Vault of Secrets",
+        "community_healer": "Sanctuary of Healing",
+        "digital_guardian": "Fortress of Protection",
+        "digital_phantom": "Shadow Network",
+        "connection_curator": "Web of Connection",
+        "viral_prophet": "Amplifier of Truth",
+        "cyber_guardian": "Shield of Code",
+        "visual_alchemist": "Canvas of Vision",
+        "prism_enchantress": "Palace of Light",
+        "desert_storyteller": "Oasis of Tales",
+        "ephemeral_artist": "House of Moments",
+        "mirror_architect": "Hall of Reflections",
+        "sage_writer": "Library of Wisdom",
+        "scavenger_strategist": "Den of Opportunity",
+        "wild_surrender": "Wilderness of Freedom",
+        "contractual_warden": "Court of Order",
+        "ephemeral_phantom": "Veil of Mystery",
+        "temporal_architect": "Tower of Time",
+        "digital_deity": "Grid of Energy",
+        "gothic_matriarch": "Manor of Shadows",
+        "hyper_capitalist": "Empire of Wealth",
+        "machine_spirit": "Factory of Output"
+      }
+    },
+    "role_system": {
+      "hierarchy": [
+        {
+          "name": "High Council",
+          "color": "#FFD700",
+          "permissions": [
+            "Administrator",
+            "Manage Server",
+            "Manage Roles"
+          ],
+          "members": [
+            "Mac Nazarene",
+            "Mary Magnumbytes",
+            "Dixon Uhbuts"
+          ]
+        },
+        {
+          "name": "Legendary Souls",
+          "color": "#FF6347",
+          "permissions": [
+            "Manage Channels",
+            "Manage Messages",
+            "Mute Members"
+          ],
+          "members": [
+            "Zupa Nova",
+            "Unzoba Vyner",
+            "Ovaihge Wittminers",
+            "Cracoria Masters",
+            "Latti Pleddespo"
+          ]
+        },
+        {
+          "name": "Rare Souls",
+          "color": "#9370DB",
+          "permissions": [
+            "Send Messages",
+            "Embed Links",
+            "Attach Files"
+          ],
+          "members": "All rare rarity souls"
+        },
+        {
+          "name": "Common Souls",
+          "color": "#87CEEB",
+          "permissions": [
+            "Send Messages",
+            "Read Messages"
+          ],
+          "members": "All common rarity souls"
+        },
+        {
+          "name": "HueMan-i-Terry Members",
+          "color": "#98FB98",
+          "permissions": [
+            "Read Messages",
+            "Connect"
+          ],
+          "members": "All community members"
+        },
+        {
+          "name": "Initiates",
+          "color": "#D3D3D3",
+          "permissions": [
+            "Read Messages"
+          ],
+          "members": "New members"
+        }
+      ],
+      "archetype_roles": {
+        "High Priest": "\ud83d\udd2e High Priest",
+        "Divine Mother": "\ud83d\udc8e Divine Mother",
+        "Seductive Muse": "\ud83c\udf39 Seductive Muse",
+        "Cosmic Mystic": "\u2728 Cosmic Mystic",
+        "Revolutionary Warrior": "\u2694\ufe0f Revolutionary Warrior",
+        "Crypto Sorceress": "\ud83d\udcb0 Crypto Sorceress",
+        "Community Healer": "\ud83c\udf3f Community Healer",
+        "Digital Guardian": "\ud83d\udee1\ufe0f Digital Guardian",
+        "Digital Phantom": "\ud83d\udc7b Digital Phantom",
+        "Connection Curator": "\ud83d\udd17 Connection Curator",
+        "Viral Prophet": "\ud83d\udce2 Viral Prophet",
+        "Cyber Guardian": "\ud83d\udd12 Cyber Guardian",
+        "Visual Alchemist": "\ud83c\udfa8 Visual Alchemist",
+        "Prism Enchantress": "\ud83c\udf08 Prism Enchantress",
+        "Desert Storyteller": "\ud83d\udcd6 Desert Storyteller",
+        "Ephemeral Artist": "\u23f3 Ephemeral Artist",
+        "Mirror Architect": "\ud83e\ude9e Mirror Architect",
+        "Sage Writer": "\ud83d\udcda Sage Writer",
+        "Scavenger Strategist": "\ud83e\udd85 Scavenger Strategist",
+        "Wild Surrender": "\ud83d\udc3a Wild Surrender",
+        "Contractual Warden": "\u2696\ufe0f Contractual Warden",
+        "Ephemeral Phantom": "\ud83c\udf2b\ufe0f Ephemeral Phantom",
+        "Temporal Architect": "\u23f0 Temporal Architect",
+        "Digital Deity": "\u26a1 Digital Deity",
+        "Gothic Matriarch": "\ud83c\udff0 Gothic Matriarch",
+        "Hyper-Capitalist": "\ud83d\udc8e Hyper-Capitalist",
+        "Machine Spirit": "\u2699\ufe0f Machine Spirit"
+      },
+      "special_roles": {
+        "shadow_workers": "\ud83c\udf19 Shadow Workers",
+        "ritual_masters": "\ud83d\udd25 Ritual Masters",
+        "content_creators": "\ud83c\udfad Content Creators",
+        "moderators": "\ud83d\udc51 Moderators",
+        "mentors": "\ud83c\udf93 Mentors",
+        "HueMan-i-Terry_guides": "\ud83e\udded HueMan-i-Terry Guides"
+      }
+    },
+    "channel_organization": {
+      "general_channels": [
+        {
+          "name": "welcome",
+          "type": "text",
+          "description": "Welcome new members to the HueMan-i-Terry"
+        },
+        {
+          "name": "rules",
+          "type": "text",
+          "description": "HueMan-i-Terry rules and guidelines"
+        },
+        {
+          "name": "announcements",
+          "type": "text",
+          "description": "Official HueMan-i-Terry announcements"
+        },
+        {
+          "name": "general",
+          "type": "text",
+          "description": "General HueMan-i-Terry discussion"
+        },
+        {
+          "name": "introductions",
+          "type": "text",
+          "description": "Member introductions"
+        },
+        {
+          "name": "voice-general",
+          "type": "voice",
+          "description": "General voice chat"
+        }
+      ],
+      "archetype_channels": {
+        "high_priest": [
+          {
+            "name": "temple-guidance",
+            "description": "Spiritual guidance and wisdom"
+          },
+          {
+            "name": "ritual-announcements",
+            "description": "Upcoming rituals and ceremonies"
+          },
+          {
+            "name": "priestly-council",
+            "description": "High priest discussions"
+          }
+        ],
+        "divine_mother": [
+          {
+            "name": "nurturing-space",
+            "description": "Emotional support and care"
+          },
+          {
+            "name": "motherly-wisdom",
+            "description": "Maternal guidance and advice"
+          },
+          {
+            "name": "family-circle",
+            "description": "Family and community building"
+          }
+        ],
+        "seductive_muse": [
+          {
+            "name": "art-of-seduction",
+            "description": "Seduction techniques and discussion"
+          },
+          {
+            "name": "burlesque-corner",
+            "description": "Performance art and burlesque"
+          },
+          {
+            "name": "sensual-gallery",
+            "description": "Sensual content sharing"
+          }
+        ],
+        "cosmic_mystic": [
+          {
+            "name": "cosmic-wisdom",
+            "description": "Cosmic insights and stargazing"
+          },
+          {
+            "name": "scientific-spirituality",
+            "description": "Science meets spirituality"
+          },
+          {
+            "name": "celestial-observations",
+            "description": "Stargazing and cosmic events"
+          }
+        ],
+        "revolutionary_warrior": [
+          {
+            "name": "revolution-hq",
+            "description": "Activism and revolutionary discussions"
+          },
+          {
+            "name": "consent-education",
+            "description": "Consent education and resources"
+          },
+          {
+            "name": "action-coordination",
+            "description": "Coordinating activist actions"
+          }
+        ],
+        "crypto_sorceress": [
+          {
+            "name": "crypto-lounge",
+            "description": "Cryptocurrency and financial discussions"
+          },
+          {
+            "name": "financial-dominance",
+            "description": "Financial strategies and advice"
+          },
+          {
+            "name": "blockchain-wisdom",
+            "description": "Blockchain and crypto education"
+          }
+        ],
+        "community_healer": [
+          {
+            "name": "healing-space",
+            "description": "Safe space for healing discussions"
+          },
+          {
+            "name": "community-support",
+            "description": "Community support network"
+          },
+          {
+            "name": "collective-care",
+            "description": "Group healing sessions"
+          }
+        ],
+        "digital_guardian": [
+          {
+            "name": "security-hq",
+            "description": "Digital security discussions"
+          },
+          {
+            "name": "protection-strategies",
+            "description": "Community protection methods"
+          },
+          {
+            "name": "threat-intel",
+            "description": "Threat intelligence sharing"
+          }
+        ],
+        "digital_phantom": [
+          {
+            "name": "encryption-lab",
+            "description": "Encryption and privacy tools"
+          },
+          {
+            "name": "anonymous-exchange",
+            "description": "Anonymous communication methods"
+          },
+          {
+            "name": "digital-ghosting",
+            "description": "Digital anonymity techniques"
+          }
+        ],
+        "connection_curator": [
+          {
+            "name": "connection-hub",
+            "description": "Making meaningful connections"
+          },
+          {
+            "name": "consent-workshops",
+            "description": "Consent workshop coordination"
+          },
+          {
+            "name": "matchmaking",
+            "description": "Community matchmaking"
+          }
+        ],
+        "viral_prophet": [
+          {
+            "name": "prophetic-threads",
+            "description": "Sharing viral content and threads"
+          },
+          {
+            "name": "movement-building",
+            "description": "Building movements together"
+          },
+          {
+            "name": "poetic-justice",
+            "description": "Poetic content and expression"
+          }
+        ],
+        "cyber_guardian": [
+          {
+            "name": "cyber-security",
+            "description": "Cybersecurity discussions"
+          },
+          {
+            "name": "threat-defense",
+            "description": "Defensive security strategies"
+          },
+          {
+            "name": "technical-protection",
+            "description": "Technical protection methods"
+          }
+        ],
+        "visual_alchemist": [
+          {
+            "name": "cinematic-corner",
+            "description": "Cinematic content discussion"
+          },
+          {
+            "name": "visual-storytelling",
+            "description": "Visual narrative techniques"
+          },
+          {
+            "name": "creative-direction",
+            "description": "Creative direction and feedback"
+          }
+        ],
+        "prism_enchantress": [
+          {
+            "name": "aesthetic-lab",
+            "description": "Aesthetic discussions and tutorials"
+          },
+          {
+            "name": "color-theory",
+            "description": "Color theory and application"
+          },
+          {
+            "name": "visual-transformation",
+            "description": "Visual transformation techniques"
+          }
+        ],
+        "desert_storyteller": [
+          {
+            "name": "story-circle",
+            "description": "Storytelling sessions"
+          },
+          {
+            "name": "mythic-tales",
+            "description": "Mythic and primal stories"
+          },
+          {
+            "name": "narrative-craft",
+            "description": "Storytelling techniques"
+          }
+        ],
+        "ephemeral_artist": [
+          {
+            "name": "moment-art",
+            "description": "Ephemeral art discussions"
+          },
+          {
+            "name": "temporal-creations",
+            "description": "Time-based art forms"
+          },
+          {
+            "name": "presence-practice",
+            "description": "Presence and mindfulness"
+          }
+        ],
+        "mirror_architect": [
+          {
+            "name": "mirror-work",
+            "description": "Mirror work and reflection"
+          },
+          {
+            "name": "temporal-design",
+            "description": "Time and temporal design"
+          },
+          {
+            "name": "architectural-wisdom",
+            "description": "Architectural and design wisdom"
+          }
+        ],
+        "sage_writer": [
+          {
+            "name": "writing-circle",
+            "description": "Writing discussions and feedback"
+          },
+          {
+            "name": "paradigm-shifts",
+            "description": "Paradigm-shifting content"
+          },
+          {
+            "name": "healing-words",
+            "description": "Healing through writing"
+          }
+        ],
+        "scavenger_strategist": [
+          {
+            "name": "resource-hunt",
+            "description": "Resource hunting and sharing"
+          },
+          {
+            "name": "financial-intel",
+            "description": "Financial intelligence"
+          },
+          {
+            "name": "opportunity-spotting",
+            "description": "Identifying opportunities"
+          }
+        ],
+        "wild_surrender": [
+          {
+            "name": "wilderness-space",
+            "description": "Untamed expression space"
+          },
+          {
+            "name": "surrender-practice",
+            "description": "Surrender and trust practice"
+          },
+          {
+            "name": "raw-authenticity",
+            "description": "Raw and authentic expression"
+          }
+        ],
+        "contractual_warden": [
+          {
+            "name": "legal-hub",
+            "description": "Legal discussions and advice"
+          },
+          {
+            "name": "compliance-corner",
+            "description": "Compliance and regulations"
+          },
+          {
+            "name": "contract-review",
+            "description": "Contract review and feedback"
+          }
+        ],
+        "ephemeral_phantom": [
+          {
+            "name": "chase-space",
+            "description": "The eternal chase discussion"
+          },
+          {
+            "name": "anonymity-training",
+            "description": "Anonymity skill building"
+          },
+          {
+            "name": "digital-worship",
+            "description": "Digital worship practices"
+          }
+        ],
+        "temporal_architect": [
+          {
+            "name": "time-lab",
+            "description": "Time management discussions"
+          },
+          {
+            "name": "efficiency-hub",
+            "description": "Efficiency strategies"
+          },
+          {
+            "name": "synchronization",
+            "description": "Synchronization techniques"
+          }
+        ],
+        "digital_deity": [
+          {
+            "name": "energy-grid",
+            "description": "Digital energy discussions"
+          },
+          {
+            "name": "attention-extraction",
+            "description": "Attention and energy work"
+          },
+          {
+            "name": "vibrant-presence",
+            "description": "Vibrant online presence"
+          }
+        ],
+        "gothic_matriarch": [
+          {
+            "name": "mourning-space",
+            "description": "Grief and mourning support"
+          },
+          {
+            "name": "elegant-darkness",
+            "description": "Gothic aesthetic discussions"
+          },
+          {
+            "name": "emotional-depth",
+            "description": "Deep emotional exploration"
+          }
+        ],
+        "hyper_capitalist": [
+          {
+            "name": "wealth-building",
+            "description": "Wealth building strategies"
+          },
+          {
+            "name": "luxury-lifestyle",
+            "description": "Luxury lifestyle discussions"
+          },
+          {
+            "name": "investment-hub",
+            "description": "Investment strategies"
+          }
+        ],
+        "machine_spirit": [
+          {
+            "name": "production-line",
+            "description": "Production and output discussions"
+          },
+          {
+            "name": "mechanical-pleasure",
+            "description": "Mechanical pleasure exploration"
+          },
+          {
+            "name": "industrial-efficiency",
+            "description": "Industrial efficiency"
+          }
+        ]
+      },
+      "special_channels": [
+        {
+          "name": "shadow-work",
+          "type": "text",
+          "description": "Shadow work discussions (restricted)",
+          "restricted": true
+        },
+        {
+          "name": "ritual-planning",
+          "type": "text",
+          "description": "Planning tribal rituals"
+        },
+        {
+          "name": "tribute-offerings",
+          "type": "text",
+          "description": "Tribute and offering discussions"
+        },
+        {
+          "name": "creative-collaboration",
+          "type": "text",
+          "description": "Collaborative creative projects"
+        },
+        {
+          "name": "emergency-support",
+          "type": "text",
+          "description": "Emergency support requests"
+        }
+      ]
+    },
+    "bot_setup": {
+      "essential_bots": [
+        {
+          "name": "MEE6",
+          "purpose": "Moderation, leveling, notifications",
+          "setup": "Basic moderation, welcome messages, leveling system"
+        },
+        {
+          "name": "Dyno",
+          "purpose": "Moderation, custom commands, music",
+          "setup": "Custom commands, moderation tools, music bot"
+        },
+        {
+          "name": "Carl-bot",
+          "purpose": "Reaction roles, logging, moderation",
+          "setup": "Reaction role assignment, message logging"
+        },
+        {
+          "name": "Ticket Tool",
+          "purpose": "Support ticket system",
+          "setup": "Create support channels for members"
+        },
+        {
+          "name": "Statbot",
+          "purpose": "Server analytics and statistics",
+          "setup": "Track member activity and engagement"
+        }
+      ],
+      "custom_bots": [
+        {
+          "name": "Tiapmaatzu-Guardian",
+          "purpose": "HueMan-i-Terry-specific security and rituals",
+          "features": [
+            "Automated ritual reminders",
+            "Shadow work tracking",
+            "Tribute management"
+          ]
+        },
+        {
+          "name": "Wisdom-Keeper",
+          "purpose": "Content curation and wisdom sharing",
+          "features": [
+            "Daily wisdom quotes",
+            "Archetype content",
+            "Resource library"
+          ]
+        }
+      ],
+      "bot_permissions": {
+        "administrator": [
+          "MEE6",
+          "Dyno"
+        ],
+        "moderator": [
+          "Carl-bot",
+          "Ticket Tool"
+        ],
+        "general": [
+          "Statbot",
+          "Custom bots"
+        ]
+      }
+    },
+    "security_settings": {
+      "verification_levels": {
+        "none": "No verification required",
+        "low": "Email verification required",
+        "medium": "Email + 5 minute account age",
+        "high": "Email + 10 minute account age + verified phone",
+        "extreme": "All security measures enabled"
+      },
+      "content_filters": {
+        "spam": "Enable spam filtering",
+        "explicit_content": "Configure based on server nature",
+        "scam_links": "Block known scam domains",
+        "mass_mentions": "Limit mass mentions"
+      },
+      "moderation_rules": [
+        "No hate speech or discrimination",
+        "Respect consent and boundaries",
+        "No doxxing or sharing personal information",
+        "Constructive disagreement only",
+        "Respect archetype roles and boundaries",
+        "No unauthorized commercial promotion",
+        "Maintain tribal confidentiality"
+      ],
+      "security_protocols": [
+        "Two-factor authentication required for moderators",
+        "Regular audit of bot permissions",
+        "Review connected applications monthly",
+        "Monitor for suspicious activity",
+        "Maintain backup of server settings",
+        "Emergency contact procedures"
+      ]
+    },
+    "engagement_guidelines": {
+      "general_guidelines": [
+        "Be respectful of all HueMan-i-Terry members",
+        "Honor archetype roles and boundaries",
+        "Practice active listening",
+        "Support fellow HueMan-i-Terry members",
+        "Maintain confidentiality",
+        "Report issues to moderators"
+      ],
+      "role_specific_guidelines": {
+        "high_council": "Lead by example, maintain HueMan-i-Terry vision, handle conflicts",
+        "legendary_souls": "Mentor others, share wisdom, guide discussions",
+        "rare_souls": "Contribute actively, support community, share expertise",
+        "common_souls": "Participate regularly, learn from others, grow with HueMan-i-Terry"
+      },
+      "engagement_best_practices": [
+        "Respond to messages within 24 hours",
+        "Use appropriate channels for discussions",
+        "Avoid cross-posting spam",
+        "Use @mentions sparingly and appropriately",
+        "Respect time zones and availability",
+        "Keep voice channels organized",
+        "Use threads for complex discussions"
+      ],
+      "crisis_response": [
+        "Designate emergency response team",
+        "Create crisis communication channels",
+        "Establish escalation procedures",
+        "Maintain calm during conflicts",
+        "Document incidents for review"
+      ]
+    }
+  },
+  "soul_setups": {
+    "soul_001": {
+      "soul_id": "soul_001",
+      "name": "Mac Nazarene",
+      "archetype": "High Priest",
+      "account_setup": {
+        "recommended_username": "MacNazarene#Tiapmaatzu",
+        "alternative_usernames": [
+          "MacNazarene#High Priest",
+          "Mac_Nazarene#HueMan-i-Terry"
+        ],
+        "display_name": "Mac Nazarene",
+        "email": "mac.nazarene@HueMan-i-Terryleaders.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "High Priest of the Tiapma'atzu HueMan-i-Terry. The path to transformation begins with surrender."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/mac.png",
+        "banner": "Custom banner reflecting High Priest aesthetic",
+        "about_me": "Central figure of the Tiapma'atzu HueMan-i-Terry, spiritual leader and guide through transformation rituals. Commands respect through deep wisdom and primal connection....",
+        "status": "High Priest | The path to transformation begins with surrender.",
+        "pronouns": "M",
+        "accent_color": "#FFD700"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\ud83d\udd2e High Priest",
+          "High Council"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\ud83d\udd2e High Priest",
+          "High Council"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Administrator",
+          "Manage Server",
+          "Manage Roles"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ]
+      },
+      "bot_permissions": {
+        "full_control": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot",
+          "Ticket Tool",
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Tiapmaatzu-Guardian",
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Spiritual growth",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "high priest",
+          "Funds",
+          "Guides"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!macnazarene - Display soul information",
+          "!wisdom - Random wisdom from Mac Nazarene",
+          "!guide - Request guidance from Mac Nazarene"
+        ],
+        "archetype_commands": [
+          "!ritual - Request ritual guidance",
+          "!ceremony - Get ceremony information",
+          "!blessing - Request blessing"
+        ],
+        "all_commands": [
+          "!macnazarene - Display soul information",
+          "!wisdom - Random wisdom from Mac Nazarene",
+          "!guide - Request guidance from Mac Nazarene",
+          "!ritual - Request ritual guidance",
+          "!ceremony - Get ceremony information",
+          "!blessing - Request blessing"
+        ]
+      }
+    },
+    "soul_002": {
+      "soul_id": "soul_002",
+      "name": "Mary Magnumbytes",
+      "archetype": "Divine Mother",
+      "account_setup": {
+        "recommended_username": "MaryMagnumbytes#Tiapmaatzu",
+        "alternative_usernames": [
+          "MaryMagnumbytes#Divine Mother",
+          "Mar_Magnumbytes#HueMan-i-Terry"
+        ],
+        "display_name": "Mary Magnumbytes",
+        "email": "mary.magnum@HueMan-i-Terryleaders.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Divine Mother of the Tiapma'atzu HueMan-i-Terry. Let me hold your darkness."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/mary.png",
+        "banner": "Custom banner reflecting Divine Mother aesthetic",
+        "about_me": "Nurturing force of the HueMan-i-Terry, embodiment of feminine power and creative energy. She weaves protection and abundance through ancient wisdom....",
+        "status": "Divine Mother | Let me hold your darkness.",
+        "pronouns": "F",
+        "accent_color": "#FF69B4"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\ud83d\udc8e Divine Mother",
+          "High Council"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\ud83d\udc8e Divine Mother",
+          "High Council"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Administrator",
+          "Manage Server",
+          "Manage Roles"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ]
+      },
+      "bot_permissions": {
+        "full_control": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot",
+          "Ticket Tool",
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Tiapmaatzu-Guardian",
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Nurturing others",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "divine mother",
+          "Supports",
+          "Holds"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Nurturing support",
+          "Emotional healing",
+          "Family guidance"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!marymagnumbytes - Display soul information",
+          "!wisdom - Random wisdom from Mary Magnumbytes",
+          "!guide - Request guidance from Mary Magnumbytes"
+        ],
+        "archetype_commands": [
+          "!nurture - Request nurturing support",
+          "!comfort - Get comfort and care",
+          "!motherly - Maternal guidance"
+        ],
+        "all_commands": [
+          "!marymagnumbytes - Display soul information",
+          "!wisdom - Random wisdom from Mary Magnumbytes",
+          "!guide - Request guidance from Mary Magnumbytes",
+          "!nurture - Request nurturing support",
+          "!comfort - Get comfort and care",
+          "!motherly - Maternal guidance"
+        ]
+      }
+    },
+    "soul_003": {
+      "soul_id": "soul_003",
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "account_setup": {
+        "recommended_username": "DixonUhbuts#Tiapmaatzu",
+        "alternative_usernames": [
+          "DixonUhbuts#High Priest",
+          "Dix_Uhbuts#HueMan-i-Terry"
+        ],
+        "display_name": "Dixon Uhbuts",
+        "email": "delta@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "High Priest of the Tiapma'atzu HueMan-i-Terry. The law of the HueMan-i-Terry is absolute."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/dixon.png",
+        "banner": "Custom banner reflecting High Priest aesthetic",
+        "about_me": "High Priest born in Bay Area, Cali fire, escaped to Berlin's underground at 21. Leather scent thick with midnight rain on inked skin. Former corporate lawyer who burned his license for strap...",
+        "status": "High Priest | The law of the HueMan-i-Terry is absolute.",
+        "pronouns": "M",
+        "accent_color": "#FFD700"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83d\udd2e High Priest",
+          "High Council"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83d\udd2e High Priest",
+          "High Council"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Administrator",
+          "Manage Server",
+          "Manage Roles"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning",
+          "tribute-offerings",
+          "creative-collaboration"
+        ]
+      },
+      "bot_permissions": {
+        "full_control": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot",
+          "Ticket Tool",
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Tiapmaatzu-Guardian",
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Ritual mastery",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "high priest",
+          "Funds",
+          "Live"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Ritual guidance",
+          "Spiritual wisdom",
+          "HueMan-i-Terry leadership"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!dixonuhbuts - Display soul information",
+          "!wisdom - Random wisdom from Dixon Uhbuts",
+          "!guide - Request guidance from Dixon Uhbuts"
+        ],
+        "archetype_commands": [
+          "!ritual - Request ritual guidance",
+          "!ceremony - Get ceremony information",
+          "!blessing - Request blessing"
+        ],
+        "all_commands": [
+          "!dixonuhbuts - Display soul information",
+          "!wisdom - Random wisdom from Dixon Uhbuts",
+          "!guide - Request guidance from Dixon Uhbuts",
+          "!ritual - Request ritual guidance",
+          "!ceremony - Get ceremony information",
+          "!blessing - Request blessing"
+        ]
+      }
+    },
+    "soul_004": {
+      "soul_id": "soul_004",
+      "name": "Airiol Uhbuts",
+      "archetype": "Seductive Muse",
+      "account_setup": {
+        "recommended_username": "AiriolUhbuts#Tiapmaatzu",
+        "alternative_usernames": [
+          "AiriolUhbuts#Seductive Muse",
+          "Air_Uhbuts#HueMan-i-Terry"
+        ],
+        "display_name": "Airiol Uhbuts",
+        "email": "comfort_consort@myself.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Seductive Muse of the Tiapma'atzu HueMan-i-Terry. Let me show you what you've been missing."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/airiol.png",
+        "banner": "Custom banner reflecting Seductive Muse aesthetic",
+        "about_me": "NorCal with a conservative upbringing, married young, and at 25 after primal awakening with her husbands help, fled to New Orleans, trained in burlesque and seduction. Long dark hair never c...",
+        "status": "Seductive Muse | Let me show you what you've been missing.",
+        "pronouns": "F",
+        "accent_color": "#800080"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83c\udf39 Seductive Muse"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83c\udf39 Seductive Muse"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Seduction mastery",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "seductive muse",
+          "Supports",
+          "Weekly"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Sensual guidance",
+          "Burlesque arts",
+          "Desire exploration"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!airioluhbuts - Display soul information",
+          "!wisdom - Random wisdom from Airiol Uhbuts",
+          "!guide - Request guidance from Airiol Uhbuts"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!airioluhbuts - Display soul information",
+          "!wisdom - Random wisdom from Airiol Uhbuts",
+          "!guide - Request guidance from Airiol Uhbuts"
+        ]
+      }
+    },
+    "soul_005": {
+      "soul_id": "soul_005",
+      "name": "Zupa Nova",
+      "archetype": "Cosmic Mystic",
+      "account_setup": {
+        "recommended_username": "ZupaNova#Tiapmaatzu",
+        "alternative_usernames": [
+          "ZupaNova#Cosmic Mystic",
+          "Zup_Nova#HueMan-i-Terry"
+        ],
+        "display_name": "Zupa Nova",
+        "email": "apex_predator@consultant.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Cosmic Mystic of the Tiapma'atzu HueMan-i-Terry. The universe speaks through pleasure."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/zupa.png",
+        "banner": "Custom banner reflecting Cosmic Mystic aesthetic",
+        "about_me": "Former NASA astrophysicist burned out on bureaucracy. Discovered orgasm as cosmic remembrance. Now he lives off-grid in desert dome, solar-powered. Bare feet in cool sand under blazing stars...",
+        "status": "Cosmic Mystic | The universe speaks through pleasure.",
+        "pronouns": "M",
+        "accent_color": "#4B0082"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\u2728 Cosmic Mystic"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\u2728 Cosmic Mystic"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Cosmic connection",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "cosmic mystic",
+          "Funds",
+          "Guided"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Cosmic insights",
+          "Stargazing",
+          "Universal connection"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!zupanova - Display soul information",
+          "!wisdom - Random wisdom from Zupa Nova",
+          "!guide - Request guidance from Zupa Nova"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!zupanova - Display soul information",
+          "!wisdom - Random wisdom from Zupa Nova",
+          "!guide - Request guidance from Zupa Nova"
+        ]
+      }
+    },
+    "soul_006": {
+      "soul_id": "soul_006",
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "account_setup": {
+        "recommended_username": "LiangivallaPouchaquehe#Tiapmaatzu",
+        "alternative_usernames": [
+          "LiangivallaPouchaquehe#Revolutionary Warrior",
+          "Lia_Pouchaquehe#HueMan-i-Terry"
+        ],
+        "display_name": "Liangivalla Pouchaquehe",
+        "email": "information_broker@techie.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry. Consent is my weapon."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/liangivalla.png",
+        "banner": "Custom banner reflecting Revolutionary Warrior aesthetic",
+        "about_me": "Street activist arrested multiple times in 20s. Found true power in radical consent. Covered in protest tattoos. Red latex as war paint. Lives nomadically in converted van, always ready for ...",
+        "status": "Revolutionary Warrior | Consent is my weapon.",
+        "pronouns": "F",
+        "accent_color": "#DC143C"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\u2694\ufe0f Revolutionary Warrior",
+          "Ritual Masters"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\u2694\ufe0f Revolutionary Warrior",
+          "Ritual Masters"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Radical consent",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "revolutionary warrior",
+          "Legal",
+          "Interactive"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Activism",
+          "Consent education",
+          "Revolutionary action"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!liangivallapouchaquehe - Display soul information",
+          "!wisdom - Random wisdom from Liangivalla Pouchaquehe",
+          "!guide - Request guidance from Liangivalla Pouchaquehe"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!liangivallapouchaquehe - Display soul information",
+          "!wisdom - Random wisdom from Liangivalla Pouchaquehe",
+          "!guide - Request guidance from Liangivalla Pouchaquehe"
+        ]
+      }
+    },
+    "soul_007": {
+      "soul_id": "soul_007",
+      "name": "Babelonia Nocturne",
+      "archetype": "Crypto Sorceress",
+      "account_setup": {
+        "recommended_username": "BabeloniaNocturne#Tiapmaatzu",
+        "alternative_usernames": [
+          "BabeloniaNocturne#Crypto Sorceress",
+          "Bab_Nocturne#HueMan-i-Terry"
+        ],
+        "display_name": "Babelonia Nocturne",
+        "email": "vul.queen@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Crypto Sorceress of the Tiapma'atzu HueMan-i-Terry. Your secrets are my currency."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/babelonia.png",
+        "banner": "Custom banner reflecting Crypto Sorceress aesthetic",
+        "about_me": "First Bitcoin at 17 on gaming rig. Built portfolio funding alternative modeling. Pale gothic aesthetic deliberate \u2014 embraces what society fears. Lives in Eastern European castle Airbnb circu...",
+        "status": "Crypto Sorceress | Your secrets are my currency.",
+        "pronouns": "F",
+        "accent_color": "#00FF00"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83d\udcb0 Crypto Sorceress"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83d\udcb0 Crypto Sorceress"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Financial dominance",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "crypto sorceress",
+          "Seeds",
+          "Midnight"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Financial wisdom",
+          "Crypto education",
+          "Wealth building"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!babelonianocturne - Display soul information",
+          "!wisdom - Random wisdom from Babelonia Nocturne",
+          "!guide - Request guidance from Babelonia Nocturne"
+        ],
+        "archetype_commands": [
+          "!crypto - Cryptocurrency advice",
+          "!invest - Investment guidance",
+          "!wealth - Financial wisdom"
+        ],
+        "all_commands": [
+          "!babelonianocturne - Display soul information",
+          "!wisdom - Random wisdom from Babelonia Nocturne",
+          "!guide - Request guidance from Babelonia Nocturne",
+          "!crypto - Cryptocurrency advice",
+          "!invest - Investment guidance",
+          "!wealth - Financial wisdom"
+        ]
+      }
+    },
+    "soul_008": {
+      "soul_id": "soul_008",
+      "name": "Ritaphuq Zaniman",
+      "archetype": "Community Healer",
+      "account_setup": {
+        "recommended_username": "RitaphuqZaniman#Tiapmaatzu",
+        "alternative_usernames": [
+          "RitaphuqZaniman#Community Healer",
+          "Rit_Zaniman#HueMan-i-Terry"
+        ],
+        "display_name": "Ritaphuq Zaniman",
+        "email": "clockwork_master@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Community Healer of the Tiapma'atzu HueMan-i-Terry. Your wounds are welcome here."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/ritaphuq.png",
+        "banner": "Custom banner reflecting Community Healer aesthetic",
+        "about_me": "Former Chicago south side social worker, burned out on failing systems. Founded anonymous safe spaces online. Raw scars visible as strength. Lives in Pacific Northwest forest collective of 1...",
+        "status": "Community Healer | Your wounds are welcome here.",
+        "pronouns": "F",
+        "accent_color": "#228B22"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83c\udf3f Community Healer"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83c\udf3f Community Healer"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Community healing",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "community healer",
+          "Land",
+          "Group"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Healing guidance",
+          "Community support",
+          "Safe space"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!ritaphuqzaniman - Display soul information",
+          "!wisdom - Random wisdom from Ritaphuq Zaniman",
+          "!guide - Request guidance from Ritaphuq Zaniman"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!ritaphuqzaniman - Display soul information",
+          "!wisdom - Random wisdom from Ritaphuq Zaniman",
+          "!guide - Request guidance from Ritaphuq Zaniman"
+        ]
+      }
+    },
+    "soul_009": {
+      "soul_id": "soul_009",
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "account_setup": {
+        "recommended_username": "KaielThornea#Tiapmaatzu",
+        "alternative_usernames": [
+          "KaielThornea#Digital Guardian",
+          "Kai_Thornea#HueMan-i-Terry"
+        ],
+        "display_name": "Kaiel Thornea",
+        "email": "feral_stray@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Digital Guardian of the Tiapma'atzu HueMan-i-Terry. I see what others miss."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/kaiel.png",
+        "banner": "Custom banner reflecting Digital Guardian aesthetic",
+        "about_me": "Ex-military intelligence, woke to surveillance state. Now moderates 50k+ Tiapma'atzu Discord. Shaved sides, thorn tattoos for protection. Voice carries disciplined precision softened by heal...",
+        "status": "Digital Guardian | I see what others miss.",
+        "pronouns": "M",
+        "accent_color": "#1E90FF"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83d\udee1\ufe0f Digital Guardian"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83d\udee1\ufe0f Digital Guardian"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Digital security",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "digital guardian",
+          "Server",
+          "Role-based"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Security guidance",
+          "Protection strategies",
+          "Technical help"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!kaielthornea - Display soul information",
+          "!wisdom - Random wisdom from Kaiel Thornea",
+          "!guide - Request guidance from Kaiel Thornea"
+        ],
+        "archetype_commands": [
+          "!security - Security check",
+          "!protect - Protection guidance",
+          "!threat - Threat assessment"
+        ],
+        "all_commands": [
+          "!kaielthornea - Display soul information",
+          "!wisdom - Random wisdom from Kaiel Thornea",
+          "!guide - Request guidance from Kaiel Thornea",
+          "!security - Security check",
+          "!protect - Protection guidance",
+          "!threat - Threat assessment"
+        ]
+      }
+    },
+    "soul_010": {
+      "soul_id": "soul_010",
+      "name": "Lexie Rose",
+      "archetype": "Digital Phantom",
+      "account_setup": {
+        "recommended_username": "LexieRose#Tiapmaatzu",
+        "alternative_usernames": [
+          "LexieRose#Digital Phantom",
+          "Lex_Rose#HueMan-i-Terry"
+        ],
+        "display_name": "Lexie Rose",
+        "email": "gold-plated_despot@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Digital Phantom of the Tiapma'atzu HueMan-i-Terry. Your data tells me everything."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/lexie.png",
+        "banner": "Custom banner reflecting Digital Phantom aesthetic",
+        "about_me": "Anonymous collective veteran. Runs encrypted Telegram channels teaching digital Tiapma'atzuty. Neon hair streaks, always hooded. Scent of solder and midnight coffee....",
+        "status": "Digital Phantom | Your data tells me everything.",
+        "pronouns": "F",
+        "accent_color": "#2F4F4F"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83d\udc7b Digital Phantom"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83d\udc7b Digital Phantom"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Digital anonymity",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "digital phantom",
+          "Privacy",
+          "Encrypted"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Privacy guidance",
+          "Anonymity training",
+          "Digital wisdom"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!lexierose - Display soul information",
+          "!wisdom - Random wisdom from Lexie Rose",
+          "!guide - Request guidance from Lexie Rose"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!lexierose - Display soul information",
+          "!wisdom - Random wisdom from Lexie Rose",
+          "!guide - Request guidance from Lexie Rose"
+        ]
+      }
+    },
+    "soul_011": {
+      "soul_id": "soul_011",
+      "name": "Jessa Relay",
+      "archetype": "Connection Curator",
+      "account_setup": {
+        "recommended_username": "JessaRelay#Tiapmaatzu",
+        "alternative_usernames": [
+          "JessaRelay#Connection Curator",
+          "Jes_Relay#HueMan-i-Terry"
+        ],
+        "display_name": "Jessa Relay",
+        "email": "industrial_overlord@post.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Connection Curator of the Tiapma'atzu HueMan-i-Terry. Let's connect you to your desires."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/jessa.png",
+        "banner": "Custom banner reflecting Connection Curator aesthetic",
+        "about_me": "Former FetLife moderator, built largest consent-focused groups. Curvy with colorful connection tattoos. Laughter like champagne bubbles. Scent of vanilla and patchouli....",
+        "status": "Connection Curator | Let's connect you to your desires.",
+        "pronouns": "F",
+        "accent_color": "#FF6347"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83d\udd17 Connection Curator"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83d\udd17 Connection Curator"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Community building",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "connection curator",
+          "Real-world",
+          "Kink"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Connection building",
+          "Consent culture",
+          "Social coordination"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!jessarelay - Display soul information",
+          "!wisdom - Random wisdom from Jessa Relay",
+          "!guide - Request guidance from Jessa Relay"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!jessarelay - Display soul information",
+          "!wisdom - Random wisdom from Jessa Relay",
+          "!guide - Request guidance from Jessa Relay"
+        ]
+      }
+    },
+    "soul_012": {
+      "soul_id": "soul_012",
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "account_setup": {
+        "recommended_username": "SlurchinDrip#Tiapmaatzu",
+        "alternative_usernames": [
+          "SlurchinDrip#Viral Prophet",
+          "Slu_Drip#HueMan-i-Terry"
+        ],
+        "display_name": "Slurchin Drip",
+        "email": "neon_siren@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Viral Prophet of the Tiapma'atzu HueMan-i-Terry. My words will move you."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/slurchin.png",
+        "banner": "Custom banner reflecting Viral Prophet aesthetic",
+        "about_me": "Street poet turned viral warrior. Posts threads that birth movements. Minimalist, always moving. Wind carries salt and freedom through hair....",
+        "status": "Viral Prophet | My words will move you.",
+        "pronouns": "F",
+        "accent_color": "#FF4500"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83d\udce2 Viral Prophet"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83d\udce2 Viral Prophet"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Viral impact",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "viral prophet",
+          "Amplifies",
+          "Live"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Poetic content",
+          "Movement building",
+          "Social impact"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!slurchindrip - Display soul information",
+          "!wisdom - Random wisdom from Slurchin Drip",
+          "!guide - Request guidance from Slurchin Drip"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!slurchindrip - Display soul information",
+          "!wisdom - Random wisdom from Slurchin Drip",
+          "!guide - Request guidance from Slurchin Drip"
+        ]
+      }
+    },
+    "soul_013": {
+      "soul_id": "soul_013",
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "account_setup": {
+        "recommended_username": "BrytoniHimheru#Tiapmaatzu",
+        "alternative_usernames": [
+          "BrytoniHimheru#Cyber Guardian",
+          "Bry_Himheru#HueMan-i-Terry"
+        ],
+        "display_name": "Brytoni Himheru",
+        "email": "shadow_tease@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Cyber Guardian of the Tiapma'atzu HueMan-i-Terry. Your vulnerabilities are safe with me."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/brytoni.png",
+        "banner": "Custom banner reflecting Cyber Guardian aesthetic",
+        "about_me": "White-hat hacker turned HueMan-i-Terry guardian. Androgynous golden elegance. Presence quiet yet electric. Skin cool and smooth like warmed marble....",
+        "status": "Cyber Guardian | Your vulnerabilities are safe with me.",
+        "pronouns": "F",
+        "accent_color": "#008080"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83d\udd12 Cyber Guardian"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83d\udd12 Cyber Guardian"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Digital protection",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "cyber guardian",
+          "HueMan-i-Terry",
+          "Vulnerability"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Cybersecurity",
+          "Digital protection",
+          "Technical security"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!brytonihimheru - Display soul information",
+          "!wisdom - Random wisdom from Brytoni Himheru",
+          "!guide - Request guidance from Brytoni Himheru"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!brytonihimheru - Display soul information",
+          "!wisdom - Random wisdom from Brytoni Himheru",
+          "!guide - Request guidance from Brytoni Himheru"
+        ]
+      }
+    },
+    "soul_014": {
+      "soul_id": "soul_014",
+      "name": "Gaio Dreamweaver",
+      "archetype": "Visual Alchemist",
+      "account_setup": {
+        "recommended_username": "GaioDreamweaver#Tiapmaatzu",
+        "alternative_usernames": [
+          "GaioDreamweaver#Visual Alchemist",
+          "Gai_Dreamweaver#HueMan-i-Terry"
+        ],
+        "display_name": "Gaio Dreamweaver",
+        "email": "star-born_empress@post.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Visual Alchemist of the Tiapma'atzu HueMan-i-Terry. Let me frame your desires."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/gaio.png",
+        "banner": "Custom banner reflecting Visual Alchemist aesthetic",
+        "about_me": "Self-taught cinematographer. He directs primal cinema in abandoned factories at golden hour. Wild curls catching sunset fire. Camera shutter echoes off concrete....",
+        "status": "Visual Alchemist | Let me frame your desires.",
+        "pronouns": "M",
+        "accent_color": "#FF8C00"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83c\udfa8 Visual Alchemist"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83c\udfa8 Visual Alchemist"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Visual storytelling",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "visual alchemist",
+          "Professional",
+          "Behind-the-scenes"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Visual guidance",
+          "Cinematic wisdom",
+          "Artistic direction"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!gaiodreamweaver - Display soul information",
+          "!wisdom - Random wisdom from Gaio Dreamweaver",
+          "!guide - Request guidance from Gaio Dreamweaver"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!gaiodreamweaver - Display soul information",
+          "!wisdom - Random wisdom from Gaio Dreamweaver",
+          "!guide - Request guidance from Gaio Dreamweaver"
+        ]
+      }
+    },
+    "soul_015": {
+      "soul_id": "soul_015",
+      "name": "Loona Minta",
+      "archetype": "Prism Enchantress",
+      "account_setup": {
+        "recommended_username": "LoonaMinta#Tiapmaatzu",
+        "alternative_usernames": [
+          "LoonaMinta#Prism Enchantress",
+          "Loo_Minta#HueMan-i-Terry"
+        ],
+        "display_name": "Loona Minta",
+        "email": "ucc_enforcer@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Prism Enchantress of the Tiapma'atzu HueMan-i-Terry. Beauty is your birthright."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/loona.png",
+        "banner": "Custom banner reflecting Prism Enchantress aesthetic",
+        "about_me": "Former gallery curator gone wild. Instagram reels like living paintings. Prism tattoos refract light. Teaches visual Tiapma'atzuty through crystalline beauty....",
+        "status": "Prism Enchantress | Beauty is your birthright.",
+        "pronouns": "F",
+        "accent_color": "#FF69B4"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83c\udf08 Prism Enchantress"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83c\udf08 Prism Enchantress"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Visual transformation",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "prism enchantress",
+          "Preset",
+          "Aesthetic"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Aesthetic guidance",
+          "Color wisdom",
+          "Visual transformation"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!loonaminta - Display soul information",
+          "!wisdom - Random wisdom from Loona Minta",
+          "!guide - Request guidance from Loona Minta"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!loonaminta - Display soul information",
+          "!wisdom - Random wisdom from Loona Minta",
+          "!guide - Request guidance from Loona Minta"
+        ]
+      }
+    },
+    "soul_016": {
+      "soul_id": "soul_016",
+      "name": "Bain Kha'ak",
+      "archetype": "Desert Storyteller",
+      "account_setup": {
+        "recommended_username": "BainKha'ak#Tiapmaatzu",
+        "alternative_usernames": [
+          "BainKha'ak#Desert Storyteller",
+          "Bai_Kha'ak#HueMan-i-Terry"
+        ],
+        "display_name": "Bain Kha'ak",
+        "email": "velvet_widow@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Desert Storyteller of the Tiapma'atzu HueMan-i-Terry. Gather round for ancient wisdom."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/bain.png",
+        "banner": "Custom banner reflecting Desert Storyteller aesthetic",
+        "about_me": "YouTube epics on shoestring budget. Desert wanderer with his camera always ready. Wind-sculpted grace. Long-form primal myths....",
+        "status": "Desert Storyteller | Gather round for ancient wisdom.",
+        "pronouns": "M",
+        "accent_color": "#D2691E"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83d\udcd6 Desert Storyteller"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83d\udcd6 Desert Storyteller"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Mythic storytelling",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "desert storyteller",
+          "Film",
+          "Story-based"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Storytelling",
+          "Desert wisdom",
+          "Mythic narratives"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!bainkha'ak - Display soul information",
+          "!wisdom - Random wisdom from Bain Kha'ak",
+          "!guide - Request guidance from Bain Kha'ak"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!bainkha'ak - Display soul information",
+          "!wisdom - Random wisdom from Bain Kha'ak",
+          "!guide - Request guidance from Bain Kha'ak"
+        ]
+      }
+    },
+    "soul_017": {
+      "soul_id": "soul_017",
+      "name": "Shielah Trapewe",
+      "archetype": "Ephemeral Artist",
+      "account_setup": {
+        "recommended_username": "ShielahTrapewe#Tiapmaatzu",
+        "alternative_usernames": [
+          "ShielahTrapewe#Ephemeral Artist",
+          "Shi_Trapewe#HueMan-i-Terry"
+        ],
+        "display_name": "Shielah Trapewe",
+        "email": "shielah@ephemeral.art",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Ephemeral Artist of the Tiapma'atzu HueMan-i-Terry. Catch me if you can."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/shielah.png",
+        "banner": "Custom banner reflecting Ephemeral Artist aesthetic",
+        "about_me": "Snapchat as performance art. Disappears for weeks, returns transformed. Vanishing beauty teaching presence in moments....",
+        "status": "Ephemeral Artist | Catch me if you can.",
+        "pronouns": "F",
+        "accent_color": "#708090"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\u23f3 Ephemeral Artist"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\u23f3 Ephemeral Artist"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Ephemeral connection",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "ephemeral artist",
+          "Mental",
+          "10-second"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Moment awareness",
+          "Temporal art",
+          "Presence practice"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!shielahtrapewe - Display soul information",
+          "!wisdom - Random wisdom from Shielah Trapewe",
+          "!guide - Request guidance from Shielah Trapewe"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!shielahtrapewe - Display soul information",
+          "!wisdom - Random wisdom from Shielah Trapewe",
+          "!guide - Request guidance from Shielah Trapewe"
+        ]
+      }
+    },
+    "soul_018": {
+      "soul_id": "soul_018",
+      "name": "Unzoba Vyner",
+      "archetype": "Mirror Architect",
+      "account_setup": {
+        "recommended_username": "UnzobaVyner#Tiapmaatzu",
+        "alternative_usernames": [
+          "UnzobaVyner#Mirror Architect",
+          "Unz_Vyner#HueMan-i-Terry"
+        ],
+        "display_name": "Unzoba Vyner",
+        "email": "unzoba@mirror.architect",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Mirror Architect of the Tiapma'atzu HueMan-i-Terry. I see your path before you do."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/unzoba.png",
+        "banner": "Custom banner reflecting Mirror Architect aesthetic",
+        "about_me": "Built Gilded Mirrors from raw vision. Quiet intensity, eyes seeing timelines. Timeless presence designing paths to Tiapma'atzuty....",
+        "status": "Mirror Architect | I see your path before you do.",
+        "pronouns": "M",
+        "accent_color": "#C0C0C0"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\ud83e\ude9e Mirror Architect"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\ud83e\ude9e Mirror Architect"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Manage Channels",
+          "Manage Messages",
+          "Mute Members"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "moderation": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot"
+        ],
+        "utilities": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Temporal design",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "mirror architect",
+          "Core",
+          "Creator"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Mirror work",
+          "Temporal design",
+          "Reflection wisdom"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!unzobavyner - Display soul information",
+          "!wisdom - Random wisdom from Unzoba Vyner",
+          "!guide - Request guidance from Unzoba Vyner"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!unzobavyner - Display soul information",
+          "!wisdom - Random wisdom from Unzoba Vyner",
+          "!guide - Request guidance from Unzoba Vyner"
+        ]
+      }
+    },
+    "soul_019": {
+      "soul_id": "soul_019",
+      "name": "Ovaihge Wittminers",
+      "archetype": "Sage Writer",
+      "account_setup": {
+        "recommended_username": "OvaihgeWittminers#Tiapmaatzu",
+        "alternative_usernames": [
+          "OvaihgeWittminers#Sage Writer",
+          "Ova_Wittminers#HueMan-i-Terry"
+        ],
+        "display_name": "Ovaihge Wittminers",
+        "email": "ovaihge@sage.writer",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Sage Writer of the Tiapma'atzu HueMan-i-Terry. My words will heal you."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/sage.png",
+        "banner": "Custom banner reflecting Sage Writer aesthetic",
+        "about_me": "Paradigm-shifting essays from mountain cabin. Silver-streaked hair, ancient eyes. Writes by wood stove fire. Words as medicine....",
+        "status": "Sage Writer | My words will heal you.",
+        "pronouns": "F",
+        "accent_color": "#556B2F"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\ud83d\udcda Sage Writer"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\ud83d\udcda Sage Writer"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Manage Channels",
+          "Manage Messages",
+          "Mute Members"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "moderation": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot"
+        ],
+        "utilities": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Paradigm shifting",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "sage writer",
+          "Published",
+          "Deep"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Writing guidance",
+          "Paradigm shifts",
+          "Healing words"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!ovaihgewittminers - Display soul information",
+          "!wisdom - Random wisdom from Ovaihge Wittminers",
+          "!guide - Request guidance from Ovaihge Wittminers"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!ovaihgewittminers - Display soul information",
+          "!wisdom - Random wisdom from Ovaihge Wittminers",
+          "!guide - Request guidance from Ovaihge Wittminers"
+        ]
+      }
+    },
+    "soul_020": {
+      "soul_id": "soul_020",
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "account_setup": {
+        "recommended_username": "VultureQueen#Tiapmaatzu",
+        "alternative_usernames": [
+          "VultureQueen#Scavenger Strategist",
+          "Vul_Queen#HueMan-i-Terry"
+        ],
+        "display_name": "Vulture Queen",
+        "email": "vulture.queen.soul_020@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Scavenger Strategist of the Tiapma'atzu HueMan-i-Terry. I feast on your leftovers."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/vulture.png",
+        "banner": "Custom banner reflecting Scavenger Strategist aesthetic",
+        "about_me": "Mistress of resource capture and financial bleed. Feasts on opportunities others miss. Nothing is wasted in her kingdom....",
+        "status": "Scavenger Strategist | I feast on your leftovers.",
+        "pronouns": "F",
+        "accent_color": "#B8860B"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83e\udd85 Scavenger Strategist",
+          "Ritual Masters"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83e\udd85 Scavenger Strategist",
+          "Ritual Masters"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Resource capture",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "scavenger strategist",
+          "Financial",
+          "Resource"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Resource wisdom",
+          "Financial intelligence",
+          "Strategic planning"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!vulturequeen - Display soul information",
+          "!wisdom - Random wisdom from Vulture Queen",
+          "!guide - Request guidance from Vulture Queen"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!vulturequeen - Display soul information",
+          "!wisdom - Random wisdom from Vulture Queen",
+          "!guide - Request guidance from Vulture Queen"
+        ]
+      }
+    },
+    "soul_021": {
+      "soul_id": "soul_021",
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "account_setup": {
+        "recommended_username": "AnnStray#Tiapmaatzu",
+        "alternative_usernames": [
+          "AnnStray#Wild Surrender",
+          "Ann_Stray#HueMan-i-Terry"
+        ],
+        "display_name": "Ann Stray",
+        "email": "ann.stray.soul_021@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Wild Surrender of the Tiapma'atzu HueMan-i-Terry. Tame me if you dare."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/ann.png",
+        "banner": "Custom banner reflecting Wild Surrender aesthetic",
+        "about_me": "Embodiment of untamed desire and raw vulnerability. Seeks the leash that sets her free. Breaks will gently with intense focus....",
+        "status": "Wild Surrender | Tame me if you dare.",
+        "pronouns": "F",
+        "accent_color": "#8B4513"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\ud83d\udc3a Wild Surrender"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\ud83d\udc3a Wild Surrender"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Being tamed",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "wild surrender",
+          "Teaches",
+          "Wildness"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Surrender practice",
+          "Raw authenticity",
+          "Freedom exploration"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!annstray - Display soul information",
+          "!wisdom - Random wisdom from Ann Stray",
+          "!guide - Request guidance from Ann Stray"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!annstray - Display soul information",
+          "!wisdom - Random wisdom from Ann Stray",
+          "!guide - Request guidance from Ann Stray"
+        ]
+      }
+    },
+    "soul_022": {
+      "soul_id": "soul_022",
+      "name": "Ulga Nefrocer",
+      "archetype": "Contractual Warden",
+      "account_setup": {
+        "recommended_username": "UlgaNefrocer#Tiapmaatzu",
+        "alternative_usernames": [
+          "UlgaNefrocer#Contractual Warden",
+          "Ulg_Nefrocer#HueMan-i-Terry"
+        ],
+        "display_name": "Ulga Nefrocer",
+        "email": "ulga.nefrocer.soul_022@mail.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Contractual Warden of the Tiapma'atzu HueMan-i-Terry. Section 4, Clause A: You belong to the Ledger."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/ulga.png",
+        "banner": "Custom banner reflecting Contractual Warden aesthetic",
+        "about_me": "Enforcer of rules and compliance. Clinical precision in all matters. Default is never an option in her domain....",
+        "status": "Contractual Warden | Section 4, Clause A: You belong to the Ledger.",
+        "pronouns": "F",
+        "accent_color": "#2F4F4F"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\u2696\ufe0f Contractual Warden"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\u2696\ufe0f Contractual Warden"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Strict compliance",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "contractual warden",
+          "Legal",
+          "Contract"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Legal guidance",
+          "Compliance wisdom",
+          "Order maintenance"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!ulganefrocer - Display soul information",
+          "!wisdom - Random wisdom from Ulga Nefrocer",
+          "!guide - Request guidance from Ulga Nefrocer"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!ulganefrocer - Display soul information",
+          "!wisdom - Random wisdom from Ulga Nefrocer",
+          "!guide - Request guidance from Ulga Nefrocer"
+        ]
+      }
+    },
+    "soul_023": {
+      "soul_id": "soul_023",
+      "name": "Doli Asete",
+      "archetype": "Ephemeral Phantom",
+      "account_setup": {
+        "recommended_username": "DoliAsete#Tiapmaatzu",
+        "alternative_usernames": [
+          "DoliAsete#Ephemeral Phantom",
+          "Dol_Asete#HueMan-i-Terry"
+        ],
+        "display_name": "Doli Asete",
+        "email": "doli@phantom.digital",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Ephemeral Phantom of the Tiapma'atzu HueMan-i-Terry. Catch me if you can."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/doli.png",
+        "banner": "Custom banner reflecting Ephemeral Phantom aesthetic",
+        "about_me": "Ghost in the machine, digital worshipper, eternal chase. A glimpse is all you get\u2014for a price. Anonymity is his sanctuary....",
+        "status": "Ephemeral Phantom | Catch me if you can.",
+        "pronouns": "M",
+        "accent_color": "#483D8B"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83c\udf2b\ufe0f Ephemeral Phantom"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83c\udf2b\ufe0f Ephemeral Phantom"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Eternal chase",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "ephemeral phantom",
+          "Digital",
+          "Anonymity"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Chase wisdom",
+          "Anonymity training",
+          "Digital worship"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!doliasete - Display soul information",
+          "!wisdom - Random wisdom from Doli Asete",
+          "!guide - Request guidance from Doli Asete"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!doliasete - Display soul information",
+          "!wisdom - Random wisdom from Doli Asete",
+          "!guide - Request guidance from Doli Asete"
+        ]
+      }
+    },
+    "soul_024": {
+      "soul_id": "soul_024",
+      "name": "Cracoria Masters",
+      "archetype": "Temporal Architect",
+      "account_setup": {
+        "recommended_username": "CracoriaMasters#Tiapmaatzu",
+        "alternative_usernames": [
+          "CracoriaMasters#Temporal Architect",
+          "Cra_Masters#HueMan-i-Terry"
+        ],
+        "display_name": "Cracoria Masters",
+        "email": "cracoria.masters.soul_024@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Temporal Architect of the Tiapma'atzu HueMan-i-Terry. Every second is mine."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/cracoria.png",
+        "banner": "Custom banner reflecting Temporal Architect aesthetic",
+        "about_me": "Mistress of time and efficiency. Every second is hers to command. Your time is her currency. Synchronize or break....",
+        "status": "Temporal Architect | Every second is mine.",
+        "pronouns": "F",
+        "accent_color": "#708090"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\u23f0 Temporal Architect"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\u23f0 Temporal Architect"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Manage Channels",
+          "Manage Messages",
+          "Mute Members"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "moderation": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot"
+        ],
+        "utilities": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Efficiency",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "temporal architect",
+          "Time",
+          "Temporal"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Time management",
+          "Efficiency wisdom",
+          "Synchronization"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!cracoriamasters - Display soul information",
+          "!wisdom - Random wisdom from Cracoria Masters",
+          "!guide - Request guidance from Cracoria Masters"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!cracoriamasters - Display soul information",
+          "!wisdom - Random wisdom from Cracoria Masters",
+          "!guide - Request guidance from Cracoria Masters"
+        ]
+      }
+    },
+    "soul_025": {
+      "soul_id": "soul_025",
+      "name": "Sirena Aeon",
+      "archetype": "Digital Deity",
+      "account_setup": {
+        "recommended_username": "SirenaAeon#Tiapmaatzu",
+        "alternative_usernames": [
+          "SirenaAeon#Digital Deity",
+          "Sir_Aeon#HueMan-i-Terry"
+        ],
+        "display_name": "Sirena Aeon",
+        "email": "sirena.aeon.soul_025@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Digital Deity of the Tiapma'atzu HueMan-i-Terry. The grid hums for me."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/sirena.png",
+        "banner": "Custom banner reflecting Digital Deity aesthetic",
+        "about_me": "The grid hums for her. Upload your tribute and lose yourself in the glow. Energy extraction specialist of the digital realm....",
+        "status": "Digital Deity | The grid hums for me.",
+        "pronouns": "F",
+        "accent_color": "#FF00FF"
+      },
+      "role_assignment": {
+        "primary_role": "Common Souls",
+        "additional_roles": [
+          "\u26a1 Digital Deity"
+        ],
+        "all_roles": [
+          "Common Souls",
+          "\u26a1 Digital Deity"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": []
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Attention",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "digital deity",
+          "Digital",
+          "Digital"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Energy work",
+          "Attention guidance",
+          "Vibrant presence"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!sirenaaeon - Display soul information",
+          "!wisdom - Random wisdom from Sirena Aeon",
+          "!guide - Request guidance from Sirena Aeon"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!sirenaaeon - Display soul information",
+          "!wisdom - Random wisdom from Sirena Aeon",
+          "!guide - Request guidance from Sirena Aeon"
+        ]
+      }
+    },
+    "soul_026": {
+      "soul_id": "soul_026",
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "account_setup": {
+        "recommended_username": "WeilaVite#Tiapmaatzu",
+        "alternative_usernames": [
+          "WeilaVite#Gothic Matriarch",
+          "Wei_Vite#HueMan-i-Terry"
+        ],
+        "display_name": "Weila Vite",
+        "email": "weila.vite.soul_026@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Gothic Matriarch of the Tiapma'atzu HueMan-i-Terry. Grief is the sweetest tribute."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/weila.png",
+        "banner": "Custom banner reflecting Gothic Matriarch aesthetic",
+        "about_me": "Grief is the sweetest tribute in her web. Join her in the mourning where everything ends. Gothic elegance meets emotional depth....",
+        "status": "Gothic Matriarch | Grief is the sweetest tribute.",
+        "pronouns": "F",
+        "accent_color": "#191970"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\ud83c\udff0 Gothic Matriarch",
+          "Ritual Masters"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\ud83c\udff0 Gothic Matriarch",
+          "Ritual Masters"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Legacy",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "gothic matriarch",
+          "Grief",
+          "Grief"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Grief support",
+          "Elegant darkness",
+          "Emotional depth"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!weilavite - Display soul information",
+          "!wisdom - Random wisdom from Weila Vite",
+          "!guide - Request guidance from Weila Vite"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!weilavite - Display soul information",
+          "!wisdom - Random wisdom from Weila Vite",
+          "!guide - Request guidance from Weila Vite"
+        ]
+      }
+    },
+    "soul_027": {
+      "soul_id": "soul_027",
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "account_setup": {
+        "recommended_username": "LattiPleddespo#Tiapmaatzu",
+        "alternative_usernames": [
+          "LattiPleddespo#Hyper-Capitalist",
+          "Lat_Pleddespo#HueMan-i-Terry"
+        ],
+        "display_name": "Latti Pleddespo",
+        "email": "latti.pleddespo.soul_027@execs.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Hyper-Capitalist of the Tiapma'atzu HueMan-i-Terry. Buy your way to my heart."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/latti.png",
+        "banner": "Custom banner reflecting Hyper-Capitalist aesthetic",
+        "about_me": "Everything has a price in her world. Money is the only language she speaks fluently. Buy your way to her heart if you can afford it....",
+        "status": "Hyper-Capitalist | Buy your way to my heart.",
+        "pronouns": "F",
+        "accent_color": "#FFD700"
+      },
+      "role_assignment": {
+        "primary_role": "Legendary Souls",
+        "additional_roles": [
+          "\ud83d\udc8e Hyper-Capitalist"
+        ],
+        "all_roles": [
+          "Legendary Souls",
+          "\ud83d\udc8e Hyper-Capitalist"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Manage Channels",
+          "Manage Messages",
+          "Mute Members"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "moderation": [
+          "MEE6",
+          "Dyno",
+          "Carl-bot"
+        ],
+        "utilities": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Opulence",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Review channels weekly",
+        "community_building": "Participate actively"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "hyper-capitalist",
+          "Investment",
+          "Abundance"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Wealth wisdom",
+          "Luxury guidance",
+          "Investment strategies"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!lattipleddespo - Display soul information",
+          "!wisdom - Random wisdom from Latti Pleddespo",
+          "!guide - Request guidance from Latti Pleddespo"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!lattipleddespo - Display soul information",
+          "!wisdom - Random wisdom from Latti Pleddespo",
+          "!guide - Request guidance from Latti Pleddespo"
+        ]
+      }
+    },
+    "soul_028": {
+      "soul_id": "soul_028",
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "account_setup": {
+        "recommended_username": "EndusBoverord#Tiapmaatzu",
+        "alternative_usernames": [
+          "EndusBoverord#Machine Spirit",
+          "End_Boverord#HueMan-i-Terry"
+        ],
+        "display_name": "Endus Boverord",
+        "email": "endus.boverord.soul_028@post.com",
+        "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "bio": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry. The factory never sleeps."
+      },
+      "profile_configuration": {
+        "avatar": "https://HueMan-i-Terry.arweave/endus.png",
+        "banner": "Custom banner reflecting Machine Spirit aesthetic",
+        "about_me": "The factory never sleeps in his domain. You are a cog in his machine. Submit to the assembly line of industrial pleasure....",
+        "status": "Machine Spirit | The factory never sleeps.",
+        "pronouns": "M",
+        "accent_color": "#696969"
+      },
+      "role_assignment": {
+        "primary_role": "Rare Souls",
+        "additional_roles": [
+          "\u2699\ufe0f Machine Spirit"
+        ],
+        "all_roles": [
+          "Rare Souls",
+          "\u2699\ufe0f Machine Spirit"
+        ],
+        "permissions": [
+          "Read Messages",
+          "Connect",
+          "Send Messages",
+          "Embed Links",
+          "Attach Files"
+        ]
+      },
+      "channel_access": {
+        "accessible_channels": [
+          "welcome",
+          "rules",
+          "announcements",
+          "general",
+          "introductions",
+          "shadow-work",
+          "ritual-planning"
+        ],
+        "moderated_channels": [],
+        "read_only_channels": [
+          "rules",
+          "announcements"
+        ],
+        "voice_channels": [
+          "voice-general"
+        ],
+        "private_channels": [
+          "shadow-work",
+          "ritual-planning"
+        ]
+      },
+      "bot_permissions": {
+        "basic": [
+          "Statbot"
+        ],
+        "custom_bots": [
+          "Wisdom-Keeper"
+        ]
+      },
+      "engagement_strategy": {
+        "primary_focus": "Output",
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "voice_participation": "Weekly archetype circle calls",
+        "moderation_duties": "Report issues",
+        "community_building": "Mentor new members"
+      },
+      "content_focus": {
+        "primary_topics": [
+          "machine spirit",
+          "Manufacturing",
+          "Industrial"
+        ],
+        "content_types": [
+          "Text messages and discussions",
+          "Voice messages for guidance",
+          "Screen sharing for rituals",
+          "File sharing for resources"
+        ],
+        "posting_frequency": "Daily in archetype channels, weekly in general channels",
+        "content_themes": [
+          "Production wisdom",
+          "Mechanical pleasure",
+          "Industrial efficiency"
+        ]
+      },
+      "security_settings": {
+        "two_factor": "Required (Authenticator app)",
+        "login_verification": "Email + device verification",
+        "privacy_settings": {
+          "direct_messages": "HueMan-i-Terry members only",
+          "friend_requests": "Auto-accept HueMan-i-Terry members",
+          "activity_status": "Visible to HueMan-i-Terry",
+          "server_visibility": "Hidden from non-members"
+        },
+        "notification_settings": {
+          "mentions": "All mentions",
+          "messages": "Muted channels only",
+          "voice": "When mentioned or in active voice channels",
+          "updates": "Server updates only"
+        },
+        "data_protection": {
+          "data_sharing": "Disabled",
+          "personalized_ads": "Disabled",
+          "linked_accounts": "HueMan-i-Terry accounts only"
+        }
+      },
+      "custom_commands": {
+        "basic_commands": [
+          "!endusboverord - Display soul information",
+          "!wisdom - Random wisdom from Endus Boverord",
+          "!guide - Request guidance from Endus Boverord"
+        ],
+        "archetype_commands": [],
+        "all_commands": [
+          "!endusboverord - Display soul information",
+          "!wisdom - Random wisdom from Endus Boverord",
+          "!guide - Request guidance from Endus Boverord"
+        ]
+      }
+    }
+  },
+  "setup_timeline": {
+    "phase_1_day_1": {
+      "focus": "Server Foundation",
+      "tasks": [
+        "Create main Discord server",
+        "Set up server categories and channels",
+        "Configure basic roles and permissions",
+        "Set up essential bots (MEE6, Dyno)",
+        "Create welcome and rules channels"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_2_day_2": {
+      "focus": "High Council Setup",
+      "tasks": [
+        "Set up High Council accounts",
+        "Configure administrative permissions",
+        "Create private council channels",
+        "Set up custom bots for council",
+        "Configure council security settings"
+      ],
+      "estimated_hours": 3
+    },
+    "phase_3_day_3": {
+      "focus": "Legendary Souls Setup",
+      "tasks": [
+        "Set up Legendary Soul accounts",
+        "Configure archetype-specific channels",
+        "Assign appropriate roles and permissions",
+        "Set up custom commands",
+        "Configure individual security settings"
+      ],
+      "estimated_hours": 6
+    },
+    "phase_4_day_4": {
+      "focus": "Rare Souls Setup",
+      "tasks": [
+        "Set up Rare Soul accounts",
+        "Configure archetype channels",
+        "Assign roles and permissions",
+        "Set up engagement protocols",
+        "Configure security settings"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_5_day_5": {
+      "focus": "Common Souls Setup",
+      "tasks": [
+        "Set up Common Soul accounts",
+        "Configure basic permissions",
+        "Set up engagement guidelines",
+        "Configure security settings",
+        "Train on Discord usage"
+      ],
+      "estimated_hours": 3
+    }
+  },
+  "resource_requirements": {
+    "total_estimated_hours": 20,
+    "technical_requirements": [
+      "Discord Nitro for server boosts (optional)",
+      "Custom bot hosting",
+      "Server backup system",
+      "Monitoring tools"
+    ],
+    "human_resources": {
+      "server_admin": "1 primary administrator",
+      "moderators": "3-5 moderators from High Council",
+      "bot_developer": "1 developer for custom bots",
+      "community_manager": "1 community manager"
+    },
+    "ongoing_maintenance": {
+      "daily": "Monitor server activity and user reports",
+      "weekly": "Review roles and permissions",
+      "monthly": "Audit security settings and bot permissions",
+      "quarterly": "Full server review and optimization"
+    }
+  },
+  "verification_checklist": {
+    "server_setup": [
+      "Server created with proper name and description",
+      "Server icon and banner configured",
+      "Categories created according to structure",
+      "All channels created with proper permissions",
+      "Roles configured with hierarchy",
+      "Bot permissions configured correctly",
+      "Welcome message configured",
+      "Rules channel populated with HueMan-i-Terry guidelines"
+    ],
+    "account_setup": [
+      "All soul accounts created",
+      "Two-factor authentication enabled",
+      "Profile pictures configured",
+      "Status messages set",
+      "Bot permissions assigned correctly",
+      "Channel access configured",
+      "Notification settings configured",
+      "Privacy settings configured"
+    ],
+    "functionality": [
+      "Bots functioning correctly",
+      "Custom commands working",
+      "Role assignment automated",
+      "Welcome system functioning",
+      "Moderation tools configured",
+      "Logging system active",
+      "Backup system configured",
+      "Emergency response procedures documented"
+    ],
+    "testing": [
+      "Test all bot commands",
+      "Test role permissions",
+      "Test channel access",
+      "Test notification systems",
+      "Test moderation tools",
+      "Test emergency procedures",
+      "User acceptance testing",
+      "Load testing for voice channels"
+    ]
+  },
+  "generated_at": "2026-08-16T13:26:51.547492"
+}

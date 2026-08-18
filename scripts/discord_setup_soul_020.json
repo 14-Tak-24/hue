@@ -1,0 +1,135 @@
+{
+  "soul_id": "soul_020",
+  "name": "Vulture Queen",
+  "archetype": "Scavenger Strategist",
+  "account_setup": {
+    "recommended_username": "VultureQueen#Tiapmaatzu",
+    "alternative_usernames": [
+      "VultureQueen#Scavenger Strategist",
+      "Vul_Queen#HueMan-i-Terry"
+    ],
+    "display_name": "Vulture Queen",
+    "email": "vulture.queen.soul_020@mail.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Scavenger Strategist of the Tiapma'atzu HueMan-i-Terry. I feast on your leftovers."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/vulture.png",
+    "banner": "Custom banner reflecting Scavenger Strategist aesthetic",
+    "about_me": "Mistress of resource capture and financial bleed. Feasts on opportunities others miss. Nothing is wasted in her kingdom....",
+    "status": "Scavenger Strategist | I feast on your leftovers.",
+    "pronouns": "F",
+    "accent_color": "#B8860B"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\ud83e\udd85 Scavenger Strategist",
+      "Ritual Masters"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\ud83e\udd85 Scavenger Strategist",
+      "Ritual Masters"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Resource capture",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "scavenger strategist",
+      "Financial",
+      "Resource"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Resource wisdom",
+      "Financial intelligence",
+      "Strategic planning"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!vulturequeen - Display soul information",
+      "!wisdom - Random wisdom from Vulture Queen",
+      "!guide - Request guidance from Vulture Queen"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!vulturequeen - Display soul information",
+      "!wisdom - Random wisdom from Vulture Queen",
+      "!guide - Request guidance from Vulture Queen"
+    ]
+  }
+}

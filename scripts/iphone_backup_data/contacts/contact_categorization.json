@@ -1,0 +1,36 @@
+{
+  "potential_members": {
+    "description": "People who might be interested in joining the HueMan-i-Terry",
+    "criteria": [
+      "Interest in spirituality",
+      "Interest in personal growth",
+      "Kink community members",
+      "Alt community members"
+    ]
+  },
+  "current_members": {
+    "description": "Current HueMan-i-Terry members",
+    "criteria": [
+      "Already part of community",
+      "Discord members",
+      "Twitter followers"
+    ]
+  },
+  "collaborators": {
+    "description": "Potential collaborators and partners",
+    "criteria": [
+      "Content creators",
+      "Community leaders",
+      "Spiritual teachers",
+      "Artists"
+    ]
+  },
+  "influencers": {
+    "description": "Influencers for amplification",
+    "criteria": [
+      "Social media presence",
+      "Relevant following",
+      "Authentic voice"
+    ]
+  }
+}

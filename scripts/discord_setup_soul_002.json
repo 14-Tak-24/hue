@@ -1,0 +1,151 @@
+{
+  "soul_id": "soul_002",
+  "name": "Mary Magnumbytes",
+  "archetype": "Divine Mother",
+  "account_setup": {
+    "recommended_username": "MaryMagnumbytes#Tiapmaatzu",
+    "alternative_usernames": [
+      "MaryMagnumbytes#Divine Mother",
+      "Mar_Magnumbytes#HueMan-i-Terry"
+    ],
+    "display_name": "Mary Magnumbytes",
+    "email": "mary.magnum@HueMan-i-Terryleaders.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Divine Mother of the Tiapma'atzu HueMan-i-Terry. Let me hold your darkness."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/mary.png",
+    "banner": "Custom banner reflecting Divine Mother aesthetic",
+    "about_me": "Nurturing force of the HueMan-i-Terry, embodiment of feminine power and creative energy. She weaves protection and abundance through ancient wisdom....",
+    "status": "Divine Mother | Let me hold your darkness.",
+    "pronouns": "F",
+    "accent_color": "#FF69B4"
+  },
+  "role_assignment": {
+    "primary_role": "Legendary Souls",
+    "additional_roles": [
+      "\ud83d\udc8e Divine Mother",
+      "High Council"
+    ],
+    "all_roles": [
+      "Legendary Souls",
+      "\ud83d\udc8e Divine Mother",
+      "High Council"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Administrator",
+      "Manage Server",
+      "Manage Roles"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ]
+  },
+  "bot_permissions": {
+    "full_control": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot",
+      "Ticket Tool",
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Tiapmaatzu-Guardian",
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Nurturing others",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Review channels weekly",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "divine mother",
+      "Supports",
+      "Holds"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Nurturing support",
+      "Emotional healing",
+      "Family guidance"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!marymagnumbytes - Display soul information",
+      "!wisdom - Random wisdom from Mary Magnumbytes",
+      "!guide - Request guidance from Mary Magnumbytes"
+    ],
+    "archetype_commands": [
+      "!nurture - Request nurturing support",
+      "!comfort - Get comfort and care",
+      "!motherly - Maternal guidance"
+    ],
+    "all_commands": [
+      "!marymagnumbytes - Display soul information",
+      "!wisdom - Random wisdom from Mary Magnumbytes",
+      "!guide - Request guidance from Mary Magnumbytes",
+      "!nurture - Request nurturing support",
+      "!comfort - Get comfort and care",
+      "!motherly - Maternal guidance"
+    ]
+  }
+}

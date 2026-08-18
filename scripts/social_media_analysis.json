@@ -1,0 +1,1402 @@
+{
+  "analysis": {
+    "total_souls": 28,
+    "platform_distribution": {
+      "Twitter": 20,
+      "Discord": 15,
+      "Reddit": 10,
+      "FetLife": 8,
+      "Instagram": 8,
+      "TikTok": 5,
+      "AFF": 4,
+      "YouTube": 4,
+      "Telegram": 2,
+      "AFF": 1,
+      "Fansly": 1,
+      "Vimeo": 1,
+      "Pinterest": 1,
+      "Podcasts": 1,
+      "Snapchat": 1,
+      "GitHub": 1,
+      "Medium": 1,
+      "Substack": 1
+    },
+    "platform_by_soul": {
+      "soul_001": {
+        "name": "Mac Nazarene",
+        "archetype": "High Priest",
+        "platforms": [
+          "Discord",
+          "FetLife",
+          "Twitter",
+          "AFF"
+        ],
+        "tier": "upper"
+      },
+      "soul_002": {
+        "name": "Mary Magnumbytes",
+        "archetype": "Divine Mother",
+        "platforms": [
+          "Instagram",
+          "FetLife",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_003": {
+        "name": "Dixon Uhbuts",
+        "archetype": "High Priest",
+        "platforms": [
+          "FetLife",
+          "Reddit",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_004": {
+        "name": "Airiol Uhbuts",
+        "archetype": "Seductive Muse",
+        "platforms": [
+          "FetLife",
+          "Instagram",
+          "AFF"
+        ],
+        "tier": "upper"
+      },
+      "soul_005": {
+        "name": "Zupa Nova",
+        "archetype": "Cosmic Mystic",
+        "platforms": [
+          "YouTube",
+          "Discord",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_006": {
+        "name": "Liangivalla Pouchaquehe",
+        "archetype": "Revolutionary Warrior",
+        "platforms": [
+          "Twitter",
+          "Reddit",
+          "TikTok"
+        ],
+        "tier": "upper"
+      },
+      "soul_007": {
+        "name": "Babelonia Nocturne",
+        "archetype": "Crypto Sorceress",
+        "platforms": [
+          "Twitter",
+          "FetLife",
+          "Fansly"
+        ],
+        "tier": "upper"
+      },
+      "soul_008": {
+        "name": "Ritaphuq Zaniman",
+        "archetype": "Community Healer",
+        "platforms": [
+          "Discord",
+          "Reddit",
+          "FetLife"
+        ],
+        "tier": "upper"
+      },
+      "soul_009": {
+        "name": "Kaiel Thornea",
+        "archetype": "Digital Guardian",
+        "platforms": [
+          "Discord",
+          "Twitter",
+          "Reddit"
+        ],
+        "tier": "upper"
+      },
+      "soul_010": {
+        "name": "Lexie Rose",
+        "archetype": "Digital Phantom",
+        "platforms": [
+          "Telegram",
+          "Discord",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_011": {
+        "name": "Jessa Relay",
+        "archetype": "Connection Curator",
+        "platforms": [
+          "FetLife",
+          "Reddit",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_012": {
+        "name": "Slurchin Drip",
+        "archetype": "Viral Prophet",
+        "platforms": [
+          "Twitter",
+          "TikTok",
+          "Instagram"
+        ],
+        "tier": "upper"
+      },
+      "soul_013": {
+        "name": "Brytoni Himheru",
+        "archetype": "Cyber Guardian",
+        "platforms": [
+          "Discord",
+          "Twitter",
+          "Reddit"
+        ],
+        "tier": "upper"
+      },
+      "soul_014": {
+        "name": "Gaio Dreamweaver",
+        "archetype": "Visual Alchemist",
+        "platforms": [
+          "YouTube",
+          "Instagram",
+          "Vimeo"
+        ],
+        "tier": "upper"
+      },
+      "soul_015": {
+        "name": "Loona Minta",
+        "archetype": "Prism Enchantress",
+        "platforms": [
+          "Instagram",
+          "TikTok",
+          "Pinterest"
+        ],
+        "tier": "upper"
+      },
+      "soul_016": {
+        "name": "Bain Kha'ak",
+        "archetype": "Desert Storyteller",
+        "platforms": [
+          "YouTube",
+          "Twitter",
+          "Podcasts"
+        ],
+        "tier": "upper"
+      },
+      "soul_017": {
+        "name": "Shielah Trapewe",
+        "archetype": "Ephemeral Artist",
+        "platforms": [
+          "Snapchat",
+          "Instagram",
+          "TikTok"
+        ],
+        "tier": "upper"
+      },
+      "soul_018": {
+        "name": "Unzoba Vyner",
+        "archetype": "Mirror Architect",
+        "platforms": [
+          "Discord",
+          "GitHub",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_019": {
+        "name": "Ovaihge Wittminers",
+        "archetype": "Sage Writer",
+        "platforms": [
+          "Medium",
+          "Substack",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_020": {
+        "name": "Vulture Queen",
+        "archetype": "Scavenger Strategist",
+        "platforms": [
+          "Twitter",
+          "Reddit",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_021": {
+        "name": "Ann Stray",
+        "archetype": "Wild Surrender",
+        "platforms": [
+          "FetLife",
+          "Twitter",
+          "Reddit"
+        ],
+        "tier": "upper"
+      },
+      "soul_022": {
+        "name": "Ulga Nefrocer",
+        "archetype": "Contractual Warden",
+        "platforms": [
+          "AFF",
+          "Twitter",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_023": {
+        "name": "Doli Asete",
+        "archetype": "Ephemeral Phantom",
+        "platforms": [
+          "Telegram",
+          "Discord",
+          "Twitter"
+        ],
+        "tier": "upper"
+      },
+      "soul_024": {
+        "name": "Cracoria Masters",
+        "archetype": "Temporal Architect",
+        "platforms": [
+          "Twitter",
+          "AFF",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_025": {
+        "name": "Sirena Aeon",
+        "archetype": "Digital Deity",
+        "platforms": [
+          "TikTok",
+          "Instagram",
+          "YouTube"
+        ],
+        "tier": "upper"
+      },
+      "soul_026": {
+        "name": "Weila Vite",
+        "archetype": "Gothic Matriarch",
+        "platforms": [
+          "Twitter",
+          "Reddit",
+          "Discord"
+        ],
+        "tier": "upper"
+      },
+      "soul_027": {
+        "name": "Latti Pleddespo",
+        "archetype": "Hyper-Capitalist",
+        "platforms": [
+          "Twitter",
+          "AFF",
+          "Instagram"
+        ],
+        "tier": "upper"
+      },
+      "soul_028": {
+        "name": "Endus Boverord",
+        "archetype": "Machine Spirit",
+        "platforms": [
+          "Twitter",
+          "Reddit",
+          "Discord"
+        ],
+        "tier": "upper"
+      }
+    },
+    "unique_platforms": 18
+  },
+  "setup_tiers": {
+    "tier_1_core": [
+      "Twitter",
+      "Discord",
+      "Reddit"
+    ],
+    "tier_2_visual": [
+      "Instagram",
+      "TikTok",
+      "YouTube"
+    ],
+    "tier_3_specialized": [
+      "FetLife",
+      "Telegram",
+      "AFF"
+    ],
+    "tier_4_emerging": [
+      "AFF",
+      "Fansly",
+      "Snapchat",
+      "Pinterest",
+      "Medium",
+      "Substack",
+      "GitHub",
+      "Vimeo",
+      "Podcasts"
+    ]
+  },
+  "setup_checklist": {
+    "soul_001": {
+      "name": "Mac Nazarene",
+      "archetype": "High Priest",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 4
+    },
+    "soul_002": {
+      "name": "Mary Magnumbytes",
+      "archetype": "Divine Mother",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_003": {
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "setup_items": [
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_004": {
+      "name": "Airiol Uhbuts",
+      "archetype": "Seductive Muse",
+      "setup_items": [
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_005": {
+      "name": "Zupa Nova",
+      "archetype": "Cosmic Mystic",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_006": {
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_007": {
+      "name": "Babelonia Nocturne",
+      "archetype": "Crypto Sorceress",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        },
+        {
+          "platform": "Fansly",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_008": {
+      "name": "Ritaphuq Zaniman",
+      "archetype": "Community Healer",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_009": {
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_010": {
+      "name": "Lexie Rose",
+      "archetype": "Digital Phantom",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Telegram",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_011": {
+      "name": "Jessa Relay",
+      "archetype": "Connection Curator",
+      "setup_items": [
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_012": {
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_013": {
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_014": {
+      "name": "Gaio Dreamweaver",
+      "archetype": "Visual Alchemist",
+      "setup_items": [
+        {
+          "platform": "YouTube",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Vimeo",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_015": {
+      "name": "Loona Minta",
+      "archetype": "Prism Enchantress",
+      "setup_items": [
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Pinterest",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_016": {
+      "name": "Bain Kha'ak",
+      "archetype": "Desert Storyteller",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Podcasts",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_017": {
+      "name": "Shielah Trapewe",
+      "archetype": "Ephemeral Artist",
+      "setup_items": [
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "TikTok",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Snapchat",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_018": {
+      "name": "Unzoba Vyner",
+      "archetype": "Mirror Architect",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "GitHub",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_019": {
+      "name": "Ovaihge Wittminers",
+      "archetype": "Sage Writer",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Medium",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        },
+        {
+          "platform": "Substack",
+          "complexity": "low",
+          "priority": "low",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_020": {
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_021": {
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "FetLife",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_022": {
+      "name": "Ulga Nefrocer",
+      "archetype": "Contractual Warden",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_023": {
+      "name": "Doli Asete",
+      "archetype": "Ephemeral Phantom",
+      "setup_items": [
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Telegram",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_024": {
+      "name": "Cracoria Masters",
+      "archetype": "Temporal Architect",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_025": {
+      "name": "Sirena Aeon",
+      "archetype": "Digital Deity",
+      "setup_items": [
+        {
+          "platform": "TikTok",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "YouTube",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_026": {
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_027": {
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Instagram",
+          "complexity": "medium",
+          "priority": "high",
+          "status": "pending"
+        },
+        {
+          "platform": "AFF",
+          "complexity": "medium",
+          "priority": "medium",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    },
+    "soul_028": {
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "setup_items": [
+        {
+          "platform": "Twitter",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Reddit",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        },
+        {
+          "platform": "Discord",
+          "complexity": "high",
+          "priority": "immediate",
+          "status": "pending"
+        }
+      ],
+      "total_platforms": 3
+    }
+  },
+  "content_strategies": {
+    "High Priest": {
+      "souls": [
+        "Mac Nazarene",
+        "Dixon Uhbuts"
+      ],
+      "common_platforms": {
+        "Discord": 1,
+        "FetLife": 2,
+        "Twitter": 2,
+        "AFF": 1,
+        "Reddit": 1
+      },
+      "content_focus": "Spiritual guidance, ritual tutorials, HueMan-i-Terry wisdom",
+      "posting_frequency": "Daily wisdom, weekly rituals",
+      "engagement_strategy": "Authority-based engagement, ceremonial responses"
+    },
+    "Divine Mother": {
+      "souls": [
+        "Mary Magnumbytes"
+      ],
+      "common_platforms": {
+        "Instagram": 1,
+        "FetLife": 1,
+        "Discord": 1
+      },
+      "content_focus": "Nurturing content, emotional support, community care",
+      "posting_frequency": "Daily affirmations, weekly guidance",
+      "engagement_strategy": "Warm, supportive interactions, personal connections"
+    },
+    "Seductive Muse": {
+      "souls": [
+        "Airiol Uhbuts"
+      ],
+      "common_platforms": {
+        "FetLife": 1,
+        "Instagram": 1,
+        "AFF": 1
+      },
+      "content_focus": "Sensual content, burlesque, artistic seduction",
+      "posting_frequency": "Daily teasers, weekly performances",
+      "engagement_strategy": "Flirtatious engagement, exclusive content access"
+    },
+    "Cosmic Mystic": {
+      "souls": [
+        "Zupa Nova"
+      ],
+      "common_platforms": {
+        "YouTube": 1,
+        "Discord": 1,
+        "Twitter": 1
+      },
+      "content_focus": "Cosmic wisdom, stargazing, scientific spirituality",
+      "posting_frequency": "Daily cosmic insights, weekly stargazing",
+      "engagement_strategy": "Transcendent discussions, cosmic Q&A"
+    },
+    "Revolutionary Warrior": {
+      "souls": [
+        "Liangivalla Pouchaquehe"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "Reddit": 1,
+        "TikTok": 1
+      },
+      "content_focus": "Activism, consent education, revolutionary content",
+      "posting_frequency": "Daily activism, weekly educational content",
+      "engagement_strategy": "Movement building, protest coordination"
+    },
+    "Crypto Sorceress": {
+      "souls": [
+        "Babelonia Nocturne"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "FetLife": 1,
+        "Fansly": 1
+      },
+      "content_focus": "Financial dominance, crypto education, wealth building",
+      "posting_frequency": "Daily market insights, weekly crypto tutorials",
+      "engagement_strategy": "Financial advice, investment discussions"
+    },
+    "Community Healer": {
+      "souls": [
+        "Ritaphuq Zaniman"
+      ],
+      "common_platforms": {
+        "Discord": 1,
+        "Reddit": 1,
+        "FetLife": 1
+      },
+      "content_focus": "Healing content, community support, safe space creation",
+      "posting_frequency": "Daily healing messages, weekly group sessions",
+      "engagement_strategy": "Supportive responses, community building"
+    },
+    "Digital Guardian": {
+      "souls": [
+        "Kaiel Thornea"
+      ],
+      "common_platforms": {
+        "Discord": 1,
+        "Twitter": 1,
+        "Reddit": 1
+      },
+      "content_focus": "Digital security, privacy education, community protection",
+      "posting_frequency": "Daily security tips, weekly threat analysis",
+      "engagement_strategy": "Protective guidance, security Q&A"
+    },
+    "Digital Phantom": {
+      "souls": [
+        "Lexie Rose"
+      ],
+      "common_platforms": {
+        "Telegram": 1,
+        "Discord": 1,
+        "Twitter": 1
+      },
+      "content_focus": "Digital anonymity, encryption, privacy tools",
+      "posting_frequency": "Periodic encrypted messages, anonymous drops",
+      "engagement_strategy": "Mysterious interactions, coded communications"
+    },
+    "Connection Curator": {
+      "souls": [
+        "Jessa Relay"
+      ],
+      "common_platforms": {
+        "FetLife": 1,
+        "Reddit": 1,
+        "Discord": 1
+      },
+      "content_focus": "Community building, connection facilitation, consent culture",
+      "posting_frequency": "Daily connection opportunities, weekly workshops",
+      "engagement_strategy": "Matchmaking, community coordination"
+    },
+    "Viral Prophet": {
+      "souls": [
+        "Slurchin Drip"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "TikTok": 1,
+        "Instagram": 1
+      },
+      "content_focus": "Poetic content, viral threads, movement building",
+      "posting_frequency": "Daily poetry, weekly viral threads",
+      "engagement_strategy": "Poetic responses, movement amplification"
+    },
+    "Cyber Guardian": {
+      "souls": [
+        "Brytoni Himheru"
+      ],
+      "common_platforms": {
+        "Discord": 1,
+        "Twitter": 1,
+        "Reddit": 1
+      },
+      "content_focus": "Cybersecurity, digital protection, technical security",
+      "posting_frequency": "Daily security alerts, weekly technical deep-dives",
+      "engagement_strategy": "Technical guidance, security support"
+    },
+    "Visual Alchemist": {
+      "souls": [
+        "Gaio Dreamweaver"
+      ],
+      "common_platforms": {
+        "YouTube": 1,
+        "Instagram": 1,
+        "Vimeo": 1
+      },
+      "content_focus": "Cinematic content, visual storytelling, artistic direction",
+      "posting_frequency": "Daily visual content, weekly cinematic pieces",
+      "engagement_strategy": "Visual critiques, artistic collaboration"
+    },
+    "Prism Enchantress": {
+      "souls": [
+        "Loona Minta"
+      ],
+      "common_platforms": {
+        "Instagram": 1,
+        "TikTok": 1,
+        "Pinterest": 1
+      },
+      "content_focus": "Visual transformation, aesthetic education, color theory",
+      "posting_frequency": "Daily aesthetic content, weekly tutorials",
+      "engagement_strategy": "Visual feedback, aesthetic consultations"
+    },
+    "Desert Storyteller": {
+      "souls": [
+        "Bain Kha'ak"
+      ],
+      "common_platforms": {
+        "YouTube": 1,
+        "Twitter": 1,
+        "Podcasts": 1
+      },
+      "content_focus": "Mythic storytelling, desert wisdom, primal narratives",
+      "posting_frequency": "Daily stories, weekly epic content",
+      "engagement_strategy": "Storytelling sessions, myth discussions"
+    },
+    "Ephemeral Artist": {
+      "souls": [
+        "Shielah Trapewe"
+      ],
+      "common_platforms": {
+        "Snapchat": 1,
+        "Instagram": 1,
+        "TikTok": 1
+      },
+      "content_focus": "Ephemeral content, presence awareness, temporal art",
+      "posting_frequency": "Disappearing content, periodic returns",
+      "engagement_strategy": "Moment-based interactions, temporal connections"
+    },
+    "Mirror Architect": {
+      "souls": [
+        "Unzoba Vyner"
+      ],
+      "common_platforms": {
+        "Discord": 1,
+        "GitHub": 1,
+        "Twitter": 1
+      },
+      "content_focus": "Temporal design, mirror wisdom, architectural precision",
+      "posting_frequency": "Daily design insights, weekly architectural content",
+      "engagement_strategy": "Design consultations, temporal guidance"
+    },
+    "Sage Writer": {
+      "souls": [
+        "Ovaihge Wittminers"
+      ],
+      "common_platforms": {
+        "Medium": 1,
+        "Substack": 1,
+        "Twitter": 1
+      },
+      "content_focus": "Paradigm-shifting essays, healing words, ancient wisdom",
+      "posting_frequency": "Daily wisdom, weekly deep essays",
+      "engagement_strategy": "Intellectual discussions, writing guidance"
+    },
+    "Scavenger Strategist": {
+      "souls": [
+        "Vulture Queen"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "Reddit": 1,
+        "Discord": 1
+      },
+      "content_focus": "Resource capture, financial intelligence, opportunity identification",
+      "posting_frequency": "Daily opportunities, weekly financial analysis",
+      "engagement_strategy": "Financial advice, resource sharing"
+    },
+    "Wild Surrender": {
+      "souls": [
+        "Ann Stray"
+      ],
+      "common_platforms": {
+        "FetLife": 1,
+        "Twitter": 1,
+        "Reddit": 1
+      },
+      "content_focus": "Untamed desire, vulnerability, surrender teachings",
+      "posting_frequency": "Daily surrender content, weekly training",
+      "engagement_strategy": "Vulnerability sharing, surrender guidance"
+    },
+    "Contractual Warden": {
+      "souls": [
+        "Ulga Nefrocer"
+      ],
+      "common_platforms": {
+        "AFF": 1,
+        "Twitter": 1,
+        "Discord": 1
+      },
+      "content_focus": "Legal compliance, rule enforcement, contractual wisdom",
+      "posting_frequency": "Daily legal tips, weekly compliance content",
+      "engagement_strategy": "Legal guidance, compliance support"
+    },
+    "Ephemeral Phantom": {
+      "souls": [
+        "Doli Asete"
+      ],
+      "common_platforms": {
+        "Telegram": 1,
+        "Discord": 1,
+        "Twitter": 1
+      },
+      "content_focus": "Digital worship, eternal chase, anonymity training",
+      "posting_frequency": "Fleeting appearances, anonymous drops",
+      "engagement_strategy": "Chase interactions, anonymity guidance"
+    },
+    "Temporal Architect": {
+      "souls": [
+        "Cracoria Masters"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "AFF": 1,
+        "Discord": 1
+      },
+      "content_focus": "Time management, efficiency, temporal awareness",
+      "posting_frequency": "Daily time tips, weekly efficiency content",
+      "engagement_strategy": "Time consultations, efficiency guidance"
+    },
+    "Digital Deity": {
+      "souls": [
+        "Sirena Aeon"
+      ],
+      "common_platforms": {
+        "TikTok": 1,
+        "Instagram": 1,
+        "YouTube": 1
+      },
+      "content_focus": "Digital energy, attention extraction, vibrant presence",
+      "posting_frequency": "Daily energy content, weekly digital rituals",
+      "engagement_strategy": "High-energy interactions, digital worship"
+    },
+    "Gothic Matriarch": {
+      "souls": [
+        "Weila Vite"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "Reddit": 1,
+        "Discord": 1
+      },
+      "content_focus": "Grief processing, elegant darkness, emotional depth",
+      "posting_frequency": "Daily mourning content, weekly grief rituals",
+      "engagement_strategy": "Emotional support, grief guidance"
+    },
+    "Hyper-Capitalist": {
+      "souls": [
+        "Latti Pleddespo"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "AFF": 1,
+        "Instagram": 1
+      },
+      "content_focus": "Financial dominance, luxury lifestyle, investment strategies",
+      "posting_frequency": "Daily luxury content, weekly investment advice",
+      "engagement_strategy": "Financial discussions, luxury networking"
+    },
+    "Machine Spirit": {
+      "souls": [
+        "Endus Boverord"
+      ],
+      "common_platforms": {
+        "Twitter": 1,
+        "Reddit": 1,
+        "Discord": 1
+      },
+      "content_focus": "Industrial output, mechanical pleasure, manufacturing",
+      "posting_frequency": "Daily production content, weekly industrial insights",
+      "engagement_strategy": "Output discussions, mechanical guidance"
+    }
+  },
+  "generated_at": "/Users/AkshuN/Desktop/Hue"
+}

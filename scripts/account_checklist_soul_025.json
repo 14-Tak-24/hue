@@ -1,0 +1,32 @@
+{
+  "soul_id": "soul_025",
+  "name": "Sirena Aeon",
+  "platform_checklist": {
+    "TikTok": {},
+    "Instagram": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Switch to Creator account",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set contact button",
+        "Create highlights"
+      ],
+      "platform_specific": [
+        "Configure Creator Studio",
+        "Set up category",
+        "Configure notifications"
+      ]
+    },
+    "YouTube": {}
+  },
+  "overall_status": "pending"
+}

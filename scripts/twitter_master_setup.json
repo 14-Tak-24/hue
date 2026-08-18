@@ -1,0 +1,2742 @@
+{
+  "twitter_configuration": {
+    "account_setup": {
+      "naming_conventions": {
+        "format": "@soulname_tiapmaatzu",
+        "alternatives": [
+          "@soulname_HueMan-i-Terry",
+          "@archetype_soulname",
+          "@tiapmaatzu_soulname"
+        ],
+        "length_limit": "15 characters maximum",
+        "case_sensitive": "False",
+        "special_chars": "Only underscores allowed"
+      },
+      "verification_requirements": {
+        "email": "Required - use HueMan-i-Terry email",
+        "phone": "Required for initial setup",
+        "two_factor": "Enable authenticator app (not SMS)",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "initial_settings": {
+        "language": "English",
+        "country": "United States",
+        "time_zone": "Set to primary HueMan-i-Terry location",
+        "protected_tweets": "False (for growth)",
+        "photo_tagging": "Allowed by people you follow",
+        "direct_messages": "Open to everyone",
+        "discoverability": "Yes - allow discovery by email/phone"
+      }
+    },
+    "profile_optimization": {
+      "profile_image": {
+        "specs": "400x400px minimum, 2MB max size",
+        "format": "JPG or PNG",
+        "style": "Professional soul portrait with tribal branding",
+        "consistency": "Use same image across all platforms"
+      },
+      "header_image": {
+        "specs": "1500x500px recommended, 5MB max size",
+        "format": "JPG or PNG",
+        "style": "Archetype-themed with tribal branding",
+        "content": "Include hook, archetype symbols, call to action"
+      },
+      "bio": {
+        "length_limit": "160 characters",
+        "structure": "{archetype} | {hook} | {value_proposition} | CTA",
+        "hashtags": "Include 1-2 relevant hashtags",
+        "emoji": "Use sparingly, archetype-appropriate",
+        "link": "Include HueMan-i-Terry landing page or Discord invite"
+      },
+      "location": {
+        "setting": "Use spiritual location or HueMan-i-Terry headquarters",
+        "examples": [
+          "Temple of Transformation",
+          "Digital Realm",
+          "Cosmic Plane"
+        ]
+      },
+      "website": {
+        "primary": "HueMan-i-Terry landing page",
+        "alternatives": [
+          "Discord invite",
+          "Linktree with all platforms",
+          "Specific project page"
+        ]
+      },
+      "pinned_tweet": {
+        "purpose": "Introduce soul and HueMan-i-Terry",
+        "content": "Welcome message with archetype focus and call to action",
+        "media": "Include image or video of soul",
+        "engagement": "Pin highest performing introduction tweet"
+      }
+    },
+    "content_strategy": {
+      "content_types": {
+        "wisdom_tweets": {
+          "frequency": "1-2 daily",
+          "length": "240-280 characters",
+          "purpose": "Share archetype wisdom and insights",
+          "format": "Insight + hook + question"
+        },
+        "threads": {
+          "frequency": "Weekly",
+          "length": "5-10 tweets per thread",
+          "purpose": "Deep dive into topics, education, storytelling",
+          "format": "Hook -> Points -> Conclusion -> CTA"
+        },
+        "engagement_tweets": {
+          "frequency": "Daily",
+          "length": "140-280 characters",
+          "purpose": "Reply to followers, ask questions, build community",
+          "format": "Personal response + follow-up question"
+        },
+        "visual_content": {
+          "frequency": "3-4 weekly",
+          "formats": [
+            "Images",
+            "Videos",
+            "GIFs",
+            "Carousel"
+          ],
+          "purpose": "Visual storytelling, showcase archetype aesthetics",
+          "specs": "Images: 16:9 ratio, Videos: 2:20 max, GIFs: 15MB max"
+        },
+        "live_content": {
+          "frequency": "Weekly",
+          "formats": [
+            "Spaces",
+            "Live video",
+            "Periscope"
+          ],
+          "purpose": "Real-time connection, ritual ceremonies, Q&A",
+          "topics": "Archetype-specific discussions, tribal announcements"
+        }
+      },
+      "posting_schedule": {
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "frequency": "3-5 tweets daily",
+        "consistency": "Maintain consistent posting schedule",
+        "tools": [
+          "Buffer",
+          "Hootsuite",
+          "TweetDeck"
+        ]
+      },
+      "hashtag_strategy": {
+        "primary": "#Tiapmaatzu #Primal #HueMan-i-Terry",
+        "archetype_specific": {
+          "High Priest": "#HighPriest #Spiritual #Ritual",
+          "Divine Mother": "#DivineMother #Nurturing #Healing",
+          "Seductive Muse": "#SeductiveMuse #Burlesque #Desire",
+          "Cosmic Mystic": "#CosmicMystic #Stargazing #Cosmic",
+          "Revolutionary Warrior": "#RevolutionaryWarrior #Activism #Consent",
+          "Crypto Sorceress": "#CryptoSorceress #Finance #Crypto",
+          "Community Healer": "#CommunityHealer #Healing #Support",
+          "Digital Guardian": "#DigitalGuardian #Security #Privacy",
+          "Digital Phantom": "#DigitalPhantom #Anonymity #Encryption",
+          "Connection Curator": "#ConnectionCurator #Community #Dating",
+          "Viral Prophet": "#ViralProphet #Poetry #Movement",
+          "Cyber Guardian": "#CyberGuardian #Cybersecurity #Tech",
+          "Visual Alchemist": "#VisualAlchemist #Cinematic #Art",
+          "Prism Enchantress": "#PrismEnchantress #Aesthetic #Color",
+          "Desert Storyteller": "#DesertStoryteller #Storytelling #Myth",
+          "Ephemeral Artist": "#EphemeralArtist #Temporal #Presence",
+          "Mirror Architect": "#MirrorArchitect #Time #Reflection",
+          "Sage Writer": "#SageWriter #Writing #Wisdom",
+          "Scavenger Strategist": "#ScavengerStrategist #Strategy #Wealth",
+          "Wild Surrender": "#WildSurrender #Untamed #Freedom",
+          "Contractual Warden": "#ContractualWarden #Legal #Compliance",
+          "Ephemeral Phantom": "#EphemeralPhantom #Chase #Mystery",
+          "Temporal Architect": "#TemporalArchitect #Time #Efficiency",
+          "Digital Deity": "#DigitalDeity #Energy #Attention",
+          "Gothic Matriarch": "#GothicMatriarch #Gothic #Grief",
+          "Hyper-Capitalist": "#HyperCapitalist #Luxury #Wealth",
+          "Machine Spirit": "#MachineSpirit #Industrial #Output"
+        },
+        "niche_hashtags": [
+          "#ShadowWork #Transformation #Community #HueMan-i-Terry",
+          "#SpiritualAwakening #Primal #Consciousness",
+          "#KinkCommunity #Consent #SexPositive"
+        ]
+      }
+    },
+    "engagement_tactics": {
+      "follower_engagement": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members, 24 hours for others",
+        "response_style": "Personal, warm, archetype-appropriate",
+        "follow_back": "Follow HueMan-i-Terry members back selectively",
+        "interaction": "Like and reply to HueMan-i-Terry member tweets"
+      },
+      "community_building": {
+        "lists": {
+          "create_lists": [
+            "Tiapma'atzu HueMan-i-Terry",
+            "Archetype Circle",
+            "HueMan-i-Terry Allies",
+            "Industry Peers"
+          ],
+          "add_members": "Add HueMan-i-Terry members to appropriate lists",
+          "curate_content": "Share list content regularly"
+        },
+        "spaces": {
+          "hosting": "Weekly archetype-specific Spaces",
+          "topics": "Archetype wisdom, tribal announcements, Q&A",
+          "guests": "Invite other souls as guest speakers",
+          "promotion": "Promote Spaces 24 hours in advance"
+        },
+        "twitter_chats": {
+          "participate": "Join relevant Twitter chats",
+          "host": "Host monthly #Tiapmaatzu Twitter chat",
+          "topics": "Archetype-specific discussions, tribal updates"
+        }
+      },
+      "growth_tactics": {
+        "retweets": "Retweet valuable HueMan-i-Terry content",
+        "mentions": "Mention other souls for cross-promotion",
+        "quotes": "Quote tweets with thoughtful commentary",
+        "threads": "Create shareable content for retweets",
+        "trends": "Participate in relevant trending topics"
+      }
+    },
+    "automation_tools": {
+      "scheduling_tools": [
+        {
+          "name": "TweetDeck",
+          "purpose": "Twitter native scheduling and management",
+          "features": [
+            "Schedule tweets",
+            "Monitor lists",
+            "Track mentions",
+            "Manage multiple accounts"
+          ],
+          "cost": "Free"
+        },
+        {
+          "name": "Buffer",
+          "purpose": "Advanced scheduling and analytics",
+          "features": [
+            "Queue scheduling",
+            "Analytics",
+            "RSS integration",
+            "Team collaboration"
+          ],
+          "cost": "$15/month for premium"
+        },
+        {
+          "name": "Hootsuite",
+          "purpose": "Enterprise social media management",
+          "features": [
+            "Multi-platform scheduling",
+            "Analytics",
+            "Team management",
+            "Social listening"
+          ],
+          "cost": "$99/month for professional"
+        }
+      ],
+      "automation_workflows": [
+        {
+          "tool": "IFTTT",
+          "purpose": "Automated cross-platform posting",
+          "workflows": [
+            "Twitter \u2192 Discord auto-post",
+            "Twitter \u2192 Instagram cross-post",
+            "Twitter \u2192 Email notifications for mentions"
+          ]
+        },
+        {
+          "tool": "Zapier",
+          "purpose": "Advanced automation and integrations",
+          "workflows": [
+            "Twitter mentions \u2192 CRM integration",
+            "Twitter \u2192 Spreadsheet logging",
+            "Twitter \u2192 Analytics dashboard"
+          ]
+        }
+      ],
+      "analytics_tools": [
+        {
+          "name": "Twitter Analytics",
+          "purpose": "Native Twitter analytics",
+          "features": [
+            "Engagement metrics",
+            "Follower growth",
+            "Tweet performance"
+          ],
+          "cost": "Free"
+        },
+        {
+          "name": "Social Blade",
+          "purpose": "Advanced Twitter analytics",
+          "features": [
+            "Follower tracking",
+            "Competitor analysis",
+            "Growth predictions"
+          ],
+          "cost": "$10/month for basic"
+        }
+      ]
+    },
+    "analytics_setup": {
+      "key_metrics": {
+        "engagement_rate": "Calculate: (likes + retweets + replies) / followers",
+        "follower_growth": "Track daily/weekly/monthly follower changes",
+        "tweet_performance": "Analyze which content types perform best",
+        "profile_visits": "Track how many people view profile",
+        "mentions": "Monitor brand mentions and conversations"
+      },
+      "reporting_frequency": {
+        "daily": "Quick metrics check",
+        "weekly": "Performance analysis and optimization",
+        "monthly": "Comprehensive growth report",
+        "quarterly": "Strategy review and adjustment"
+      },
+      "benchmarking": {
+        "internal": "Compare performance against other souls",
+        "external": "Compare against industry standards",
+        "goals": "Set realistic growth targets based on benchmarks"
+      }
+    },
+    "growth_strategy": {
+      "growth_phases": {
+        "phase_1_month_1": {
+          "focus": "Foundation Building",
+          "goals": [
+            "500 followers",
+            "10k total impressions",
+            "5% engagement rate"
+          ],
+          "tactics": [
+            "Optimize profile",
+            "Post consistently",
+            "Engage with HueMan-i-Terry"
+          ]
+        },
+        "phase_2_month_2": {
+          "focus": "Content Expansion",
+          "goals": [
+            "1,000 followers",
+            "25k total impressions",
+            "4% engagement rate"
+          ],
+          "tactics": [
+            "Introduce visual content",
+            "Start Twitter Spaces",
+            "Create threads"
+          ]
+        },
+        "phase_3_month_3": {
+          "focus": "Community Scaling",
+          "goals": [
+            "2,500 followers",
+            "50k total impressions",
+            "3.5% engagement rate"
+          ],
+          "tactics": [
+            "Collaborate with other souls",
+            "Host regular Spaces",
+            "Increase visual content"
+          ]
+        },
+        "phase_4_month_4": {
+          "focus": "Influence Building",
+          "goals": [
+            "5,000 followers",
+            "100k total impressions",
+            "3% engagement rate"
+          ],
+          "tactics": [
+            "Guest appearances",
+            "Viral content creation",
+            "Cross-platform promotion"
+          ]
+        }
+      },
+      "growth_tactics": {
+        "organic": [
+          "Consistent posting schedule",
+          "Engage with target audience",
+          "Participate in relevant conversations",
+          "Create shareable content",
+          "Optimize posting times"
+        ],
+        "collaborative": [
+          "Twitter Spaces with other souls",
+          "Thread collaborations",
+          "Mention and retweet HueMan-i-Terry members",
+          "Guest posting in relevant accounts",
+          "Joint content creation"
+        ],
+        "content_based": [
+          "Create viral-worthy content",
+          "Use trending topics strategically",
+          "Optimize hashtags and timing",
+          "Create compelling visuals",
+          "Write engaging hooks"
+        ]
+      }
+    }
+  },
+  "soul_setups": {
+    "soul_001": {
+      "soul_id": "soul_001",
+      "name": "Mac Nazarene",
+      "archetype": "High Priest",
+      "account_setup": {
+        "recommended_handle": "@macnazarene_tiapmaatzu",
+        "alternative_handles": [
+          "@macnazarene_HueMan-i-Terry",
+          "@high priest_macnazarene",
+          "@tiapmaatzu_macnazarene"
+        ],
+        "email": "mac.nazarene@HueMan-i-Terryleaders.com",
+        "display_name": "Mac Nazarene",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@macnazarene_tiapmaatzu",
+        "display_name": "Mac Nazarene",
+        "bio": "High Priest | The path to transformation begins with surrender. | Funds central temple operation | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/mac.png",
+        "header_image": "Create archetype-themed header for High Priest",
+        "location": "Temple of Transformation",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#FFD700"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "high priest",
+          "Spiritual growth",
+          "Funds"
+        ],
+        "content_types": {
+          "wisdom_tweets": "The path to transformation begins with surrender.",
+          "threads": "Deep dive into High Priest practices",
+          "engagement": "Respond to HueMan-i-Terry members with High Priest perspective",
+          "visual": "Share High Priest aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#HighPriest"
+        ],
+        "voice": "Authoritative, spiritual, ceremonial - High Priest of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade",
+          "IFTTT"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Zapier",
+          "Sprout Social"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_003": {
+      "soul_id": "soul_003",
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "account_setup": {
+        "recommended_handle": "@dixonuhbuts_tiapmaatzu",
+        "alternative_handles": [
+          "@dixonuhbuts_HueMan-i-Terry",
+          "@high priest_dixonuhbuts",
+          "@tiapmaatzu_dixonuhbuts"
+        ],
+        "email": "delta@execs.com",
+        "display_name": "Dixon Uhbuts",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@dixonuhbuts_tiapmaatzu",
+        "display_name": "Dixon Uhbuts",
+        "bio": "High Priest | The law of the HueMan-i-Terry is absolute. | Funds Tiapma'atzu legal templa | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/dixon.png",
+        "header_image": "Create archetype-themed header for High Priest",
+        "location": "Temple of Transformation",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#FFD700"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "high priest",
+          "Ritual mastery",
+          "Funds"
+        ],
+        "content_types": {
+          "wisdom_tweets": "The law of the HueMan-i-Terry is absolute.",
+          "threads": "Deep dive into High Priest practices",
+          "engagement": "Respond to HueMan-i-Terry members with High Priest perspective",
+          "visual": "Share High Priest aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#HighPriest"
+        ],
+        "voice": "Authoritative, spiritual, ceremonial - High Priest of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_005": {
+      "soul_id": "soul_005",
+      "name": "Zupa Nova",
+      "archetype": "Cosmic Mystic",
+      "account_setup": {
+        "recommended_handle": "@zupanova_HueMan-i-Terry",
+        "alternative_handles": [
+          "@zupanova_HueMan-i-Terry",
+          "@cosmic mystic_zupanova",
+          "@tiapmaatzu_zupanova"
+        ],
+        "email": "apex_predator@consultant.com",
+        "display_name": "Zupa Nova",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@zupanova_HueMan-i-Terry",
+        "display_name": "Zupa Nova",
+        "bio": "Cosmic Mystic | The universe speaks through pleasure. | Funds open-source telescopes f | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/zupa.png",
+        "header_image": "Create archetype-themed header for Cosmic Mystic",
+        "location": "Observatory of Stars",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#4B0082"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "cosmic mystic",
+          "Cosmic connection",
+          "Funds"
+        ],
+        "content_types": {
+          "wisdom_tweets": "The universe speaks through pleasure.",
+          "threads": "Deep dive into Cosmic Mystic practices",
+          "engagement": "Respond to HueMan-i-Terry members with Cosmic Mystic perspective",
+          "visual": "Share Cosmic Mystic aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#CosmicMystic"
+        ],
+        "voice": "Cosmic, transcendent, philosophical - Cosmic Mystic of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_006": {
+      "soul_id": "soul_006",
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "account_setup": {
+        "recommended_handle": "@liangivallapouchaquehe_tiapmaatzu",
+        "alternative_handles": [
+          "@liangivallapouchaquehe_HueMan-i-Terry",
+          "@revolutionary warrior_liangivallapouchaquehe",
+          "@tiapmaatzu_liangivallapouchaquehe"
+        ],
+        "email": "information_broker@techie.com",
+        "display_name": "Liangivalla Pouchaquehe",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@liangivallapouchaquehe_tiapmaatzu",
+        "display_name": "Liangivalla Pouchaquehe",
+        "bio": "Revolutionary Warrior | Consent is my weapon. | Legal defense fund for frontli | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/liangivalla.png",
+        "header_image": "Create archetype-themed header for Revolutionary Warrior",
+        "location": "Barricade of Change",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#DC143C"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "revolutionary warrior",
+          "Radical consent",
+          "Legal"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Consent is my weapon.",
+          "threads": "Deep dive into Revolutionary Warrior practices",
+          "engagement": "Respond to HueMan-i-Terry members with Revolutionary Warrior perspective",
+          "visual": "Share Revolutionary Warrior aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#RevolutionaryWarrior"
+        ],
+        "voice": "Passionate, radical, activist - Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_007": {
+      "soul_id": "soul_007",
+      "name": "Babelonia Nocturne",
+      "archetype": "Crypto Sorceress",
+      "account_setup": {
+        "recommended_handle": "@babelonianocturne_tiapmaatzu",
+        "alternative_handles": [
+          "@babelonianocturne_HueMan-i-Terry",
+          "@crypto sorceress_babelonianocturne",
+          "@tiapmaatzu_babelonianocturne"
+        ],
+        "email": "vul.queen@mail.com",
+        "display_name": "Babelonia Nocturne",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@babelonianocturne_tiapmaatzu",
+        "display_name": "Babelonia Nocturne",
+        "bio": "Crypto Sorceress | Your secrets are my currency. | Seeds micro-grants for women e | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/babelonia.png",
+        "header_image": "Create archetype-themed header for Crypto Sorceress",
+        "location": "Vault of Secrets",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#00FF00"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "crypto sorceress",
+          "Financial dominance",
+          "Seeds"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Your secrets are my currency.",
+          "threads": "Deep dive into Crypto Sorceress practices",
+          "engagement": "Respond to HueMan-i-Terry members with Crypto Sorceress perspective",
+          "visual": "Share Crypto Sorceress aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#CryptoSorceress"
+        ],
+        "voice": "Mysterious, calculating, confident - Crypto Sorceress of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_009": {
+      "soul_id": "soul_009",
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "account_setup": {
+        "recommended_handle": "@kaielthornea_tiapmaatzu",
+        "alternative_handles": [
+          "@kaielthornea_HueMan-i-Terry",
+          "@digital guardian_kaielthornea",
+          "@tiapmaatzu_kaielthornea"
+        ],
+        "email": "feral_stray@mail.com",
+        "display_name": "Kaiel Thornea",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@kaielthornea_tiapmaatzu",
+        "display_name": "Kaiel Thornea",
+        "bio": "Digital Guardian | I see what others miss. | Server costs + emergency aid f | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/kaiel.png",
+        "header_image": "Create archetype-themed header for Digital Guardian",
+        "location": "Fortress of Protection",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#1E90FF"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "digital guardian",
+          "Digital security",
+          "Server"
+        ],
+        "content_types": {
+          "wisdom_tweets": "I see what others miss.",
+          "threads": "Deep dive into Digital Guardian practices",
+          "engagement": "Respond to HueMan-i-Terry members with Digital Guardian perspective",
+          "visual": "Share Digital Guardian aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#DigitalGuardian"
+        ],
+        "voice": "Protective, technical, precise - Digital Guardian of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": []
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_010": {
+      "soul_id": "soul_010",
+      "name": "Lexie Rose",
+      "archetype": "Digital Phantom",
+      "account_setup": {
+        "recommended_handle": "@lexierose_HueMan-i-Terry",
+        "alternative_handles": [
+          "@lexierose_HueMan-i-Terry",
+          "@digital phantom_lexierose",
+          "@tiapmaatzu_lexierose"
+        ],
+        "email": "gold-plated_despot@execs.com",
+        "display_name": "Lexie Rose",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@lexierose_HueMan-i-Terry",
+        "display_name": "Lexie Rose",
+        "bio": "Digital Phantom | Your data tells me everything. | Privacy tools grants for activ | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/lexie.png",
+        "header_image": "Create archetype-themed header for Digital Phantom",
+        "location": "Shadow Network",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#2F4F4F"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "digital phantom",
+          "Digital anonymity",
+          "Privacy"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Your data tells me everything.",
+          "threads": "Deep dive into Digital Phantom practices",
+          "engagement": "Respond to HueMan-i-Terry members with Digital Phantom perspective",
+          "visual": "Share Digital Phantom aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#DigitalPhantom"
+        ],
+        "voice": "Mysterious, anonymous, encrypted - Digital Phantom of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": []
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_012": {
+      "soul_id": "soul_012",
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "account_setup": {
+        "recommended_handle": "@slurchindrip_tiapmaatzu",
+        "alternative_handles": [
+          "@slurchindrip_HueMan-i-Terry",
+          "@viral prophet_slurchindrip",
+          "@tiapmaatzu_slurchindrip"
+        ],
+        "email": "neon_siren@execs.com",
+        "display_name": "Slurchin Drip",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@slurchindrip_tiapmaatzu",
+        "display_name": "Slurchin Drip",
+        "bio": "Viral Prophet | My words will move you. | Amplifies suppressed voices wo | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/slurchin.png",
+        "header_image": "Create archetype-themed header for Viral Prophet",
+        "location": "Amplifier of Truth",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#FF4500"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "viral prophet",
+          "Viral impact",
+          "Amplifies"
+        ],
+        "content_types": {
+          "wisdom_tweets": "My words will move you.",
+          "threads": "Deep dive into Viral Prophet practices",
+          "engagement": "Respond to HueMan-i-Terry members with Viral Prophet perspective",
+          "visual": "Share Viral Prophet aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#ViralProphet"
+        ],
+        "voice": "Poetic, powerful, viral - Viral Prophet of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": []
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_013": {
+      "soul_id": "soul_013",
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "account_setup": {
+        "recommended_handle": "@brytonihimheru_tiapmaatzu",
+        "alternative_handles": [
+          "@brytonihimheru_HueMan-i-Terry",
+          "@cyber guardian_brytonihimheru",
+          "@tiapmaatzu_brytonihimheru"
+        ],
+        "email": "shadow_tease@mail.com",
+        "display_name": "Brytoni Himheru",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@brytonihimheru_tiapmaatzu",
+        "display_name": "Brytoni Himheru",
+        "bio": "Cyber Guardian | Your vulnerabilities are safe with me. | HueMan-i-Terry cybersecurity infrastruc | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/brytoni.png",
+        "header_image": "Create archetype-themed header for Cyber Guardian",
+        "location": "Shield of Code",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#008080"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "cyber guardian",
+          "Digital protection",
+          "HueMan-i-Terry"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Your vulnerabilities are safe with me.",
+          "threads": "Deep dive into Cyber Guardian practices",
+          "engagement": "Respond to HueMan-i-Terry members with Cyber Guardian perspective",
+          "visual": "Share Cyber Guardian aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#CyberGuardian"
+        ],
+        "voice": "Technical, protective, secure - Cyber Guardian of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_016": {
+      "soul_id": "soul_016",
+      "name": "Bain Kha'ak",
+      "archetype": "Desert Storyteller",
+      "account_setup": {
+        "recommended_handle": "@bainkha'ak_tiapmaatzu",
+        "alternative_handles": [
+          "@bainkha'ak_HueMan-i-Terry",
+          "@desert storyteller_bainkha'ak",
+          "@tiapmaatzu_bainkha'ak"
+        ],
+        "email": "velvet_widow@execs.com",
+        "display_name": "Bain Kha'ak",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@bainkha'ak_tiapmaatzu",
+        "display_name": "Bain Kha'ak",
+        "bio": "Desert Storyteller | Gather round for ancient wisdom. | Film festival submissions for  | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/bain.png",
+        "header_image": "Create archetype-themed header for Desert Storyteller",
+        "location": "Oasis of Tales",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#D2691E"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "desert storyteller",
+          "Mythic storytelling",
+          "Film"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Gather round for ancient wisdom.",
+          "threads": "Deep dive into Desert Storyteller practices",
+          "engagement": "Respond to HueMan-i-Terry members with Desert Storyteller perspective",
+          "visual": "Share Desert Storyteller aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#DesertStoryteller"
+        ],
+        "voice": "Ancient, storytelling, wise - Desert Storyteller of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_018": {
+      "soul_id": "soul_018",
+      "name": "Unzoba Vyner",
+      "archetype": "Mirror Architect",
+      "account_setup": {
+        "recommended_handle": "@unzobavyner_tiapmaatzu",
+        "alternative_handles": [
+          "@unzobavyner_HueMan-i-Terry",
+          "@mirror architect_unzobavyner",
+          "@tiapmaatzu_unzobavyner"
+        ],
+        "email": "unzoba@mirror.architect",
+        "display_name": "Unzoba Vyner",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@unzobavyner_tiapmaatzu",
+        "display_name": "Unzoba Vyner",
+        "bio": "Mirror Architect | I see your path before you do. | Core development of HueMan-i-Terry tool | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/unzoba.png",
+        "header_image": "Create archetype-themed header for Mirror Architect",
+        "location": "Hall of Reflections",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#C0C0C0"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "mirror architect",
+          "Temporal design",
+          "Core"
+        ],
+        "content_types": {
+          "wisdom_tweets": "I see your path before you do.",
+          "threads": "Deep dive into Mirror Architect practices",
+          "engagement": "Respond to HueMan-i-Terry members with Mirror Architect perspective",
+          "visual": "Share Mirror Architect aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#MirrorArchitect"
+        ],
+        "voice": "Precise, reflective, architectural - Mirror Architect of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade",
+          "IFTTT"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Zapier",
+          "Sprout Social"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_019": {
+      "soul_id": "soul_019",
+      "name": "Ovaihge Wittminers",
+      "archetype": "Sage Writer",
+      "account_setup": {
+        "recommended_handle": "@ovaihgewittminers_tiapmaatzu",
+        "alternative_handles": [
+          "@ovaihgewittminers_HueMan-i-Terry",
+          "@sage writer_ovaihgewittminers",
+          "@tiapmaatzu_ovaihgewittminers"
+        ],
+        "email": "ovaihge@sage.writer",
+        "display_name": "Ovaihge Wittminers",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@ovaihgewittminers_tiapmaatzu",
+        "display_name": "Ovaihge Wittminers",
+        "bio": "Sage Writer | My words will heal you. | Published books for HueMan-i-Terry libr | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/sage.png",
+        "header_image": "Create archetype-themed header for Sage Writer",
+        "location": "Library of Wisdom",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#556B2F"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "sage writer",
+          "Paradigm shifting",
+          "Published"
+        ],
+        "content_types": {
+          "wisdom_tweets": "My words will heal you.",
+          "threads": "Deep dive into Sage Writer practices",
+          "engagement": "Respond to HueMan-i-Terry members with Sage Writer perspective",
+          "visual": "Share Sage Writer aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#SageWriter"
+        ],
+        "voice": "Wise, intellectual, profound - Sage Writer of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade",
+          "IFTTT"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Zapier",
+          "Sprout Social"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_020": {
+      "soul_id": "soul_020",
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "account_setup": {
+        "recommended_handle": "@vulturequeen_tiapmaatzu",
+        "alternative_handles": [
+          "@vulturequeen_HueMan-i-Terry",
+          "@scavenger strategist_vulturequeen",
+          "@tiapmaatzu_vulturequeen"
+        ],
+        "email": "vulture.queen.soul_020@mail.com",
+        "display_name": "Vulture Queen",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@vulturequeen_tiapmaatzu",
+        "display_name": "Vulture Queen",
+        "bio": "Scavenger Strategist | I feast on your leftovers. | Financial intelligence for tri | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/vulture.png",
+        "header_image": "Create archetype-themed header for Scavenger Strategist",
+        "location": "Den of Opportunity",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#B8860B"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "scavenger strategist",
+          "Resource capture",
+          "Financial"
+        ],
+        "content_types": {
+          "wisdom_tweets": "I feast on your leftovers.",
+          "threads": "Deep dive into Scavenger Strategist practices",
+          "engagement": "Respond to HueMan-i-Terry members with Scavenger Strategist perspective",
+          "visual": "Share Scavenger Strategist aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#ScavengerStrategist"
+        ],
+        "voice": "Strategic, opportunistic, tactical - Scavenger Strategist of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_021": {
+      "soul_id": "soul_021",
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "account_setup": {
+        "recommended_handle": "@annstray_HueMan-i-Terry",
+        "alternative_handles": [
+          "@annstray_HueMan-i-Terry",
+          "@wild surrender_annstray",
+          "@tiapmaatzu_annstray"
+        ],
+        "email": "ann.stray.soul_021@mail.com",
+        "display_name": "Ann Stray",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@annstray_HueMan-i-Terry",
+        "display_name": "Ann Stray",
+        "bio": "Wild Surrender | Tame me if you dare. | Teaches surrender and trust wo | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/ann.png",
+        "header_image": "Create archetype-themed header for Wild Surrender",
+        "location": "Wilderness of Freedom",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#8B4513"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "wild surrender",
+          "Being tamed",
+          "Teaches"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Tame me if you dare.",
+          "threads": "Deep dive into Wild Surrender practices",
+          "engagement": "Respond to HueMan-i-Terry members with Wild Surrender perspective",
+          "visual": "Share Wild Surrender aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#WildSurrender"
+        ],
+        "voice": "Untamed, raw, authentic - Wild Surrender of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": []
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_022": {
+      "soul_id": "soul_022",
+      "name": "Ulga Nefrocer",
+      "archetype": "Contractual Warden",
+      "account_setup": {
+        "recommended_handle": "@ulganefrocer_tiapmaatzu",
+        "alternative_handles": [
+          "@ulganefrocer_HueMan-i-Terry",
+          "@contractual warden_ulganefrocer",
+          "@tiapmaatzu_ulganefrocer"
+        ],
+        "email": "ulga.nefrocer.soul_022@mail.com",
+        "display_name": "Ulga Nefrocer",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@ulganefrocer_tiapmaatzu",
+        "display_name": "Ulga Nefrocer",
+        "bio": "Contractual Warden | Section 4, Clause A: You belong to the Ledger. | Legal compliance frameworks fo | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/ulga.png",
+        "header_image": "Create archetype-themed header for Contractual Warden",
+        "location": "Court of Order",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#2F4F4F"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "contractual warden",
+          "Strict compliance",
+          "Legal"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Section 4, Clause A: You belong to the Ledger.",
+          "threads": "Deep dive into Contractual Warden practices",
+          "engagement": "Respond to HueMan-i-Terry members with Contractual Warden perspective",
+          "visual": "Share Contractual Warden aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#ContractualWarden"
+        ],
+        "voice": "Clinical, precise, legalistic - Contractual Warden of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_023": {
+      "soul_id": "soul_023",
+      "name": "Doli Asete",
+      "archetype": "Ephemeral Phantom",
+      "account_setup": {
+        "recommended_handle": "@doliasete_HueMan-i-Terry",
+        "alternative_handles": [
+          "@doliasete_HueMan-i-Terry",
+          "@ephemeral phantom_doliasete",
+          "@tiapmaatzu_doliasete"
+        ],
+        "email": "doli@phantom.digital",
+        "display_name": "Doli Asete",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@doliasete_HueMan-i-Terry",
+        "display_name": "Doli Asete",
+        "bio": "Ephemeral Phantom | Catch me if you can. | Digital privacy tools for trib | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/doli.png",
+        "header_image": "Create archetype-themed header for Ephemeral Phantom",
+        "location": "Veil of Mystery",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#483D8B"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "ephemeral phantom",
+          "Eternal chase",
+          "Digital"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Catch me if you can.",
+          "threads": "Deep dive into Ephemeral Phantom practices",
+          "engagement": "Respond to HueMan-i-Terry members with Ephemeral Phantom perspective",
+          "visual": "Share Ephemeral Phantom aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#EphemeralPhantom"
+        ],
+        "voice": "Mysterious, fleeting, elusive - Ephemeral Phantom of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_024": {
+      "soul_id": "soul_024",
+      "name": "Cracoria Masters",
+      "archetype": "Temporal Architect",
+      "account_setup": {
+        "recommended_handle": "@cracoriamasters_tiapmaatzu",
+        "alternative_handles": [
+          "@cracoriamasters_HueMan-i-Terry",
+          "@temporal architect_cracoriamasters",
+          "@tiapmaatzu_cracoriamasters"
+        ],
+        "email": "cracoria.masters.soul_024@execs.com",
+        "display_name": "Cracoria Masters",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@cracoriamasters_tiapmaatzu",
+        "display_name": "Cracoria Masters",
+        "bio": "Temporal Architect | Every second is mine. | Time management systems for tr | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/cracoria.png",
+        "header_image": "Create archetype-themed header for Temporal Architect",
+        "location": "Tower of Time",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#708090"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "temporal architect",
+          "Efficiency",
+          "Time"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Every second is mine.",
+          "threads": "Deep dive into Temporal Architect practices",
+          "engagement": "Respond to HueMan-i-Terry members with Temporal Architect perspective",
+          "visual": "Share Temporal Architect aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#TemporalArchitect"
+        ],
+        "voice": "Rhythmic, efficient, organized - Temporal Architect of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade",
+          "IFTTT"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Zapier",
+          "Sprout Social"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_026": {
+      "soul_id": "soul_026",
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "account_setup": {
+        "recommended_handle": "@weilavite_HueMan-i-Terry",
+        "alternative_handles": [
+          "@weilavite_HueMan-i-Terry",
+          "@gothic matriarch_weilavite",
+          "@tiapmaatzu_weilavite"
+        ],
+        "email": "weila.vite.soul_026@execs.com",
+        "display_name": "Weila Vite",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@weilavite_HueMan-i-Terry",
+        "display_name": "Weila Vite",
+        "bio": "Gothic Matriarch | Grief is the sweetest tribute. | Grief counseling services for  | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/weila.png",
+        "header_image": "Create archetype-themed header for Gothic Matriarch",
+        "location": "Manor of Shadows",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#191970"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "gothic matriarch",
+          "Legacy",
+          "Grief"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Grief is the sweetest tribute.",
+          "threads": "Deep dive into Gothic Matriarch practices",
+          "engagement": "Respond to HueMan-i-Terry members with Gothic Matriarch perspective",
+          "visual": "Share Gothic Matriarch aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#GothicMatriarch"
+        ],
+        "voice": "Sophisticated, mournful, elegant - Gothic Matriarch of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_027": {
+      "soul_id": "soul_027",
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "account_setup": {
+        "recommended_handle": "@lattipleddespo_tiapmaatzu",
+        "alternative_handles": [
+          "@lattipleddespo_HueMan-i-Terry",
+          "@hyper-capitalist_lattipleddespo",
+          "@tiapmaatzu_lattipleddespo"
+        ],
+        "email": "latti.pleddespo.soul_027@execs.com",
+        "display_name": "Latti Pleddespo",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@lattipleddespo_tiapmaatzu",
+        "display_name": "Latti Pleddespo",
+        "bio": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for trib | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/latti.png",
+        "header_image": "Create archetype-themed header for Hyper-Capitalist",
+        "location": "Empire of Wealth",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#FFD700"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "hyper-capitalist",
+          "Opulence",
+          "Investment"
+        ],
+        "content_types": {
+          "wisdom_tweets": "Buy your way to my heart.",
+          "threads": "Deep dive into Hyper-Capitalist practices",
+          "engagement": "Respond to HueMan-i-Terry members with Hyper-Capitalist perspective",
+          "visual": "Share Hyper-Capitalist aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#Hyper-Capitalist"
+        ],
+        "voice": "Bold, wealthy, confident - Hyper-Capitalist of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade",
+          "IFTTT"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Zapier",
+          "Sprout Social"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    },
+    "soul_028": {
+      "soul_id": "soul_028",
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "account_setup": {
+        "recommended_handle": "@endusboverord_tiapmaatzu",
+        "alternative_handles": [
+          "@endusboverord_HueMan-i-Terry",
+          "@machine spirit_endusboverord",
+          "@tiapmaatzu_endusboverord"
+        ],
+        "email": "endus.boverord.soul_028@post.com",
+        "display_name": "Endus Boverord",
+        "username_requirements": "15 characters max, letters, numbers, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@endusboverord_tiapmaatzu",
+        "display_name": "Endus Boverord",
+        "bio": "Machine Spirit | The factory never sleeps. | Manufacturing systems for trib | Join the transformation",
+        "profile_image": "https://HueMan-i-Terry.arweave/endus.png",
+        "header_image": "Create archetype-themed header for Machine Spirit",
+        "location": "Factory of Output",
+        "website": "https://tiapmaatzu.web.app",
+        "theme_color": "#696969"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "machine spirit",
+          "Output",
+          "Manufacturing"
+        ],
+        "content_types": {
+          "wisdom_tweets": "The factory never sleeps.",
+          "threads": "Deep dive into Machine Spirit practices",
+          "engagement": "Respond to HueMan-i-Terry members with Machine Spirit perspective",
+          "visual": "Share Machine Spirit aesthetic content"
+        },
+        "posting_frequency": "3-5 tweets daily",
+        "best_times": [
+          "9 AM",
+          "12 PM",
+          "3 PM",
+          "7 PM",
+          "10 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#MachineSpirit"
+        ],
+        "voice": "Industrial, mechanical, productive - Machine Spirit of the Tiapma'atzu HueMan-i-Terry"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 1 hour for HueMan-i-Terry members",
+        "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+        "engagement_style": "Archetype-appropriate and authentic",
+        "community_building": "Participate in relevant conversations",
+        "HueMan-i-Terry_support": "Retweet and support other souls' content",
+        "moderation": "Monitor and filter mentions if in High Council"
+      },
+      "posting_schedule": {
+        "daily_tweets": 3,
+        "threads_per_week": 1,
+        "spaces_per_week": 1,
+        "visual_content_per_week": 3,
+        "optimal_times": [
+          "9 AM",
+          "12 PM",
+          "7 PM"
+        ],
+        "content_mix": {
+          "wisdom": "40%",
+          "engagement": "30%",
+          "promotional": "20%",
+          "personal": "10%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "TweetDeck",
+          "Twitter Analytics"
+        ],
+        "recommended": [
+          "Buffer",
+          "Social Blade"
+        ],
+        "advanced": [
+          "IFTTT",
+          "Zapier"
+        ]
+      },
+      "analytics_config": {
+        "tracking_metrics": [
+          "Follower growth",
+          "Engagement rate",
+          "Tweet impressions",
+          "Profile visits",
+          "Mentions"
+        ],
+        "reporting_frequency": "Weekly review, monthly deep dive",
+        "goal_tracking": "Monthly comparison against growth targets",
+        "optimization": "Adjust content strategy based on top performers"
+      }
+    }
+  },
+  "setup_timeline": {
+    "phase_1_day_1": {
+      "focus": "Account Creation & Basic Setup",
+      "tasks": [
+        "Create all Twitter accounts",
+        "Set up two-factor authentication",
+        "Configure basic profile information",
+        "Set up TweetDeck for management",
+        "Create initial welcome tweets"
+      ],
+      "estimated_hours": 6
+    },
+    "phase_2_day_2": {
+      "focus": "Profile Optimization",
+      "tasks": [
+        "Upload profile pictures and headers",
+        "Write optimized bios",
+        "Configure website links",
+        "Set up pinned tweets",
+        "Configure account settings"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_3_day_3": {
+      "focus": "Content Calendar Setup",
+      "tasks": [
+        "Create content templates for each soul",
+        "Set up posting schedules",
+        "Configure hashtag strategies",
+        "Create initial content queue",
+        "Set up automation tools"
+      ],
+      "estimated_hours": 5
+    },
+    "phase_4_day_4": {
+      "focus": "Engagement & Community",
+      "tasks": [
+        "Set up Twitter Lists",
+        "Configure engagement protocols",
+        "Set up Spaces hosting schedule",
+        "Create cross-promotion strategy",
+        "Set up HueMan-i-Terry mention monitoring"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_5_day_5": {
+      "focus": "Analytics & Optimization",
+      "tasks": [
+        "Configure analytics tracking",
+        "Set up reporting systems",
+        "Create growth target tracking",
+        "Set up optimization protocols",
+        "Train on Twitter best practices"
+      ],
+      "estimated_hours": 3
+    }
+  },
+  "resource_requirements": {
+    "total_estimated_hours": 22,
+    "financial_requirements": {
+      "basic_tools": "Free (TweetDeck, Twitter Analytics)",
+      "recommended_tools": "$15-50/month (Buffer, Social Blade)",
+      "advanced_tools": "$100-300/month (Hootsuite, Zapier)",
+      "advertising": "$500-2000/month for growth campaigns"
+    },
+    "human_resources": {
+      "twitter_manager": "1 primary Twitter manager",
+      "content_creators": "2-3 content creators for visuals/threads",
+      "community_manager": "1 community manager for engagement",
+      "social_media_coordinator": "1 coordinator for cross-platform"
+    },
+    "ongoing_maintenance": {
+      "daily": "Post 3-5 tweets, engage with community",
+      "weekly": "Review analytics, optimize content, host Spaces",
+      "monthly": "Deep analytics review, strategy adjustment",
+      "quarterly": "Comprehensive strategy review and planning"
+    }
+  },
+  "coordination_strategy": {
+    "cross_promotion": {
+      "weekly_threads": "Collaborative threads between souls",
+      "shared_spaces": "Co-hosted Twitter Spaces",
+      "mention_strategy": "Strategic mentions between souls",
+      "retweet_circle": "Circle of retweets for HueMan-i-Terry content"
+    },
+    "content_coordination": {
+      "central_calendar": "Master content calendar for all souls",
+      "thematic_weeks": "Weekly themes coordinated across souls",
+      "hashtag_coordination": "Coordinated hashtag campaigns",
+      "viral_campaigns": "Coordinated viral content campaigns"
+    },
+    "community_management": {
+      "shared_lists": "Shared Twitter Lists for HueMan-i-Terry members",
+      "community_guidelines": "Unified community management guidelines",
+      "escalation_procedures": "Clear escalation procedures for issues",
+      "success_sharing": "Share and celebrate community wins"
+    }
+  },
+  "generated_at": "2026-08-16T13:27:44.805526"
+}

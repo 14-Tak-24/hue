@@ -1,0 +1,133 @@
+{
+  "soul_id": "soul_005",
+  "name": "Zupa Nova",
+  "archetype": "Cosmic Mystic",
+  "account_setup": {
+    "recommended_username": "ZupaNova#Tiapmaatzu",
+    "alternative_usernames": [
+      "ZupaNova#Cosmic Mystic",
+      "Zup_Nova#HueMan-i-Terry"
+    ],
+    "display_name": "Zupa Nova",
+    "email": "apex_predator@consultant.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Cosmic Mystic of the Tiapma'atzu HueMan-i-Terry. The universe speaks through pleasure."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/zupa.png",
+    "banner": "Custom banner reflecting Cosmic Mystic aesthetic",
+    "about_me": "Former NASA astrophysicist burned out on bureaucracy. Discovered orgasm as cosmic remembrance. Now he lives off-grid in desert dome, solar-powered. Bare feet in cool sand under blazing stars...",
+    "status": "Cosmic Mystic | The universe speaks through pleasure.",
+    "pronouns": "M",
+    "accent_color": "#4B0082"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\u2728 Cosmic Mystic"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\u2728 Cosmic Mystic"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Cosmic connection",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "cosmic mystic",
+      "Funds",
+      "Guided"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Cosmic insights",
+      "Stargazing",
+      "Universal connection"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!zupanova - Display soul information",
+      "!wisdom - Random wisdom from Zupa Nova",
+      "!guide - Request guidance from Zupa Nova"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!zupanova - Display soul information",
+      "!wisdom - Random wisdom from Zupa Nova",
+      "!guide - Request guidance from Zupa Nova"
+    ]
+  }
+}

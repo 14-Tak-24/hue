@@ -1,0 +1,151 @@
+{
+  "soul_id": "soul_001",
+  "name": "Mac Nazarene",
+  "archetype": "High Priest",
+  "account_setup": {
+    "recommended_username": "MacNazarene#Tiapmaatzu",
+    "alternative_usernames": [
+      "MacNazarene#High Priest",
+      "Mac_Nazarene#HueMan-i-Terry"
+    ],
+    "display_name": "Mac Nazarene",
+    "email": "mac.nazarene@HueMan-i-Terryleaders.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "High Priest of the Tiapma'atzu HueMan-i-Terry. The path to transformation begins with surrender."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/mac.png",
+    "banner": "Custom banner reflecting High Priest aesthetic",
+    "about_me": "Central figure of the Tiapma'atzu HueMan-i-Terry, spiritual leader and guide through transformation rituals. Commands respect through deep wisdom and primal connection....",
+    "status": "High Priest | The path to transformation begins with surrender.",
+    "pronouns": "M",
+    "accent_color": "#FFD700"
+  },
+  "role_assignment": {
+    "primary_role": "Legendary Souls",
+    "additional_roles": [
+      "\ud83d\udd2e High Priest",
+      "High Council"
+    ],
+    "all_roles": [
+      "Legendary Souls",
+      "\ud83d\udd2e High Priest",
+      "High Council"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Administrator",
+      "Manage Server",
+      "Manage Roles"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning",
+      "tribute-offerings",
+      "creative-collaboration"
+    ]
+  },
+  "bot_permissions": {
+    "full_control": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot",
+      "Ticket Tool",
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Tiapmaatzu-Guardian",
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Spiritual growth",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Review channels weekly",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "high priest",
+      "Funds",
+      "Guides"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Ritual guidance",
+      "Spiritual wisdom",
+      "HueMan-i-Terry leadership"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!macnazarene - Display soul information",
+      "!wisdom - Random wisdom from Mac Nazarene",
+      "!guide - Request guidance from Mac Nazarene"
+    ],
+    "archetype_commands": [
+      "!ritual - Request ritual guidance",
+      "!ceremony - Get ceremony information",
+      "!blessing - Request blessing"
+    ],
+    "all_commands": [
+      "!macnazarene - Display soul information",
+      "!wisdom - Random wisdom from Mac Nazarene",
+      "!guide - Request guidance from Mac Nazarene",
+      "!ritual - Request ritual guidance",
+      "!ceremony - Get ceremony information",
+      "!blessing - Request blessing"
+    ]
+  }
+}

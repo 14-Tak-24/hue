@@ -1,0 +1,12 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "gunicorn -c deploy/gunicorn_config.py api_server:app"
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+
+[env]
+API_PORT = "8000"
+API_DEBUG = "false"
+ENVIRONMENT = "production"

@@ -1,0 +1,126 @@
+{
+  "soul_id": "soul_010",
+  "name": "Lexie Rose",
+  "archetype": "Digital Phantom",
+  "account_setup": {
+    "recommended_username": "LexieRose#Tiapmaatzu",
+    "alternative_usernames": [
+      "LexieRose#Digital Phantom",
+      "Lex_Rose#HueMan-i-Terry"
+    ],
+    "display_name": "Lexie Rose",
+    "email": "gold-plated_despot@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Digital Phantom of the Tiapma'atzu HueMan-i-Terry. Your data tells me everything."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/lexie.png",
+    "banner": "Custom banner reflecting Digital Phantom aesthetic",
+    "about_me": "Anonymous collective veteran. Runs encrypted Telegram channels teaching digital Tiapma'atzuty. Neon hair streaks, always hooded. Scent of solder and midnight coffee....",
+    "status": "Digital Phantom | Your data tells me everything.",
+    "pronouns": "F",
+    "accent_color": "#2F4F4F"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83d\udc7b Digital Phantom"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83d\udc7b Digital Phantom"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Digital anonymity",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "digital phantom",
+      "Privacy",
+      "Encrypted"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Privacy guidance",
+      "Anonymity training",
+      "Digital wisdom"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!lexierose - Display soul information",
+      "!wisdom - Random wisdom from Lexie Rose",
+      "!guide - Request guidance from Lexie Rose"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!lexierose - Display soul information",
+      "!wisdom - Random wisdom from Lexie Rose",
+      "!guide - Request guidance from Lexie Rose"
+    ]
+  }
+}

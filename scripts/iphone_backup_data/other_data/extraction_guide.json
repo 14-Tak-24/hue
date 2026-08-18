@@ -1,0 +1,70 @@
+{
+  "data_types": {
+    "notes": {
+      "description": "Notes app content for wisdom and teachings",
+      "uses": [
+        "Content creation",
+        "Wisdom posts",
+        "Teaching material"
+      ]
+    },
+    "messages": {
+      "description": "Message threads for community insights",
+      "uses": [
+        "Community understanding",
+        "Common questions",
+        "Engagement insights"
+      ]
+    },
+    "calendar": {
+      "description": "Calendar events for ritual scheduling",
+      "uses": [
+        "Event planning",
+        "Ritual timing",
+        "Community events"
+      ]
+    },
+    "voice_memos": {
+      "description": "Voice memos for audio content",
+      "uses": [
+        "Podcast content",
+        "Wisdom recordings",
+        "Ritual audio"
+      ]
+    },
+    "safari_bookmarks": {
+      "description": "Browser bookmarks for resources",
+      "uses": [
+        "Resource curation",
+        "Reference material",
+        "Sharing content"
+      ]
+    }
+  },
+  "extraction_priority": {
+    "high": [
+      "notes",
+      "voice_memos"
+    ],
+    "medium": [
+      "calendar",
+      "safari_bookmarks"
+    ],
+    "low": [
+      "messages"
+    ]
+  },
+  "privacy_considerations": [
+    "Review all extracted data for personal information",
+    "Remove sensitive data before sharing",
+    "Obtain consent for using community messages",
+    "Blur personal information in shared content"
+  ],
+  "processing_workflow": [
+    "Extract data from iPhone backup",
+    "Review and categorize extracted content",
+    "Remove sensitive information",
+    "Organize by content type and use case",
+    "Integrate with content library"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "soul_id": "soul_006",
+  "name": "Liangivalla Pouchaquehe",
+  "archetype": "Revolutionary Warrior",
+  "account_setup": {
+    "recommended_username": "LiangivallaPouchaquehe_Tiapmaatzu",
+    "alternative_usernames": [
+      "LiangivallaPouchaqueheHueMan-i-Terry",
+      "RevolutionaryWarrior_LiangivallaPouchaquehe",
+      "Tiapmaatzu_LiangivallaPouchaquehe"
+    ],
+    "email": "information_broker@techie.com",
+    "display_name": "Liangivalla Pouchaquehe",
+    "username_requirements": "20 characters max, letters, numbers, underscores only",
+    "password_requirements": "8+ characters"
+  },
+  "profile_optimization": {
+    "username": "LiangivallaPouchaquehe_Tiapmaatzu",
+    "display_name": "Liangivalla Pouchaquehe",
+    "bio": "Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry\n\nConsent is my weapon.\n\nLegal defense fund for frontline activists\n\nJoin the transformation: Discord link",
+    "profile_over_18": "Set based on content nature",
+    "nsfw_content": "Mark appropriately if needed",
+    "location": "Barricade of Change",
+    "website": "https://tiapmaatzu.web.app"
+  },
+  "subreddit_setup": {
+    "main_subreddit": "r/Tiapmaatzu",
+    "dedicated_subreddit": "r/RevolutionaryWarriorHueMan-i-Terry",
+    "moderation_role": "Moderator",
+    "posting_permissions": "Full posting permissions",
+    "flair_assignment": "Revolutionary Warrior flair",
+    "posting_frequency": "3-4 posts weekly"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "revolutionary warrior",
+      "Radical consent",
+      "Legal"
+    ],
+    "content_types": {
+      "text_posts": "Consent is my weapon. with detailed explanation",
+      "image_posts": "Share Revolutionary Warrior aesthetic and visual content",
+      "video_posts": "Share Revolutionary Warrior rituals and teachings",
+      "link_posts": "Share external HueMan-i-Terry content and resources"
+    },
+    "posting_frequency": "4-5 posts weekly",
+    "best_times": [
+      "8 AM",
+      "12 PM",
+      "7 PM EST"
+    ],
+    "subreddit_focus": "r/Tiapmaatzu",
+    "crossposting": "Share between main and archetype subreddits"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+    "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+    "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+    "community_building": "Participate in relevant subreddit discussions",
+    "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+  },
+  "moderation_setup": {
+    "moderation_role": "Moderator",
+    "moderation_tools": [
+      "AutoModerator",
+      "Toolbox"
+    ],
+    "moderation_schedule": "Daily review of posts and comments",
+    "rule_enforcement": "Enforce tribal guidelines",
+    "user_flairs": "Assign and manage user flairs"
+  },
+  "growth_targets": {
+    "month_1_karma": 1500,
+    "month_1_subscribers": 750,
+    "month_3_karma": 7500,
+    "month_3_subscribers": 1500,
+    "month_6_karma": 15000,
+    "month_6_subscribers": 3750,
+    "month_12_karma": 37500,
+    "month_12_subscribers": 7500
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "souls",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "archetype",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rarity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "souls",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "platforms",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "tier",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tributes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "content_logs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "soulId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

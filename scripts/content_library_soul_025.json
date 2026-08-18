@@ -1,0 +1,163 @@
+{
+  "soul_id": "soul_025",
+  "name": "Sirena Aeon",
+  "archetype": "Digital Deity",
+  "platform_content": {
+    "TikTok": {
+      "archetype_content": {
+        "themes": [
+          "Energy work",
+          "Attention guidance",
+          "Vibrant presence",
+          "Digital energy"
+        ],
+        "hooks": [
+          "The grid hums for me.",
+          "Upload your tribute.",
+          "Lose yourself in the glow.",
+          "Digital energy is power."
+        ],
+        "content_examples": [
+          "Energy work and attention guidance",
+          "Vibrant presence and digital energy",
+          "Digital worship and grid connection",
+          "Energy-based transformation"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Instagram": {
+      "archetype_content": {
+        "themes": [
+          "Energy work",
+          "Attention guidance",
+          "Vibrant presence",
+          "Digital energy"
+        ],
+        "hooks": [
+          "The grid hums for me.",
+          "Upload your tribute.",
+          "Lose yourself in the glow.",
+          "Digital energy is power."
+        ],
+        "content_examples": [
+          "Energy work and attention guidance",
+          "Vibrant presence and digital energy",
+          "Digital worship and grid connection",
+          "Energy-based transformation"
+        ]
+      },
+      "platform_templates": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend. Join the HueMan-i-Terry journey.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness. Join our nurturing community."
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 daily",
+          "interactive_elements": [
+            "Poll",
+            "Question",
+            "Quiz",
+            "Slider",
+            "Countdown"
+          ],
+          "examples": [
+            "Your limits are merely illusions. \ud83c\udf1f\n\nPoll: What illusion are you ready to break?\n- Fear\n- Doubt\n- Limitation"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio}\n\n{description}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "hook": "The path to transformation begins with surrender",
+              "audio": "Trending audio track",
+              "description": "Quick transformation tip with visual demonstration"
+            }
+          ]
+        },
+        "igtv": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-30 minutes",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Complete Guide to Shadow Work for Beginners",
+              "description": "In this comprehensive guide, I walk you through the process of shadow work and how it can transform your life.",
+              "chapters": "0:00 - Introduction\n2:30 - What is Shadow Work\n5:00 - Getting Started\n10:00 - Deep Dive\n15:00 - Integration"
+            }
+          ]
+        }
+      },
+      "sample_posts": [
+        "The grid hums for me. #Tiapmaatzu #Primal #HueMan-i-Terry #DigitalDeity",
+        "\u2728 Daily Digital Deity wisdom \u2728"
+      ]
+    },
+    "YouTube": {
+      "archetype_content": {
+        "themes": [
+          "Energy work",
+          "Attention guidance",
+          "Vibrant presence",
+          "Digital energy"
+        ],
+        "hooks": [
+          "The grid hums for me.",
+          "Upload your tribute.",
+          "Lose yourself in the glow.",
+          "Digital energy is power."
+        ],
+        "content_examples": [
+          "Energy work and attention guidance",
+          "Vibrant presence and digital energy",
+          "Digital worship and grid connection",
+          "Energy-based transformation"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Digital Deity | The grid hums for me. | Digital energy platforms for H",
+    "discord_status": "Digital Deity | The grid hums for me.",
+    "reddit_bio": "Digital Deity of the Tiapma'atzu HueMan-i-Terry. The grid hums for me.. Digital energy platforms for HueMan-i-Terry",
+    "instagram_bio": "Digital Deity | The grid hums for me. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Digital Deity of the Tiapma'atzu HueMan-i-Terry. The grid hums for me..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "The grid hums for me.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Digital Deity wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Digital Deity practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

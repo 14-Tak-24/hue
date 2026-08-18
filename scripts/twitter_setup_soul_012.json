@@ -1,0 +1,109 @@
+{
+  "soul_id": "soul_012",
+  "name": "Slurchin Drip",
+  "archetype": "Viral Prophet",
+  "account_setup": {
+    "recommended_handle": "@slurchindrip_tiapmaatzu",
+    "alternative_handles": [
+      "@slurchindrip_HueMan-i-Terry",
+      "@viral prophet_slurchindrip",
+      "@tiapmaatzu_slurchindrip"
+    ],
+    "email": "neon_siren@execs.com",
+    "display_name": "Slurchin Drip",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@slurchindrip_tiapmaatzu",
+    "display_name": "Slurchin Drip",
+    "bio": "Viral Prophet | My words will move you. | Amplifies suppressed voices wo | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/slurchin.png",
+    "header_image": "Create archetype-themed header for Viral Prophet",
+    "location": "Amplifier of Truth",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#FF4500"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "viral prophet",
+      "Viral impact",
+      "Amplifies"
+    ],
+    "content_types": {
+      "wisdom_tweets": "My words will move you.",
+      "threads": "Deep dive into Viral Prophet practices",
+      "engagement": "Respond to HueMan-i-Terry members with Viral Prophet perspective",
+      "visual": "Share Viral Prophet aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#ViralProphet"
+    ],
+    "voice": "Poetic, powerful, viral - Viral Prophet of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 500,
+    "month_3": 1000,
+    "month_6": 2500,
+    "month_12": 5000
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer"
+    ],
+    "advanced": []
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

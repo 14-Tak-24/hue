@@ -1,0 +1,126 @@
+{
+  "soul_id": "soul_008",
+  "name": "Ritaphuq Zaniman",
+  "archetype": "Community Healer",
+  "account_setup": {
+    "recommended_username": "RitaphuqZaniman#Tiapmaatzu",
+    "alternative_usernames": [
+      "RitaphuqZaniman#Community Healer",
+      "Rit_Zaniman#HueMan-i-Terry"
+    ],
+    "display_name": "Ritaphuq Zaniman",
+    "email": "clockwork_master@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Community Healer of the Tiapma'atzu HueMan-i-Terry. Your wounds are welcome here."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/ritaphuq.png",
+    "banner": "Custom banner reflecting Community Healer aesthetic",
+    "about_me": "Former Chicago south side social worker, burned out on failing systems. Founded anonymous safe spaces online. Raw scars visible as strength. Lives in Pacific Northwest forest collective of 1...",
+    "status": "Community Healer | Your wounds are welcome here.",
+    "pronouns": "F",
+    "accent_color": "#228B22"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83c\udf3f Community Healer"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83c\udf3f Community Healer"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Community healing",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "community healer",
+      "Land",
+      "Group"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Healing guidance",
+      "Community support",
+      "Safe space"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!ritaphuqzaniman - Display soul information",
+      "!wisdom - Random wisdom from Ritaphuq Zaniman",
+      "!guide - Request guidance from Ritaphuq Zaniman"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!ritaphuqzaniman - Display soul information",
+      "!wisdom - Random wisdom from Ritaphuq Zaniman",
+      "!guide - Request guidance from Ritaphuq Zaniman"
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "soul_id": "soul_012",
+  "name": "Slurchin Drip",
+  "archetype": "Viral Prophet",
+  "platform_content": {
+    "Twitter": {
+      "archetype_content": {
+        "themes": [
+          "Poetic content",
+          "Movement building",
+          "Social impact",
+          "Viral wisdom"
+        ],
+        "hooks": [
+          "My words will move you.",
+          "Your silence is my canvas.",
+          "Let's start a movement together.",
+          "Poetry is revolution."
+        ],
+        "content_examples": [
+          "Poetic content and wisdom",
+          "Movement building and social impact",
+          "Viral content creation",
+          "Social justice poetry"
+        ]
+      },
+      "platform_templates": {
+        "daily_wisdom": {
+          "template": "{hook}\n\n{wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness.",
+            "The universe speaks through pleasure. Your body is a constellation. Let's touch the infinite together."
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "structure": [
+            "Hook tweet (compelling opening)",
+            "Context tweet (background)",
+            "Point 1 (first key insight)",
+            "Point 2 (second key insight)",
+            "Point 3 (third key insight)",
+            "Conclusion + CTA"
+          ]
+        },
+        "engagement": {
+          "template": "{response}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "As needed",
+          "examples": [
+            "Thank you for your question. The key is to embrace the journey of transformation. What aspect resonates most with you?",
+            "Excellent insight. Primal wisdom teaches us that surrender is strength. How have you experienced this in your own journey?"
+          ]
+        },
+        "announcement": {
+          "template": "\ud83d\udce2 {announcement}\n\n{details}\n\n{call_to_action}\n\n#Tiapmaatzu #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "As needed",
+          "examples": [
+            "\ud83d\udce2 New ritual ceremony this Friday at 8 PM EST. Join us for collective shadow work. RSVP in Discord!",
+            "\ud83d\udce2 Weekly wisdom circle now open to all HueMan-i-Terry members. Join us for transformative discussions."
+          ]
+        }
+      },
+      "sample_posts": [
+        "My words will move you. #Tiapmaatzu #Primal #HueMan-i-Terry",
+        "\ud83e\uddf5 Thread: Viral Prophet insights coming soon..."
+      ]
+    },
+    "TikTok": {
+      "archetype_content": {
+        "themes": [
+          "Poetic content",
+          "Movement building",
+          "Social impact",
+          "Viral wisdom"
+        ],
+        "hooks": [
+          "My words will move you.",
+          "Your silence is my canvas.",
+          "Let's start a movement together.",
+          "Poetry is revolution."
+        ],
+        "content_examples": [
+          "Poetic content and wisdom",
+          "Movement building and social impact",
+          "Viral content creation",
+          "Social justice poetry"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Instagram": {
+      "archetype_content": {
+        "themes": [
+          "Poetic content",
+          "Movement building",
+          "Social impact",
+          "Viral wisdom"
+        ],
+        "hooks": [
+          "My words will move you.",
+          "Your silence is my canvas.",
+          "Let's start a movement together.",
+          "Poetry is revolution."
+        ],
+        "content_examples": [
+          "Poetic content and wisdom",
+          "Movement building and social impact",
+          "Viral content creation",
+          "Social justice poetry"
+        ]
+      },
+      "platform_templates": {
+        "post": {
+          "template": "{hook}\n\n{description}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry #{archetype}",
+          "length": "2200 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend. Join the HueMan-i-Terry journey.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness. Join our nurturing community."
+          ]
+        },
+        "story": {
+          "template": "{hook}\n\n{interactive_element}",
+          "length": "15 seconds per story",
+          "frequency": "3-5 daily",
+          "interactive_elements": [
+            "Poll",
+            "Question",
+            "Quiz",
+            "Slider",
+            "Countdown"
+          ],
+          "examples": [
+            "Your limits are merely illusions. \ud83c\udf1f\n\nPoll: What illusion are you ready to break?\n- Fear\n- Doubt\n- Limitation"
+          ]
+        },
+        "reel": {
+          "template": "{hook}\n\n{audio}\n\n{description}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "15-60 seconds",
+          "frequency": "2-3 weekly",
+          "examples": [
+            {
+              "hook": "The path to transformation begins with surrender",
+              "audio": "Trending audio track",
+              "description": "Quick transformation tip with visual demonstration"
+            }
+          ]
+        },
+        "igtv": {
+          "template": "{title}\n\n{description}\n\n{chapters}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "10-30 minutes",
+          "frequency": "1-2 weekly",
+          "examples": [
+            {
+              "title": "Complete Guide to Shadow Work for Beginners",
+              "description": "In this comprehensive guide, I walk you through the process of shadow work and how it can transform your life.",
+              "chapters": "0:00 - Introduction\n2:30 - What is Shadow Work\n5:00 - Getting Started\n10:00 - Deep Dive\n15:00 - Integration"
+            }
+          ]
+        }
+      },
+      "sample_posts": [
+        "My words will move you. #Tiapmaatzu #Primal #HueMan-i-Terry #ViralProphet",
+        "\u2728 Daily Viral Prophet wisdom \u2728"
+      ]
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Viral Prophet | My words will move you. | Amplifies suppressed voices wo",
+    "discord_status": "Viral Prophet | My words will move you.",
+    "reddit_bio": "Viral Prophet of the Tiapma'atzu HueMan-i-Terry. My words will move you.. Amplifies suppressed voices worldwide",
+    "instagram_bio": "Viral Prophet | My words will move you. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Viral Prophet of the Tiapma'atzu HueMan-i-Terry. My words will move you..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "My words will move you.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Viral Prophet wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Viral Prophet practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "soul_id": "soul_007",
+  "name": "Babelonia Nocturne",
+  "platform_checklist": {
+    "Twitter": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Upload header image",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set location"
+      ],
+      "platform_specific": [
+        "Pin introduction tweet",
+        "Configure notifications",
+        "Set up Lists"
+      ]
+    },
+    "FetLife": {},
+    "Fansly": {}
+  },
+  "overall_status": "pending"
+}

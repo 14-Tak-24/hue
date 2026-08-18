@@ -1,0 +1,51 @@
+{
+  "soul_id": "soul_021",
+  "name": "Ann Stray",
+  "platform_checklist": {
+    "FetLife": {},
+    "Twitter": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Upload header image",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set location"
+      ],
+      "platform_specific": [
+        "Pin introduction tweet",
+        "Configure notifications",
+        "Set up Lists"
+      ]
+    },
+    "Reddit": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Enable 2FA",
+        "Configure settings",
+        "Build initial karma"
+      ],
+      "profile_setup": [
+        "Set username",
+        "Write bio",
+        "Configure profile",
+        "Add social links",
+        "Set flair"
+      ],
+      "platform_specific": [
+        "Join main subreddit",
+        "Configure preferences",
+        "Subscribe to relevant subreddits"
+      ]
+    }
+  },
+  "overall_status": "pending"
+}

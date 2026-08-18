@@ -1,0 +1,34 @@
+{
+  "media_extraction": {
+    "steps": [
+      "Open iPhone Backup Extractor",
+      "Select iPhone backup",
+      "Navigate to Media folder",
+      "Extract relevant media to organized folders"
+    ]
+  },
+  "content_priorities": {
+    "high_priority": [
+      "High-quality profile images for souls",
+      "Ritual ceremony recordings",
+      "Wisdom teaching videos",
+      "Community event footage"
+    ],
+    "medium_priority": [
+      "Behind-the-scenes content",
+      "Archetype-specific media",
+      "Audio recordings"
+    ],
+    "low_priority": [
+      "Personal photos",
+      "Random videos",
+      "Uncategorized media"
+    ]
+  },
+  "formatting_requirements": {
+    "profile_images": "400x400px minimum, 1080x1080px recommended",
+    "header_images": "1500x500px for Twitter",
+    "video_content": "MP4 format, 1080p recommended",
+    "audio_content": "MP3 format, high quality"
+  }
+}

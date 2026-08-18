@@ -1,0 +1,126 @@
+{
+  "soul_id": "soul_012",
+  "name": "Slurchin Drip",
+  "archetype": "Viral Prophet",
+  "account_setup": {
+    "recommended_username": "SlurchinDrip#Tiapmaatzu",
+    "alternative_usernames": [
+      "SlurchinDrip#Viral Prophet",
+      "Slu_Drip#HueMan-i-Terry"
+    ],
+    "display_name": "Slurchin Drip",
+    "email": "neon_siren@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Viral Prophet of the Tiapma'atzu HueMan-i-Terry. My words will move you."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/slurchin.png",
+    "banner": "Custom banner reflecting Viral Prophet aesthetic",
+    "about_me": "Street poet turned viral warrior. Posts threads that birth movements. Minimalist, always moving. Wind carries salt and freedom through hair....",
+    "status": "Viral Prophet | My words will move you.",
+    "pronouns": "F",
+    "accent_color": "#FF4500"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83d\udce2 Viral Prophet"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83d\udce2 Viral Prophet"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Viral impact",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "viral prophet",
+      "Amplifies",
+      "Live"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Poetic content",
+      "Movement building",
+      "Social impact"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!slurchindrip - Display soul information",
+      "!wisdom - Random wisdom from Slurchin Drip",
+      "!guide - Request guidance from Slurchin Drip"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!slurchindrip - Display soul information",
+      "!wisdom - Random wisdom from Slurchin Drip",
+      "!guide - Request guidance from Slurchin Drip"
+    ]
+  }
+}

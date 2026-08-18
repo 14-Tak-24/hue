@@ -1,0 +1,70 @@
+{
+  "soul_id": "soul_028",
+  "name": "Endus Boverord",
+  "platform_checklist": {
+    "Twitter": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Upload header image",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set location"
+      ],
+      "platform_specific": [
+        "Pin introduction tweet",
+        "Configure notifications",
+        "Set up Lists"
+      ]
+    },
+    "Reddit": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Enable 2FA",
+        "Configure settings",
+        "Build initial karma"
+      ],
+      "profile_setup": [
+        "Set username",
+        "Write bio",
+        "Configure profile",
+        "Add social links",
+        "Set flair"
+      ],
+      "platform_specific": [
+        "Join main subreddit",
+        "Configure preferences",
+        "Subscribe to relevant subreddits"
+      ]
+    },
+    "Discord": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Set username",
+        "Configure display name",
+        "Set status message",
+        "Configure privacy"
+      ],
+      "platform_specific": [
+        "Join main server",
+        "Configure notifications",
+        "Set up status"
+      ]
+    }
+  },
+  "overall_status": "pending"
+}

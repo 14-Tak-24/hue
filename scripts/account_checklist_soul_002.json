@@ -1,0 +1,51 @@
+{
+  "soul_id": "soul_002",
+  "name": "Mary Magnumbytes",
+  "platform_checklist": {
+    "Instagram": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Switch to Creator account",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set contact button",
+        "Create highlights"
+      ],
+      "platform_specific": [
+        "Configure Creator Studio",
+        "Set up category",
+        "Configure notifications"
+      ]
+    },
+    "FetLife": {},
+    "Discord": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Set username",
+        "Configure display name",
+        "Set status message",
+        "Configure privacy"
+      ],
+      "platform_specific": [
+        "Join main server",
+        "Configure notifications",
+        "Set up status"
+      ]
+    }
+  },
+  "overall_status": "pending"
+}

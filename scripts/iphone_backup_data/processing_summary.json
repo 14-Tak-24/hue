@@ -1,0 +1,14 @@
+{
+  "backup_path": "/Users/AkshuN/Library/Application Support/MobileSync/Backup/",
+  "output_path": "scripts/iphone_backup_data",
+  "processing_status": "Ready for extraction",
+  "next_steps": [
+    "Open iPhone Backup Extractor application",
+    "Select iPhone backup",
+    "Extract data according to guides in each directory",
+    "Organize extracted data",
+    "Integrate with social media setup"
+  ],
+  "estimated_time": "2-4 hours for complete extraction and organization",
+  "generated_at": "2026-08-17T05:00:29.371579"
+}

@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Data
+exports/
+backups/
+
+# Keep important data files
+!src/data/*.json
+!firebase.json
+!firestore.indexes.json
+!firestore.rules
+!.firebaserc
+
+# Ignore specific generated JSON files
+analytics_report_*.json
+dashboard_export.json
+enhanced_dashboard_export.json
+enhanced_financial_report.json
+enhanced_soul_performance_dashboard.json
+security_audit_report.json
+
+# Ignore CSV reports
+analytics_report_*.csv
+
+# Test exports
+test_full_export/
+
+# Explicitly track these directories (reverse of ignores)
+!tests/
+!scripts/
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase
+*-firebase-adminsdk-*.json
+firebase-adminsdk-*.json
+.firebase/

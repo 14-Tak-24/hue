@@ -1,0 +1,133 @@
+{
+  "soul_id": "soul_009",
+  "name": "Kaiel Thornea",
+  "archetype": "Digital Guardian",
+  "account_setup": {
+    "recommended_username": "KaielThornea#Tiapmaatzu",
+    "alternative_usernames": [
+      "KaielThornea#Digital Guardian",
+      "Kai_Thornea#HueMan-i-Terry"
+    ],
+    "display_name": "Kaiel Thornea",
+    "email": "feral_stray@mail.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Digital Guardian of the Tiapma'atzu HueMan-i-Terry. I see what others miss."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/kaiel.png",
+    "banner": "Custom banner reflecting Digital Guardian aesthetic",
+    "about_me": "Ex-military intelligence, woke to surveillance state. Now moderates 50k+ Tiapma'atzu Discord. Shaved sides, thorn tattoos for protection. Voice carries disciplined precision softened by heal...",
+    "status": "Digital Guardian | I see what others miss.",
+    "pronouns": "M",
+    "accent_color": "#1E90FF"
+  },
+  "role_assignment": {
+    "primary_role": "Common Souls",
+    "additional_roles": [
+      "\ud83d\udee1\ufe0f Digital Guardian"
+    ],
+    "all_roles": [
+      "Common Souls",
+      "\ud83d\udee1\ufe0f Digital Guardian"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": []
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Digital security",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "digital guardian",
+      "Server",
+      "Role-based"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Security guidance",
+      "Protection strategies",
+      "Technical help"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!kaielthornea - Display soul information",
+      "!wisdom - Random wisdom from Kaiel Thornea",
+      "!guide - Request guidance from Kaiel Thornea"
+    ],
+    "archetype_commands": [
+      "!security - Security check",
+      "!protect - Protection guidance",
+      "!threat - Threat assessment"
+    ],
+    "all_commands": [
+      "!kaielthornea - Display soul information",
+      "!wisdom - Random wisdom from Kaiel Thornea",
+      "!guide - Request guidance from Kaiel Thornea",
+      "!security - Security check",
+      "!protect - Protection guidance",
+      "!threat - Threat assessment"
+    ]
+  }
+}

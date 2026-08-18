@@ -1,0 +1,50 @@
+{
+  "soul_id": "soul_005",
+  "name": "Zupa Nova",
+  "platform_checklist": {
+    "YouTube": {},
+    "Discord": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Set username",
+        "Configure display name",
+        "Set status message",
+        "Configure privacy"
+      ],
+      "platform_specific": [
+        "Join main server",
+        "Configure notifications",
+        "Set up status"
+      ]
+    },
+    "Twitter": {
+      "account_creation": [
+        "Create account with email",
+        "Verify email address",
+        "Verify phone number",
+        "Enable 2FA",
+        "Configure settings"
+      ],
+      "profile_setup": [
+        "Upload profile picture",
+        "Upload header image",
+        "Write bio",
+        "Set display name",
+        "Configure website link",
+        "Set location"
+      ],
+      "platform_specific": [
+        "Pin introduction tweet",
+        "Configure notifications",
+        "Set up Lists"
+      ]
+    }
+  },
+  "overall_status": "pending"
+}

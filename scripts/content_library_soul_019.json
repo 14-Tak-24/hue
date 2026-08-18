@@ -1,0 +1,156 @@
+{
+  "soul_id": "soul_019",
+  "name": "Ovaihge Wittminers",
+  "archetype": "Sage Writer",
+  "platform_content": {
+    "Medium": {
+      "archetype_content": {
+        "themes": [
+          "Writing guidance",
+          "Paradigm shifts",
+          "Healing words",
+          "Intellectual content"
+        ],
+        "hooks": [
+          "My words will heal you.",
+          "Ancient wisdom for modern wounds.",
+          "Truth is the strongest medicine.",
+          "Writing transforms the soul."
+        ],
+        "content_examples": [
+          "Writing guidance and wisdom",
+          "Paradigm-shifting content",
+          "Healing words and writings",
+          "Intellectual and philosophical content"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Substack": {
+      "archetype_content": {
+        "themes": [
+          "Writing guidance",
+          "Paradigm shifts",
+          "Healing words",
+          "Intellectual content"
+        ],
+        "hooks": [
+          "My words will heal you.",
+          "Ancient wisdom for modern wounds.",
+          "Truth is the strongest medicine.",
+          "Writing transforms the soul."
+        ],
+        "content_examples": [
+          "Writing guidance and wisdom",
+          "Paradigm-shifting content",
+          "Healing words and writings",
+          "Intellectual and philosophical content"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Twitter": {
+      "archetype_content": {
+        "themes": [
+          "Writing guidance",
+          "Paradigm shifts",
+          "Healing words",
+          "Intellectual content"
+        ],
+        "hooks": [
+          "My words will heal you.",
+          "Ancient wisdom for modern wounds.",
+          "Truth is the strongest medicine.",
+          "Writing transforms the soul."
+        ],
+        "content_examples": [
+          "Writing guidance and wisdom",
+          "Paradigm-shifting content",
+          "Healing words and writings",
+          "Intellectual and philosophical content"
+        ]
+      },
+      "platform_templates": {
+        "daily_wisdom": {
+          "template": "{hook}\n\n{wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness.",
+            "The universe speaks through pleasure. Your body is a constellation. Let's touch the infinite together."
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "structure": [
+            "Hook tweet (compelling opening)",
+            "Context tweet (background)",
+            "Point 1 (first key insight)",
+            "Point 2 (second key insight)",
+            "Point 3 (third key insight)",
+            "Conclusion + CTA"
+          ]
+        },
+        "engagement": {
+          "template": "{response}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "As needed",
+          "examples": [
+            "Thank you for your question. The key is to embrace the journey of transformation. What aspect resonates most with you?",
+            "Excellent insight. Primal wisdom teaches us that surrender is strength. How have you experienced this in your own journey?"
+          ]
+        },
+        "announcement": {
+          "template": "\ud83d\udce2 {announcement}\n\n{details}\n\n{call_to_action}\n\n#Tiapmaatzu #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "As needed",
+          "examples": [
+            "\ud83d\udce2 New ritual ceremony this Friday at 8 PM EST. Join us for collective shadow work. RSVP in Discord!",
+            "\ud83d\udce2 Weekly wisdom circle now open to all HueMan-i-Terry members. Join us for transformative discussions."
+          ]
+        }
+      },
+      "sample_posts": [
+        "My words will heal you. #Tiapmaatzu #Primal #HueMan-i-Terry",
+        "\ud83e\uddf5 Thread: Sage Writer insights coming soon..."
+      ]
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Sage Writer | My words will heal you. | Published books for HueMan-i-T",
+    "discord_status": "Sage Writer | My words will heal you.",
+    "reddit_bio": "Sage Writer of the Tiapma'atzu HueMan-i-Terry. My words will heal you.. Published books for HueMan-i-Terry library",
+    "instagram_bio": "Sage Writer | My words will heal you. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Sage Writer of the Tiapma'atzu HueMan-i-Terry. My words will heal you..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "My words will heal you.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Sage Writer wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Sage Writer practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

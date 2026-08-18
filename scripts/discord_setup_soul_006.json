@@ -1,0 +1,135 @@
+{
+  "soul_id": "soul_006",
+  "name": "Liangivalla Pouchaquehe",
+  "archetype": "Revolutionary Warrior",
+  "account_setup": {
+    "recommended_username": "LiangivallaPouchaquehe#Tiapmaatzu",
+    "alternative_usernames": [
+      "LiangivallaPouchaquehe#Revolutionary Warrior",
+      "Lia_Pouchaquehe#HueMan-i-Terry"
+    ],
+    "display_name": "Liangivalla Pouchaquehe",
+    "email": "information_broker@techie.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry. Consent is my weapon."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/liangivalla.png",
+    "banner": "Custom banner reflecting Revolutionary Warrior aesthetic",
+    "about_me": "Street activist arrested multiple times in 20s. Found true power in radical consent. Covered in protest tattoos. Red latex as war paint. Lives nomadically in converted van, always ready for ...",
+    "status": "Revolutionary Warrior | Consent is my weapon.",
+    "pronouns": "F",
+    "accent_color": "#DC143C"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\u2694\ufe0f Revolutionary Warrior",
+      "Ritual Masters"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\u2694\ufe0f Revolutionary Warrior",
+      "Ritual Masters"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Radical consent",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "revolutionary warrior",
+      "Legal",
+      "Interactive"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Activism",
+      "Consent education",
+      "Revolutionary action"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!liangivallapouchaquehe - Display soul information",
+      "!wisdom - Random wisdom from Liangivalla Pouchaquehe",
+      "!guide - Request guidance from Liangivalla Pouchaquehe"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!liangivallapouchaquehe - Display soul information",
+      "!wisdom - Random wisdom from Liangivalla Pouchaquehe",
+      "!guide - Request guidance from Liangivalla Pouchaquehe"
+    ]
+  }
+}

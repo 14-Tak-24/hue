@@ -1,0 +1,128 @@
+{
+  "soul_id": "soul_017",
+  "name": "Shielah Trapewe",
+  "archetype": "Ephemeral Artist",
+  "account_setup": {
+    "recommended_handle": "@shielahtrapewe_tiapmaatzu",
+    "alternative_handles": [
+      "@shielahtrapewe_HueMan-i-Terry",
+      "@ephemeral artist_shielahtrapewe",
+      "@tiapmaatzu_shielahtrapewe"
+    ],
+    "email": "shielah@ephemeral.art",
+    "account_type": "Creator account",
+    "display_name": "Shielah Trapewe",
+    "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@shielahtrapewe_tiapmaatzu",
+    "display_name": "Shielah Trapewe",
+    "bio": "Ephemeral Artist | Catch me if you can. | Mental health support for crea | Link in bio for HueMan-i-Terry",
+    "profile_picture": "https://HueMan-i-Terry.arweave/shielah.png",
+    "website": "https://tiapmaatzu.web.app",
+    "story_highlights": [
+      "\ud83c\udfdb\ufe0f About Me",
+      "\u2728 Wisdom",
+      "\ud83d\udd25 Rituals",
+      "\ud83c\udf1f HueMan-i-Terry",
+      "\ud83c\udfaf Impact",
+      "\u23f3 Moments",
+      "\ud83c\udf05 Temporal",
+      "\ud83d\udcab Presence"
+    ],
+    "contact_button": "Email",
+    "account_category": "Creator"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "ephemeral artist",
+      "Ephemeral connection",
+      "Mental"
+    ],
+    "content_types": {
+      "posts": "Catch me if you can. with visuals",
+      "stories": "Daily Ephemeral Artist insights and behind-the-scenes",
+      "reels": "Viral Ephemeral Artist content with trending audio",
+      "igtv": "Long-form Ephemeral Artist teachings and rituals"
+    },
+    "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+    "best_times": [
+      "11 AM",
+      "7 PM",
+      "9 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#EphemeralArtist",
+      "#Ephemeralconnection",
+      "#Presentmomentawareness",
+      "#Temporalartistry"
+    ],
+    "visual_theme": "Ephemeral Artist aesthetic with tribal branding"
+  },
+  "visual_strategy": {
+    "color_scheme": {
+      "primary": "#708090",
+      "secondary": "#B0C4DE",
+      "accent": "#E0FFFF"
+    },
+    "visual_themes": [
+      "Temporal",
+      "Fleeting",
+      "Subtle",
+      "Ethereal",
+      "Present"
+    ],
+    "content_style": "Ethereal and temporal aesthetic",
+    "consistency": "Maintain consistent visual identity across all content"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+    "engagement_style": "Personal, warm, archetype-appropriate",
+    "story_responses": "Respond to story mentions and DMs within 12 hours",
+    "live_streams": "Host weekly Instagram Live sessions",
+    "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+  },
+  "posting_schedule": {
+    "daily_posts": 1,
+    "daily_stories": 3,
+    "weekly_reels": 2,
+    "monthly_igtv": 1,
+    "weekly_lives": 1,
+    "optimal_times": [
+      "11 AM",
+      "7 PM",
+      "9 PM"
+    ],
+    "content_mix": {
+      "posts": "40%",
+      "stories": "40%",
+      "reels": "15%",
+      "igtv": "5%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 750,
+    "month_3": 1500,
+    "month_6": 3750,
+    "month_12": 7500
+  },
+  "tools_setup": {
+    "essential": [
+      "Instagram Creator Studio",
+      "Instagram Insights"
+    ],
+    "recommended": [
+      "Buffer",
+      "Later"
+    ],
+    "advanced": [
+      "Canva",
+      "Iconosquare"
+    ]
+  }
+}

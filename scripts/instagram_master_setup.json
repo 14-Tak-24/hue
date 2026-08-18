@@ -1,0 +1,1455 @@
+{
+  "instagram_configuration": {
+    "account_setup": {
+      "account_types": {
+        "personal": "Standard personal account",
+        "business": "Instagram Business account",
+        "creator": "Instagram Creator account"
+      },
+      "recommended_type": "Creator account for HueMan-i-Terry souls",
+      "verification_requirements": {
+        "email": "Required - use HueMan-i-Terry email",
+        "phone": "Required for initial setup",
+        "two_factor": "Enable authenticator app (recommended)",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "initial_settings": {
+        "account_private": "False (for growth)",
+        "account_discoverability": "Yes",
+        "contact_syncing": "Disabled (HueMan-i-Terry members only)",
+        "activity_status": "Visible to followers",
+        "email_notifications": "Enabled for HueMan-i-Terry interactions"
+      }
+    },
+    "profile_optimization": {
+      "profile_picture": {
+        "specs": "110x110px minimum, 1080x1080px recommended",
+        "format": "JPG or PNG",
+        "style": "Professional soul portrait with tribal branding",
+        "consistency": "Use same image across all platforms"
+      },
+      "bio": {
+        "length_limit": "150 characters",
+        "structure": "{archetype} | {hook} | {value_proposition} | CTA",
+        "formatting": "Line breaks for readability",
+        "link_placement": "Link in bio with Linktree or direct URL",
+        "hashtags": "Include 1-2 relevant hashtags in bio"
+      },
+      "story_highlights": {
+        "structure": "Organize by content themes",
+        "recommended_highlights": [
+          "Introduction (Who I am)",
+          "Wisdom (Archetype teachings)",
+          "Tribute (Impact and offerings)",
+          "Community (HueMan-i-Terry connections)",
+          "Rituals (Special events)"
+        ],
+        "cover_design": "Use archetype-themed visuals",
+        "regular_updates": "Add new stories weekly"
+      },
+      "contact_information": {
+        "email": "soul_email@HueMan-i-Terryleaders.com",
+        "phone": "Optional - for business inquiries",
+        "address": "Optional - for HueMan-i-Terry headquarters",
+        "action_button": "Set up \"Email\" or \"Get Directions\" button"
+      }
+    },
+    "content_strategy": {
+      "content_types": {
+        "posts": {
+          "frequency": "1-2 daily",
+          "aspect_ratio": "1:1 (square) or 4:5 (portrait)",
+          "purpose": "Main content, archetypes wisdom, visual storytelling",
+          "format": "Compelling visual + caption + hashtags"
+        },
+        "stories": {
+          "frequency": "3-5 daily",
+          "format": "15-second segments, ephemeral content",
+          "purpose": "Behind-the-scenes, daily wisdom, engagement",
+          "features": [
+            "Polls",
+            "Questions",
+            "Music",
+            "Location tags"
+          ]
+        },
+        "reels": {
+          "frequency": "2-3 weekly",
+          "duration": "15-60 seconds",
+          "purpose": "Viral content, entertainment, archetypes showcase",
+          "format": "Trending audio + compelling visuals + hook"
+        },
+        "igtv": {
+          "frequency": "1-2 weekly",
+          "duration": "10-30 minutes",
+          "purpose": "Long-form content, tutorials, rituals",
+          "format": "Archetype-specific deep content"
+        },
+        "guides": {
+          "frequency": "1-2 weekly",
+          "purpose": "Thematic content curation",
+          "format": "Archetype-specific content collections"
+        }
+      },
+      "posting_schedule": {
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "frequency": "1-2 posts daily, 3-5 stories daily",
+        "consistency": "Maintain consistent posting schedule",
+        "tools": [
+          "Instagram Creator Studio",
+          "Buffer",
+          "Later"
+        ]
+      },
+      "hashtag_strategy": {
+        "primary": "#Tiapmaatzu #Primal #HueMan-i-Terry",
+        "archetype_specific": {
+          "High Priest": "#HighPriest #Spiritual #Ritual #Temple",
+          "Divine Mother": "#DivineMother #Nurturing #Healing #Mother",
+          "Seductive Muse": "#SeductiveMuse #Burlesque #Desire #Art",
+          "Cosmic Mystic": "#CosmicMystic #Stargazing #Cosmic #Space",
+          "Revolutionary Warrior": "#RevolutionaryWarrior #Activism #Consent #Change",
+          "Crypto Sorceress": "#CryptoSorceress #Finance #Crypto #Wealth",
+          "Community Healer": "#CommunityHealer #Healing #Support #Care",
+          "Digital Guardian": "#DigitalGuardian #Security #Privacy #Tech",
+          "Digital Phantom": "#DigitalPhantom #Anonymity #Encryption #Privacy",
+          "Connection Curator": "#ConnectionCurator #Community #Dating #Love",
+          "Viral Prophet": "#ViralProphet #Poetry #Words #Voice",
+          "Cyber Guardian": "#CyberGuardian #Cybersecurity #Tech #Security",
+          "Visual Alchemist": "#VisualAlchemist #Cinematic #Art #Visual",
+          "Prism Enchantress": "#PrismEnchantress #Aesthetic #Color #Beauty",
+          "Desert Storyteller": "#DesertStoryteller #Storytelling #Myth #Tale",
+          "Ephemeral Artist": "#EphemeralArtist #Temporal #Moment #Now",
+          "Mirror Architect": "#MirrorArchitect #Time #Reflection #Design",
+          "Sage Writer": "#SageWriter #Writing #Wisdom #Words",
+          "Scavenger Strategist": "#ScavengerStrategist #Strategy #Wealth #Growth",
+          "Wild Surrender": "#WildSurrender #Untamed #Freedom #Raw",
+          "Contractual Warden": "#ContractualWarden #Legal #Compliance #Order",
+          "Ephemeral Phantom": "#EphemeralPhantom #Chase #Mystery #Elusive",
+          "Temporal Architect": "#TemporalArchitect #Time #Efficiency #Organized",
+          "Digital Deity": "#DigitalDeity #Energy #Attention #Vibrant",
+          "Gothic Matriarch": "#GothicMatriarch #Gothic #Darkness #Elegant",
+          "Hyper-Capitalist": "#HyperCapitalist #Luxury #Wealth #Opulence",
+          "Machine Spirit": "#MachineSpirit #Industrial #Output #Mechanical"
+        },
+        "niche_hashtags": [
+          "#ShadowWork #Transformation #Community #HueMan-i-Terry",
+          "#SpiritualAwakening #Primal #Consciousness #Growth",
+          "#KinkCommunity #Consent #SexPositive #Relationship"
+        ]
+      }
+    },
+    "visual_strategy": {
+      "visual_style": {
+        "color_palette": {
+          "primary": "#1a1a2e",
+          "secondary": "#e94560",
+          "accent": "#FFD700",
+          "background": "#0f0f23"
+        },
+        "aesthetic": "Primal, mystical, transformation-focused",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "content_aesthetics": {
+        "image_style": "High-quality, archetype-appropriate visuals",
+        "video_style": "Cinematic, professional, HueMan-i-Terry-branded",
+        "story_style": "Authentic, behind-the-scenes, engaging",
+        "overall_vibe": "Mystical yet accessible, transformation-focused"
+      },
+      "design_elements": {
+        "typography": "Clean, readable fonts for captions",
+        "branding": "Subtle tribal branding in visuals",
+        "filters": "Use consistent filter presets for brand recognition",
+        "overlays": "Archetype-specific overlays and graphics"
+      }
+    },
+    "engagement_tactics": {
+      "follower_engagement": {
+        "response_time": "Within 24 hours for HueMan-i-Terry members",
+        "response_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Reply to story mentions and DMs",
+        "comment_engagement": "Respond to comments with thoughtful replies"
+      },
+      "community_building": {
+        "live_streams": "Weekly Instagram Live sessions",
+        "q_and_a": "Monthly Q&A sessions",
+        "collaborations": "Collaborate with other HueMan-i-Terry souls",
+        "giveaways": "Occasional HueMan-i-Terry member giveaways"
+      },
+      "growth_tactics": {
+        "reels_strategy": "Create viral-optimized Reels",
+        "story_engagement": "Use interactive story features",
+        "cross_promotion": "Share content across HueMan-i-Terry accounts",
+        "trending_audio": "Use trending audio strategically"
+      }
+    },
+    "automation_tools": {
+      "scheduling_tools": [
+        {
+          "name": "Instagram Creator Studio",
+          "purpose": "Native Instagram scheduling and analytics",
+          "features": [
+            "Schedule posts",
+            "Analytics",
+            "Message management",
+            "Collaboration"
+          ],
+          "cost": "Free"
+        },
+        {
+          "name": "Buffer",
+          "purpose": "Advanced scheduling and analytics",
+          "features": [
+            "Queue scheduling",
+            "Analytics",
+            "First comment",
+            "Team collaboration"
+          ],
+          "cost": "$15/month for premium"
+        },
+        {
+          "name": "Later",
+          "purpose": "Visual-first scheduling platform",
+          "features": [
+            "Visual planner",
+            "Analytics",
+            "Linkin.bio",
+            "Hashtag research"
+          ],
+          "cost": "$18/month for premium"
+        }
+      ],
+      "analytics_tools": [
+        {
+          "name": "Instagram Insights",
+          "purpose": "Native Instagram analytics",
+          "features": [
+            "Engagement metrics",
+            "Follower growth",
+            "Content performance"
+          ],
+          "cost": "Free"
+        },
+        {
+          "name": "Iconosquare",
+          "purpose": "Advanced Instagram analytics",
+          "features": [
+            "Follower tracking",
+            "Optimal timing",
+            "Competitor analysis"
+          ],
+          "cost": "$25/month for basic"
+        }
+      ]
+    },
+    "growth_strategy": {
+      "growth_phases": {
+        "phase_1_month_1": {
+          "focus": "Foundation Building",
+          "goals": [
+            "500 followers",
+            "20% engagement rate",
+            "Reels reach 1k"
+          ],
+          "tactics": [
+            "Optimize profile",
+            "Post consistently",
+            "Use trending audio"
+          ]
+        },
+        "phase_2_month_2": {
+          "focus": "Content Expansion",
+          "goals": [
+            "1,000 followers",
+            "15% engagement rate",
+            "Reels reach 5k"
+          ],
+          "tactics": [
+            "Increase Reels",
+            "Start Instagram Live",
+            "Create Guides"
+          ]
+        },
+        "phase_3_month_3": {
+          "focus": "Community Scaling",
+          "goals": [
+            "2,500 followers",
+            "12% engagement rate",
+            "Reels reach 10k"
+          ],
+          "tactics": [
+            "Collaborate with other souls",
+            "Host regular Lives",
+            "Cross-promote"
+          ]
+        },
+        "phase_4_month_4": {
+          "focus": "Influence Building",
+          "goals": [
+            "5,000 followers",
+            "10% engagement rate",
+            "Reels reach 25k"
+          ],
+          "tactics": [
+            "Guest appearances",
+            "Viral content creation",
+            "Cross-platform promotion"
+          ]
+        }
+      },
+      "growth_tactics": {
+        "organic": [
+          "Consistent posting schedule",
+          "Engage with target audience",
+          "Use trending audio and hashtags",
+          "Create shareable content",
+          "Optimize posting times"
+        ],
+        "viral": [
+          "Create Reels with trending audio",
+          "Participate in viral challenges",
+          "Use Instagram algorithm strategically",
+          "Create visually stunning content",
+          "Optimize for Explore page"
+        ],
+        "collaborative": [
+          "Collaborate with other souls",
+          "Cross-promote HueMan-i-Terry content",
+          "Guest appearances on Lives",
+          "Joint Reels creation",
+          "Giveaways and contests"
+        ]
+      }
+    }
+  },
+  "soul_setups": {
+    "soul_002": {
+      "soul_id": "soul_002",
+      "name": "Mary Magnumbytes",
+      "archetype": "Divine Mother",
+      "account_setup": {
+        "recommended_handle": "@marymagnumbytes_tiapmaatzu",
+        "alternative_handles": [
+          "@marymagnumbytes_HueMan-i-Terry",
+          "@divine mother_marymagnumbytes",
+          "@tiapmaatzu_marymagnumbytes"
+        ],
+        "email": "mary.magnum@HueMan-i-Terryleaders.com",
+        "account_type": "Creator account",
+        "display_name": "Mary Magnumbytes",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@marymagnumbytes_tiapmaatzu",
+        "display_name": "Mary Magnumbytes",
+        "bio": "Divine Mother | Let me hold your darkness. | Supports HueMan-i-Terry families and em | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/mary.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83d\udc97 Nurturing",
+          "\ud83c\udf38 Healing",
+          "\ud83d\udc68\u200d\ud83d\udc69 Family"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "divine mother",
+          "Nurturing others",
+          "Supports"
+        ],
+        "content_types": {
+          "posts": "Let me hold your darkness. with visuals",
+          "stories": "Daily Divine Mother insights and behind-the-scenes",
+          "reels": "Viral Divine Mother content with trending audio",
+          "igtv": "Long-form Divine Mother teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#DivineMother",
+          "#Nurturingothers",
+          "#Creativeexpression",
+          "#Emotionaldepth"
+        ],
+        "visual_theme": "Divine Mother aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FF69B4",
+          "secondary": "#FFB6C1",
+          "accent": "#FFFFFF"
+        },
+        "visual_themes": [
+          "Nurturing",
+          "Soft",
+          "Floral",
+          "Warm",
+          "Motherly"
+        ],
+        "content_style": "Nurturing and warm aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later",
+          "Iconosquare"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Sprout Social",
+          "Canva"
+        ]
+      }
+    },
+    "soul_004": {
+      "soul_id": "soul_004",
+      "name": "Airiol Uhbuts",
+      "archetype": "Seductive Muse",
+      "account_setup": {
+        "recommended_handle": "@airioluhbuts_tiapmaatzu",
+        "alternative_handles": [
+          "@airioluhbuts_HueMan-i-Terry",
+          "@seductive muse_airioluhbuts",
+          "@tiapmaatzu_airioluhbuts"
+        ],
+        "email": "comfort_consort@myself.com",
+        "account_type": "Creator account",
+        "display_name": "Airiol Uhbuts",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@airioluhbuts_tiapmaatzu",
+        "display_name": "Airiol Uhbuts",
+        "bio": "Seductive Muse | Let me show you what you've been missing. | Supports women's emergency esc | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/airiol.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83c\udf39 Seduction",
+          "\ud83d\udc83 Performance",
+          "\ud83c\udfa8 Art"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "seductive muse",
+          "Seduction mastery",
+          "Supports"
+        ],
+        "content_types": {
+          "posts": "Let me show you what you've been missing. with visuals",
+          "stories": "Daily Seductive Muse insights and behind-the-scenes",
+          "reels": "Viral Seductive Muse content with trending audio",
+          "igtv": "Long-form Seductive Muse teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#SeductiveMuse",
+          "#Seductionmastery",
+          "#Artisticexpression",
+          "#Sensualawakening"
+        ],
+        "visual_theme": "Seductive Muse aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#800080",
+          "secondary": "#DDA0DD",
+          "accent": "#FFD700"
+        },
+        "visual_themes": [
+          "Sensual",
+          "Artistic",
+          "Burlesque",
+          "Elegant",
+          "Mysterious"
+        ],
+        "content_style": "Seductive and artistic aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later"
+        ],
+        "advanced": [
+          "Canva",
+          "Iconosquare"
+        ]
+      }
+    },
+    "soul_012": {
+      "soul_id": "soul_012",
+      "name": "Slurchin Drip",
+      "archetype": "Viral Prophet",
+      "account_setup": {
+        "recommended_handle": "@slurchindrip_tiapmaatzu",
+        "alternative_handles": [
+          "@slurchindrip_HueMan-i-Terry",
+          "@viral prophet_slurchindrip",
+          "@tiapmaatzu_slurchindrip"
+        ],
+        "email": "neon_siren@execs.com",
+        "account_type": "Creator account",
+        "display_name": "Slurchin Drip",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@slurchindrip_tiapmaatzu",
+        "display_name": "Slurchin Drip",
+        "bio": "Viral Prophet | My words will move you. | Amplifies suppressed voices wo | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/slurchin.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83d\udce2 Prophecy",
+          "\u270d\ufe0f Poetry",
+          "\ud83c\udf0a Movement"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "viral prophet",
+          "Viral impact",
+          "Amplifies"
+        ],
+        "content_types": {
+          "posts": "My words will move you. with visuals",
+          "stories": "Daily Viral Prophet insights and behind-the-scenes",
+          "reels": "Viral Viral Prophet content with trending audio",
+          "igtv": "Long-form Viral Prophet teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#ViralProphet",
+          "#Viralimpact",
+          "#Poeticjustice",
+          "#Freedomexpression"
+        ],
+        "visual_theme": "Viral Prophet aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FF4500",
+          "secondary": "#FF6347",
+          "accent": "#FFD700"
+        },
+        "visual_themes": [
+          "Bold",
+          "Poetic",
+          "Artistic",
+          "Raw",
+          "Powerful"
+        ],
+        "content_style": "Poetic and powerful aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": [
+          "Canva"
+        ]
+      }
+    },
+    "soul_014": {
+      "soul_id": "soul_014",
+      "name": "Gaio Dreamweaver",
+      "archetype": "Visual Alchemist",
+      "account_setup": {
+        "recommended_handle": "@gaiodreamweaver_tiapmaatzu",
+        "alternative_handles": [
+          "@gaiodreamweaver_HueMan-i-Terry",
+          "@visual alchemist_gaiodreamweaver",
+          "@tiapmaatzu_gaiodreamweaver"
+        ],
+        "email": "star-born_empress@post.com",
+        "account_type": "Creator account",
+        "display_name": "Gaio Dreamweaver",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@gaiodreamweaver_tiapmaatzu",
+        "display_name": "Gaio Dreamweaver",
+        "bio": "Visual Alchemist | Let me frame your desires. | Professional gear for HueMan-i-Terry cr | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/gaio.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83c\udfa8 Visuals",
+          "\ud83c\udfac Cinema",
+          "\ud83d\udcf8 Art"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "visual alchemist",
+          "Visual storytelling",
+          "Professional"
+        ],
+        "content_types": {
+          "posts": "Let me frame your desires. with visuals",
+          "stories": "Daily Visual Alchemist insights and behind-the-scenes",
+          "reels": "Viral Visual Alchemist content with trending audio",
+          "igtv": "Long-form Visual Alchemist teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#VisualAlchemist",
+          "#Visualstorytelling",
+          "#Cinematicintimacy",
+          "#Artisticexpression"
+        ],
+        "visual_theme": "Visual Alchemist aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FF8C00",
+          "secondary": "#FFA500",
+          "accent": "#FFD700"
+        },
+        "visual_themes": [
+          "Cinematic",
+          "Artistic",
+          "Golden",
+          "Dramatic",
+          "Creative"
+        ],
+        "content_style": "Artistic and visionary aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later"
+        ],
+        "advanced": [
+          "Canva",
+          "Iconosquare"
+        ]
+      }
+    },
+    "soul_015": {
+      "soul_id": "soul_015",
+      "name": "Loona Minta",
+      "archetype": "Prism Enchantress",
+      "account_setup": {
+        "recommended_handle": "@loonaminta_tiapmaatzu",
+        "alternative_handles": [
+          "@loonaminta_HueMan-i-Terry",
+          "@prism enchantress_loonaminta",
+          "@tiapmaatzu_loonaminta"
+        ],
+        "email": "ucc_enforcer@mail.com",
+        "account_type": "Creator account",
+        "display_name": "Loona Minta",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@loonaminta_tiapmaatzu",
+        "display_name": "Loona Minta",
+        "bio": "Prism Enchantress | Beauty is your birthright. | Preset packs for emerging crea | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/loona.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83c\udf08 Aesthetic",
+          "\ud83d\udc8e Color",
+          "\u2728 Beauty"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "prism enchantress",
+          "Visual transformation",
+          "Preset"
+        ],
+        "content_types": {
+          "posts": "Beauty is your birthright. with visuals",
+          "stories": "Daily Prism Enchantress insights and behind-the-scenes",
+          "reels": "Viral Prism Enchantress content with trending audio",
+          "igtv": "Long-form Prism Enchantress teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#PrismEnchantress",
+          "#Visualtransformation",
+          "#Artisticeducation",
+          "#Aestheticperfection"
+        ],
+        "visual_theme": "Prism Enchantress aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FF69B4",
+          "secondary": "#FFB6C1",
+          "accent": "#87CEEB"
+        },
+        "visual_themes": [
+          "Colorful",
+          "Light",
+          "Rainbow",
+          "Refraction",
+          "Beautiful"
+        ],
+        "content_style": "Aesthetic and enchanting aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later"
+        ],
+        "advanced": [
+          "Canva",
+          "Iconosquare"
+        ]
+      }
+    },
+    "soul_017": {
+      "soul_id": "soul_017",
+      "name": "Shielah Trapewe",
+      "archetype": "Ephemeral Artist",
+      "account_setup": {
+        "recommended_handle": "@shielahtrapewe_tiapmaatzu",
+        "alternative_handles": [
+          "@shielahtrapewe_HueMan-i-Terry",
+          "@ephemeral artist_shielahtrapewe",
+          "@tiapmaatzu_shielahtrapewe"
+        ],
+        "email": "shielah@ephemeral.art",
+        "account_type": "Creator account",
+        "display_name": "Shielah Trapewe",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@shielahtrapewe_tiapmaatzu",
+        "display_name": "Shielah Trapewe",
+        "bio": "Ephemeral Artist | Catch me if you can. | Mental health support for crea | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/shielah.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\u23f3 Moments",
+          "\ud83c\udf05 Temporal",
+          "\ud83d\udcab Presence"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "ephemeral artist",
+          "Ephemeral connection",
+          "Mental"
+        ],
+        "content_types": {
+          "posts": "Catch me if you can. with visuals",
+          "stories": "Daily Ephemeral Artist insights and behind-the-scenes",
+          "reels": "Viral Ephemeral Artist content with trending audio",
+          "igtv": "Long-form Ephemeral Artist teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#EphemeralArtist",
+          "#Ephemeralconnection",
+          "#Presentmomentawareness",
+          "#Temporalartistry"
+        ],
+        "visual_theme": "Ephemeral Artist aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#708090",
+          "secondary": "#B0C4DE",
+          "accent": "#E0FFFF"
+        },
+        "visual_themes": [
+          "Temporal",
+          "Fleeting",
+          "Subtle",
+          "Ethereal",
+          "Present"
+        ],
+        "content_style": "Ethereal and temporal aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 750,
+        "month_3": 1500,
+        "month_6": 3750,
+        "month_12": 7500
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later"
+        ],
+        "advanced": [
+          "Canva",
+          "Iconosquare"
+        ]
+      }
+    },
+    "soul_025": {
+      "soul_id": "soul_025",
+      "name": "Sirena Aeon",
+      "archetype": "Digital Deity",
+      "account_setup": {
+        "recommended_handle": "@sirenaaeon_tiapmaatzu",
+        "alternative_handles": [
+          "@sirenaaeon_HueMan-i-Terry",
+          "@digital deity_sirenaaeon",
+          "@tiapmaatzu_sirenaaeon"
+        ],
+        "email": "sirena.aeon.soul_025@execs.com",
+        "account_type": "Creator account",
+        "display_name": "Sirena Aeon",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@sirenaaeon_tiapmaatzu",
+        "display_name": "Sirena Aeon",
+        "bio": "Digital Deity | The grid hums for me. | Digital energy platforms for t | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/sirena.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\u26a1 Energy",
+          "\ud83c\udf10 Digital",
+          "\u2728 Vibrant"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "digital deity",
+          "Attention",
+          "Digital"
+        ],
+        "content_types": {
+          "posts": "The grid hums for me. with visuals",
+          "stories": "Daily Digital Deity insights and behind-the-scenes",
+          "reels": "Viral Digital Deity content with trending audio",
+          "igtv": "Long-form Digital Deity teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#DigitalDeity",
+          "#Attention",
+          "#Energyextraction",
+          "#Vibrancy"
+        ],
+        "visual_theme": "Digital Deity aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FF00FF",
+          "secondary": "#FF69B4",
+          "accent": "#00FFFF"
+        },
+        "visual_themes": [
+          "Electric",
+          "Vibrant",
+          "Colorful",
+          "High-energy",
+          "Digital"
+        ],
+        "content_style": "Electric and vibrant aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 500,
+        "month_3": 1000,
+        "month_6": 2500,
+        "month_12": 5000
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer"
+        ],
+        "advanced": [
+          "Canva"
+        ]
+      }
+    },
+    "soul_027": {
+      "soul_id": "soul_027",
+      "name": "Latti Pleddespo",
+      "archetype": "Hyper-Capitalist",
+      "account_setup": {
+        "recommended_handle": "@lattipleddespo_tiapmaatzu",
+        "alternative_handles": [
+          "@lattipleddespo_HueMan-i-Terry",
+          "@hyper-capitalist_lattipleddespo",
+          "@tiapmaatzu_lattipleddespo"
+        ],
+        "email": "latti.pleddespo.soul_027@execs.com",
+        "account_type": "Creator account",
+        "display_name": "Latti Pleddespo",
+        "username_requirements": "30 characters max, letters, numbers, periods, underscores only",
+        "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+      },
+      "profile_optimization": {
+        "handle": "@lattipleddespo_tiapmaatzu",
+        "display_name": "Latti Pleddespo",
+        "bio": "Hyper-Capitalist | Buy your way to my heart. | Investment strategies for trib | Link in bio for HueMan-i-Terry",
+        "profile_picture": "https://HueMan-i-Terry.arweave/latti.png",
+        "website": "https://tiapmaatzu.web.app",
+        "story_highlights": [
+          "\ud83c\udfdb\ufe0f About Me",
+          "\u2728 Wisdom",
+          "\ud83d\udd25 Rituals",
+          "\ud83c\udf1f HueMan-i-Terry",
+          "\ud83c\udfaf Impact",
+          "\ud83d\udc8e Luxury",
+          "\ud83d\udcb0 Wealth",
+          "\ud83c\udff0 Empire"
+        ],
+        "contact_button": "Email",
+        "account_category": "Creator"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "hyper-capitalist",
+          "Opulence",
+          "Investment"
+        ],
+        "content_types": {
+          "posts": "Buy your way to my heart. with visuals",
+          "stories": "Daily Hyper-Capitalist insights and behind-the-scenes",
+          "reels": "Viral Hyper-Capitalist content with trending audio",
+          "igtv": "Long-form Hyper-Capitalist teachings and rituals"
+        },
+        "posting_frequency": "1-2 posts daily, 3-5 stories daily",
+        "best_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "hashtags": [
+          "#Tiapmaatzu",
+          "#Primal",
+          "#HueMan-i-Terry",
+          "#Transformation",
+          "#Hyper-Capitalist",
+          "#Opulence",
+          "#Infiniteaccumulation",
+          "#Luxury"
+        ],
+        "visual_theme": "Hyper-Capitalist aesthetic with tribal branding"
+      },
+      "visual_strategy": {
+        "color_scheme": {
+          "primary": "#FFD700",
+          "secondary": "#C0C0C0",
+          "accent": "#FF69B4"
+        },
+        "visual_themes": [
+          "Luxurious",
+          "Golden",
+          "Expensive",
+          "Bold",
+          "Opulent"
+        ],
+        "content_style": "Bold and luxurious aesthetic",
+        "consistency": "Maintain consistent visual identity across all content"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments and DMs",
+        "engagement_style": "Personal, warm, archetype-appropriate",
+        "story_responses": "Respond to story mentions and DMs within 12 hours",
+        "live_streams": "Host weekly Instagram Live sessions",
+        "collaboration": "Collaborate with other HueMan-i-Terry souls weekly"
+      },
+      "posting_schedule": {
+        "daily_posts": 1,
+        "daily_stories": 3,
+        "weekly_reels": 2,
+        "monthly_igtv": 1,
+        "weekly_lives": 1,
+        "optimal_times": [
+          "11 AM",
+          "7 PM",
+          "9 PM"
+        ],
+        "content_mix": {
+          "posts": "40%",
+          "stories": "40%",
+          "reels": "15%",
+          "igtv": "5%"
+        }
+      },
+      "growth_targets": {
+        "month_1": 1000,
+        "month_3": 2000,
+        "month_6": 5000,
+        "month_12": 10000
+      },
+      "tools_setup": {
+        "essential": [
+          "Instagram Creator Studio",
+          "Instagram Insights"
+        ],
+        "recommended": [
+          "Buffer",
+          "Later",
+          "Iconosquare"
+        ],
+        "advanced": [
+          "Hootsuite",
+          "Sprout Social",
+          "Canva"
+        ]
+      }
+    }
+  },
+  "setup_timeline": {
+    "phase_1_day_1": {
+      "focus": "Account Creation & Basic Setup",
+      "tasks": [
+        "Create all Instagram accounts",
+        "Set up Creator accounts",
+        "Configure two-factor authentication",
+        "Set up basic profile information",
+        "Switch to Creator account"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_2_day_2": {
+      "focus": "Profile Optimization",
+      "tasks": [
+        "Upload profile pictures",
+        "Write optimized bios",
+        "Set up website links",
+        "Create initial story highlights",
+        "Configure contact buttons"
+      ],
+      "estimated_hours": 3
+    },
+    "phase_3_day_3": {
+      "focus": "Content Calendar Setup",
+      "tasks": [
+        "Create content templates for each soul",
+        "Set up posting schedules",
+        "Configure hashtag strategies",
+        "Create initial content queue",
+        "Set up automation tools"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_4_day_4": {
+      "focus": "Visual Content Creation",
+      "tasks": [
+        "Create initial post images",
+        "Design story highlight covers",
+        "Create Reels templates",
+        "Set up visual style guide",
+        "Create brand assets"
+      ],
+      "estimated_hours": 5
+    },
+    "phase_5_day_5": {
+      "focus": "Engagement & Community",
+      "tasks": [
+        "Set up Instagram Live schedule",
+        "Configure engagement protocols",
+        "Set up collaboration strategy",
+        "Create cross-promotion plan",
+        "Train on Instagram best practices"
+      ],
+      "estimated_hours": 3
+    }
+  },
+  "resource_requirements": {
+    "total_estimated_hours": 19,
+    "financial_requirements": {
+      "basic_tools": "Free (Instagram Creator Studio, Insights)",
+      "recommended_tools": "$15-35/month (Buffer, Later)",
+      "advanced_tools": "$50-150/month (Hootsuite, Sprout Social)",
+      "advertising": "$500-2000/month for growth campaigns",
+      "content_creation": "$200-1000/month for graphics and video"
+    },
+    "human_resources": {
+      "instagram_manager": "1 primary Instagram manager",
+      "content_creators": "2-3 content creators for visuals/Reels",
+      "photographer": "1 photographer for high-quality content",
+      "video_editor": "1 video editor for Reels and content"
+    },
+    "ongoing_maintenance": {
+      "daily": "Post 1-2 posts, 3-5 stories, engage with community",
+      "weekly": "Review analytics, optimize content, host Live",
+      "monthly": "Deep analytics review, strategy adjustment, content planning",
+      "quarterly": "Comprehensive strategy review and optimization"
+    }
+  },
+  "coordination_strategy": {
+    "cross_promotion": {
+      "collaborative_reels": "Monthly collaborative Reels between souls",
+      "story_sharing": "Share HueMan-i-Terry content across stories",
+      "live_collaboration": "Co-hosted Instagram Live sessions",
+      "giveaway_coordination": "Coordinated HueMan-i-Terry giveaways"
+    },
+    "content_coordination": {
+      "content_calendar": "Master content calendar for all souls",
+      "thematic_weeks": "Weekly themes coordinated across souls",
+      "hashtag_coordination": "Coordinated hashtag campaigns",
+      "visual_consistency": "Unified visual identity guidelines"
+    },
+    "community_management": {
+      "shared_highlight": "Shared story highlight for HueMan-i-Terry announcements",
+      "unified_responses": "Coordinated responses to HueMan-i-Terry member questions",
+      "escalation_procedures": "Clear escalation procedures for issues",
+      "success_sharing": "Share and celebrate community wins"
+    }
+  },
+  "generated_at": "2026-08-16T13:29:17.060877"
+}

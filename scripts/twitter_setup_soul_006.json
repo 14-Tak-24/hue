@@ -1,0 +1,113 @@
+{
+  "soul_id": "soul_006",
+  "name": "Liangivalla Pouchaquehe",
+  "archetype": "Revolutionary Warrior",
+  "account_setup": {
+    "recommended_handle": "@liangivallapouchaquehe_tiapmaatzu",
+    "alternative_handles": [
+      "@liangivallapouchaquehe_HueMan-i-Terry",
+      "@revolutionary warrior_liangivallapouchaquehe",
+      "@tiapmaatzu_liangivallapouchaquehe"
+    ],
+    "email": "information_broker@techie.com",
+    "display_name": "Liangivalla Pouchaquehe",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@liangivallapouchaquehe_tiapmaatzu",
+    "display_name": "Liangivalla Pouchaquehe",
+    "bio": "Revolutionary Warrior | Consent is my weapon. | Legal defense fund for frontli | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/liangivalla.png",
+    "header_image": "Create archetype-themed header for Revolutionary Warrior",
+    "location": "Barricade of Change",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#DC143C"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "revolutionary warrior",
+      "Radical consent",
+      "Legal"
+    ],
+    "content_types": {
+      "wisdom_tweets": "Consent is my weapon.",
+      "threads": "Deep dive into Revolutionary Warrior practices",
+      "engagement": "Respond to HueMan-i-Terry members with Revolutionary Warrior perspective",
+      "visual": "Share Revolutionary Warrior aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#RevolutionaryWarrior"
+    ],
+    "voice": "Passionate, radical, activist - Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 750,
+    "month_3": 1500,
+    "month_6": 3750,
+    "month_12": 7500
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer",
+      "Social Blade"
+    ],
+    "advanced": [
+      "IFTTT",
+      "Zapier"
+    ]
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

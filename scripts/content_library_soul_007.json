@@ -1,0 +1,156 @@
+{
+  "soul_id": "soul_007",
+  "name": "Babelonia Nocturne",
+  "archetype": "Crypto Sorceress",
+  "platform_content": {
+    "Twitter": {
+      "archetype_content": {
+        "themes": [
+          "Financial wisdom",
+          "Crypto education",
+          "Wealth building",
+          "Alternative power"
+        ],
+        "hooks": [
+          "Your secrets are my currency.",
+          "Invest in your darkest desires.",
+          "The blockchain never forgets your pleasure.",
+          "Financial domination is liberating."
+        ],
+        "content_examples": [
+          "Financial wisdom and crypto education",
+          "Wealth building strategies",
+          "Alternative power dynamics",
+          "Financial domination guidance"
+        ]
+      },
+      "platform_templates": {
+        "daily_wisdom": {
+          "template": "{hook}\n\n{wisdom}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "1-2 daily",
+          "examples": [
+            "The path to transformation begins with surrender. Your limits are merely illusions. Together we ascend.",
+            "In surrender, we find power. Your pleasure is my prayer. Let me hold your darkness.",
+            "The universe speaks through pleasure. Your body is a constellation. Let's touch the infinite together."
+          ]
+        },
+        "thread": {
+          "template": "\ud83e\uddf5 {topic}\n\n{hook}\n\n{point_1}\n\n{point_2}\n\n{point_3}\n\n{call_to_action}\n\n#Tiapmaatzu #Primal #HueMan-i-Terry",
+          "length": "Multi-tweet thread",
+          "frequency": "Weekly",
+          "structure": [
+            "Hook tweet (compelling opening)",
+            "Context tweet (background)",
+            "Point 1 (first key insight)",
+            "Point 2 (second key insight)",
+            "Point 3 (third key insight)",
+            "Conclusion + CTA"
+          ]
+        },
+        "engagement": {
+          "template": "{response}\n\n{follow_up_question}",
+          "length": "Conversation reply",
+          "frequency": "As needed",
+          "examples": [
+            "Thank you for your question. The key is to embrace the journey of transformation. What aspect resonates most with you?",
+            "Excellent insight. Primal wisdom teaches us that surrender is strength. How have you experienced this in your own journey?"
+          ]
+        },
+        "announcement": {
+          "template": "\ud83d\udce2 {announcement}\n\n{details}\n\n{call_to_action}\n\n#Tiapmaatzu #HueMan-i-Terry",
+          "length": "280 characters",
+          "frequency": "As needed",
+          "examples": [
+            "\ud83d\udce2 New ritual ceremony this Friday at 8 PM EST. Join us for collective shadow work. RSVP in Discord!",
+            "\ud83d\udce2 Weekly wisdom circle now open to all HueMan-i-Terry members. Join us for transformative discussions."
+          ]
+        }
+      },
+      "sample_posts": [
+        "Your secrets are my currency. #Tiapmaatzu #Primal #HueMan-i-Terry",
+        "\ud83e\uddf5 Thread: Crypto Sorceress insights coming soon..."
+      ]
+    },
+    "FetLife": {
+      "archetype_content": {
+        "themes": [
+          "Financial wisdom",
+          "Crypto education",
+          "Wealth building",
+          "Alternative power"
+        ],
+        "hooks": [
+          "Your secrets are my currency.",
+          "Invest in your darkest desires.",
+          "The blockchain never forgets your pleasure.",
+          "Financial domination is liberating."
+        ],
+        "content_examples": [
+          "Financial wisdom and crypto education",
+          "Wealth building strategies",
+          "Alternative power dynamics",
+          "Financial domination guidance"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    },
+    "Fansly": {
+      "archetype_content": {
+        "themes": [
+          "Financial wisdom",
+          "Crypto education",
+          "Wealth building",
+          "Alternative power"
+        ],
+        "hooks": [
+          "Your secrets are my currency.",
+          "Invest in your darkest desires.",
+          "The blockchain never forgets your pleasure.",
+          "Financial domination is liberating."
+        ],
+        "content_examples": [
+          "Financial wisdom and crypto education",
+          "Wealth building strategies",
+          "Alternative power dynamics",
+          "Financial domination guidance"
+        ]
+      },
+      "platform_templates": {},
+      "sample_posts": []
+    }
+  },
+  "custom_templates": {
+    "twitter_bio": "Crypto Sorceress | Your secrets are my currency. | Seeds micro-grants for women e",
+    "discord_status": "Crypto Sorceress | Your secrets are my currency.",
+    "reddit_bio": "Crypto Sorceress of the Tiapma'atzu HueMan-i-Terry. Your secrets are my currency.. Seeds micro-grants for women entering crypto",
+    "instagram_bio": "Crypto Sorceress | Your secrets are my currency. | Link in bio for HueMan-i-Terry"
+  },
+  "content_queue": [
+    {
+      "type": "introduction",
+      "content": "Welcome to my journey as Crypto Sorceress of the Tiapma'atzu HueMan-i-Terry. Your secrets are my currency..",
+      "platform": "all",
+      "priority": "high"
+    },
+    {
+      "type": "daily_wisdom",
+      "content": "Your secrets are my currency.",
+      "platform": "all",
+      "priority": "medium"
+    },
+    {
+      "type": "archetype_insight",
+      "content": "Deep dive into Crypto Sorceress wisdom and practices",
+      "platform": "Twitter, Reddit, Instagram",
+      "priority": "medium"
+    },
+    {
+      "type": "community_invitation",
+      "content": "Join the HueMan-i-Terry and connect with fellow Crypto Sorceress practitioners",
+      "platform": "all",
+      "priority": "high"
+    }
+  ]
+}

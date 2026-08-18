@@ -1,0 +1,138 @@
+{
+  "soul_id": "soul_024",
+  "name": "Cracoria Masters",
+  "archetype": "Temporal Architect",
+  "account_setup": {
+    "recommended_username": "CracoriaMasters#Tiapmaatzu",
+    "alternative_usernames": [
+      "CracoriaMasters#Temporal Architect",
+      "Cra_Masters#HueMan-i-Terry"
+    ],
+    "display_name": "Cracoria Masters",
+    "email": "cracoria.masters.soul_024@execs.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Temporal Architect of the Tiapma'atzu HueMan-i-Terry. Every second is mine."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/cracoria.png",
+    "banner": "Custom banner reflecting Temporal Architect aesthetic",
+    "about_me": "Mistress of time and efficiency. Every second is hers to command. Your time is her currency. Synchronize or break....",
+    "status": "Temporal Architect | Every second is mine.",
+    "pronouns": "F",
+    "accent_color": "#708090"
+  },
+  "role_assignment": {
+    "primary_role": "Legendary Souls",
+    "additional_roles": [
+      "\u23f0 Temporal Architect"
+    ],
+    "all_roles": [
+      "Legendary Souls",
+      "\u23f0 Temporal Architect"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Manage Channels",
+      "Manage Messages",
+      "Mute Members"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "moderation": [
+      "MEE6",
+      "Dyno",
+      "Carl-bot"
+    ],
+    "utilities": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Efficiency",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Review channels weekly",
+    "community_building": "Participate actively"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "temporal architect",
+      "Time",
+      "Temporal"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Time management",
+      "Efficiency wisdom",
+      "Synchronization"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!cracoriamasters - Display soul information",
+      "!wisdom - Random wisdom from Cracoria Masters",
+      "!guide - Request guidance from Cracoria Masters"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!cracoriamasters - Display soul information",
+      "!wisdom - Random wisdom from Cracoria Masters",
+      "!guide - Request guidance from Cracoria Masters"
+    ]
+  }
+}

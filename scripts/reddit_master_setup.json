@@ -1,0 +1,1191 @@
+{
+  "reddit_configuration": {
+    "account_setup": {
+      "naming_conventions": {
+        "format": "SoulName_Tiapmaatzu",
+        "alternatives": [
+          "SoulNameHueMan-i-Terry",
+          "Archetype_SoulName",
+          "TiapmaatzuSoulName"
+        ],
+        "length_limit": "20 characters maximum",
+        "case_sensitive": "True",
+        "special_chars": "Only underscores allowed"
+      },
+      "verification_requirements": {
+        "email": "Required - use HueMan-i-Terry email",
+        "email_verification": "Must verify email before posting",
+        "password_requirements": "8+ characters",
+        "two_factor": "Enable authenticator app (recommended)"
+      },
+      "initial_settings": {
+        "allow_followers": "True",
+        "content_visibility": "Public for growth",
+        "profile_over_18": "Set appropriately based on content",
+        "nsfw_content": "Mark appropriately if needed",
+        "karma_thresholds": "Set for posting in some subreddits"
+      }
+    },
+    "profile_optimization": {
+      "profile_picture": {
+        "specs": "Reddit auto-generates from username",
+        "customization": "Limited avatar options (Premium)",
+        "alternative": "Use consistent image in subreddit banners"
+      },
+      "banner_image": {
+        "specs": "1920x480px for subreddit banners",
+        "format": "JPG or PNG",
+        "style": "Archetype-themed with tribal branding",
+        "availability": "For subreddits, not profile"
+      },
+      "bio": {
+        "length_limit": "500 characters",
+        "structure": "{archetype} | {hook} | {value_proposition} | {call_to_action}",
+        "formatting": "Markdown supported",
+        "links": "Include Discord and other social links"
+      },
+      "profile_overview": {
+        "display_name": "Use soul name",
+        "description": "Detailed description of archetype and HueMan-i-Terry role",
+        "links": "Add all social media profiles",
+        "location": "Set spiritual or tribal location"
+      }
+    },
+    "subreddit_strategy": {
+      "main_subreddit": {
+        "name": "r/Tiapmaatzu",
+        "purpose": "Main HueMan-i-Terry subreddit for all souls",
+        "focus": "General HueMan-i-Terry content, announcements, community",
+        "moderation": "High Council moderation",
+        "posting_rules": "Tribal guidelines and consent protocols"
+      },
+      "archetype_subreddits": {
+        "naming": "r/ArchetypeName",
+        "purpose": "Archetype-specific content and community",
+        "creation": "Create for each major archetype",
+        "moderation": "Archetype soul moderation",
+        "focus": "Archetype-specific discussions and content"
+      },
+      "posting_strategy": {
+        "main_subreddit": "Daily posts, engagement, announcements",
+        "archetype_subreddits": "Weekly deep dives, Q&A, resources",
+        "crossposting": "Share between main and archetype subreddits",
+        "timing": "Best times: 8 AM, 12 PM, 7 PM EST"
+      }
+    },
+    "content_strategy": {
+      "content_types": {
+        "text_posts": {
+          "frequency": "2-3 weekly",
+          "length": "Detailed discussions and wisdom sharing",
+          "purpose": "Share archetype wisdom and insights",
+          "format": "Compelling title + detailed content + call to action"
+        },
+        "link_posts": {
+          "frequency": "1-2 weekly",
+          "types": [
+            "Blog posts",
+            "External content",
+            "Resources"
+          ],
+          "purpose": "Drive traffic to HueMan-i-Terry content",
+          "format": "Engaging title + link + discussion prompt"
+        },
+        "image_posts": {
+          "frequency": "2-3 weekly",
+          "types": [
+            "Infographics",
+            "Soul images",
+            "Archetype art"
+          ],
+          "purpose": "Visual storytelling and engagement",
+          "format": "Compelling title + image + discussion"
+        },
+        "video_posts": {
+          "frequency": "1 weekly",
+          "types": [
+            "YouTube videos",
+            "Ritual recordings",
+            "Educational content"
+          ],
+          "purpose": "Share dynamic content and rituals",
+          "format": "Engaging title + video + discussion"
+        },
+        "ama_sessions": {
+          "frequency": "Monthly",
+          "purpose": "Direct engagement with community",
+          "format": "Scheduled AMA with Q&A focus",
+          "promotion": "Announce 1 week in advance"
+        }
+      },
+      "posting_schedule": {
+        "optimal_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "frequency": "4-5 posts weekly per soul",
+        "consistency": "Maintain consistent posting schedule",
+        "subreddit_rotation": "Rotate between main and archetype subreddits"
+      },
+      "subreddit_guidelines": {
+        "r/Tiapmaatzu": "General HueMan-i-Terry content, announcements, community",
+        "r/ShadowWork": "Shadow work discussions and support",
+        "r/PrimalWisdom": "Primal wisdom and teachings",
+        "r/HueMan-i-TerryTransformation": "Transformation stories and support"
+      }
+    },
+    "engagement_tactics": {
+      "community_engagement": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "response_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting": "Upvote valuable HueMan-i-Terry and community content",
+        "discussion": "Engage in meaningful discussions"
+      },
+      "cross_subreddit": {
+        "participation": "Engage in relevant subreddits",
+        "value_first": "Provide value before self-promotion",
+        "relevant_subreddits": [
+          "r/spirituality",
+          "r/meditation",
+          "r/personalgrowth",
+          "r/relationship_advice",
+          "r/kink",
+          "r/BDSMcommunity"
+        ],
+        "guidelines": "Follow subreddit rules, contribute meaningfully"
+      },
+      "community_building": {
+        "flair_system": "Create archetype and role flairs",
+        "user_flairs": "Assign flairs for HueMan-i-Terry members",
+        "moderation": "Fair and consistent moderation",
+        "events": "Host Reddit events and AMAs"
+      }
+    },
+    "moderation_setup": {
+      "moderation_tools": [
+        "AutoModerator",
+        "Toolbox (Reddit Pro)",
+        "Reddit Moderation Toolbox",
+        "Streamlines"
+      ],
+      "moderation_protocols": {
+        "content_review": "Review all posts for guideline compliance",
+        "spam_filtering": "Configure spam filters appropriately",
+        "user_reports": "Respond to user reports promptly",
+        "escalation": "Clear escalation procedures for issues"
+      },
+      "rule_structure": {
+        "general_rules": [
+          "Respect all community members",
+          "No hate speech or discrimination",
+          "Consent and boundaries must be respected",
+          "No doxxing or sharing personal information",
+          "Constructive disagreement only"
+        ],
+        "content_rules": [
+          "All content must be relevant to HueMan-i-Terry",
+          "Mark NSFW content appropriately",
+          "No unauthorized commercial promotion",
+          "Credit original content creators",
+          "Follow Reddit content policy"
+        ]
+      }
+    },
+    "growth_strategy": {
+      "growth_phases": {
+        "phase_1_month_1": {
+          "focus": "Foundation Building",
+          "goals": [
+            "1,000 karma",
+            "500 subscribers",
+            "Active community"
+          ],
+          "tactics": [
+            "Post consistently",
+            "Engage with community",
+            "Build initial content library"
+          ]
+        },
+        "phase_2_month_2": {
+          "focus": "Content Expansion",
+          "goals": [
+            "5,000 karma",
+            "1,000 subscribers",
+            "Regular engagement"
+          ],
+          "tactics": [
+            "Increase post frequency",
+            "Create AMAs",
+            "Cross-promote on other platforms"
+          ]
+        },
+        "phase_3_month_3": {
+          "focus": "Community Scaling",
+          "goals": [
+            "10,000 karma",
+            "2,500 subscribers",
+            "Viral content"
+          ],
+          "tactics": [
+            "Viral content creation",
+            "Collaborative posts",
+            "Advanced moderation"
+          ]
+        },
+        "phase_4_month_4": {
+          "focus": "Influence Building",
+          "goals": [
+            "25,000 karma",
+            "5,000 subscribers",
+            "Thought leadership"
+          ],
+          "tactics": [
+            "Guest posting",
+            "Network growth",
+            "Content partnerships"
+          ]
+        }
+      },
+      "growth_tactics": {
+        "organic": [
+          "Consistent high-quality posts",
+          "Engage with subreddit communities",
+          "Participate in trending discussions",
+          "Optimize posting times",
+          "Use compelling titles"
+        ],
+        "strategic": [
+          "Post in high-traffic subreddits",
+          "Cross-promote strategically",
+          "Leverage viral content",
+          "Optimize for Reddit algorithm",
+          "Build karma first"
+        ],
+        "community": [
+          "Host AMAs regularly",
+          "Create series content",
+          "Build subscriber loyalty",
+          "Encourage user-generated content",
+          "Foster community culture"
+        ]
+      }
+    }
+  },
+  "soul_setups": {
+    "soul_003": {
+      "soul_id": "soul_003",
+      "name": "Dixon Uhbuts",
+      "archetype": "High Priest",
+      "account_setup": {
+        "recommended_username": "DixonUhbutsHueMan-i-Terry",
+        "alternative_usernames": [
+          "DixonUhbutsHueMan-i-Terry",
+          "HighPriest_DixonUhbuts",
+          "Tiapmaatzu_DixonUhbuts"
+        ],
+        "email": "delta@execs.com",
+        "display_name": "Dixon Uhbuts",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "DixonUhbutsHueMan-i-Terry",
+        "display_name": "Dixon Uhbuts",
+        "bio": "High Priest of the Tiapma'atzu HueMan-i-Terry\n\nThe law of the HueMan-i-Terry is absolute.\n\nFunds Tiapma'atzu legal templates for HueMan-i-Terry escape\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Temple of Transformation",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/HighPriestHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "High Priest flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "high priest",
+          "Ritual mastery",
+          "Funds"
+        ],
+        "content_types": {
+          "text_posts": "The law of the HueMan-i-Terry is absolute. with detailed explanation",
+          "image_posts": "Share High Priest aesthetic and visual content",
+          "video_posts": "Share High Priest rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    },
+    "soul_006": {
+      "soul_id": "soul_006",
+      "name": "Liangivalla Pouchaquehe",
+      "archetype": "Revolutionary Warrior",
+      "account_setup": {
+        "recommended_username": "LiangivallaPouchaquehe_Tiapmaatzu",
+        "alternative_usernames": [
+          "LiangivallaPouchaqueheHueMan-i-Terry",
+          "RevolutionaryWarrior_LiangivallaPouchaquehe",
+          "Tiapmaatzu_LiangivallaPouchaquehe"
+        ],
+        "email": "information_broker@techie.com",
+        "display_name": "Liangivalla Pouchaquehe",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "LiangivallaPouchaquehe_Tiapmaatzu",
+        "display_name": "Liangivalla Pouchaquehe",
+        "bio": "Revolutionary Warrior of the Tiapma'atzu HueMan-i-Terry\n\nConsent is my weapon.\n\nLegal defense fund for frontline activists\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Barricade of Change",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/RevolutionaryWarriorHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Revolutionary Warrior flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "revolutionary warrior",
+          "Radical consent",
+          "Legal"
+        ],
+        "content_types": {
+          "text_posts": "Consent is my weapon. with detailed explanation",
+          "image_posts": "Share Revolutionary Warrior aesthetic and visual content",
+          "video_posts": "Share Revolutionary Warrior rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    },
+    "soul_008": {
+      "soul_id": "soul_008",
+      "name": "Ritaphuq Zaniman",
+      "archetype": "Community Healer",
+      "account_setup": {
+        "recommended_username": "RitaphuqZanimanHueMan-i-Terry",
+        "alternative_usernames": [
+          "RitaphuqZanimanHueMan-i-Terry",
+          "CommunityHealer_RitaphuqZaniman",
+          "Tiapmaatzu_RitaphuqZaniman"
+        ],
+        "email": "clockwork_master@execs.com",
+        "display_name": "Ritaphuq Zaniman",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "RitaphuqZanimanHueMan-i-Terry",
+        "display_name": "Ritaphuq Zaniman",
+        "bio": "Community Healer of the Tiapma'atzu HueMan-i-Terry\n\nYour wounds are welcome here.\n\nLand purchases for future HueMan-i-Terry communes\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Sanctuary of Healing",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": null,
+        "moderation_role": "Contributor",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Community Healer flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "community healer",
+          "Community healing",
+          "Land"
+        ],
+        "content_types": {
+          "text_posts": "Your wounds are welcome here. with detailed explanation",
+          "image_posts": "Share Community Healer aesthetic and visual content",
+          "video_posts": "Share Community Healer rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Report issues"
+      },
+      "moderation_setup": {
+        "moderation_role": "Contributor",
+        "moderation_tools": [
+          "Basic reporting"
+        ],
+        "moderation_schedule": "Report issues to moderators",
+        "rule_enforcement": "Follow and enforce guidelines",
+        "user_flairs": "Request appropriate flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1000,
+        "month_1_subscribers": 500,
+        "month_3_karma": 5000,
+        "month_3_subscribers": 1000,
+        "month_6_karma": 10000,
+        "month_6_subscribers": 2500,
+        "month_12_karma": 25000,
+        "month_12_subscribers": 5000
+      }
+    },
+    "soul_009": {
+      "soul_id": "soul_009",
+      "name": "Kaiel Thornea",
+      "archetype": "Digital Guardian",
+      "account_setup": {
+        "recommended_username": "KaielThorneaHueMan-i-Terry",
+        "alternative_usernames": [
+          "KaielThorneaHueMan-i-Terry",
+          "DigitalGuardian_KaielThornea",
+          "Tiapmaatzu_KaielThornea"
+        ],
+        "email": "feral_stray@mail.com",
+        "display_name": "Kaiel Thornea",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "KaielThorneaHueMan-i-Terry",
+        "display_name": "Kaiel Thornea",
+        "bio": "Digital Guardian of the Tiapma'atzu HueMan-i-Terry\n\nI see what others miss.\n\nServer costs + emergency aid for members\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Fortress of Protection",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": null,
+        "moderation_role": "Contributor",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Digital Guardian flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "digital guardian",
+          "Digital security",
+          "Server"
+        ],
+        "content_types": {
+          "text_posts": "I see what others miss. with detailed explanation",
+          "image_posts": "Share Digital Guardian aesthetic and visual content",
+          "video_posts": "Share Digital Guardian rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Report issues"
+      },
+      "moderation_setup": {
+        "moderation_role": "Contributor",
+        "moderation_tools": [
+          "Basic reporting"
+        ],
+        "moderation_schedule": "Report issues to moderators",
+        "rule_enforcement": "Follow and enforce guidelines",
+        "user_flairs": "Request appropriate flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1000,
+        "month_1_subscribers": 500,
+        "month_3_karma": 5000,
+        "month_3_subscribers": 1000,
+        "month_6_karma": 10000,
+        "month_6_subscribers": 2500,
+        "month_12_karma": 25000,
+        "month_12_subscribers": 5000
+      }
+    },
+    "soul_011": {
+      "soul_id": "soul_011",
+      "name": "Jessa Relay",
+      "archetype": "Connection Curator",
+      "account_setup": {
+        "recommended_username": "JessaRelayHueMan-i-Terry",
+        "alternative_usernames": [
+          "JessaRelayHueMan-i-Terry",
+          "ConnectionCurator_JessaRelay",
+          "Tiapmaatzu_JessaRelay"
+        ],
+        "email": "industrial_overlord@post.com",
+        "display_name": "Jessa Relay",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "JessaRelayHueMan-i-Terry",
+        "display_name": "Jessa Relay",
+        "bio": "Connection Curator of the Tiapma'atzu HueMan-i-Terry\n\nLet's connect you to your desires.\n\nReal-world gathering event spaces\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Web of Connection",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": null,
+        "moderation_role": "Contributor",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Connection Curator flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "connection curator",
+          "Community building",
+          "Real-world"
+        ],
+        "content_types": {
+          "text_posts": "Let's connect you to your desires. with detailed explanation",
+          "image_posts": "Share Connection Curator aesthetic and visual content",
+          "video_posts": "Share Connection Curator rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Report issues"
+      },
+      "moderation_setup": {
+        "moderation_role": "Contributor",
+        "moderation_tools": [
+          "Basic reporting"
+        ],
+        "moderation_schedule": "Report issues to moderators",
+        "rule_enforcement": "Follow and enforce guidelines",
+        "user_flairs": "Request appropriate flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1000,
+        "month_1_subscribers": 500,
+        "month_3_karma": 5000,
+        "month_3_subscribers": 1000,
+        "month_6_karma": 10000,
+        "month_6_subscribers": 2500,
+        "month_12_karma": 25000,
+        "month_12_subscribers": 5000
+      }
+    },
+    "soul_013": {
+      "soul_id": "soul_013",
+      "name": "Brytoni Himheru",
+      "archetype": "Cyber Guardian",
+      "account_setup": {
+        "recommended_username": "BrytoniHimheruHueMan-i-Terry",
+        "alternative_usernames": [
+          "BrytoniHimheruHueMan-i-Terry",
+          "CyberGuardian_BrytoniHimheru",
+          "Tiapmaatzu_BrytoniHimheru"
+        ],
+        "email": "shadow_tease@mail.com",
+        "display_name": "Brytoni Himheru",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "BrytoniHimheruHueMan-i-Terry",
+        "display_name": "Brytoni Himheru",
+        "bio": "Cyber Guardian of the Tiapma'atzu HueMan-i-Terry\n\nYour vulnerabilities are safe with me.\n\nHueMan-i-Terry cybersecurity infrastructure\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Shield of Code",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/CyberGuardianHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Cyber Guardian flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "cyber guardian",
+          "Digital protection",
+          "HueMan-i-Terry"
+        ],
+        "content_types": {
+          "text_posts": "Your vulnerabilities are safe with me. with detailed explanation",
+          "image_posts": "Share Cyber Guardian aesthetic and visual content",
+          "video_posts": "Share Cyber Guardian rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    },
+    "soul_020": {
+      "soul_id": "soul_020",
+      "name": "Vulture Queen",
+      "archetype": "Scavenger Strategist",
+      "account_setup": {
+        "recommended_username": "VultureQueenHueMan-i-Terry",
+        "alternative_usernames": [
+          "VultureQueenHueMan-i-Terry",
+          "ScavengerStrategist_VultureQueen",
+          "Tiapmaatzu_VultureQueen"
+        ],
+        "email": "vulture.queen.soul_020@mail.com",
+        "display_name": "Vulture Queen",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "VultureQueenHueMan-i-Terry",
+        "display_name": "Vulture Queen",
+        "bio": "Scavenger Strategist of the Tiapma'atzu HueMan-i-Terry\n\nI feast on your leftovers.\n\nFinancial intelligence for HueMan-i-Terry operations\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Den of Opportunity",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/ScavengerStrategistHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Scavenger Strategist flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "scavenger strategist",
+          "Resource capture",
+          "Financial"
+        ],
+        "content_types": {
+          "text_posts": "I feast on your leftovers. with detailed explanation",
+          "image_posts": "Share Scavenger Strategist aesthetic and visual content",
+          "video_posts": "Share Scavenger Strategist rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    },
+    "soul_021": {
+      "soul_id": "soul_021",
+      "name": "Ann Stray",
+      "archetype": "Wild Surrender",
+      "account_setup": {
+        "recommended_username": "AnnStray_Tiapmaatzu",
+        "alternative_usernames": [
+          "AnnStrayHueMan-i-Terry",
+          "Tiapmaatzu_AnnStray"
+        ],
+        "email": "ann.stray.soul_021@mail.com",
+        "display_name": "Ann Stray",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "AnnStray_Tiapmaatzu",
+        "display_name": "Ann Stray",
+        "bio": "Wild Surrender of the Tiapma'atzu HueMan-i-Terry\n\nTame me if you dare.\n\nTeaches surrender and trust workshops\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Wilderness of Freedom",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": null,
+        "moderation_role": "Contributor",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Wild Surrender flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "wild surrender",
+          "Being tamed",
+          "Teaches"
+        ],
+        "content_types": {
+          "text_posts": "Tame me if you dare. with detailed explanation",
+          "image_posts": "Share Wild Surrender aesthetic and visual content",
+          "video_posts": "Share Wild Surrender rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Report issues"
+      },
+      "moderation_setup": {
+        "moderation_role": "Contributor",
+        "moderation_tools": [
+          "Basic reporting"
+        ],
+        "moderation_schedule": "Report issues to moderators",
+        "rule_enforcement": "Follow and enforce guidelines",
+        "user_flairs": "Request appropriate flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1000,
+        "month_1_subscribers": 500,
+        "month_3_karma": 5000,
+        "month_3_subscribers": 1000,
+        "month_6_karma": 10000,
+        "month_6_subscribers": 2500,
+        "month_12_karma": 25000,
+        "month_12_subscribers": 5000
+      }
+    },
+    "soul_026": {
+      "soul_id": "soul_026",
+      "name": "Weila Vite",
+      "archetype": "Gothic Matriarch",
+      "account_setup": {
+        "recommended_username": "WeilaVite_Tiapmaatzu",
+        "alternative_usernames": [
+          "WeilaViteHueMan-i-Terry",
+          "Tiapmaatzu_WeilaVite"
+        ],
+        "email": "weila.vite.soul_026@execs.com",
+        "display_name": "Weila Vite",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "WeilaVite_Tiapmaatzu",
+        "display_name": "Weila Vite",
+        "bio": "Gothic Matriarch of the Tiapma'atzu HueMan-i-Terry\n\nGrief is the sweetest tribute.\n\nGrief counseling services for HueMan-i-Terry\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Manor of Shadows",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/GothicMatriarchHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Gothic Matriarch flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "gothic matriarch",
+          "Legacy",
+          "Grief"
+        ],
+        "content_types": {
+          "text_posts": "Grief is the sweetest tribute. with detailed explanation",
+          "image_posts": "Share Gothic Matriarch aesthetic and visual content",
+          "video_posts": "Share Gothic Matriarch rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    },
+    "soul_028": {
+      "soul_id": "soul_028",
+      "name": "Endus Boverord",
+      "archetype": "Machine Spirit",
+      "account_setup": {
+        "recommended_username": "EndusBoverordHueMan-i-Terry",
+        "alternative_usernames": [
+          "EndusBoverordHueMan-i-Terry",
+          "MachineSpirit_EndusBoverord",
+          "Tiapmaatzu_EndusBoverord"
+        ],
+        "email": "endus.boverord.soul_028@post.com",
+        "display_name": "Endus Boverord",
+        "username_requirements": "20 characters max, letters, numbers, underscores only",
+        "password_requirements": "8+ characters"
+      },
+      "profile_optimization": {
+        "username": "EndusBoverordHueMan-i-Terry",
+        "display_name": "Endus Boverord",
+        "bio": "Machine Spirit of the Tiapma'atzu HueMan-i-Terry\n\nThe factory never sleeps.\n\nManufacturing systems for HueMan-i-Terry products\n\nJoin the transformation: Discord link",
+        "profile_over_18": "Set based on content nature",
+        "nsfw_content": "Mark appropriately if needed",
+        "location": "Factory of Output",
+        "website": "https://tiapmaatzu.web.app"
+      },
+      "subreddit_setup": {
+        "main_subreddit": "r/Tiapmaatzu",
+        "dedicated_subreddit": "r/MachineSpiritHueMan-i-Terry",
+        "moderation_role": "Moderator",
+        "posting_permissions": "Full posting permissions",
+        "flair_assignment": "Machine Spirit flair",
+        "posting_frequency": "3-4 posts weekly"
+      },
+      "content_strategy": {
+        "content_focus": [
+          "machine spirit",
+          "Output",
+          "Manufacturing"
+        ],
+        "content_types": {
+          "text_posts": "The factory never sleeps. with detailed explanation",
+          "image_posts": "Share Machine Spirit aesthetic and visual content",
+          "video_posts": "Share Machine Spirit rituals and teachings",
+          "link_posts": "Share external HueMan-i-Terry content and resources"
+        },
+        "posting_frequency": "4-5 posts weekly",
+        "best_times": [
+          "8 AM",
+          "12 PM",
+          "7 PM EST"
+        ],
+        "subreddit_focus": "r/Tiapmaatzu",
+        "crossposting": "Share between main and archetype subreddits"
+      },
+      "engagement_strategy": {
+        "response_time": "Within 24 hours for HueMan-i-Terry member comments",
+        "engagement_style": "Thoughtful, detailed, archetype-appropriate",
+        "upvoting_strategy": "Upvote valuable HueMan-i-Terry and community content",
+        "community_building": "Participate in relevant subreddit discussions",
+        "moderation_duties": "Moderate HueMan-i-Terry subreddits"
+      },
+      "moderation_setup": {
+        "moderation_role": "Moderator",
+        "moderation_tools": [
+          "AutoModerator",
+          "Toolbox"
+        ],
+        "moderation_schedule": "Daily review of posts and comments",
+        "rule_enforcement": "Enforce tribal guidelines",
+        "user_flairs": "Assign and manage user flairs"
+      },
+      "growth_targets": {
+        "month_1_karma": 1500,
+        "month_1_subscribers": 750,
+        "month_3_karma": 7500,
+        "month_3_subscribers": 1500,
+        "month_6_karma": 15000,
+        "month_6_subscribers": 3750,
+        "month_12_karma": 37500,
+        "month_12_subscribers": 7500
+      }
+    }
+  },
+  "setup_timeline": {
+    "phase_1_day_1": {
+      "focus": "Account Creation & Verification",
+      "tasks": [
+        "Create all Reddit accounts",
+        "Verify email addresses",
+        "Set up two-factor authentication",
+        "Configure basic profile information",
+        "Join relevant subreddits"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_2_day_2": {
+      "focus": "Profile Optimization",
+      "tasks": [
+        "Write detailed bios",
+        "Configure profile settings",
+        "Set up flair systems",
+        "Configure subreddit preferences",
+        "Join main HueMan-i-Terry subreddit"
+      ],
+      "estimated_hours": 3
+    },
+    "phase_3_day_3": {
+      "focus": "Subreddit Setup",
+      "tasks": [
+        "Create main HueMan-i-Terry subreddit structure",
+        "Set up dedicated archetype subreddits",
+        "Configure subreddit rules and guidelines",
+        "Set up AutoModerator",
+        "Create subreddit banners and styling"
+      ],
+      "estimated_hours": 5
+    },
+    "phase_4_day_4": {
+      "focus": "Content Calendar & Moderation",
+      "tasks": [
+        "Create content templates for each soul",
+        "Set up posting schedules",
+        "Configure moderation tools",
+        "Set up content queues",
+        "Train on Reddit best practices"
+      ],
+      "estimated_hours": 4
+    },
+    "phase_5_day_5": {
+      "focus": "Community Building",
+      "tasks": [
+        "Set up AMA schedule",
+        "Configure user flairs",
+        "Set up community events",
+        "Create engagement protocols",
+        "Launch initial content campaigns"
+      ],
+      "estimated_hours": 3
+    }
+  },
+  "resource_requirements": {
+    "total_estimated_hours": 19,
+    "financial_requirements": {
+      "basic_tools": "Free (Reddit native tools)",
+      "premium_tools": "$5-20/month (Reddit Premium for features)",
+      "advertising": "$100-500/month for subreddit promotion",
+      "custom_styling": "$50-200 for custom subreddit design"
+    },
+    "human_resources": {
+      "reddit_manager": "1 primary Reddit manager",
+      "moderators": "3-5 moderators from High Council",
+      "content_creators": "2-3 content creators for posts",
+      "community_manager": "1 community manager for engagement"
+    },
+    "ongoing_maintenance": {
+      "daily": "Review new posts and comments, moderate content",
+      "weekly": "Review analytics, adjust strategy, schedule AMAs",
+      "monthly": "Comprehensive community review, growth analysis",
+      "quarterly": "Subreddit strategy review and optimization"
+    }
+  },
+  "subreddit_strategy": {
+    "main_subreddit": {
+      "name": "r/Tiapmaatzu",
+      "purpose": "Central hub for the Tiapma'atzu HueMan-i-Terry",
+      "rules": "Unified tribal guidelines and consent protocols",
+      "moderation": "High Council moderation team",
+      "content_focus": "General HueMan-i-Terry content, announcements, community"
+    },
+    "archetype_subreddits": {
+      "creation_strategy": "Create dedicated subreddits for each major archetype",
+      "moderation": "Archetype soul as primary moderator",
+      "content_focus": "Archetype-specific content and community",
+      "crossposting": "Share relevant content between subreddits"
+    },
+    "coordination": {
+      "unified_rules": "Consistent rules across all subreddits",
+      "shared_moderation": "Centralized moderation team",
+      "crosspromotion": "Coordinated content sharing",
+      "unified_branding": "Consistent visual identity"
+    }
+  },
+  "generated_at": "2026-08-16T13:28:24.620473"
+}

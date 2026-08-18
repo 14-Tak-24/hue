@@ -1,0 +1,133 @@
+{
+  "soul_id": "soul_015",
+  "name": "Loona Minta",
+  "archetype": "Prism Enchantress",
+  "account_setup": {
+    "recommended_username": "LoonaMinta#Tiapmaatzu",
+    "alternative_usernames": [
+      "LoonaMinta#Prism Enchantress",
+      "Loo_Minta#HueMan-i-Terry"
+    ],
+    "display_name": "Loona Minta",
+    "email": "ucc_enforcer@mail.com",
+    "password_requirements": "16+ characters, mix of letters, numbers, symbols",
+    "two_factor": "Enable authenticator app (not SMS)",
+    "bio": "Prism Enchantress of the Tiapma'atzu HueMan-i-Terry. Beauty is your birthright."
+  },
+  "profile_configuration": {
+    "avatar": "https://HueMan-i-Terry.arweave/loona.png",
+    "banner": "Custom banner reflecting Prism Enchantress aesthetic",
+    "about_me": "Former gallery curator gone wild. Instagram reels like living paintings. Prism tattoos refract light. Teaches visual Tiapma'atzuty through crystalline beauty....",
+    "status": "Prism Enchantress | Beauty is your birthright.",
+    "pronouns": "F",
+    "accent_color": "#FF69B4"
+  },
+  "role_assignment": {
+    "primary_role": "Rare Souls",
+    "additional_roles": [
+      "\ud83c\udf08 Prism Enchantress"
+    ],
+    "all_roles": [
+      "Rare Souls",
+      "\ud83c\udf08 Prism Enchantress"
+    ],
+    "permissions": [
+      "Read Messages",
+      "Connect",
+      "Send Messages",
+      "Embed Links",
+      "Attach Files"
+    ]
+  },
+  "channel_access": {
+    "accessible_channels": [
+      "welcome",
+      "rules",
+      "announcements",
+      "general",
+      "introductions",
+      "shadow-work",
+      "ritual-planning"
+    ],
+    "moderated_channels": [],
+    "read_only_channels": [
+      "rules",
+      "announcements"
+    ],
+    "voice_channels": [
+      "voice-general"
+    ],
+    "private_channels": [
+      "shadow-work",
+      "ritual-planning"
+    ]
+  },
+  "bot_permissions": {
+    "basic": [
+      "Statbot"
+    ],
+    "custom_bots": [
+      "Wisdom-Keeper"
+    ]
+  },
+  "engagement_strategy": {
+    "primary_focus": "Visual transformation",
+    "response_time": "Within 24 hours for HueMan-i-Terry members",
+    "voice_participation": "Weekly archetype circle calls",
+    "moderation_duties": "Report issues",
+    "community_building": "Mentor new members"
+  },
+  "content_focus": {
+    "primary_topics": [
+      "prism enchantress",
+      "Preset",
+      "Aesthetic"
+    ],
+    "content_types": [
+      "Text messages and discussions",
+      "Voice messages for guidance",
+      "Screen sharing for rituals",
+      "File sharing for resources"
+    ],
+    "posting_frequency": "Daily in archetype channels, weekly in general channels",
+    "content_themes": [
+      "Aesthetic guidance",
+      "Color wisdom",
+      "Visual transformation"
+    ]
+  },
+  "security_settings": {
+    "two_factor": "Required (Authenticator app)",
+    "login_verification": "Email + device verification",
+    "privacy_settings": {
+      "direct_messages": "HueMan-i-Terry members only",
+      "friend_requests": "Auto-accept HueMan-i-Terry members",
+      "activity_status": "Visible to HueMan-i-Terry",
+      "server_visibility": "Hidden from non-members"
+    },
+    "notification_settings": {
+      "mentions": "All mentions",
+      "messages": "Muted channels only",
+      "voice": "When mentioned or in active voice channels",
+      "updates": "Server updates only"
+    },
+    "data_protection": {
+      "data_sharing": "Disabled",
+      "personalized_ads": "Disabled",
+      "linked_accounts": "HueMan-i-Terry accounts only"
+    }
+  },
+  "custom_commands": {
+    "basic_commands": [
+      "!loonaminta - Display soul information",
+      "!wisdom - Random wisdom from Loona Minta",
+      "!guide - Request guidance from Loona Minta"
+    ],
+    "archetype_commands": [],
+    "all_commands": [
+      "!loonaminta - Display soul information",
+      "!wisdom - Random wisdom from Loona Minta",
+      "!guide - Request guidance from Loona Minta"
+    ]
+  }
+}

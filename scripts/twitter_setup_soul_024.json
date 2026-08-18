@@ -1,0 +1,115 @@
+{
+  "soul_id": "soul_024",
+  "name": "Cracoria Masters",
+  "archetype": "Temporal Architect",
+  "account_setup": {
+    "recommended_handle": "@cracoriamasters_tiapmaatzu",
+    "alternative_handles": [
+      "@cracoriamasters_HueMan-i-Terry",
+      "@temporal architect_cracoriamasters",
+      "@tiapmaatzu_cracoriamasters"
+    ],
+    "email": "cracoria.masters.soul_024@execs.com",
+    "display_name": "Cracoria Masters",
+    "username_requirements": "15 characters max, letters, numbers, underscores only",
+    "password_requirements": "12+ characters, mix of letters, numbers, symbols"
+  },
+  "profile_optimization": {
+    "handle": "@cracoriamasters_tiapmaatzu",
+    "display_name": "Cracoria Masters",
+    "bio": "Temporal Architect | Every second is mine. | Time management systems for tr | Join the transformation",
+    "profile_image": "https://HueMan-i-Terry.arweave/cracoria.png",
+    "header_image": "Create archetype-themed header for Temporal Architect",
+    "location": "Tower of Time",
+    "website": "https://tiapmaatzu.web.app",
+    "theme_color": "#708090"
+  },
+  "content_strategy": {
+    "content_focus": [
+      "temporal architect",
+      "Efficiency",
+      "Time"
+    ],
+    "content_types": {
+      "wisdom_tweets": "Every second is mine.",
+      "threads": "Deep dive into Temporal Architect practices",
+      "engagement": "Respond to HueMan-i-Terry members with Temporal Architect perspective",
+      "visual": "Share Temporal Architect aesthetic content"
+    },
+    "posting_frequency": "3-5 tweets daily",
+    "best_times": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "7 PM",
+      "10 PM"
+    ],
+    "hashtags": [
+      "#Tiapmaatzu",
+      "#Primal",
+      "#HueMan-i-Terry",
+      "#Transformation",
+      "#TemporalArchitect"
+    ],
+    "voice": "Rhythmic, efficient, organized - Temporal Architect of the Tiapma'atzu HueMan-i-Terry"
+  },
+  "engagement_strategy": {
+    "response_time": "Within 1 hour for HueMan-i-Terry members",
+    "follow_strategy": "Follow HueMan-i-Terry members back selectively",
+    "engagement_style": "Archetype-appropriate and authentic",
+    "community_building": "Participate in relevant conversations",
+    "HueMan-i-Terry_support": "Retweet and support other souls' content",
+    "moderation": "Monitor and filter mentions if in High Council"
+  },
+  "posting_schedule": {
+    "daily_tweets": 3,
+    "threads_per_week": 1,
+    "spaces_per_week": 1,
+    "visual_content_per_week": 3,
+    "optimal_times": [
+      "9 AM",
+      "12 PM",
+      "7 PM"
+    ],
+    "content_mix": {
+      "wisdom": "40%",
+      "engagement": "30%",
+      "promotional": "20%",
+      "personal": "10%"
+    }
+  },
+  "growth_targets": {
+    "month_1": 1000,
+    "month_3": 2000,
+    "month_6": 5000,
+    "month_12": 10000
+  },
+  "tools_setup": {
+    "essential": [
+      "TweetDeck",
+      "Twitter Analytics"
+    ],
+    "recommended": [
+      "Buffer",
+      "Social Blade",
+      "IFTTT"
+    ],
+    "advanced": [
+      "Hootsuite",
+      "Zapier",
+      "Sprout Social"
+    ]
+  },
+  "analytics_config": {
+    "tracking_metrics": [
+      "Follower growth",
+      "Engagement rate",
+      "Tweet impressions",
+      "Profile visits",
+      "Mentions"
+    ],
+    "reporting_frequency": "Weekly review, monthly deep dive",
+    "goal_tracking": "Monthly comparison against growth targets",
+    "optimization": "Adjust content strategy based on top performers"
+  }
+}

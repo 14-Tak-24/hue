@@ -1,0 +1,47 @@
+{
+  "description": "Integration workflow for iPhone backup data",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Extract profile images",
+      "tool": "iPhone Backup Extractor",
+      "output": "scripts/iphone_backup_data/profile_images/",
+      "integration": "Rename images to match soul IDs for profile setup"
+    },
+    {
+      "step": 2,
+      "action": "Extract contacts",
+      "tool": "iPhone Backup Extractor",
+      "output": "scripts/iphone_backup_data/contacts/",
+      "integration": "Categorize contacts for community building outreach"
+    },
+    {
+      "step": 3,
+      "action": "Extract media",
+      "tool": "iPhone Backup Extractor",
+      "output": "scripts/iphone_backup_data/media/",
+      "integration": "Organize for content creation and posting"
+    },
+    {
+      "step": 4,
+      "action": "Extract other data",
+      "tool": "iPhone Backup Extractor",
+      "output": "scripts/iphone_backup_data/other_data/",
+      "integration": "Process for wisdom teachings and resources"
+    },
+    {
+      "step": 5,
+      "action": "Integrate with social media setup",
+      "tool": "Custom scripts",
+      "output": "Updated social media setup files",
+      "integration": "Update setup files with extracted data"
+    }
+  ],
+  "next_actions": [
+    "Run iPhone Backup Extractor and extract data",
+    "Review extracted data and organize according to guides",
+    "Process profile images for social media setup",
+    "Categorize contacts for community building",
+    "Organize media for content creation"
+  ]
+}
