@@ -1,0 +1,56 @@
+{
+  "calendar_name": "Initial Soul Content Schedule",
+  "description": "Initial automated content generation schedule for all 28 souls across their platforms",
+  "default_settings": {
+    "frequency": "weekly",
+    "preferred_times": ["09:00", "14:00", "19:00"],
+    "content_types": ["post", "story", "engagement"],
+    "active": true
+  },
+  "platform_specific_settings": {
+    "Twitter": {
+      "frequency": "daily",
+      "content_types": ["post", "thread"],
+      "max_per_day": 3
+    },
+    "Instagram": {
+      "frequency": "weekly",
+      "content_types": ["post", "story", "reel"],
+      "max_per_week": 5
+    },
+    "Discord": {
+      "frequency": "daily",
+      "content_types": ["message", "announcement"],
+      "max_per_day": 5
+    },
+    "Reddit": {
+      "frequency": "weekly",
+      "content_types": ["post", "comment"],
+      "max_per_week": 3
+    },
+    "FetLife": {
+      "frequency": "bi_weekly",
+      "content_types": ["post", "status"],
+      "max_per_week": 2
+    }
+  },
+  "soul_priorities": {
+    "high_priority_souls": [
+      "Mac Nazarene",
+      "Zara Velour",
+      "Atlas Monroe"
+    ],
+    "medium_priority_souls": [
+      "Luna Sterling",
+      "Jax Cipher",
+      "Nova Lumina"
+    ]
+  },
+  "content_themes": {
+    "spiritual": ["transformation", "rituals", "connection", "growth"],
+    "creative": ["inspiration", "artistry", "expression", "innovation"],
+    "technical": ["development", "systems", "automation", "efficiency"],
+    "social": ["community", "engagement", "dialogue", "networking"],
+    "mystical": ["ancient wisdom", "esoteric knowledge", "mythology", "symbols"]
+  }
+}

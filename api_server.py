@@ -26,6 +26,13 @@ from src.modules.cashinghouse import CashingHouse
 from src.modules.souls_financial_integration import SoulsFinancialIntegration
 from src.modules.analytics_dashboard import AnalyticsDashboard
 from src.modules.utils import Configuration
+from src.modules.middleware import init_middleware
+from src.modules.websocket_handler import get_websocket_manager, get_notification_manager
+from src.modules.task_scheduler import get_scheduler, init_default_tasks
+from src.modules.ai_content_generator import AIContentGenerator
+from src.modules.openrouter_integration import OpenRouterIntegration, ContentRequest
+from src.modules.content_pipeline import ContentPipeline
+from src.modules.shadow_work import ShadowWorkManager
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -103,7 +110,98 @@ def initialize_components():
         print(f"✗ Component initialization error: {e}")
         return None, None, None, None
 
+def initialize_ai_components():
+    """Initialize AI content generation components"""
+    try:
+        if souls_manager:
+            ai_generator = AIContentGenerator(souls_manager)
+            openrouter = OpenRouterIntegration(souls_manager)
+            content_pipeline = ContentPipeline(souls_manager, openrouter, ai_generator)
+            
+            # Load saved calendars if they exist
+            calendars_dir = Path("config/calendars")
+            if calendars_dir.exists():
+                for calendar_file in calendars_dir.glob("*.json"):
+                    try:
+                        with open(calendar_file, 'r') as f:
+                            calendar_data = json.load(f)
+                        
+                        # Reconstruct ContentCalendar and ContentSchedule objects
+                        from src.modules.content_pipeline import ContentCalendar, ContentSchedule, ContentFrequency
+                        
+                        schedules = []
+                        for schedule_data in calendar_data.get('schedules', []):
+                            schedule = ContentSchedule(
+                                soul_id=schedule_data['soul_id'],
+                                platform=schedule_data['platform'],
+                                content_type=schedule_data['content_type'],
+                                frequency=ContentFrequency(schedule_data['frequency']),
+                                preferred_times=schedule_data['preferred_times'],
+                                active=schedule_data['active'],
+                                last_generated=schedule_data['last_generated'],
+                                next_due=schedule_data['next_due']
+                            )
+                            schedules.append(schedule)
+                        
+                        calendar = ContentCalendar(
+                            calendar_id=calendar_data['calendar_id'],
+                            name=calendar_data['name'],
+                            schedules=schedules,
+                            created_at=calendar_data['created_at'],
+                            updated_at=calendar_data['updated_at']
+                        )
+                        
+                        content_pipeline.calendars[calendar.calendar_id] = calendar
+                        print(f"✓ Loaded calendar: {calendar.name}")
+                    except Exception as e:
+                        print(f"⚠ Failed to load calendar {calendar_file}: {e}")
+            
+            print("✓ AI content generation components initialized")
+            return ai_generator, openrouter, content_pipeline
+        else:
+            print("⚠ Souls manager not available, AI components disabled")
+            return None, None, None
+    except Exception as e:
+        print(f"✗ AI component initialization error: {e}")
+        return None, None, None
+
 souls_manager, cashinghouse, financial_integration, analytics = initialize_components()
+ai_generator, openrouter, content_pipeline = initialize_ai_components()
+
+# Initialize Shadow Work Manager
+def initialize_shadow_work():
+    """Initialize Shadow Work / Persona Development Manager"""
+    try:
+        if souls_manager:
+            shadow_work_manager = ShadowWorkManager(souls_manager)
+            print("✓ Shadow Work Manager initialized")
+            return shadow_work_manager
+        else:
+            print("⚠ Souls manager not available, Shadow Work disabled")
+            return None
+    except Exception as e:
+        print(f"✗ Shadow Work initialization error: {e}")
+        return None
+
+shadow_work_manager = initialize_shadow_work()
+
+# Initialize middleware
+middleware = init_middleware(app)
+rate_limiter = middleware['rate_limiter']
+cache_manager = middleware['cache_manager']
+auth_middleware = middleware['auth_middleware']
+metrics_collector = middleware['metrics_collector']
+
+# Initialize WebSocket manager
+ws_manager = get_websocket_manager()
+notification_manager = get_notification_manager()
+
+# Initialize task scheduler
+scheduler = get_scheduler()
+init_default_tasks()
+scheduler.start()
+
+print("✓ Middleware, WebSocket, and Scheduler initialized")
 
 # ============================================================================
 # Authentication Middleware
@@ -302,6 +400,301 @@ def get_soul_network():
     try:
         network = souls_manager.get_soul_network_map()
         return jsonify(network)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ============================================================================
+# AI Content Generation Endpoints
+# ============================================================================
+
+@app.route('/api/ai/generate', methods=['POST'])
+@require_auth
+def generate_content():
+    """Generate content for a soul using AI"""
+    if not openrouter or not souls_manager:
+        return jsonify({'error': 'AI components not initialized'}), 500
+    
+    try:
+        data = request.json
+        soul_id = data.get('soul_id')
+        platform = data.get('platform')
+        content_type = data.get('content_type', 'post')
+        context = data.get('context')
+        tone = data.get('tone')
+        length = data.get('length', 'medium')
+        
+        if not soul_id or not platform:
+            return jsonify({'error': 'soul_id and platform required'}), 400
+        
+        soul = souls_manager.get_soul_by_id(soul_id)
+        if not soul:
+            return jsonify({'error': 'Soul not found'}), 404
+        
+        request = ContentRequest(
+            soul_id=soul_id,
+            platform=platform,
+            content_type=content_type,
+            context=context,
+            tone=tone,
+            length=length
+        )
+        
+        generated = openrouter.generate_soul_content(soul, request)
+        
+        return jsonify({
+            'content': generated.content,
+            'model_used': generated.model_used,
+            'tokens_used': generated.tokens_used,
+            'cost_estimate': generated.cost_estimate,
+            'metadata': generated.metadata
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/batch', methods=['POST'])
+@require_auth
+def generate_batch_content():
+    """Generate content for multiple souls in batch"""
+    if not openrouter or not souls_manager:
+        return jsonify({'error': 'AI components not initialized'}), 500
+    
+    try:
+        data = request.json
+        requests = data.get('requests', [])
+        
+        if not requests:
+            return jsonify({'error': 'No requests provided'}), 400
+        
+        content_requests = [ContentRequest(**req) for req in requests]
+        
+        generated = openrouter.generate_batch_soul_content(content_requests)
+        
+        return jsonify({
+            'generated_content': [g.__dict__ for g in generated],
+            'count': len(generated),
+            'total_cost': sum(g.cost_estimate or 0 for g in generated)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/campaign', methods=['POST'])
+@require_auth
+def generate_campaign():
+    """Generate a coordinated content campaign"""
+    if not content_pipeline or not souls_manager:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+    
+    try:
+        data = request.json
+        campaign_name = data.get('campaign_name', 'Untitled Campaign')
+        soul_ids = data.get('soul_ids', [])
+        platforms = data.get('platforms', [])
+        content_types = data.get('content_types', ['post'])
+        timeline_days = data.get('timeline_days', 7)
+        
+        if not soul_ids or not platforms:
+            return jsonify({'error': 'soul_ids and platforms required'}), 400
+        
+        results = content_pipeline.generate_campaign(
+            campaign_name, soul_ids, platforms, content_types, timeline_days
+        )
+        
+        return jsonify(results)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/pipeline/due', methods=['POST'])
+@require_auth
+def generate_due_content():
+    """Generate content that is due based on pipeline schedules"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+    
+    try:
+        calendar_id = request.json.get('calendar_id') if request.json else None
+        generated = content_pipeline.generate_due_content(calendar_id)
+        
+        return jsonify({
+            'generated_content': [g.__dict__ for g in generated],
+            'count': len(generated)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/pipeline/stats', methods=['GET'])
+def get_pipeline_stats():
+    """Get content pipeline statistics"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+    
+    try:
+        stats = content_pipeline.get_pipeline_statistics()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/pipeline/optimize', methods=['GET'])
+def optimize_pipeline():
+    """Get pipeline optimization recommendations"""
+    if not content_pipeline:
+        return jsonify({'error': 'Content pipeline not initialized'}), 500
+    
+    try:
+        optimization = content_pipeline.optimize_pipeline()
+        return jsonify(optimization)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ai/models', methods=['GET'])
+def get_available_models():
+    """Get available AI models and their capabilities"""
+    if not openrouter:
+        return jsonify({'error': 'OpenRouter not initialized'}), 500
+    
+    try:
+        models = openrouter.get_usage_statistics()
+        return jsonify(models)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ============================================================================
+# Shadow Work / Persona Development Endpoints
+# ============================================================================
+
+@app.route('/api/shadow/initialize', methods=['POST'])
+@require_auth
+def initialize_shadow_aspects():
+    """Initialize shadow aspects for a soul"""
+    if not shadow_work_manager or not souls_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        data = request.json
+        soul_id = data.get('soul_id')
+
+        if not soul_id:
+            return jsonify({'error': 'soul_id required'}), 400
+
+        aspects = shadow_work_manager.initialize_soul_shadow_aspects(soul_id)
+
+        return jsonify({
+            'message': 'Shadow aspects initialized',
+            'aspects_count': len(aspects),
+            'aspects': [
+                {
+                    'aspect_id': a.aspect_id,
+                    'name': a.name,
+                    'archetype': a.archetype.value,
+                    'integration_level': a.integration_level
+                }
+                for a in aspects
+            ]
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/shadow/dialogue', methods=['POST'])
+@require_auth
+def conduct_shadow_dialogue():
+    """Conduct a dialogue session with a shadow aspect"""
+    if not shadow_work_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        data = request.json
+        soul_id = data.get('soul_id')
+        aspect_id = data.get('aspect_id')
+        question = data.get('question')
+
+        if not all([soul_id, aspect_id, question]):
+            return jsonify({'error': 'soul_id, aspect_id, and question required'}), 400
+
+        dialogue = shadow_work_manager.conduct_shadow_dialogue(soul_id, aspect_id, question)
+
+        return jsonify({
+            'dialogue_id': dialogue.dialogue_id,
+            'question': dialogue.question,
+            'shadow_response': dialogue.shadow_response,
+            'persona_response': dialogue.persona_response,
+            'integration_insight': dialogue.integration_insight,
+            'emotional_state': dialogue.emotional_state,
+            'sovereignty_check': dialogue.sovereignty_check,
+            'timestamp': dialogue.timestamp
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/shadow/report/<soul_id>', methods=['GET'])
+def get_shadow_report(soul_id):
+    """Get comprehensive shadow work report for a soul"""
+    if not shadow_work_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        report = shadow_work_manager.get_shadow_report(soul_id)
+        return jsonify(report)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/shadow/practice/recommend/<soul_id>', methods=['GET'])
+def recommend_shadow_practice(soul_id):
+    """Get recommended shadow work practice for a soul"""
+    if not shadow_work_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        practice = shadow_work_manager.recommend_practice(soul_id)
+
+        if not practice:
+            return jsonify({'error': 'No practice recommended'}), 404
+
+        return jsonify({
+            'practice_id': practice.practice_id,
+            'name': practice.name,
+            'description': practice.description,
+            'archetype': practice.archetype.value,
+            'difficulty': practice.difficulty,
+            'duration_minutes': practice.duration_minutes,
+            'steps': practice.steps,
+            'integration_focus': practice.integration_focus,
+            'required_sovereignty': practice.required_sovereignty
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/shadow/practices', methods=['GET'])
+def list_shadow_practices():
+    """List all available shadow work practices"""
+    if not shadow_work_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        practices = []
+        for practice_id, practice in shadow_work_manager.practice_library.items():
+            practices.append({
+                'practice_id': practice.practice_id,
+                'name': practice.name,
+                'description': practice.description,
+                'archetype': practice.archetype.value,
+                'difficulty': practice.difficulty,
+                'duration_minutes': practice.duration_minutes,
+                'required_sovereignty': practice.required_sovereignty
+            })
+
+        return jsonify({'practices': practices, 'count': len(practices)})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/shadow/save', methods=['POST'])
+@require_auth
+def save_shadow_data():
+    """Save all shadow work data"""
+    if not shadow_work_manager:
+        return jsonify({'error': 'Shadow Work Manager not initialized'}), 500
+
+    try:
+        shadow_work_manager.save_shadow_data()
+        return jsonify({'message': 'Shadow data saved successfully'})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
@@ -584,6 +977,104 @@ def get_firestore_souls():
         return jsonify({'error': str(e)}), 500
 
 # ============================================================================
+# Middleware Endpoints
+# ============================================================================
+
+@app.route('/api/metrics', methods=['GET'])
+def get_metrics():
+    """Get API metrics"""
+    try:
+        metrics = metrics_collector.get_metrics()
+        return jsonify(metrics)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/cache/stats', methods=['GET'])
+def get_cache_stats():
+    """Get cache statistics"""
+    try:
+        stats = {
+            'type': 'Redis' if cache_manager.use_redis else 'In-Memory',
+            'enabled': cache_manager.use_redis or cache_manager.in_memory_cache is not None
+        }
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/cache/clear', methods=['POST'])
+def clear_cache():
+    """Clear all cache"""
+    try:
+        cache_manager.clear()
+        return jsonify({'status': 'success', 'message': 'Cache cleared'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/scheduler/tasks', methods=['GET'])
+def get_scheduled_tasks():
+    """Get all scheduled tasks"""
+    try:
+        tasks = scheduler.get_all_tasks()
+        return jsonify({'tasks': tasks, 'count': len(tasks)})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/scheduler/tasks/<task_id>/run', methods=['POST'])
+def run_scheduled_task(task_id):
+    """Run a scheduled task immediately"""
+    try:
+        success = scheduler.run_task_now(task_id)
+        if success:
+            return jsonify({'status': 'success', 'message': f'Task {task_id} started'})
+        else:
+            return jsonify({'error': 'Task not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/scheduler/tasks/<task_id>/enable', methods=['POST'])
+def enable_scheduled_task(task_id):
+    """Enable a scheduled task"""
+    try:
+        success = scheduler.enable_task(task_id)
+        if success:
+            return jsonify({'status': 'success', 'message': f'Task {task_id} enabled'})
+        else:
+            return jsonify({'error': 'Task not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/scheduler/tasks/<task_id>/disable', methods=['POST'])
+def disable_scheduled_task(task_id):
+    """Disable a scheduled task"""
+    try:
+        success = scheduler.disable_task(task_id)
+        if success:
+            return jsonify({'status': 'success', 'message': f'Task {task_id} disabled'})
+        else:
+            return jsonify({'error': 'Task not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/scheduler/history', methods=['GET'])
+def get_task_history():
+    """Get task execution history"""
+    try:
+        limit = request.args.get('limit', 50, type=int)
+        history = scheduler.get_task_history(limit)
+        return jsonify({'history': history, 'count': len(history)})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/websocket/status', methods=['GET'])
+def get_websocket_status():
+    """Get WebSocket manager status"""
+    try:
+        stats = ws_manager.get_stats()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ============================================================================
 # Error Handlers
 # ============================================================================
 
@@ -600,6 +1091,8 @@ def internal_error(error):
 # ============================================================================
 
 if __name__ == '__main__':
+    import atexit
+    
     port = int(os.getenv('API_PORT', 5000))
     debug = os.getenv('API_DEBUG', 'False').lower() == 'true'
     
@@ -610,6 +1103,20 @@ if __name__ == '__main__':
     print(f"Debug: {debug}")
     print(f"Firebase: {'✓' if db else '✗'}")
     print(f"Components: {'✓' if souls_manager else '✗'}")
+    print(f"Middleware: {'✓'}")
+    print(f"Scheduler: {'✓'}")
+    print(f"WebSocket: {'✓'}")
     print(f"{'='*60}\n")
     
-    app.run(host='0.0.0.0', port=port, debug=debug)
+    # Register cleanup function
+    def cleanup():
+        print("Shutting down scheduler...")
+        scheduler.stop()
+    
+    atexit.register(cleanup)
+    
+    try:
+        app.run(host='0.0.0.0', port=port, debug=debug)
+    except KeyboardInterrupt:
+        print("\nShutting down...")
+        scheduler.stop()

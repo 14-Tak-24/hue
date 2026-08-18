@@ -2699,9 +2699,609 @@
       },
       "status": "completed",
       "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.578902",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 150.0,
+      "description": "ritual_offering from anonymous_devotee_001 via Discord",
+      "timestamp": "2026-08-18 14:50:50.578924",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Mac Nazarene",
+        "platform": "Discord",
+        "tribute_type": "ritual_offering",
+        "message": "For the transformative ceremony guidance",
+        "sender": "anonymous_devotee_001",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.587646",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 75.0,
+      "description": "session_tribute from devotee_sarah via FetLife",
+      "timestamp": "2026-08-18 14:50:50.587662",
+      "source_id": "soul_001",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Mac Nazarene",
+        "platform": "FetLife",
+        "tribute_type": "session_tribute",
+        "message": "Energy work session contribution",
+        "sender": "devotee_sarah",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.59532",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 200.0,
+      "description": "content_support from patron_alex via Instagram",
+      "timestamp": "2026-08-18 14:50:50.595328",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Zara Velour",
+        "platform": "Instagram",
+        "tribute_type": "content_support",
+        "message": "Appreciation for the aesthetic guidance",
+        "sender": "patron_alex",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.60179",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 50.0,
+      "description": "consultation from follower_mike via Twitter",
+      "timestamp": "2026-08-18 14:50:50.601806",
+      "source_id": "soul_002",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Zara Velour",
+        "platform": "Twitter",
+        "tribute_type": "consultation",
+        "message": "Style consultation tribute",
+        "sender": "follower_mike",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.608185",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 300.0,
+      "description": "mentorship from protege_james via Discord",
+      "timestamp": "2026-08-18 14:50:50.608204",
+      "source_id": "soul_003",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Atlas Monroe",
+        "platform": "Discord",
+        "tribute_type": "mentorship",
+        "message": "Leadership guidance tribute",
+        "sender": "protege_james",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.614022",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 125.0,
+      "description": "strategic_advice from entrepreneur_lisa via Reddit",
+      "timestamp": "2026-08-18 14:50:50.614033",
+      "source_id": "soul_003",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Atlas Monroe",
+        "platform": "Reddit",
+        "tribute_type": "strategic_advice",
+        "message": "Business strategy consultation",
+        "sender": "entrepreneur_lisa",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.620525",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 85.0,
+      "description": "content_appreciation from fan_emma via TikTok",
+      "timestamp": "2026-08-18 14:50:50.620535",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Luna Sterling",
+        "platform": "TikTok",
+        "tribute_type": "content_appreciation",
+        "message": "For the mystical content",
+        "sender": "fan_emma",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.626459",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 45.0,
+      "description": "channel_support from subscriber_tom via YouTube",
+      "timestamp": "2026-08-18 14:50:50.626472",
+      "source_id": "soul_004",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Luna Sterling",
+        "platform": "YouTube",
+        "tribute_type": "channel_support",
+        "message": "Tarot reading contribution",
+        "sender": "subscriber_tom",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.632865",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 180.0,
+      "description": "technical_support from developer_chris via Discord",
+      "timestamp": "2026-08-18 14:50:50.632898",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Jax Cipher",
+        "platform": "Discord",
+        "tribute_type": "technical_support",
+        "message": "System architecture guidance",
+        "sender": "developer_chris",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.639149",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 95.0,
+      "description": "code_review from contributor_pat via GitHub",
+      "timestamp": "2026-08-18 14:50:50.639158",
+      "source_id": "soul_005",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Jax Cipher",
+        "platform": "GitHub",
+        "tribute_type": "code_review",
+        "message": "Open source contribution",
+        "sender": "contributor_pat",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.645177",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 110.0,
+      "description": "creative_inspiration from artist_diana via Instagram",
+      "timestamp": "2026-08-18 14:50:50.645194",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Nova Lumina",
+        "platform": "Instagram",
+        "tribute_type": "creative_inspiration",
+        "message": "Art collaboration tribute",
+        "sender": "artist_diana",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.651298",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 65.0,
+      "description": "design_appreciation from designer_kevin via Pinterest",
+      "timestamp": "2026-08-18 14:50:50.651313",
+      "source_id": "soul_006",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Nova Lumina",
+        "platform": "Pinterest",
+        "tribute_type": "design_appreciation",
+        "message": "Aesthetic guidance",
+        "sender": "designer_kevin",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.657871",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 250.0,
+      "description": "security_consultation from client_nexus via Discord",
+      "timestamp": "2026-08-18 14:50:50.657879",
+      "source_id": "soul_007",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Orion Pax",
+        "platform": "Discord",
+        "tribute_type": "security_consultation",
+        "message": "Digital security guidance",
+        "sender": "client_nexus",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.664006",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 140.0,
+      "description": "protection_services from organization_omega via Telegram",
+      "timestamp": "2026-08-18 14:50:50.664015",
+      "source_id": "soul_007",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Orion Pax",
+        "platform": "Telegram",
+        "tribute_type": "protection_services",
+        "message": "Security assessment",
+        "sender": "organization_omega",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.670763",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 175.0,
+      "description": "intimacy_guidance from seeker_rachel via FetLife",
+      "timestamp": "2026-08-18 14:50:50.670773",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Seraphina Veil",
+        "platform": "FetLife",
+        "tribute_type": "intimacy_guidance",
+        "message": "Relationship wisdom tribute",
+        "sender": "seeker_rachel",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.676972",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 90.0,
+      "description": "emotional_support from member_mark via Discord",
+      "timestamp": "2026-08-18 14:50:50.676980",
+      "source_id": "soul_008",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Seraphina Veil",
+        "platform": "Discord",
+        "tribute_type": "emotional_support",
+        "message": "Vulnerability session",
+        "sender": "member_mark",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.683282",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 220.0,
+      "description": "transformation_coaching from client_brenda via Twitter",
+      "timestamp": "2026-08-18 14:50:50.683290",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Kaelen Storm",
+        "platform": "Twitter",
+        "tribute_type": "transformation_coaching",
+        "message": "Personal breakthrough session",
+        "sender": "client_brenda",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.690256",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 135.0,
+      "description": "energy_work from devotee_zen via Discord",
+      "timestamp": "2026-08-18 14:50:50.690277",
+      "source_id": "soul_009",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Kaelen Storm",
+        "platform": "Discord",
+        "tribute_type": "energy_work",
+        "message": "Chakra alignment",
+        "sender": "devotee_zen",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.696547",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 160.0,
+      "description": "meditation_guide from practitioner_nina via YouTube",
+      "timestamp": "2026-08-18 14:50:50.696564",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Isolde Frost",
+        "platform": "YouTube",
+        "tribute_type": "meditation_guide",
+        "message": "Deep meditation session",
+        "sender": "practitioner_nina",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.703384",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 80.0,
+      "description": "spiritual_teaching from listener_oscar via Podcasts",
+      "timestamp": "2026-08-18 14:50:50.703395",
+      "source_id": "soul_010",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Isolde Frost",
+        "platform": "Podcasts",
+        "tribute_type": "spiritual_teaching",
+        "message": "Wisdom sharing contribution",
+        "sender": "listener_oscar",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.709794",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 195.0,
+      "description": "dominance_guidance from client_victoria via Discord",
+      "timestamp": "2026-08-18 14:50:50.709802",
+      "source_id": "soul_011",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Theron Black",
+        "platform": "Discord",
+        "tribute_type": "dominance_guidance",
+        "message": "Power dynamics consultation",
+        "sender": "client_victoria",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.716017",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 110.0,
+      "description": "session_tribute from explorer_wendy via FetLife",
+      "timestamp": "2026-08-18 14:50:50.716025",
+      "source_id": "soul_011",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Theron Black",
+        "platform": "FetLife",
+        "tribute_type": "session_tribute",
+        "message": "D/s exploration session",
+        "sender": "explorer_wendy",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.722989",
+      "transaction_type": "income",
+      "category": "tribute_contribution",
+      "amount": 145.0,
+      "description": "ritual_guidance from practitioner_luna via Instagram",
+      "timestamp": "2026-08-18 14:50:50.722999",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Elara Moon",
+        "platform": "Instagram",
+        "tribute_type": "ritual_guidance",
+        "message": "Moon ceremony tribute",
+        "sender": "practitioner_luna",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.729526",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 70.0,
+      "description": "spell_craft from witch_xena via TikTok",
+      "timestamp": "2026-08-18 14:50:50.729534",
+      "source_id": "soul_012",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Elara Moon",
+        "platform": "TikTok",
+        "tribute_type": "spell_craft",
+        "message": "Magical tutorial",
+        "sender": "witch_xena",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.736463",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 280.0,
+      "description": "passion_coaching from artist_blaze via Discord",
+      "timestamp": "2026-08-18 14:50:50.736472",
+      "source_id": "soul_013",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Darian Flame",
+        "platform": "Discord",
+        "tribute_type": "passion_coaching",
+        "message": "Creative fire session",
+        "sender": "artist_blaze",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.743277",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 155.0,
+      "description": "performance_art from audience_ember via YouTube",
+      "timestamp": "2026-08-18 14:50:50.743285",
+      "source_id": "soul_013",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Darian Flame",
+        "platform": "YouTube",
+        "tribute_type": "performance_art",
+        "message": "Fire dance appreciation",
+        "sender": "audience_ember",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.749876",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 130.0,
+      "description": "mystery_teaching from seeker_nocturne via Discord",
+      "timestamp": "2026-08-18 14:50:50.749886",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Vespera Night",
+        "platform": "Discord",
+        "tribute_type": "mystery_teaching",
+        "message": "Esoteric knowledge sharing",
+        "sender": "seeker_nocturne",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.756694",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 85.0,
+      "description": "occult_consultation from reddit_mystic via Reddit",
+      "timestamp": "2026-08-18 14:50:50.756723",
+      "source_id": "soul_014",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Vespera Night",
+        "platform": "Reddit",
+        "tribute_type": "occult_consultation",
+        "message": "Tarot interpretation",
+        "sender": "reddit_mystic",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.763419",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 165.0,
+      "description": "visionary_guidance from client_horizon via Twitter",
+      "timestamp": "2026-08-18 14:50:50.763428",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Caelum Sky",
+        "platform": "Twitter",
+        "tribute_type": "visionary_guidance",
+        "message": "Future insight session",
+        "sender": "client_horizon",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
+    },
+    {
+      "transaction_id": "tx_1787089850.771014",
+      "transaction_type": "income",
+      "category": "content_revenue",
+      "amount": 100.0,
+      "description": "astral_projection from explorer_cosmos via Discord",
+      "timestamp": "2026-08-18 14:50:50.771023",
+      "source_id": "soul_015",
+      "destination_id": null,
+      "metadata": {
+        "soul_name": "Caelum Sky",
+        "platform": "Discord",
+        "tribute_type": "astral_projection",
+        "message": "Consciousness exploration",
+        "sender": "explorer_cosmos",
+        "currency": "USD"
+      },
+      "status": "completed",
+      "reconciled": false
     }
   ],
   "budget_limits": {},
   "financial_goals": {},
-  "last_updated": "2026-08-16T13:14:25.530593"
+  "last_updated": "2026-08-18T14:50:50.779828"
 }
