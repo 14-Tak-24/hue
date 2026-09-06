@@ -112,7 +112,7 @@ class TaskScheduler:
         task.next_run = self._calculate_next_run(frequency)
         
         self.tasks[task_id] = task
-        logger.info(f"Added task: {name} ({task_id}) with frequency: {frequency.value}")
+        logger.info("Added task: %s (%s) with frequency: %s", name, task_id, frequency.value)
         
         return task
     
@@ -120,7 +120,7 @@ class TaskScheduler:
         """Remove a scheduled task"""
         if task_id in self.tasks:
             del self.tasks[task_id]
-            logger.info(f"Removed task: {task_id}")
+            logger.info("Removed task: %s", task_id)
             return True
         return False
     
@@ -128,7 +128,7 @@ class TaskScheduler:
         """Enable a task"""
         if task_id in self.tasks:
             self.tasks[task_id].enabled = True
-            logger.info(f"Enabled task: {task_id}")
+            logger.info("Enabled task: %s", task_id)
             return True
         return False
     
@@ -136,7 +136,7 @@ class TaskScheduler:
         """Disable a task"""
         if task_id in self.tasks:
             self.tasks[task_id].enabled = False
-            logger.info(f"Disabled task: {task_id}")
+            logger.info("Disabled task: %s", task_id)
             return True
         return False
     
@@ -146,23 +146,22 @@ class TaskScheduler:
         
         if frequency == TaskFrequency.ONCE:
             return now + timedelta(minutes=1)  # Run once in 1 minute
-        elif frequency == TaskFrequency.HOURLY:
+        if frequency == TaskFrequency.HOURLY:
             return now + timedelta(hours=1)
-        elif frequency == TaskFrequency.DAILY:
+        if frequency == TaskFrequency.DAILY:
             return now + timedelta(days=1)
-        elif frequency == TaskFrequency.WEEKLY:
+        if frequency == TaskFrequency.WEEKLY:
             return now + timedelta(weeks=1)
-        elif frequency == TaskFrequency.MONTHLY:
+        if frequency == TaskFrequency.MONTHLY:
             return now + timedelta(days=30)
-        else:
-            return now + timedelta(hours=1)  # Default to hourly
+        return now + timedelta(hours=1)  # Default to hourly
     
     def _execute_task(self, task: ScheduledTask):
         """Execute a single task"""
         task.status = TaskStatus.RUNNING
         task.last_run = datetime.now()
         
-        logger.info(f"Executing task: {task.name} ({task.id})")
+        logger.info("Executing task: %s (%s)", task.name, task.id)
         
         try:
             # Execute the task function with parameters
@@ -173,24 +172,24 @@ class TaskScheduler:
             task.error = None
             task.retry_count = 0
             
-            logger.info(f"Task completed successfully: {task.name}")
+            logger.info("Task completed successfully: %s", task.name)
             
             # Add to history
             self._add_to_history(task, success=True)
             
-        except Exception as e:
+        except (TimeoutError, RuntimeError, ValueError) as e:
             task.status = TaskStatus.FAILED
             task.error = str(e)
             task.retry_count += 1
             
-            logger.error(f"Task failed: {task.name} - Error: {e}")
+            logger.error("Task failed: %s - Error: %s", task.name, e)
             
             # Add to history
             self._add_to_history(task, success=False)
             
             # Retry if needed
             if task.retry_count < task.max_retries:
-                logger.info(f"Retrying task {task.name} (attempt {task.retry_count + 1}/{task.max_retries})")
+                logger.info("Retrying task %s (attempt %d/%d)", task.name, task.retry_count + 1, task.max_retries)
                 time.sleep(5)  # Wait before retry
                 self._execute_task(task)
     
@@ -221,12 +220,12 @@ class TaskScheduler:
                 now = datetime.now()
                 
                 # Check for tasks that need to run
-                for task_id, task in self.tasks.items():
+                for _, task in self.tasks.items():
                     if not task.enabled:
                         continue
                     
                     if task.next_run and now >= task.next_run:
-                        logger.info(f"Running scheduled task: {task.name}")
+                        logger.info("Running scheduled task: %s", task.name)
                         
                         # Execute task in separate thread to avoid blocking
                         task_thread = threading.Thread(
@@ -244,8 +243,8 @@ class TaskScheduler:
                 # Sleep for 1 minute before next check
                 time.sleep(60)
                 
-            except Exception as e:
-                logger.error(f"Scheduler loop error: {e}")
+            except (TimeoutError, RuntimeError, ValueError) as e:
+                logger.error("Scheduler loop error: %s", e)
                 time.sleep(60)
         
         logger.info("Scheduler loop stopped")
@@ -284,7 +283,7 @@ class TaskScheduler:
         """Run a task immediately (bypass schedule)"""
         if task_id in self.tasks:
             task = self.tasks[task_id]
-            logger.info(f"Running task immediately: {task.name}")
+            logger.info("Running task immediately: %s", task.name)
             
             # Execute in separate thread
             task_thread = threading.Thread(target=self._execute_task, args=(task,))
