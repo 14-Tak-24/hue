@@ -1,0 +1,709 @@
+#!/usr/bin/env python3
+"""
+Refactored Tiapma'atzu CLI (Click-based)
+
+Notes:
+- Uses Click for CLI parsing and help.
+- Uses an `ensure_initialized` decorator to lazily initialize managers.
+- Methods separate data retrieval from presentation where helpful.
+- Minimal temporary import shim: if the package is installed, imports use the package
+  path (hue.modules.*). If not installed during migration, the shim adds src/ to sys.path.
+  After packaging (see instructions below) you can remove the shim.
+"""
+
+from __future__ import annotations
+
+import sys
+import logging
+from pathlib import Path
+from typing import Optional, Callable, Dict, Any, List, Tuple
+
+import click
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+
+# Try to import from installed package (recommended after packaging)
+# Fallback: add local src/ to sys.path for in-repo development.
+try:
+    # When installed as a package the modules will be available as hue.modules...
+    from hue.modules.souls_manager import SoulsManager  # type: ignore
+    from hue.modules.cashinghouse import CashingHouse, TransactionType, TransactionCategory  # type: ignore
+    from hue.modules.souls_financial_integration import SoulsFinancialIntegration, TributeType  # type: ignore
+    from hue.modules.analytics_dashboard import AnalyticsDashboard  # type: ignore
+except Exception:
+    # Development fallback — keep this during migration only.
+    src_path = Path(__file__).parent / "src"
+    if str(src_path) not in sys.path:
+        sys.path.insert(0, str(src_path))
+    # Legacy imports for in-place execution
+    from modules.souls_manager import SoulsManager  # type: ignore
+    from modules.cashinghouse import CashingHouse, TransactionType, TransactionCategory  # type: ignore
+    from modules.souls_financial_integration import SoulsFinancialIntegration, TributeType  # type: ignore
+    from modules.analytics_dashboard import AnalyticsDashboard  # type: ignore
+
+
+def ensure_initialized(*attrs: str):
+    """
+    Decorator to ensure specified attributes are initialized on self.
+    It expects initializer methods named `initialize_<attr>` to exist.
+    Usage:
+        @ensure_initialized("souls_manager")
+        def some_method(self, ...):
+            ...
+    """
+    def decorator(func: Callable):
+        def wrapper(self, *args, **kwargs):
+            for attr in attrs:
+                if getattr(self, attr) is None:
+                    init_name = f"initialize_{attr}"
+                    init = getattr(self, init_name, None)
+                    if not callable(init):
+                        raise RuntimeError(f"Missing initializer: {init_name}")
+                    init()
+            return func(self, *args, **kwargs)
+        wrapper.__name__ = func.__name__
+        wrapper.__doc__ = func.__doc__
+        return wrapper
+    return decorator
+
+
+class TiapmaatzuCLI:
+    """Encapsulates platform operations. Methods either return data or perform actions."""
+
+    def __init__(self, base_data_dir: Optional[Path] = None):
+        self.base_data_dir = Path(base_data_dir) if base_data_dir else Path(__file__).parent / "src" / "data"
+        self.souls_manager: Optional[SoulsManager] = None
+        self.cashinghouse: Optional[CashingHouse] = None
+        self.financial_integration: Optional[SoulsFinancialIntegration] = None
+        self.analytics_dashboard: Optional[AnalyticsDashboard] = None
+
+    # -----------------------
+    # Initialization methods
+    # -----------------------
+    def initialize_souls_manager(self, data_path: Optional[str] = None):
+        if data_path:
+            data_file = Path(data_path)
+        else:
+            data_file = self.base_data_dir / "souls_entities.json"
+        self.souls_manager = SoulsManager(str(data_file))
+        logger.info("SoulsManager initialized (%d souls)", len(self.souls_manager.get_all_souls()))
+
+    def initialize_cashinghouse(self, data_path: Optional[str] = None):
+        if data_path:
+            data_file = Path(data_path)
+        else:
+            data_file = self.base_data_dir.parent / "data" / "cashinghouse.json"
+        self.cashinghouse = CashingHouse(str(data_file))
+        logger.info("CashingHouse initialized (%d transactions)", len(self.cashinghouse.transactions))
+
+    def initialize_financial_integration(self):
+        if not self.souls_manager:
+            self.initialize_souls_manager()
+        self.financial_integration = SoulsFinancialIntegration(self.souls_manager)
+        logger.info("Financial integration initialized")
+
+    def initialize_analytics_dashboard(self):
+        if not self.souls_manager:
+            self.initialize_souls_manager()
+        if not self.cashinghouse:
+            self.initialize_cashinghouse()
+        if not self.financial_integration:
+            self.initialize_financial_integration()
+        self.analytics_dashboard = AnalyticsDashboard(
+            souls_manager=self.souls_manager,
+            cashinghouse=self.cashinghouse,
+            financial_integration=self.financial_integration,
+        )
+        logger.info("AnalyticsDashboard initialized")
+
+    # -----------------------
+    # Helpers
+    # -----------------------
+    def _lookup_soul(self, identifier: str):
+        """Find soul by id or name (returns None if not found)."""
+        if not self.souls_manager:
+            self.initialize_souls_manager()
+        s = self.souls_manager.get_soul_by_id(identifier)
+        if s:
+            return s
+        return self.souls_manager.get_soul_by_name(identifier)
+
+    def _safe_create_backup(self) -> Optional[str]:
+        """Public wrapper that prefers a public API if available, otherwise falls back."""
+        if not self.souls_manager:
+            self.initialize_souls_manager()
+        create_public = getattr(self.souls_manager, "create_backup", None)
+        if callable(create_public):
+            return create_public()
+        # last resort: protected method (keep for backward compatibility)
+        protected = getattr(self.souls_manager, "_create_backup", None)
+        if callable(protected):
+            logger.warning("Using protected backup method _create_backup; consider exposing create_backup()")
+            return protected()
+        logger.error("No backup method found on SoulsManager")
+        return None
+
+    # -----------------------
+    # Core actions (return data)
+    # -----------------------
+    @ensure_initialized("souls_manager")
+    def get_souls(self, filters: Optional[dict] = None) -> List[Any]:
+        souls = self.souls_manager.get_all_souls()
+        if not filters:
+            return souls
+        if 'rarity' in filters:
+            souls = [s for s in souls if s.rarity == filters['rarity']]
+        if 'tier' in filters:
+            souls = [s for s in souls if s.tier == filters['tier']]
+        if 'platform' in filters:
+            souls = [s for s in souls if filters['platform'] in getattr(s, "platforms", [])]
+        if 'archetype' in filters:
+            souls = [s for s in souls if s.archetype == filters['archetype']]
+        return souls
+
+    @ensure_initialized("souls_manager")
+    def get_soul_details(self, soul_id: str) -> Optional[Any]:
+        return self._lookup_soul(soul_id)
+
+    @ensure_initialized("souls_manager")
+    def get_statistics(self) -> dict:
+        return self.souls_manager.get_statistics()
+
+    @ensure_initialized("souls_manager")
+    def get_compatible_souls(self, soul_id: str, threshold: float = 50.0) -> List[Tuple[Any, float]]:
+        target = self._lookup_soul(soul_id)
+        if not target:
+            raise ValueError(f"Soul not found: {soul_id}")
+        return self.souls_manager.find_compatible_souls(target.id, threshold)
+
+    @ensure_initialized("souls_manager")
+    def add_platform(self, soul_id: str, platform: str) -> bool:
+        success = self.souls_manager.add_platform_to_soul(soul_id, platform)
+        if success:
+            self.souls_manager.save_souls_data()
+        return success
+
+    @ensure_initialized("souls_manager")
+    def remove_platform(self, soul_id: str, platform: str) -> bool:
+        success = self.souls_manager.remove_platform_from_soul(soul_id, platform)
+        if success:
+            self.souls_manager.save_souls_data()
+        return success
+
+    @ensure_initialized("souls_manager")
+    def analyze_interaction(self, soul_id1: str, soul_id2: str, interaction_type: str) -> dict:
+        return self.souls_manager.create_soul_interaction(soul_id1, soul_id2, interaction_type)
+
+    @ensure_initialized("souls_manager")
+    def get_trending_platforms(self, limit: int = 5) -> List[dict]:
+        return self.souls_manager.get_trending_platforms(limit)
+
+    @ensure_initialized("souls_manager")
+    def data_integrity_report(self) -> dict:
+        return self.souls_manager.get_data_integrity_report()
+
+    @ensure_initialized("souls_manager")
+    def list_backups(self) -> List[dict]:
+        return self.souls_manager.list_backups()
+
+    def create_backup(self) -> Optional[str]:
+        return self._safe_create_backup()
+
+    @ensure_initialized("cashinghouse")
+    def add_transaction(self, transaction_type: str, category: str, amount: float, description: str) -> Any:
+        # Validate enum construction; let CashingHouse raise ValueError if invalid
+        tx = self.cashinghouse.add_transaction(
+            transaction_type=TransactionType(transaction_type),
+            category=TransactionCategory(category),
+            amount=amount,
+            description=description,
+        )
+        return tx
+
+    @ensure_initialized("cashinghouse")
+    def financial_summary(self) -> Any:
+        return self.cashinghouse.get_financial_summary()
+
+    @ensure_initialized("financial_integration")
+    def record_tribute(self, soul_id: str, tribute_type: str, amount: Optional[float], description: str, impact_area: str) -> Any:
+        tribute = self.financial_integration.record_tribute(
+            soul_id=soul_id,
+            tribute_type=TributeType(tribute_type),
+            amount=amount,
+            description=description,
+            impact_area=impact_area,
+        )
+        return tribute
+
+    @ensure_initialized("financial_integration")
+    def humant_terry_health(self) -> dict:
+        # renamed variable-safe method (no hyphens in names)
+        return self.financial_integration.calculate_HueMan_i_Terry_financial_health()
+
+    @ensure_initialized("analytics_dashboard")
+    def platform_analytics(self) -> dict:
+        return self.analytics_dashboard.get_platform_usage_analytics()
+
+    @ensure_initialized("analytics_dashboard")
+    def financial_analytics(self, days: int = 30) -> dict:
+        return self.analytics_dashboard.get_financial_health_analytics(days=days)
+
+    @ensure_initialized("analytics_dashboard")
+    def soul_performance(self) -> dict:
+        return self.analytics_dashboard.get_soul_performance_analytics()
+
+    @ensure_initialized("analytics_dashboard")
+    def comprehensive_dashboard(self) -> dict:
+        return self.analytics_dashboard.get_comprehensive_dashboard()
+
+
+# -----------------------
+# CLI wiring (Click)
+# -----------------------
+
+@click.group(context_settings={"help_option_names": ["-h", "--help"]})
+@click.option("--data-dir", type=click.Path(path_type=Path), default=None,
+              help="Path to data directory (used in development).")
+@click.pass_context
+def cli(ctx: click.Context, data_dir: Optional[Path]):
+    """Tiapma'atzu Platform CLI (refactored)."""
+    ctx.obj = TiapmaatzuCLI(base_data_dir=data_dir)
+
+
+# Simple dispatch map for programmatic usage or generic 'run' command.
+# Keys are short command names; values are callables that accept (cli_obj, **kwargs).
+_DISPATCH_MAP: Dict[str, Callable[[TiapmaatzuCLI, dict], Any]] = {
+    "list-souls": lambda c, p: c.get_souls(p.get("filters")),
+    "show-soul": lambda c, p: c.get_soul_details(p["soul_id"]),
+    "statistics": lambda c, p: c.get_statistics(),
+    "compatibility": lambda c, p: c.get_compatible_souls(p["soul_id"], p.get("threshold", 50.0)),
+    "add-platform": lambda c, p: c.add_platform(p["soul_id"], p["platform"]),
+    "remove-platform": lambda c, p: c.remove_platform(p["soul_id"], p["platform"]),
+    "soul-interaction": lambda c, p: c.analyze_interaction(p["soul_id1"], p["soul_id2"], p["interaction_type"]),
+    "trending-platforms": lambda c, p: c.get_trending_platforms(p.get("limit", 5)),
+    "data-integrity": lambda c, p: c.data_integrity_report(),
+    "list-backups": lambda c, p: c.list_backups(),
+    "create-backup": lambda c, p: c.create_backup(),
+    "add-transaction": lambda c, p: c.add_transaction(p["type"], p["category"], p["amount"], p["description"]),
+    "financial-summary": lambda c, p: c.financial_summary(),
+    "record-tribute": lambda c, p: c.record_tribute(p["soul_id"], p["type"], p.get("amount"), p["description"], p["impact_area"]),
+    "HueMan-i-Terry-health": lambda c, p: c.humant_terry_health(),
+    "platform-analytics": lambda c, p: c.platform_analytics(),
+    "financial-analytics": lambda c, p: c.financial_analytics(p.get("days", 30)),
+    "soul-performance": lambda c, p: c.soul_performance(),
+    "comprehensive-dashboard": lambda c, p: c.comprehensive_dashboard(),
+}
+
+
+# ---- Commands ----
+@cli.command("list-souls")
+@click.option("--rarity", type=click.Choice(["Common", "Rare", "Legendary"]), default=None)
+@click.option("--tier", type=click.Choice(["upper", "second"]), default=None)
+@click.option("--platform", default=None)
+@click.option("--archetype", default=None)
+@click.pass_obj
+def cmd_list_souls(cli_obj: TiapmaatzuCLI, rarity, tier, platform, archetype):
+    filters = {}
+    if rarity: filters["rarity"] = rarity
+    if tier: filters["tier"] = tier
+    if platform: filters["platform"] = platform
+    if archetype: filters["archetype"] = archetype
+    souls = cli_obj.get_souls(filters)
+    click.echo(f"\n{'ID':<10} {'Name':<20} {'Archetype':<20} {'Rarity':<10} {'Tier':<6}")
+    click.echo("-" * 66)
+    for s in souls:
+        click.echo(f"{s.id:<10} {s.name:<20} {s.archetype:<20} {s.rarity:<10} {s.tier:<6}")
+    click.echo(f"\nTotal: {len(souls)} souls")
+
+
+@cli.command("show-soul")
+@click.argument("soul_id")
+@click.pass_obj
+def cmd_show_soul(cli_obj: TiapmaatzuCLI, soul_id):
+    soul = cli_obj.get_soul_details(soul_id)
+    if not soul:
+        click.echo(f"❌ Soul not found: {soul_id}", err=True)
+        raise click.Abort()
+    click.echo(f"\n{'='*60}")
+    click.echo(f"Soul Details: {soul.name}")
+    click.echo(f"{'='*60}")
+    click.echo(f"ID: {soul.id}")
+    click.echo(f"Archetype: {soul.archetype}")
+    click.echo(f"Gender: {soul.gender}")
+    click.echo(f"Rarity: {soul.rarity}")
+    click.echo(f"Tier: {soul.tier}")
+    click.echo(f"\nBio:\n  {soul.bio}")
+    click.echo(f"\nVoice: {soul.voice}")
+    click.echo(f"Sensory: {soul.sensory}")
+    if getattr(soul, "hooks", None):
+        click.echo("\nHooks:")
+        for hook in soul.hooks:
+            click.echo(f"  • {hook}")
+    if getattr(soul, "desires", None):
+        click.echo("\nDesires:")
+        for d in soul.desires:
+            click.echo(f"  • {d}")
+    if getattr(soul, "kinks", None):
+        click.echo("\nKinks:")
+        for k in soul.kinks:
+            click.echo(f"  • {k}")
+    click.echo(f"\nPlatforms: {', '.join(getattr(soul, 'platforms', []))}")
+    click.echo(f"Tribute Impact: {getattr(soul, 'tribute_impact', None)}")
+    click.echo(f"Shadow Practice: {getattr(soul, 'shadow_practice', None)}")
+    click.echo(f"Contact: {getattr(soul, 'email', None)}")
+    click.echo(f"Image: {getattr(soul, 'image', None)}")
+
+
+@cli.command("statistics")
+@click.pass_obj
+def cmd_statistics(cli_obj: TiapmaatzuCLI):
+    stats = cli_obj.get_statistics()
+    click.echo(f"\n{'='*60}")
+    click.echo("Platform Statistics")
+    click.echo(f"{'='*60}")
+    click.echo(f"Total Souls: {stats['total_souls']}")
+    click.echo("\nRarity Distribution:")
+    for rarity, count in stats.get("rarity_distribution", {}).items():
+        click.echo(f"  {rarity}: {count}")
+    click.echo("\nGender Distribution:")
+    for gender, count in stats.get("gender_distribution", {}).items():
+        click.echo(f"  {gender}: {count}")
+    click.echo("\nArchetype Distribution:")
+    for archetype, count in stats.get("archetype_distribution", {}).items():
+        click.echo(f"  {archetype}: {count}")
+    click.echo("\nPlatform Distribution:")
+    for platform, count in list(stats.get("platform_distribution", {}).items())[:10]:
+        click.echo(f"  {platform}: {count}")
+
+
+@cli.command("compatibility")
+@click.argument("soul_id")
+@click.option("--threshold", type=float, default=50.0)
+@click.pass_obj
+def cmd_compatibility(cli_obj: TiapmaatzuCLI, soul_id, threshold):
+    try:
+        compatible = cli_obj.get_compatible_souls(soul_id, threshold)
+    except ValueError as e:
+        click.echo(f"❌ {e}", err=True)
+        raise click.Abort()
+    click.echo(f"\n{'='*60}")
+    click.echo(f"Compatible Souls for {soul_id} (Threshold: {threshold}%)")
+    click.echo(f"{'='*60}")
+    if not compatible:
+        click.echo(f"No compatible souls found above {threshold}% threshold")
+        return
+    click.echo(f"\n{'Name':<20} {'Archetype':<20} {'Score':<10}")
+    click.echo("-" * 50)
+    for soul, score in compatible:
+        click.echo(f"{soul.name:<20} {soul.archetype:<20} {score:<10.1f}")
+    click.echo(f"\nTotal: {len(compatible)} compatible souls")
+
+
+@cli.command("add-platform")
+@click.argument("soul_id")
+@click.argument("platform")
+@click.pass_obj
+def cmd_add_platform(cli_obj: TiapmaatzuCLI, soul_id, platform):
+    try:
+        success = cli_obj.add_platform(soul_id, platform)
+    except Exception as e:
+        click.echo(f"❌ Error: {e}", err=True)
+        raise click.Abort()
+    if success:
+        click.echo(f"✓ Added platform '{platform}' to soul {soul_id}")
+    else:
+        click.echo(f"⚠️  Platform '{platform}' already exists for soul {soul_id}")
+
+
+@cli.command("remove-platform")
+@click.argument("soul_id")
+@click.argument("platform")
+@click.pass_obj
+def cmd_remove_platform(cli_obj: TiapmaatzuCLI, soul_id, platform):
+    try:
+        success = cli_obj.remove_platform(soul_id, platform)
+    except Exception as e:
+        click.echo(f"❌ Error: {e}", err=True)
+        raise click.Abort()
+    if success:
+        click.echo(f"✓ Removed platform '{platform}' from soul {soul_id}")
+    else:
+        click.echo(f"⚠️  Platform '{platform}' not found for soul {soul_id}")
+
+
+@cli.command("soul-interaction")
+@click.argument("soul_id1")
+@click.argument("soul_id2")
+@click.argument("interaction_type")
+@click.pass_obj
+def cmd_soul_interaction(cli_obj: TiapmaatzuCLI, soul_id1, soul_id2, interaction_type):
+    try:
+        interaction = cli_obj.analyze_interaction(soul_id1, soul_id2, interaction_type)
+    except ValueError as e:
+        click.echo(f"❌ Error: {e}", err=True)
+        raise click.Abort()
+    click.echo("\n" + "=" * 60)
+    click.echo("Soul Interaction Analysis")
+    click.echo("=" * 60)
+    click.echo(f"Souls: {interaction['soul1']} + {interaction['soul2']}")
+    click.echo(f"Compatibility Score: {interaction['compatibility_score']}/100")
+    click.echo(f"Interaction Type: {interaction['interaction_type']}")
+    click.echo(f"Shared Platforms: {', '.join(interaction['shared_platforms'])}")
+    click.echo(f"Total Reach: {interaction['total_reach']} platforms")
+    click.echo("\nSuggestions:")
+    for suggestion in interaction["suggestions"]:
+        click.echo(f"  • {suggestion}")
+    click.echo("\nRecommended Content Types:")
+    for ct in interaction["recommended_content_types"]:
+        click.echo(f"  • {ct}")
+
+
+@cli.command("trending-platforms")
+@click.option("--limit", type=int, default=5)
+@click.pass_obj
+def cmd_trending_platforms(cli_obj: TiapmaatzuCLI, limit):
+    trending = cli_obj.get_trending_platforms(limit)
+    click.echo(f"\n{'='*60}")
+    click.echo(f"Top {limit} Trending Platforms")
+    click.echo(f"{'='*60}")
+    click.echo(f"\n{'Platform':<15} {'Total Souls':<12} {'Legendary':<10} {'Rare':<8} {'Score':<8}")
+    click.echo("-" * 60)
+    for platform_data in trending:
+        click.echo(
+            f"{platform_data['platform']:<15} {platform_data['total_souls']:<12} "
+            f"{platform_data.get('legendary_souls',0):<10} {platform_data.get('rare_souls',0):<8} {platform_data.get('activity_score',0):<8}"
+        )
+
+
+@cli.command("data-integrity")
+@click.pass_obj
+def cmd_data_integrity(cli_obj: TiapmaatzuCLI):
+    report = cli_obj.data_integrity_report()
+    click.echo(f"\n{'='*60}")
+    click.echo("Data Integrity Report")
+    click.echo(f"{'='*60}")
+    click.echo(f"Health Score: {report['health_score']}/100")
+    click.echo(f"Health Status: {report['health_status'].upper()}")
+    click.echo(f"Total Souls: {report['total_souls']}")
+    click.echo(f"Validation Errors: {len(report['validation_errors'])}")
+    click.echo(f"Warnings: {len(report['warnings'])}")
+    if report['validation_errors']:
+        click.echo("\n❌ Validation Errors:")
+        for error in report['validation_errors']:
+            click.echo(f"  • {error['soul_name']}: {', '.join(error['errors'])}")
+    if report['warnings']:
+        click.echo("\n⚠️  Warnings:")
+        for warning in report['warnings']:
+            click.echo(f"  • {warning['message']}")
+
+
+@cli.command("list-backups")
+@click.pass_obj
+def cmd_list_backups(cli_obj: TiapmaatzuCLI):
+    backups = cli_obj.list_backups()
+    click.echo(f"\n{'='*60}")
+    click.echo("Available Backups")
+    click.echo(f"{'='*60}")
+    if not backups:
+        click.echo("No backups available")
+        return
+    click.echo(f"\n{'Filename':<40} {'Size(kB)':<10} {'Created':<20}")
+    click.echo("-" * 70)
+    for b in backups:
+        size_kb = b['size'] / 1024
+        created = b['created'][:19]
+        click.echo(f"{b['filename']:<40} {size_kb:<10.1f} {created:<20}")
+    click.echo(f"\nTotal: {len(backups)} backups")
+
+
+@cli.command("create-backup")
+@click.pass_obj
+def cmd_create_backup(cli_obj: TiapmaatzuCLI):
+    backup_path = cli_obj.create_backup()
+    if backup_path:
+        click.echo(f"✓ Backup created: {backup_path}")
+    else:
+        click.echo("❌ Failed to create backup", err=True)
+
+
+@cli.command("add-transaction")
+@click.argument("type")
+@click.argument("category")
+@click.argument("amount", type=float)
+@click.argument("description")
+@click.pass_obj
+def cmd_add_transaction(cli_obj: TiapmaatzuCLI, type, category, amount, description):
+    try:
+        tx = cli_obj.add_transaction(type, category, amount, description)
+    except ValueError as e:
+        click.echo(f"❌ Transaction validation failed: {e}", err=True)
+        raise click.Abort()
+    click.echo(f"✓ Transaction added: {tx.transaction_id}")
+    click.echo(f"  Type: {tx.transaction_type}")
+    click.echo(f"  Category: {tx.category}")
+    click.echo(f"  Amount: ${tx.amount:.2f}")
+    click.echo(f"  Description: {tx.description}")
+
+
+@cli.command("financial-summary")
+@click.pass_obj
+def cmd_financial_summary(cli_obj: TiapmaatzuCLI):
+    s = cli_obj.financial_summary()
+    click.echo(f"\n{'='*60}")
+    click.echo("Financial Summary")
+    click.echo(f"{'='*60}")
+    click.echo(f"Period: {s.period_start.strftime('%Y-%m-%d')} to {s.period_end.strftime('%Y-%m-%d')}")
+    click.echo(f"Total Income: ${s.total_income:.2f}")
+    click.echo(f"Total Expenses: ${s.total_expenses:.2f}")
+    click.echo(f"Net Balance: ${s.net_balance:.2f}")
+    click.echo(f"Pending Transactions: {s.pending_transactions}")
+    click.echo(f"Reconciled Transactions: {s.reconciled_transactions}")
+    click.echo("\nCategory Breakdown:")
+    for category, amount in s.category_breakdown.items():
+        click.echo(f"  {category}: ${amount:.2f}")
+
+
+@cli.command("record-tribute")
+@click.argument("soul_id")
+@click.argument("type")
+@click.argument("amount", type=float, required=False)
+@click.argument("description")
+@click.argument("impact_area")
+@click.pass_obj
+def cmd_record_tribute(cli_obj: TiapmaatzuCLI, soul_id, type, amount, description, impact_area):
+    try:
+        tribute = cli_obj.record_tribute(soul_id, type, amount, description, impact_area)
+    except ValueError as e:
+        click.echo(f"❌ Failed to record tribute: {e}", err=True)
+        raise click.Abort()
+    click.echo(f"✓ Tribute recorded: {tribute.tribute_id}")
+    click.echo(f"  Soul: {tribute.soul_name}")
+    click.echo(f"  Type: {tribute.tribute_type}")
+    if getattr(tribute, "amount", None):
+        click.echo(f"  Amount: ${tribute.amount:.2f}")
+    click.echo(f"  Impact Area: {tribute.impact_area}")
+
+
+@cli.command("HueMan-i-Terry-health")
+@click.pass_obj
+def cmd_hueman_health(cli_obj: TiapmaatzuCLI):
+    health = cli_obj.humant_terry_health()
+    click.echo(f"\n{'='*60}")
+    click.echo("HueMan-i-Terry Financial Health")
+    click.echo(f"{'='*60}")
+    click.echo(f"Health Score: {health['health_score']}/100")
+    click.echo(f"Health Status: {health['health_status'].upper()}")
+    click.echo(f"Total Contributions: ${health['total_contributions']:.2f}")
+    click.echo(f"Total Tributes: {health['total_tribute_count']}")
+    click.echo(f"Active Souls: {health['active_souls']}/{health['total_souls']}")
+    click.echo(f"Participation Rate: {health['participation_rate']:.1f}%")
+    click.echo(f"Impact Diversity: {health['impact_diversity']}")
+    if health.get("recommendations"):
+        click.echo("\nRecommendations:")
+        for rec in health["recommendations"]:
+            click.echo(f"  • {rec}")
+
+
+@cli.command("platform-analytics")
+@click.pass_obj
+def cmd_platform_analytics(cli_obj: TiapmaatzuCLI):
+    analytics = cli_obj.platform_analytics()
+    click.echo(f"\n{'='*60}")
+    click.echo("Platform Usage Analytics")
+    click.echo(f"{'='*60}")
+    click.echo(f"Total Platforms: {analytics['total_platforms']}")
+    click.echo(f"Top Platform: {analytics['top_platform']}")
+    click.echo(f"Most Active Platform: {analytics['most_active_platform']}")
+    click.echo("\nPlatform Metrics:")
+    for metric in analytics.get("platform_metrics", []):
+        click.echo(f"  {metric['platform']}:")
+        click.echo(f"    Total Souls: {metric['total_souls']}")
+        click.echo(f"    Active Souls: {metric['active_souls']}")
+        click.echo(f"    Content Generated: {metric['content_generated']}")
+        click.echo(f"    Avg Engagement: {metric['avg_engagement']}")
+        click.echo(f"    Growth Rate: {metric['growth_rate']}%")
+
+
+@cli.command("financial-analytics")
+@click.option("--days", type=int, default=30)
+@click.pass_obj
+def cmd_financial_analytics(cli_obj: TiapmaatzuCLI, days):
+    analytics = cli_obj.financial_analytics(days)
+    fm = analytics["financial_metrics"]
+    click.echo(f"\n{'='*60}")
+    click.echo("Financial Health Analytics")
+    click.echo(f"{'='*60}")
+    click.echo(f"Period: {fm['period']}")
+    click.echo(f"Total Revenue: ${fm['total_revenue']:.2f}")
+    click.echo(f"Total Expenses: ${fm['total_expenses']:.2f}")
+    click.echo(f"Net Profit: ${fm['net_profit']:.2f}")
+    click.echo(f"Profit Margin: {fm['profit_margin']}%")
+    click.echo(f"Active Tributes: {fm['active_tributes']}")
+    click.echo(f"Avg Tribute Amount: ${fm['avg_tribute_amount']:.2f}")
+    click.echo("\nHueMan-i-Terry Health:")
+    hueman = analytics.get("HueMan-i-Terry_health") or {}
+    click.echo(f"  Health Score: {hueman.get('health_score', 'N/A')}/100")
+    click.echo(f"  Health Status: {hueman.get('health_status','N/A')}")
+
+
+@cli.command("soul-performance")
+@click.pass_obj
+def cmd_soul_performance(cli_obj: TiapmaatzuCLI):
+    analytics = cli_obj.soul_performance()
+    click.echo(f"\n{'='*60}")
+    click.echo("Soul Performance Analytics")
+    click.echo(f"{'='*60}")
+    click.echo(f"Total Souls Analyzed: {analytics['total_souls_analyzed']}")
+    activity_dist = analytics.get("activity_distribution", {})
+    click.echo("\nActivity Distribution:")
+    click.echo(f"  High: {activity_dist.get('high')}")
+    click.echo(f"  Medium: {activity_dist.get('medium')}")
+    click.echo(f"  Low: {activity_dist.get('low')}")
+    click.echo("\nTop 10 Performers:")
+    for i, performer in enumerate(analytics.get("top_performers", [])[:10], 1):
+        click.echo(f"  {i}. {performer['soul_name']} ({performer['archetype']})")
+        click.echo(f"     Financial Impact: ${performer['financial_impact']:.2f}")
+        click.echo(f"     Tributes: {performer['tribute_count']}")
+        click.echo(f"     Engagement Score: {performer['engagement_score']}")
+        click.echo(f"     Activity Level: {performer['activity_level']}")
+
+
+@cli.command("comprehensive-dashboard")
+@click.pass_obj
+def cmd_comprehensive_dashboard(cli_obj: TiapmaatzuCLI):
+    dashboard = cli_obj.comprehensive_dashboard()
+    click.echo(f"\n{'='*60}")
+    click.echo("Comprehensive Platform Dashboard")
+    click.echo(f"{'='*60}")
+    click.echo(f"Generated: {dashboard['generated_at']}")
+    overall_health = dashboard['overall_health_score']
+    click.echo(f"\nOverall Health Score: {overall_health['overall_score']}/100")
+    click.echo(f"Overall Status: {overall_health['status'].upper()}")
+    click.echo("\nComponent Scores:")
+    for comp, score in overall_health.get("component_scores", {}).items():
+        click.echo(f"  {comp.capitalize()}: {score}/100")
+    click.echo("\nRecommendations:")
+    for rec in overall_health.get("recommendations", []):
+        click.echo(f"  • {rec}")
+    click.echo("\nPlatform Summary:")
+    p = dashboard.get("platform_usage", {})
+    click.echo(f"  Total Platforms: {p.get('total_platforms')}")
+    click.echo(f"  Top Platform: {p.get('top_platform')}")
+    click.echo("\nFinancial Summary:")
+    financial_analytics = dashboard.get("financial_health", {})
+    fm = financial_analytics.get("financial_metrics", {})
+    click.echo(f"  Period Revenue: ${fm.get('total_revenue',0):.2f}")
+    click.echo(f"  Net Profit: ${fm.get('net_profit',0):.2f}")
+    click.echo(f"  HueMan-i-Terry Health: {financial_analytics.get('HueMan-i-Terry_health',{}).get('health_status')}")
+
+# Provide a programmatic runner that uses the dispatch map (useful for tests)
+def run_command_by_name(cli_obj: TiapmaatzuCLI, command: str, params: dict = None):
+    params = params or {}
+    if command not in _DISPATCH_MAP:
+        raise KeyError(f"Unknown command: {command}")
+    return _DISPATCH_MAP[command](cli_obj, params)
+
+
+if __name__ == "__main__":
+    cli()  # Click entry point
