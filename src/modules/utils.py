@@ -86,12 +86,12 @@ class DataUtils:
             ValueError: If JSON is invalid
         """
         try:
-            with open(file_path, 'r') as f:
+            with open(file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Data file not found: {file_path}")
+        except FileNotFoundError as exc:
+            raise FileNotFoundError(f"Data file not found: {file_path}") from exc
         except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON in file {file_path}: {e}")
+            raise ValueError(f"Invalid JSON in file {file_path}: {e}") from e
     
     @staticmethod
     def save_json_file(data: Dict[str, Any], file_path: Path, indent: int = 2) -> None:
@@ -110,10 +110,10 @@ class DataUtils:
             # Ensure directory exists
             file_path.parent.mkdir(parents=True, exist_ok=True)
             
-            with open(file_path, 'w') as f:
+            with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=indent, default=str)
         except Exception as e:
-            raise IOError(f"Failed to save data to {file_path}: {e}")
+            raise IOError(f"Failed to save data to {file_path}: {e}") from e
     
     @staticmethod
     def calculate_file_hash(file_path: Path) -> str:
@@ -377,7 +377,7 @@ class ErrorUtils:
                 try:
                     return func(*args, **kwargs)
                 except error_types as e:
-                    logging.getLogger(__name__).error(f"Error in {func.__name__}: {e}")
+                    logging.getLogger(__name__).error("Error in %s: %s", func.__name__, e)
                     return default_return
             return wrapper
         return decorator
@@ -423,7 +423,8 @@ class LoggingUtils:
         # File handler if specified
         if log_file:
             log_file.parent.mkdir(parents=True, exist_ok=True)
-            file_handler = logging.FileHandler(log_file)
+            # ensure file handler uses utf-8
+            file_handler = logging.FileHandler(log_file, encoding='utf-8')
             file_handler.setLevel(level)
             file_handler.setFormatter(formatter)
             logger.addHandler(file_handler)
