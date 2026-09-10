@@ -124,11 +124,11 @@ class SoulsManager:
             metadata_path = backup_path.with_suffix('.metadata.json')
             DataUtils.save_json_file(metadata, metadata_path)
             
-            self.logger.info(f"Backup created: {backup_path}")
+            self.logger.info("Backup created: %s", backup_path)
             return str(backup_path)
             
-        except Exception as e:
-            self.logger.error(f"Failed to create backup: {e}")
+        except Exception as exc:
+            self.logger.error("Failed to create backup: %s", exc)
             return None
     
     def _cleanup_old_backups(self, keep_count: int = Configuration.DEFAULT_BACKUP_COUNT):
@@ -144,10 +144,10 @@ class SoulsManager:
             )
             
             for removed_file in removed_files:
-                self.logger.info(f"Removed old backup: {removed_file}")
+                self.logger.info("Removed old backup: %s", removed_file)
                 
-        except Exception as e:
-            self.logger.error(f"Failed to cleanup old backups: {e}")
+        except Exception as exc:
+            self.logger.error("Failed to cleanup old backups: %s", exc)
     
     def _parse_souls(self) -> Dict[str, Soul]:
         """Parse souls data into Soul objects"""
@@ -428,8 +428,8 @@ class SoulsManager:
                 self._cleanup_old_backups()
             
             return True
-        except Exception as e:
-            raise IOError(f"Failed to save souls data: {e}")
+        except Exception as exc:
+            raise IOError(f"Failed to save souls data: {exc}") from exc
     
     def restore_backup(self, backup_path: str) -> bool:
         """Restore souls data from a backup file"""
@@ -441,9 +441,9 @@ class SoulsManager:
             # Verify backup metadata
             metadata_file = backup_file.with_suffix('.metadata.json')
             if metadata_file.exists():
-                with open(metadata_file, 'r') as f:
+                with open(metadata_file, 'r', encoding='utf-8') as f:
                     metadata = json.load(f)
-                self.logger.info(f"Restoring backup from {metadata['timestamp']}")
+                self.logger.info("Restoring backup from %s", metadata.get('timestamp'))
             
             # Create backup of current state before restoring
             self._create_backup()
@@ -455,11 +455,11 @@ class SoulsManager:
             self.souls_data = self._load_souls_data()
             self.souls = self._parse_souls()
             
-            self.logger.info(f"Successfully restored from backup: {backup_path}")
+            self.logger.info("Successfully restored from backup: %s", backup_path)
             return True
             
-        except Exception as e:
-            self.logger.error(f"Failed to restore backup: {e}")
+        except Exception as exc:
+            self.logger.error("Failed to restore backup: %s", exc)
             return False
     
     def list_backups(self) -> List[Dict[str, Any]]:
@@ -479,7 +479,7 @@ class SoulsManager:
                 metadata = {}
                 
                 if metadata_file.exists():
-                    with open(metadata_file, 'r') as f:
+                    with open(metadata_file, 'r', encoding='utf-8') as f:
                         metadata = json.load(f)
                 
                 backups.append({
@@ -490,8 +490,8 @@ class SoulsManager:
                     'metadata': metadata
                 })
                 
-        except Exception as e:
-            self.logger.error(f"Failed to list backups: {e}")
+        except Exception as exc:
+            self.logger.error("Failed to list backups: %s", exc)
         
         return backups
     
@@ -542,7 +542,7 @@ class SoulsManager:
                 for other_soul in platform_souls:
                     if other_soul.id != soul_id and other_soul.id not in connections:
                         connections.append(other_soul.id)
-            
+                
             network_map[soul_id] = connections
         
         return network_map
@@ -694,7 +694,7 @@ class SoulsManager:
                     platform_stats[platform]['activity_score'] += 2
                 else:
                     platform_stats[platform]['activity_score'] += 1
-        
+                
         # Sort by activity score
         trending = sorted(
             platform_stats.items(),
