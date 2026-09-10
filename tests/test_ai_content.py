@@ -6,14 +6,16 @@ Tests the real AI content generation with OpenAI API
 
 import sys
 import os
+import traceback
 from pathlib import Path
 
 # Add the src directory to the path for package imports
 src_path = Path(__file__).parent.parent / "src"
 sys.path.insert(0, str(src_path))
 
-from src.modules.souls_content_integration import SoulsContentIntegration, ContentRequest, ContentStrategy
+from src.modules.souls_content_integration import SoulsContentIntegration, ContentRequest
 from src.modules.souls_manager import SoulsManager
+
 
 def test_ai_content_generation():
     """Test AI content generation with real API"""
@@ -78,12 +80,12 @@ def test_ai_content_generation():
         try:
             response = content_integration.generate_content_for_soul(request)
             
-            print(f"\n✓ Content generated successfully")
+            print("\n✓ Content generated successfully")
             print(f"Soul: {response.soul_name}")
             print(f"Platform: {response.platform}")
             print(f"Content Type: {response.content_type}")
             print(f"Voice Style: {response.voice_style}")
-            print(f"\nGenerated Content:")
+            print("\nGenerated Content:")
             print("-" * 60)
             print(response.content)
             print("-" * 60)
@@ -93,7 +95,6 @@ def test_ai_content_generation():
             
         except Exception as e:
             print(f"❌ Content generation failed: {e}")
-            import traceback
             traceback.print_exc()
             raise
     
@@ -109,12 +110,12 @@ def test_ai_content_generation():
     
     assert analytics['total_content_generated'] > 0, "No content was generated"
 
+
 if __name__ == "__main__":
     try:
         test_ai_content_generation()
         print(f"\n🎉 AI content generation test completed successfully!")
     except Exception as e:
         print(f"❌ Test failed: {e}")
-        import traceback
         traceback.print_exc()
         sys.exit(1)
