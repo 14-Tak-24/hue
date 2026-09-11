@@ -6,6 +6,7 @@ Tests the new advanced financial health features
 
 import sys
 import json
+import traceback
 from pathlib import Path
 from datetime import datetime, timedelta
 
@@ -15,6 +16,7 @@ sys.path.insert(0, str(src_path))
 
 from src.modules.souls_manager import SoulsManager
 from src.modules.souls_financial_integration import SoulsFinancialIntegration, TributeType
+
 
 def test_enhanced_financial_health():
     """Test the enhanced financial health tracking functionality"""
@@ -50,7 +52,7 @@ def test_enhanced_financial_health():
             impact_area=impact_area
         )
     
-    print(f"✓ Added {len(sample_tributes)} sample tributes")
+    print("✓ Added %d sample tributes", len(sample_tributes))
     
     # Test cash flow analysis
     print("\n" + "="*60)
@@ -58,16 +60,28 @@ def test_enhanced_financial_health():
     print("="*60)
     
     cash_flow = financial_integration.calculate_cash_flow_analysis(days=30)
-    print(f"Period: {cash_flow['period_days']} days")
-    print(f"Total Cash Flow: ${cash_flow['total_cash_flow']}")
-    print(f"Average Daily Flow: ${cash_flow['average_daily_flow']:.2f}")
-    print(f"Trend: {cash_flow['trend']}")
-    print(f"Volatility: {cash_flow['volatility']}")
+    print("Period: %s days", cash_flow.get('period_days'))
+    print("Total Cash Flow: $%s", cash_flow.get('total_cash_flow'))
+    print("Average Daily Flow: $%.2f", cash_flow.get('average_daily_flow', 0.0))
+    print("Trend: %s", cash_flow.get('trend'))
+    print("Volatility: %s", cash_flow.get('volatility'))
     
-    if cash_flow['peak_day']:
-        print(f"Peak Day: {cash_flow['peak_day'][0]} (${cash_flow['peak_day'][1]})")
-    if cash_flow['low_day']:
-        print(f"Low Day: {cash_flow['low_day'][0]} (${cash_flow['low_day'][1]})")
+    peak_day = cash_flow.get('peak_day')
+    if peak_day:
+        try:
+            if isinstance(peak_day, (list, tuple)) and len(peak_day) >= 2:
+                print("Peak Day: %s ($%s)", peak_day[0], peak_day[1])
+        except Exception:
+            # Guard against unexpected structure
+            print("Peak Day data in unexpected format")
+    
+    low_day = cash_flow.get('low_day')
+    if low_day:
+        try:
+            if isinstance(low_day, (list, tuple)) and len(low_day) >= 2:
+                print("Low Day: %s ($%s)", low_day[0], low_day[1])
+        except Exception:
+            print("Low Day data in unexpected format")
     
     # Test financial forecast
     print("\n" + "="*60)
@@ -75,17 +89,20 @@ def test_enhanced_financial_health():
     print("="*60)
     
     forecast = financial_integration.calculate_financial_forecast(forecast_days=90)
-    print(f"Forecast Period: {forecast['forecast_days']} days")
-    print(f"Based on: {forecast['based_on_historical_days']} days historical data")
-    print(f"Assumed Growth Rate: {forecast['assumed_growth_rate'] * 100}%")
-    print(f"Total Projected Flow: ${forecast['total_projected_flow']:.2f}")
-    print(f"Average Projected Daily: ${forecast['average_projected_daily']:.2f}")
-    print(f"Confidence Level: {forecast['confidence_level']}")
+    print("Forecast Period: %s days", forecast.get('forecast_days'))
+    print("Based on: %s days historical data", forecast.get('based_on_historical_days'))
+    print("Assumed Growth Rate: %s%%", forecast.get('assumed_growth_rate', 0.0) * 100)
+    print("Total Projected Flow: $%.2f", forecast.get('total_projected_flow', 0.0))
+    print("Average Projected Daily: $%.2f", forecast.get('average_projected_daily', 0.0))
+    print("Confidence Level: %s", forecast.get('confidence_level'))
     
     # Show first few forecast days
     print("\nSample Forecast (first 5 days):")
-    for day in forecast['daily_forecast'][:5]:
-        print(f"  {day['date']}: ${day['projected_flow']:.2f} (cumulative: ${day['cumulative_flow']:.2f})")
+    for day in forecast.get('daily_forecast', [])[:5]:
+        date = day.get('date')
+        projected = day.get('projected_flow', 0.0)
+        cumulative = day.get('cumulative_flow', 0.0)
+        print("  %s: $%.2f (cumulative: $%.2f)", date, projected, cumulative)
     
     # Test financial risk assessment
     print("\n" + "="*60)
@@ -93,22 +110,22 @@ def test_enhanced_financial_health():
     print("="*60)
     
     risks = financial_integration.assess_financial_risks()
-    print(f"Overall Risk Level: {risks['overall_risk_level'].upper()}")
-    print(f"Identified Risks: {len(risks['identified_risks'])}")
-    print(f"Mitigation Strategies: {len(risks['mitigation_strategies'])}")
+    print("Overall Risk Level: %s", str(risks.get('overall_risk_level', '')).upper())
+    print("Identified Risks: %d", len(risks.get('identified_risks', [])))
+    print("Mitigation Strategies: %d", len(risks.get('mitigation_strategies', [])))
     
-    if risks['identified_risks']:
+    if risks.get('identified_risks'):
         print("\nIdentified Risks:")
-        for risk in risks['identified_risks']:
-            print(f"  [{risk['severity'].upper()}] {risk['type']}")
-            print(f"    Description: {risk['description']}")
-            print(f"    Impact: {risk['impact']}")
+        for risk in risks.get('identified_risks', []):
+            print("  [%s] %s", risk.get('severity', '').upper(), risk.get('type'))
+            print("    Description: %s", risk.get('description'))
+            print("    Impact: %s", risk.get('impact'))
     
-    if risks['mitigation_strategies']:
+    if risks.get('mitigation_strategies'):
         print("\nMitigation Strategies:")
-        for strategy in risks['mitigation_strategies']:
-            print(f"  [{strategy['priority'].upper()}] {strategy['risk']}")
-            print(f"    Strategy: {strategy['strategy']}")
+        for strategy in risks.get('mitigation_strategies', []):
+            print("  [%s] %s", strategy.get('priority', '').upper(), strategy.get('risk'))
+            print("    Strategy: %s", strategy.get('strategy'))
     
     # Test revenue diversification
     print("\n" + "="*60)
@@ -116,19 +133,19 @@ def test_enhanced_financial_health():
     print("="*60)
     
     diversification = financial_integration.calculate_revenue_diversification()
-    print(f"Total Revenue: ${diversification['total_revenue']}")
-    print(f"Concentration Index (HHI): {diversification['concentration_index']}")
-    print(f"Concentration Level: {diversification['concentration_level']}")
-    print(f"Diversification Score: {diversification['diversification_score']}/100")
+    print("Total Revenue: $%s", diversification.get('total_revenue'))
+    print("Concentration Index (HHI): %s", diversification.get('concentration_index'))
+    print("Concentration Level: %s", diversification.get('concentration_level'))
+    print("Diversification Score: %s/100", diversification.get('diversification_score'))
     
     print("\nRevenue by Impact Area:")
-    for area, amount in diversification['area_breakdown'].items():
-        percentage = diversification['area_percentages'].get(area, 0)
-        print(f"  {area}: ${amount:.2f} ({percentage:.1f}%)")
+    for area, amount in diversification.get('area_breakdown', {}).items():
+        percentage = diversification.get('area_percentages', {}).get(area, 0)
+        print("  %s: $%.2f (%.1f%%)", area, amount, percentage)
     
     print("\nRecommendations:")
-    for rec in diversification['recommendations']:
-        print(f"  • {rec}")
+    for rec in diversification.get('recommendations', []):
+        print("  • %s", rec)
     
     # Test financial goals tracking
     print("\n" + "="*60)
@@ -158,21 +175,21 @@ def test_enhanced_financial_health():
     ]
     
     goal_tracking = financial_integration.track_financial_goals(sample_goals)
-    print(f"Current Total Revenue: ${goal_tracking['current_total_revenue']}")
-    print(f"Goals Tracked: {goal_tracking['goals_tracked']}")
-    print(f"Achieved: {goal_tracking['goals_achieved']}")
-    print(f"On Track: {goal_tracking['goals_on_track']}")
-    print(f"Behind: {goal_tracking['goals_behind']}")
+    print("Current Total Revenue: $%s", goal_tracking.get('current_total_revenue'))
+    print("Goals Tracked: %s", goal_tracking.get('goals_tracked'))
+    print("Achieved: %s", goal_tracking.get('goals_achieved'))
+    print("On Track: %s", goal_tracking.get('goals_on_track'))
+    print("Behind: %s", goal_tracking.get('goals_behind'))
     
     print("\nGoal Details:")
-    for goal in goal_tracking['goal_details']:
-        print(f"  {goal['description']}:")
-        print(f"    Target: ${goal['target_amount']}")
-        print(f"    Current: ${goal['current_amount']}")
-        print(f"    Progress: {goal['progress_percentage']:.1f}%")
-        print(f"    Status: {goal['status'].upper()}")
-        if goal['days_remaining'] is not None:
-            print(f"    Days Remaining: {goal['days_remaining']}")
+    for goal in goal_tracking.get('goal_details', []):
+        print("  %s:", goal.get('description'))
+        print("    Target: $%s", goal.get('target_amount'))
+        print("    Current: $%s", goal.get('current_amount'))
+        print("    Progress: %.1f%%", goal.get('progress_percentage'))
+        print("    Status: %s", str(goal.get('status', '')).upper())
+        if goal.get('days_remaining') is not None:
+            print("    Days Remaining: %s", goal.get('days_remaining'))
     
     # Test HueMan-i-Terry financial health with new data
     print("\n" + "="*60)
@@ -180,11 +197,11 @@ def test_enhanced_financial_health():
     print("="*60)
     
     hueman_health = financial_integration.calculate_hueman_i_terry_financial_health()
-    print(f"Health Score: {hueman_health['health_score']}/100")
-    print(f"Health Status: {hueman_health['health_status']}")
-    print(f"Total Contributions: ${hueman_health['total_contributions']}")
-    print(f"Active Souls: {hueman_health['active_souls']}/{hueman_health['total_souls']}")
-    print(f"Participation Rate: {hueman_health['participation_rate']:.1f}%")
+    print("Health Score: %s/100", hueman_health.get('health_score'))
+    print("Health Status: %s", hueman_health.get('health_status'))
+    print("Total Contributions: $%s", hueman_health.get('total_contributions'))
+    print("Active Souls: %s/%s", hueman_health.get('active_souls'), hueman_health.get('total_souls'))
+    print("Participation Rate: %.1f%%", hueman_health.get('participation_rate'))
     
     # Export comprehensive financial report
     print("\n" + "="*60)
@@ -202,26 +219,26 @@ def test_enhanced_financial_health():
     }
     
     report_file = Path(__file__).parent / "enhanced_financial_report.json"
-    with open(report_file, 'w') as f:
+    with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(financial_report, f, indent=2, default=str)
     
-    print(f"✓ Financial report exported to {report_file}")
+    print("✓ Financial report exported to %s", report_file)
     
     # Verify key assertions
-    assert hueman_health['health_score'] >= 0, "Invalid health score"
-    assert len(risks['identified_risks']) >= 0, "Risk assessment failed"
-    assert diversification['diversification_score'] >= 0, "Invalid diversification score"
+    assert hueman_health.get('health_score', 0) >= 0, "Invalid health score"
+    assert len(risks.get('identified_risks', [])) >= 0, "Risk assessment failed"
+    assert diversification.get('diversification_score', 0) >= 0, "Invalid diversification score"
     
     print("\n" + "="*60)
     print("All enhanced financial health tests passed successfully!")
     print("="*60)
 
+
 if __name__ == "__main__":
     try:
         test_enhanced_financial_health()
-        print(f"\n🎉 Enhanced financial health tracking test completed successfully!")
+        print("\n🎉 Enhanced financial health tracking test completed successfully!")
     except Exception as e:
-        print(f"❌ Test failed: {e}")
-        import traceback
+        print("❌ Test failed: %s", e)
         traceback.print_exc()
         sys.exit(1)
