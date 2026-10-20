@@ -1295,8 +1295,9 @@ def get_websocket_status():
     try:
         stats = ws_manager.get_stats()
         return jsonify(stats)
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+    except Exception:
+        app.logger.exception("Failed to get WebSocket status")
+        return jsonify({'error': 'Internal server error'}), 500
 
 # ============================================================================
 # Error Handlers
