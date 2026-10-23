@@ -34,7 +34,8 @@ def test_postgresql_export_is_encrypted(tmp_path, monkeypatch):
     migrator = setup_migrator(tmp_path, monkeypatch)
 
     export_path = migrator.export_for_migration("postgresql")
-    encrypted_export = (tmp_path / "exports" / export_path.split("/")[-1]).read_bytes()
+    with open(export_path, "rb") as export_file:
+        encrypted_export = export_file.read()
 
     assert export_path.endswith(".sql.enc")
     assert b"private@example.test" not in encrypted_export
