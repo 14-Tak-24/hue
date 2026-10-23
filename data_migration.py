@@ -8,10 +8,12 @@ import sys
 import json
 import csv
 import argparse
+import os
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 import shutil
+from cryptography.fernet import Fernet
 
 # Add the src directory to the path for package imports
 src_path = Path(__file__).parent / "src"
@@ -590,7 +592,7 @@ class DataMigrationTool:
                 }
             }
         elif target_system == 'postgresql':
-            export_file = Path(__file__).parent / "exports" / f"postgresql_migration_{timestamp}.sql"
+            export_file = Path(__file__).parent / "exports" / f"postgresql_migration_{timestamp}.sql.enc"
             # Generate SQL insert statements
             sql_statements = []
             
@@ -601,9 +603,17 @@ class DataMigrationTool:
                 sql_statements.append(sql)
             
             migration_data = '\n'.join(sql_statements)
-            
-            with open(export_file, 'w') as f:
-                f.write(migration_data)
+            encryption_key = os.environ.get("MIGRATION_ENCRYPTION_KEY")
+            if not encryption_key:
+                raise ValueError(
+                    "MIGRATION_ENCRYPTION_KEY must be set to a Fernet key; generate one with "
+                    "'python -c \"from cryptography.fernet import Fernet; "
+                    "print(Fernet.generate_key().decode())\"'"
+                )
+
+            encrypted_data = Fernet(encryption_key.encode()).encrypt(migration_data.encode())
+            with open(export_file, 'wb') as f:
+                f.write(encrypted_data)
             
             return str(export_file)
         elif target_system == 'mongodb':
